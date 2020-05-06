@@ -25,11 +25,11 @@ class Pagination {
       previous:
         page === 1
           ? null
-          : `${baseUrl}/${req.route.path}?page=${page - 1}&limit=${limit}`,
+          : `${baseUrl}${req.route.path}?page=${page - 1}&limit=${limit}`,
       next:
         page >= Math.ceil(total / limit)
           ? null
-          : `${baseUrl}/${req.route.path}?page=${page + 1}&limit=${limit}`,
+          : `${baseUrl}${req.route.path}?page=${page + 1}&limit=${limit}`,
     };
   };
 }
