@@ -54,27 +54,6 @@ const Person = new Schema({
     homeworld: {
       type: String,
       required: true,
-      default: "Unkown",
-    },
-    films: {
-      type: Array,
-      default: [],
-      required: true,
-    },
-    species: {
-      type: String,
-      required: true,
-      default: "Unkown",
-    },
-    vehicles: {
-      type: Array,
-      default: [],
-      required: true,
-    },
-    starships: {
-      type: Array,
-      default: [],
-      required: true,
     },
     url: {
       type: String,
@@ -87,7 +66,6 @@ const Person = new Schema({
     edited: {
       type: Date,
       default: Date.now(),
-      required: true,
     },
   },
 });

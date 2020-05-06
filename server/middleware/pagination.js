@@ -1,3 +1,6 @@
+require("dotenv").config();
+const baseUrl = require("../baseUrl");
+
 class Pagination {
   constructor(req, page, limit, total) {
     this.state = {
@@ -22,15 +25,11 @@ class Pagination {
       previous:
         page === 1
           ? null
-          : `http://localhost:4000/api${req.route.path}?page=${
-              page - 1
-            }&limit=${limit}`,
+          : `${baseUrl}/${req.route.path}?page=${page - 1}&limit=${limit}`,
       next:
         page >= Math.ceil(total / limit)
           ? null
-          : `http://localhost:4000/api${req.route.path}?page=${
-              page + 1
-            }&limit=${limit}`,
+          : `${baseUrl}/${req.route.path}?page=${page + 1}&limit=${limit}`,
     };
   };
 }

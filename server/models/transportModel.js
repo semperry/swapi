@@ -1,71 +1,49 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const Species = new Schema({
-  description: {
-    type: String,
-    default: "A sepcies within the Star Wars universe",
-  },
+const Transport = new Schema({
   uid: {
     type: String,
     required: true,
   },
   properties: {
+    consumables: {
+      type: String,
+      required: true,
+    },
     name: {
       type: String,
       required: true,
     },
-    classification: {
+    cargo_capacity: {
       type: String,
       required: true,
-      default: "Unkown",
     },
-    designation: {
+    passengers: {
       type: String,
       required: true,
-      default: "Unkown",
     },
-    average_height: {
+    max_atmosphering_speed: {
       type: String,
       required: true,
-      default: "Unkown",
     },
-    average_lifespan: {
+    crew: {
       type: String,
       required: true,
-      default: "Unkown",
     },
-    hair_colors: {
+    length: {
       type: String,
       required: true,
-      default: "Unkown",
     },
-    skin_colors: {
+    model: {
       type: String,
       required: true,
-      default: "Unknown",
     },
-    eye_colors: {
+    cost_in_credits: {
       type: String,
       required: true,
-      default: "Unknown",
     },
-    homeworld: {
-      type: String,
-      required: true,
-      default: "Unkown",
-    },
-    language: {
-      type: String,
-      required: true,
-      default: "Unkown",
-    },
-    people: {
-      type: Array,
-      required: true,
-      default: [],
-    },
-    url: {
+    manufacturer: {
       type: String,
       required: true,
     },
@@ -80,4 +58,4 @@ const Species = new Schema({
   },
 });
 
-module.exports = mongoose.model("species", Species);
+module.exports = mongoose.model("transport", Transport);

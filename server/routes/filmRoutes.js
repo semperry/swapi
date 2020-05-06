@@ -2,6 +2,36 @@ const express = require("express");
 const filmRouter = express.Router();
 
 const Films = require("../models/filmModel");
+const baseUrl = require("../baseUrl");
+
+const filmFixture = require("../fixtures/films.json");
+
+// Json migration
+filmRouter.get("/films/migrate", (req, res) => {
+  try {
+    filmFixture.forEach((film) => {
+      const newFilm = new Films(film);
+      newFilm.uid = film.pk;
+      newFilm.properties = film.fields;
+      newFilm.properties.url = `${baseUrl}/films/${film.pk}`;
+
+      Object.keys(film.fields).forEach((field) => {
+        if (Array.isArray(film.fields[field])) {
+          newFilm.properties[field] = [];
+          film.fields[field].forEach((item) => {
+            newFilm.properties[field].push(
+              `${baseUrl}/${field === "characters" ? "people" : field}/${item}`
+            );
+          });
+        }
+      });
+      newFilm.save();
+    });
+    res.status(200).end();
+  } catch (err) {
+    res.status(500).json({ error: `${err}` });
+  }
+});
 
 // GET all
 filmRouter.get("/films", (req, res) => {

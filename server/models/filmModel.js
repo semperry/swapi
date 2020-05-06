@@ -24,14 +24,12 @@ const Film = new Schema({
       type: String,
       required: true,
     },
-    directors: {
-      type: Array,
-      default: [],
+    director: {
+      type: String,
       required: true,
     },
-    producers: {
-      type: Array,
-      default: [],
+    producer: {
+      type: String,
       required: true,
     },
     release_date: {
@@ -70,12 +68,10 @@ const Film = new Schema({
     created: {
       type: Date,
       default: Date.now(),
-      required: true,
     },
     edited: {
       type: Date,
       default: Date.now(),
-      required: true,
     },
   },
 });

@@ -1,8 +1,40 @@
+require("dotenv").config();
 const express = require("express");
 const peopleRouter = express.Router();
 
 const Paginate = require("../middleware/pagination");
 const People = require("../models/peopleModel");
+
+const baseUrl = require("../baseUrl");
+const peopleFixture = require("../fixtures/people.json");
+
+// Json migration
+peopleRouter.get("/people/migrate", (req, res) => {
+  try {
+    peopleFixture.forEach((person) => {
+      const newPerson = new People(person);
+      newPerson.uid = person.pk;
+      newPerson.properties = person.fields;
+      newPerson.properties.homeworld = `${baseUrl}/planets/${person.fields.homeworld}`;
+      newPerson.properties.url = `${baseUrl}/people/${person.pk}`;
+
+      Object.keys(person.fields).forEach((field) => {
+        if (Array.isArray(person.fields[field])) {
+          newPerson.properties[field] = [];
+          person.fields[field].forEach((item) => {
+            newPerson.properties[field].push(
+              `${baseUrl}/${field === "characters" ? "people" : field}/${item}`
+            );
+          });
+        }
+      });
+      newPerson.save();
+    });
+    res.status(200).end();
+  } catch (err) {
+    res.status(500).json({ error: `${err}` });
+  }
+});
 
 // GET all
 peopleRouter.get("/people", async (req, res) => {
@@ -67,8 +99,8 @@ peopleRouter.get("/people/:id", (req, res) => {
 
 // POST
 peopleRouter.post("/people", (req, res) => {
-  req.body.properties.url = `http://localhost:4000/api${req.route.path}/${req.body.uid}`;
   const newPerson = new People(req.body);
+  newPerson.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
 
   newPerson
     .save()

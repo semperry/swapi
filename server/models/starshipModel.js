@@ -2,7 +2,14 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const Starship = new Schema({
-  description: "A Starship",
+  description: {
+    type: String,
+    default: "A Starship",
+  },
+  uid: {
+    type: String,
+    required: true,
+  },
   properties: {
     name: {
       type: String,
@@ -68,25 +75,22 @@ const Starship = new Schema({
       required: true,
       default: "Unknown",
     },
-    films: {
-      type: Array,
-      default: [],
-      required: true,
-    },
     pilots: {
       type: Array,
       default: [],
       required: true,
     },
+    url: {
+      type: String,
+      required: true,
+    },
     created: {
       type: Date,
       default: Date.now(),
-      required: true,
     },
     edited: {
       type: Date,
       default: Date.now(),
-      required: true,
     },
   },
 });

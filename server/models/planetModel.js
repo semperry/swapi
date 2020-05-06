@@ -2,7 +2,15 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const Planet = new Schema({
-  description: "A planet.",
+  description: {
+    type: String,
+    required: true,
+    default: "A planet.",
+  },
+  uid: {
+    type: String,
+    required: true,
+  },
   properties: {
     name: {
       type: String,
@@ -41,35 +49,24 @@ const Planet = new Schema({
     terrain: {
       type: String,
       required: true,
-      default: "Unknown",
+      default: "Unkown",
     },
     surface_water: {
       type: String,
       required: true,
       default: "Unknown",
     },
-    films: {
-      type: Array,
-      default: [],
-      required: true,
-    },
-    residents: {
-      type: Array,
-      default: [],
-      required: true,
-    },
     url: {
       type: String,
+      required: true,
     },
     created: {
       type: Date,
-      required: true,
       default: Date.now(),
     },
     edited: {
       type: Date,
       default: Date.now(),
-      required: true,
     },
   },
 });

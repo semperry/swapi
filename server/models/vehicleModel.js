@@ -2,7 +2,14 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const Vehicle = new Schema({
-  description: "A vehicle",
+  description: {
+    type: String,
+    default: "A vehicle",
+  },
+  uid: {
+    type: String,
+    required: true,
+  },
   properties: {
     name: {
       type: String,
@@ -66,6 +73,10 @@ const Vehicle = new Schema({
     pilots: {
       type: Array,
       default: [],
+      required: true,
+    },
+    url: {
+      type: String,
       required: true,
     },
     created: {
