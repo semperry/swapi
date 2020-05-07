@@ -47,7 +47,7 @@ app.use(express.static(path.join(__dirname, "build")));
 
 // Use Routes
 app.get("/api", (req, res) => {
-  return res.status(200).json({
+  res.status(200).json({
     films: `${baseUrl}/films`,
     people: `${baseUrl}/people`,
     planets: `${baseUrl}/planets`,
