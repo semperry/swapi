@@ -12,7 +12,8 @@
       "cost_in_credits": "3500000",
       "manufacturer": "Corellian Engineering Corporation"
     },
-    "pk": 2
+    "pk": 2,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -27,7 +28,8 @@
       "cost_in_credits": "150000000",
       "manufacturer": "Kuat Drive Yards"
     },
-    "pk": 3
+    "pk": 3,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -42,7 +44,8 @@
       "cost_in_credits": "150000",
       "manufacturer": "Corellia Mining Corporation"
     },
-    "pk": 4
+    "pk": 4,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -57,7 +60,8 @@
       "cost_in_credits": "240000",
       "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks"
     },
-    "pk": 5
+    "pk": 5,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -72,7 +76,8 @@
       "cost_in_credits": "14500",
       "manufacturer": "Incom Corporation"
     },
-    "pk": 6
+    "pk": 6,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -87,7 +92,8 @@
       "cost_in_credits": "10550",
       "manufacturer": "SoroSuub Corporation"
     },
-    "pk": 7
+    "pk": 7,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -102,7 +108,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Sienar Fleet Systems"
     },
-    "pk": 8
+    "pk": 8,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -117,7 +124,8 @@
       "cost_in_credits": "1000000000000",
       "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems"
     },
-    "pk": 9
+    "pk": 9,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -132,7 +140,8 @@
       "cost_in_credits": "100000",
       "manufacturer": "Corellian Engineering Corporation"
     },
-    "pk": 10
+    "pk": 10,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -147,7 +156,8 @@
       "cost_in_credits": "134999",
       "manufacturer": "Koensayr Manufacturing"
     },
-    "pk": 11
+    "pk": 11,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -162,7 +172,8 @@
       "cost_in_credits": "149999",
       "manufacturer": "Incom Corporation"
     },
-    "pk": 12
+    "pk": 12,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -177,7 +188,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Sienar Fleet Systems"
     },
-    "pk": 13
+    "pk": 13,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -192,7 +204,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Incom corporation"
     },
-    "pk": 14
+    "pk": 14,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -207,7 +220,8 @@
       "cost_in_credits": "1143350000",
       "manufacturer": "Kuat Drive Yards, Fondor Shipyards"
     },
-    "pk": 15
+    "pk": 15,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -222,7 +236,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Sienar Fleet Systems"
     },
-    "pk": 16
+    "pk": 16,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -237,7 +252,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Gallofree Yards, Inc."
     },
-    "pk": 17
+    "pk": 17,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -252,7 +268,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research"
     },
-    "pk": 18
+    "pk": 18,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -267,7 +284,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research"
     },
-    "pk": 19
+    "pk": 19,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -282,7 +300,8 @@
       "cost_in_credits": "75000",
       "manufacturer": "Bespin Motors"
     },
-    "pk": 20
+    "pk": 20,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -297,7 +316,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Kuat Systems Engineering"
     },
-    "pk": 21
+    "pk": 21,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -312,7 +332,8 @@
       "cost_in_credits": "240000",
       "manufacturer": "Sienar Fleet Systems"
     },
-    "pk": 22
+    "pk": 22,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -327,7 +348,8 @@
       "cost_in_credits": "8500000",
       "manufacturer": "Kuat Drive Yards"
     },
-    "pk": 23
+    "pk": 23,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -342,7 +364,8 @@
       "cost_in_credits": "285000",
       "manufacturer": "Ubrikkian Industries Custom Vehicle Division"
     },
-    "pk": 24
+    "pk": 24,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -357,7 +380,8 @@
       "cost_in_credits": "8000",
       "manufacturer": "Ubrikkian Industries"
     },
-    "pk": 25
+    "pk": 25,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -372,7 +396,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Sienar Fleet Systems"
     },
-    "pk": 26
+    "pk": 26,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -387,7 +412,8 @@
       "cost_in_credits": "104000000",
       "manufacturer": "Mon Calamari shipyards"
     },
-    "pk": 27
+    "pk": 27,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -402,7 +428,8 @@
       "cost_in_credits": "175000",
       "manufacturer": "Alliance Underground Engineering, Incom Corporation"
     },
-    "pk": 28
+    "pk": 28,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -417,7 +444,8 @@
       "cost_in_credits": "220000",
       "manufacturer": "Slayn & Korpil"
     },
-    "pk": 29
+    "pk": 29,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -432,7 +460,8 @@
       "cost_in_credits": "8000",
       "manufacturer": "Aratech Repulsor Company"
     },
-    "pk": 30
+    "pk": 30,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -447,7 +476,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Corellian Engineering Corporation"
     },
-    "pk": 31
+    "pk": 31,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -462,7 +492,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Hoersch-Kessel Drive, Inc."
     },
-    "pk": 32
+    "pk": 32,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -477,7 +508,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop"
     },
-    "pk": 33
+    "pk": 33,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -492,7 +524,8 @@
       "cost_in_credits": "138000",
       "manufacturer": "Baktoid Armor Workshop"
     },
-    "pk": 34
+    "pk": 34,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -507,7 +540,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Baktoid Armor Workshop"
     },
-    "pk": 35
+    "pk": 35,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -522,7 +556,8 @@
       "cost_in_credits": "2500",
       "manufacturer": "Baktoid Armor Workshop"
     },
-    "pk": 36
+    "pk": 36,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -537,7 +572,8 @@
       "cost_in_credits": "200000",
       "manufacturer": "Haor Chall Engineering"
     },
-    "pk": 37
+    "pk": 37,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -552,7 +588,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Otoh Gunga Bongameken Cooperative"
     },
-    "pk": 38
+    "pk": 38,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -567,7 +604,8 @@
       "cost_in_credits": "200000",
       "manufacturer": "Theed Palace Space Vessel Engineering Corps"
     },
-    "pk": 39
+    "pk": 39,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -582,7 +620,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives"
     },
-    "pk": 40
+    "pk": 40,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -597,7 +636,8 @@
       "cost_in_credits": "55000000",
       "manufacturer": "Republic Sienar Systems"
     },
-    "pk": 41
+    "pk": 41,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -612,7 +652,8 @@
       "cost_in_credits": "4000",
       "manufacturer": "Razalon"
     },
-    "pk": 42
+    "pk": 42,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -627,7 +668,8 @@
       "cost_in_credits": "2000000",
       "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives"
     },
-    "pk": 43
+    "pk": 43,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -642,7 +684,8 @@
       "cost_in_credits": "5750",
       "manufacturer": "Mobquet Swoops and Speeders"
     },
-    "pk": 44
+    "pk": 44,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -657,7 +700,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Desler Gizh Outworld Mobility Corporation"
     },
-    "pk": 45
+    "pk": 45,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -672,7 +716,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Narglatch AirTech prefabricated kit"
     },
-    "pk": 46
+    "pk": 46,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -687,7 +732,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Botajef Shipyards"
     },
-    "pk": 47
+    "pk": 47,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -702,7 +748,8 @@
       "cost_in_credits": "180000",
       "manufacturer": "Kuat Systems Engineering"
     },
-    "pk": 48
+    "pk": 48,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -717,7 +764,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Theed Palace Space Vessel Engineering Corps"
     },
-    "pk": 49
+    "pk": 49,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -732,7 +780,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Rothana Heavy Engineering"
     },
-    "pk": 50
+    "pk": 50,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -747,7 +796,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Rothana Heavy Engineering"
     },
-    "pk": 51
+    "pk": 51,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -762,7 +812,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Rothana Heavy Engineering"
     },
-    "pk": 52
+    "pk": 52,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -777,7 +828,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards"
     },
-    "pk": 53
+    "pk": 53,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -792,7 +844,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Rothana Heavy Engineering"
     },
-    "pk": 54
+    "pk": 54,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -807,7 +860,8 @@
       "cost_in_credits": "8000",
       "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
     },
-    "pk": 55
+    "pk": 55,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -822,7 +876,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Haor Chall Engineering"
     },
-    "pk": 56
+    "pk": 56,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -837,7 +892,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
     },
-    "pk": 57
+    "pk": 57,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -852,7 +908,8 @@
       "cost_in_credits": "35700",
       "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
     },
-    "pk": 58
+    "pk": 58,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -867,7 +924,8 @@
       "cost_in_credits": "125000000",
       "manufacturer": "Rendili StarDrive, Free Dac Volunteers Engineering corps."
     },
-    "pk": 59
+    "pk": 59,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -882,7 +940,8 @@
       "cost_in_credits": "15000",
       "manufacturer": "Z-Gomot Ternbuell Guppat Corporation"
     },
-    "pk": 60
+    "pk": 60,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -897,7 +956,8 @@
       "cost_in_credits": "1000000",
       "manufacturer": "Cygnus Spaceworks"
     },
-    "pk": 61
+    "pk": 61,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -912,7 +972,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "unknown"
     },
-    "pk": 62
+    "pk": 62,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -927,7 +988,8 @@
       "cost_in_credits": "59000000",
       "manufacturer": "Kuat Drive Yards, Allanteen Six shipyards"
     },
-    "pk": 63
+    "pk": 63,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -942,7 +1004,8 @@
       "cost_in_credits": "unknown",
       "manufacturer": "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated"
     },
-    "pk": 64
+    "pk": 64,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -957,7 +1020,8 @@
       "cost_in_credits": "320000",
       "manufacturer": "Kuat Systems Engineering"
     },
-    "pk": 65
+    "pk": 65,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -972,7 +1036,8 @@
       "cost_in_credits": "155000",
       "manufacturer": "Incom Corporation, Subpro Corporation"
     },
-    "pk": 66
+    "pk": 66,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -987,7 +1052,8 @@
       "cost_in_credits": "20000",
       "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries"
     },
-    "pk": 67
+    "pk": 67,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1002,7 +1068,8 @@
       "cost_in_credits": "57000000",
       "manufacturer": "Hoersch-Kessel Drive, Inc, Gwori Revolutionary Industries"
     },
-    "pk": 68
+    "pk": 68,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1017,7 +1084,8 @@
       "cost_in_credits": "12125",
       "manufacturer": "Appazanna Engineering Works"
     },
-    "pk": 69
+    "pk": 69,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1032,7 +1100,8 @@
       "cost_in_credits": "14750",
       "manufacturer": "Appazanna Engineering Works"
     },
-    "pk": 70
+    "pk": 70,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1047,7 +1116,8 @@
       "cost_in_credits": "350000",
       "manufacturer": "Kuat Drive Yards"
     },
-    "pk": 71
+    "pk": 71,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1062,7 +1132,8 @@
       "cost_in_credits": "49000",
       "manufacturer": "Techno Union"
     },
-    "pk": 72
+    "pk": 72,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1077,7 +1148,8 @@
       "cost_in_credits": "60000",
       "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering"
     },
-    "pk": 73
+    "pk": 73,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1092,7 +1164,8 @@
       "cost_in_credits": "168000",
       "manufacturer": "Feethan Ottraw Scalable Assemblies"
     },
-    "pk": 74
+    "pk": 74,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1107,7 +1180,8 @@
       "cost_in_credits": "102500",
       "manufacturer": "Kuat Systems Engineering"
     },
-    "pk": 75
+    "pk": 75,
+    "schema": "transport"
   },
   {
     "fields": {
@@ -1122,6 +1196,7 @@
       "cost_in_credits": "40000",
       "manufacturer": "Kuat Drive Yards"
     },
-    "pk": 76
+    "pk": 76,
+    "schema": "transport"
   }
 ]

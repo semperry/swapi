@@ -6,7 +6,8 @@
       "starship_class": "corvette",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 2
+    "pk": 2,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -15,7 +16,8 @@
       "starship_class": "Star Destroyer",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 3
+    "pk": 3,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -24,7 +26,8 @@
       "starship_class": "landing craft",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 5
+    "pk": 5,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -33,7 +36,8 @@
       "starship_class": "Deep Space Mobile Battlestation",
       "hyperdrive_rating": "4.0"
     },
-    "pk": 9
+    "pk": 9,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -42,7 +46,8 @@
       "starship_class": "Light freighter",
       "hyperdrive_rating": "0.5"
     },
-    "pk": 10
+    "pk": 10,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -51,7 +56,8 @@
       "starship_class": "assault starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 11
+    "pk": 11,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -60,7 +66,8 @@
       "starship_class": "Starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 12
+    "pk": 12,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -69,7 +76,8 @@
       "starship_class": "Starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 13
+    "pk": 13,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -78,7 +86,8 @@
       "starship_class": "Star dreadnought",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 15
+    "pk": 15,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -87,7 +96,8 @@
       "starship_class": "Medium transport",
       "hyperdrive_rating": "4.0"
     },
-    "pk": 17
+    "pk": 17,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -96,7 +106,8 @@
       "starship_class": "Patrol craft",
       "hyperdrive_rating": "3.0"
     },
-    "pk": 21
+    "pk": 21,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -105,7 +116,8 @@
       "starship_class": "Armed government transport",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 22
+    "pk": 22,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -114,7 +126,8 @@
       "starship_class": "Escort ship",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 23
+    "pk": 23,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -123,7 +136,8 @@
       "starship_class": "Star Cruiser",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 27
+    "pk": 27,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -132,7 +146,8 @@
       "starship_class": "Starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 28
+    "pk": 28,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -141,7 +156,8 @@
       "starship_class": "Assault Starfighter",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 29
+    "pk": 29,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -150,7 +166,8 @@
       "starship_class": "Space cruiser",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 31
+    "pk": 31,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -159,7 +176,8 @@
       "starship_class": "Droid control ship",
       "hyperdrive_rating": "2.0"
     },
-    "pk": 32
+    "pk": 32,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -168,7 +186,8 @@
       "starship_class": "Starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 39
+    "pk": 39,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -177,7 +196,8 @@
       "starship_class": "yacht",
       "hyperdrive_rating": "1.8"
     },
-    "pk": 40
+    "pk": 40,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -186,7 +206,8 @@
       "starship_class": "Space Transport",
       "hyperdrive_rating": "1.5"
     },
-    "pk": 41
+    "pk": 41,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -195,7 +216,8 @@
       "starship_class": "Diplomatic barge",
       "hyperdrive_rating": "0.7"
     },
-    "pk": 43
+    "pk": 43,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -204,7 +226,8 @@
       "starship_class": "freighter",
       "hyperdrive_rating": "unknown"
     },
-    "pk": 47
+    "pk": 47,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -213,7 +236,8 @@
       "starship_class": "Starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 48
+    "pk": 48,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -222,7 +246,8 @@
       "starship_class": "yacht",
       "hyperdrive_rating": "0.9"
     },
-    "pk": 49
+    "pk": 49,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -231,7 +256,8 @@
       "starship_class": "assault ship",
       "hyperdrive_rating": "0.6"
     },
-    "pk": 52
+    "pk": 52,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -240,7 +266,8 @@
       "starship_class": "yacht",
       "hyperdrive_rating": "1.5"
     },
-    "pk": 58
+    "pk": 58,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -249,7 +276,8 @@
       "starship_class": "capital ship",
       "hyperdrive_rating": "1.5"
     },
-    "pk": 59
+    "pk": 59,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -258,7 +286,8 @@
       "starship_class": "transport",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 61
+    "pk": 61,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -267,7 +296,8 @@
       "starship_class": "star destroyer",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 63
+    "pk": 63,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -276,7 +306,8 @@
       "starship_class": "yacht",
       "hyperdrive_rating": "0.5"
     },
-    "pk": 64
+    "pk": 64,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -285,7 +316,8 @@
       "starship_class": "starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 65
+    "pk": 65,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -294,7 +326,8 @@
       "starship_class": "starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 66
+    "pk": 66,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -303,7 +336,8 @@
       "starship_class": "cruiser",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 68
+    "pk": 68,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -312,7 +346,8 @@
       "starship_class": "starfighter",
       "hyperdrive_rating": "6"
     },
-    "pk": 74
+    "pk": 74,
+    "schema": "starships"
   },
   {
     "fields": {
@@ -321,6 +356,7 @@
       "starship_class": "starfighter",
       "hyperdrive_rating": "1.0"
     },
-    "pk": 75
+    "pk": 75,
+    "schema": "starships"
   }
 ]

@@ -1,0 +1,23 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px 15px 15px;
+	a {
+		color: #ffffff;
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+}
+
+#donate-form {
+	position: fixed;
+	top: 40%;
+	right: 15px;
+	filter: brightness(50%);
+	transition: 0.3s ease-in-out all;
+	&:hover {
+		filter: brightness(100%);
+	}
+}

@@ -1,16 +1,27 @@
 // TODO:
-// Transport, Vehicle, Starship model refactor
-// Finish routes for vehicles and starships or just transports
-// Search queries
-// Authorization and authentication
-// Documentation
+// Use redis to handle limiters
+// IP grabber on each route for analytics
+// Separate limiters for each route
+// Add to Terms of service about polling
+// Refactor Cache (with wookie data)
+// Simplify Search Query Middleware
+// Simplify pagination
+// Cors policy
+// Helmet
+// Refactor errythang
+// Contributions.md
+// Squash Commits
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
+const path = require("path");
 
-const baseUrl = require("./baseUrl");
+// Middleware
+const connectDb = require("./middleware/connectDb");
+const { apiLimiter, apiSlowDown } = require("./middleware/limiters");
+const setEncoding = require("./middleware/encodingFormat");
+
+const allowedHeaders = ["GET"];
 
 const app = express();
 const port = process.env.PORT;
@@ -20,65 +31,48 @@ const filmRoutes = require("./routes/filmRoutes");
 const peopleRoutes = require("./routes/peopleRoutes");
 const planetRoutes = require("./routes/planetRoutes");
 const speciesRoutes = require("./routes/speciesRoutes");
-const transportRoutes = require("./routes/transportRoutes");
+const starshipRoutes = require("./routes/starshipRoutes");
+const vehicleRoutes = require("./routes/vehicleRoutes");
+const rootRoutes = require("./routes/rootRoutes");
+const countRoutes = require("./routes/getCounts");
 
-const MONGODB_URI =
-  process.env.NODE_ENV === "production"
-    ? process.env.MONGODB_URI
-    : "mongodb://localhost:27017/swapi";
-
-mongoose.connect(
-  MONGODB_URI,
-  { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
-  (err) => {
-    if (!err) {
-      console.log("Connected to SWAPI DB");
-    } else {
-      console.log("Error connecting: ", err);
-    }
-  }
+app.set("trust proxy", 1);
+app.use(
+	cors({
+		methods: allowedHeaders,
+	})
 );
 
-app.use(cors());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, "..", "build")));
 
-// Use Routes
-app.get("/api", (req, res) => {
-  res.status(200).json({
-    films: `${baseUrl}/films`,
-    people: `${baseUrl}/people`,
-    planets: `${baseUrl}/planets`,
-    species: `${baseUrl}/species`,
-    starships: `${baseUrl}/starships`,
-    vehicles: `${baseUrl}/vehicles`,
-  });
+app.use((req, res, next) => {
+	if (!allowedHeaders.includes(req.method)) {
+		req.destroy();
+	} else {
+		next();
+	}
 });
 
-app.use("/api", filmRoutes);
-app.use("/api", peopleRoutes);
-app.use("/api", planetRoutes);
-app.use("/api", speciesRoutes);
-app.use("/api", transportRoutes);
+app.use("/api", [
+	apiLimiter,
+	apiSlowDown,
+	setEncoding,
+	connectDb,
+	rootRoutes,
+	filmRoutes,
+	peopleRoutes,
+	planetRoutes,
+	speciesRoutes,
+	starshipRoutes,
+	vehicleRoutes,
+]);
+app.use("/count", connectDb, countRoutes);
+
+// Catch all
+app.get(/.*/, (req, res) => {
+	res.sendFile(path.join(__dirname, "/", "../build/index.html"));
+});
 
 app.listen(port, () => {
-  console.log(`Server Running on port ${port}`);
+	console.log(`Server Running on port ${port}`);
 });
-
-// /api
-// /api/people
-// /api/people/:id
-// /api/people/?search=
-// /api/planets
-// /api/planets/:id
-// /api/planets/?search=
-// /api/films
-// /api/films/:id
-// /api/starships
-// /api/starships/:id
-// /api/starships/?search=
-// /api/vehicles
-// /api/vehicles/:id
-// /api/vehicles/?search=
-// /api/species
-// /api/species/?search=

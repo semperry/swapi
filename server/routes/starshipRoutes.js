@@ -1,26 +1,36 @@
 const express = require("express");
-const peopleRouter = express.Router();
+const starshipRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
 const withWookie = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
-const People = require("../models/peopleModel");
+const StarshipModel = require("../models/starshipModel");
 
 // Search
 const searchQuery = (req, res, next) => {
-	if (!req.query.name) {
+	if (!req.query.search) {
 		next();
 	} else {
-		People.find(
+		StarshipModel.find(
 			{
-				"properties.name": { $regex: `${req.query.name}`, $options: "i" },
+				$or: [
+					{
+						"properties.name": { $regex: `${req.query.search}`, $options: "i" },
+					},
+					{
+						"properties.model": {
+							$regex: `${req.query.search}`,
+							$options: "i",
+						},
+					},
+				],
 			},
 			(err, results) => {
 				if (err) {
 					res
 						.status(400)
-						.json({ errors: `${err}`, message: "Could not find film" });
+						.json({ errors: `${err}`, message: "Could not find starship" });
 				} else if (results) {
 					withWookie(req, res, results);
 				} else {
@@ -32,10 +42,10 @@ const searchQuery = (req, res, next) => {
 };
 
 // GET all
-peopleRouter.get("/people", searchQuery, async (req, res) => {
+starshipRouter.get("/starships", searchQuery, (req, res) => {
 	const { page, limit } = req.query;
 
-	People.countDocuments((err, total) => {
+	StarshipModel.countDocuments((err, total) => {
 		if (err) {
 			return res.status(400).json({ error: true, message: "Could not Count" });
 		}
@@ -50,33 +60,38 @@ peopleRouter.get("/people", searchQuery, async (req, res) => {
 		const resultLimit =
 			page && limit ? (parseInt(limit) > total ? total : parseInt(limit)) : 10;
 
-		const peoplePagination = new Paginate(req, pageNumber, resultLimit, total);
-		const pager = peoplePagination.paginate();
+		const starshipPagination = new Paginate(
+			req,
+			pageNumber,
+			resultLimit,
+			total
+		);
+		const pager = starshipPagination.paginate();
 
-		People.find(
+		StarshipModel.find(
 			{},
 			{},
-			{ ...peoplePagination.query, sort: { _id: 1 } },
+			{ ...starshipPagination.query, sort: { _id: 1 } },
 			(err, results) => {
 				if (err) {
 					res
 						.status(400)
-						.json({ message: "Could not GET people", errors: `${err}` });
+						.json({ message: "Could not GET starhsips", errors: `${err}` });
 				} else if (results) {
 					withWookie(req, res, {
 						...pager,
 						results: [
-							...results.map((person) => {
+							...results.map((starship) => {
 								return {
-									uid: person.uid,
-									name: person.properties.name,
-									url: person.properties.url,
+									uid: starship.uid,
+									name: starship.properties.name,
+									url: starship.properties.url,
 								};
 							}),
 						],
 					});
 				} else {
-					res.status(404).json({ message: "Not Found" });
+					res.status(404).end();
 				}
 			}
 		);
@@ -84,22 +99,22 @@ peopleRouter.get("/people", searchQuery, async (req, res) => {
 });
 
 // GET one
-peopleRouter.get("/people/:id", checkCache, (req, res) => {
-	People.findOne({ uid: req.params.id }, (err, person) => {
+starshipRouter.get("/starships/:id", checkCache, (req, res) => {
+	StarshipModel.findOne({ uid: `${req.params.id}` }, (err, starhsips) => {
 		if (err) {
 			res
 				.status(400)
-				.json({ message: "Could not GET person", errors: `${err}` });
-		} else if (person) {
+				.json({ message: "Could not GET starhsips", errors: `${err}` });
+		} else if (starhsips) {
 			if (!isWookiee(req)) {
-				setCache(req, person.toObject());
+				setCache(req, starhsips.toObject());
 			}
 
-			withWookie(req, res, person, false);
+			withWookie(req, res, starhsips);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}
 	});
 });
 
-module.exports = peopleRouter;
+module.exports = starshipRouter;

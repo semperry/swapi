@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857142;
+	color: $main-text-color;
+	background-color: $main-background;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	// overflow-y: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: $main-text-color;
+}
+
+.row {
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #1c1e22;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: 18px;
+	margin: 10px 0;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 20px 0 10px 0;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 20px 0 10px 0;
+}
+
+h3 {
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+pre {
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	word-break: break-all;
+	word-wrap: break-word;
+	color: #3a3f44;
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	max-height: 340px;
+	overflow-y: scroll;
+	text-align: left;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+.yellow {
+	color: $swapi-yellow;
+}

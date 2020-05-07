@@ -1,26 +1,36 @@
 const express = require("express");
-const speciesRouter = express.Router();
+const vehicleRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
+const Paginate = require("../helpers/pagination");
 const withWookie = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
-const Paginate = require("../helpers/pagination");
-const SpeciesModel = require("../models/speciesModel");
+const VehicleModel = require("../models/vehicleModel");
 
 // Search
 const searchQuery = (req, res, next) => {
 	if (!req.query.search) {
 		next();
 	} else {
-		SpeciesModel.find(
+		VehicleModel.find(
 			{
-				"properties.name": { $regex: `${req.query.search}`, $options: "i" },
+				$or: [
+					{
+						"properties.name": { $regex: `${req.query.search}`, $options: "i" },
+					},
+					{
+						"properties.model": {
+							$regex: `${req.query.search}`,
+							$options: "i",
+						},
+					},
+				],
 			},
 			(err, results) => {
 				if (err) {
 					res
 						.status(400)
-						.json({ errors: `${err}`, message: "Could not find specie" });
+						.json({ errors: `${err}`, message: "Could not find vehicle" });
 				} else if (results) {
 					withWookie(req, res, results);
 				} else {
@@ -32,10 +42,10 @@ const searchQuery = (req, res, next) => {
 };
 
 // GET all
-speciesRouter.get("/species", searchQuery, (req, res) => {
+vehicleRouter.get("/vehicles", searchQuery, (req, res) => {
 	const { page, limit } = req.query;
 
-	SpeciesModel.countDocuments((err, total) => {
+	VehicleModel.countDocuments((err, total) => {
 		if (err) {
 			return res.status(400).json({ error: true, message: "Could not Count" });
 		}
@@ -50,27 +60,32 @@ speciesRouter.get("/species", searchQuery, (req, res) => {
 		const resultLimit =
 			page && limit ? (parseInt(limit) > total ? total : parseInt(limit)) : 10;
 
-		const speciesPagination = new Paginate(req, pageNumber, resultLimit, total);
-		const pager = speciesPagination.paginate();
+		const starshipPagination = new Paginate(
+			req,
+			pageNumber,
+			resultLimit,
+			total
+		);
+		const pager = starshipPagination.paginate();
 
-		SpeciesModel.find(
+		VehicleModel.find(
 			{},
 			{},
-			{ ...speciesPagination.query, sort: { _id: 1 } },
+			{ ...starshipPagination.query, sort: { _id: 1 } },
 			(err, results) => {
 				if (err) {
 					res
 						.status(400)
-						.json({ message: "Could not GET species", errors: `${err}` });
+						.json({ message: "Could not GET vehicles", errors: `${err}` });
 				} else if (results) {
 					withWookie(req, res, {
 						...pager,
 						results: [
-							...results.map((specimen) => {
+							...results.map((vehicle) => {
 								return {
-									uid: specimen.uid,
-									name: specimen.properties.name,
-									url: specimen.properties.url,
+									uid: vehicle.uid,
+									name: vehicle.properties.name,
+									url: vehicle.properties.url,
 								};
 							}),
 						],
@@ -84,22 +99,22 @@ speciesRouter.get("/species", searchQuery, (req, res) => {
 });
 
 // GET one
-speciesRouter.get("/species/:id", checkCache, (req, res) => {
-	SpeciesModel.findOne({ uid: req.params.id }, (err, species) => {
+vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {
+	VehicleModel.findOne({ uid: req.params.id }, (err, vehicles) => {
 		if (err) {
 			res
 				.status(400)
-				.json({ message: "Could not GET species", errors: `${err}` });
-		} else if (species) {
+				.json({ message: "Could not GET vehicles", errors: `${err}` });
+		} else if (vehicles) {
 			if (!isWookiee(req)) {
-				setCache(req, species.toObject());
+				setCache(req, vehicles.toObject());
 			}
 
-			withWookie(req, res, species);
+			withWookie(req, res, vehicles);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}
 	});
 });
 
-module.exports = speciesRouter;
+module.exports = vehicleRouter;
