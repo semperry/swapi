@@ -43,7 +43,7 @@ mongoose.connect(
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(path.join(__dirname, "..", "build")));
 
 // Use Routes
 app.get("/api", (req, res) => {
@@ -58,7 +58,7 @@ app.get("/api", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname), "build", "index.html");
+  res.sendFile(path.join(__dirname), "..", "build", "index.html");
 });
 
 app.use("/api", filmRoutes);
