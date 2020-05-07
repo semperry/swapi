@@ -9,11 +9,12 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const path = require("path");
 
 const baseUrl = require("./baseUrl");
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 
 // Routes
 const filmRoutes = require("./routes/filmRoutes");
@@ -42,10 +43,11 @@ mongoose.connect(
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, "build")));
 
 // Use Routes
 app.get("/api", (req, res) => {
-  res.status(200).json({
+  return res.status(200).json({
     films: `${baseUrl}/films`,
     people: `${baseUrl}/people`,
     planets: `${baseUrl}/planets`,
@@ -53,6 +55,10 @@ app.get("/api", (req, res) => {
     starships: `${baseUrl}/starships`,
     vehicles: `${baseUrl}/vehicles`,
   });
+});
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname), "build", "index.html");
 });
 
 app.use("/api", filmRoutes);
