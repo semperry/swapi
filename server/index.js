@@ -61,6 +61,18 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname), "..", "build", "index.html");
 });
 
+app.get("/about", (req, res) => {
+  res.sendFile(path.join(__dirname), "..", "build", "index.html");
+});
+
+app.get("/docs", (req, res) => {
+  res.sendFile(path.join(__dirname), "..", "build", "index.html");
+});
+
+app.get("/admin", (req, res) => {
+  res.sendFile(path.join(__dirname), "..", "build", "index.html");
+});
+
 app.use("/api", filmRoutes);
 app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
