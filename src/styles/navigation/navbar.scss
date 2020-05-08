@@ -1,0 +1,32 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: #3a3f44;
+  min-height: 50px;
+  margin-bottom: 20px;
+  .navbar-logo-wrapper {
+  }
+
+  .navlinks-wrapper {
+    display: flex;
+
+    .navlink {
+      transition: 0.2s ease-in-out all;
+      padding: 15px 0px;
+
+      border-right: 1px solid rgb(0, 0, 0.2);
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      &:hover {
+        background-color: black;
+        cursor: pointer;
+      }
+
+      a {
+        padding: 10px 15px;
+      }
+    }
+  }
+}

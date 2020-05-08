@@ -7,23 +7,12 @@ import App from "./pages/App";
 import About from "./pages/about";
 import Docs from "./pages/docs";
 import Auth from "./pages/auth";
+import NavBar from "./navigation/navbar";
 
 function Main() {
   return (
     <BrowserRouter>
-      <div>
-        <div>
-          <NavLink exact to="/">
-            Home
-          </NavLink>
-        </div>
-        <div>
-          <NavLink to="/about">About</NavLink>
-        </div>
-        <div>
-          <NavLink to="/docs">Documentation</NavLink>
-        </div>
-      </div>
+      <NavBar />
 
       <Switch>
         <Route exact path="/" component={App} />
