@@ -57,15 +57,15 @@ app.get("/api", (req, res) => {
   });
 });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname), "..", "build", "index.html");
-});
-
 app.use("/api", filmRoutes);
 app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname), "..", "build", "index.html");
+});
 
 app.listen(port, () => {
   console.log(`Server Running on port ${port}`);
