@@ -18,7 +18,7 @@ function Main() {
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/docs" component={Docs} />
-        <Route path="/admin/login" component={Auth} />
+        <Route exact path="/admin/login" component={Auth} />
       </Switch>
     </BrowserRouter>
   );
