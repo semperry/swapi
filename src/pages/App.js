@@ -104,49 +104,51 @@ function App() {
               <i>starships/9/</i>
             </Link>
           </small>
-          <p>Result:</p>
+          <p className="result-header">Result:</p>
           <div className="json-content">
             <div className="well">{renderData()}</div>
           </div>
-          <div className="row pad_bot">
-            <div>
-              <h4>What is this?</h4>
-              <p>
-                The Star Wars API, or "swapi" (Swah-pee) is the world's first
-                quantified and programmatically-accessible data source for all
-                the data from the Star Wars canon universe!
-              </p>
-              <p>
-                We've taken all the rich contextual stuff from the universe and
-                formatted into something easier to consume with software. Then
-                we went and stuck an API on the front so you can access it all!
-              </p>
-            </div>
-            <div>
-              <h4>How can I use it?</h4>
-              <p>
-                All the data is accessible through our HTTP web API. Consult our{" "}
-                <Link to="/docs">documentation</Link> if you'd like to get
-                started.
-              </p>
-            </div>
-            <div>
-              <h4>What happened with old swapi.co?</h4>
-              <p>
-                swapi.co is not supported and maintained anymore. But since so
-                many projects and tutorials used it as their educational
-                playground, this is an "unofficial" branch
-              </p>
-            </div>
-          </div>
-          <hr />
+        </div>
 
-          <div className="row">
-            <div>
-              Originially by Paul Hallett | Refactored and Maintained by Ryan
-              Curtis &copy;{new Date().getFullYear()}
-            </div>
+        <div className="bottom-row">
+          <div>
+            <h4>What is this?</h4>
+            <p>
+              The Star Wars API, or "swapi" (Swah-pee) is the world's first
+              quantified and programmatically-accessible data source for all the
+              data from the Star Wars canon universe!
+            </p>
+            <p>
+              We've taken all the rich contextual stuff from the universe and
+              formatted into something easier to consume with software. Then we
+              went and stuck an API on the front so you can access it all!
+            </p>
           </div>
+          <div>
+            <h4>How can I use it?</h4>
+            <p>
+              All the data is accessible through our HTTP web API. Consult our{" "}
+              <Link to="/docs">documentation</Link> if you'd like to get
+              started.
+            </p>
+          </div>
+          <div>
+            <h4>What happened with old swapi.co?</h4>
+            <p>
+              swapi.co is not supported and maintained anymore. But since so
+              many projects and tutorials used it as their educational
+              playground, this is an "unofficial" branch
+            </p>
+          </div>
+        </div>
+        <hr />
+
+        <div className="footer">
+          <div>
+            Originially by Paul Hallett | Refactored and Maintained by Ryan
+            Curtis &copy;{new Date().getFullYear()}
+          </div>
+          <div />
         </div>
       </div>
     </div>

@@ -57,7 +57,6 @@
       .input-group-btn {
         background-image: linear-gradient(#8a9196, #7a8288 60%, #70787d);
         .btn {
-          vertical-align: middle;
           text-align: center;
           cursor: pointer;
           background-image: none;
@@ -91,6 +90,27 @@
         background-repeat: no-repeat;
         color: #ffffff;
       }
+    }
+
+    small {
+      position: absolute;
+      left: 24.25%;
+      a {
+        color: #ffffff;
+        &:hover {
+          border-bottom: 1px solid #ffffff;
+        }
+      }
+    }
+
+    .result-header {
+      position: relative;
+      right: 24.5%;
+      padding-top: 34px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      line-height: 1.4;
+      font-size: 21px;
     }
 
     .json-content {
@@ -129,6 +149,26 @@
           text-align: left;
         }
       }
+    }
+
+    .bottom-row {
+      padding-bottom: 34px;
+      display: grid;
+      gap: 50px;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: left;
+      margin-left: 100px;
+      margin-right: 100px;
+      h4 {
+        text-align: center;
+      }
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 15px 15px 15px;
     }
   }
 }
