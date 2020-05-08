@@ -22,6 +22,7 @@ const peopleRoutes = require("./routes/peopleRoutes");
 const planetRoutes = require("./routes/planetRoutes");
 const speciesRoutes = require("./routes/speciesRoutes");
 const transportRoutes = require("./routes/transportRoutes");
+const rootRoutes = require("./routes/rootRoutes");
 
 const MONGODB_URI =
   process.env.NODE_ENV === "production"
@@ -43,48 +44,23 @@ mongoose.connect(
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
 app.use(express.static(path.join(__dirname, "..", "build")));
 
 // Use Routes
-app.get("/api", (req, res) => {
-  res.status(200).json({
-    films: `${baseUrl}/films`,
-    people: `${baseUrl}/people`,
-    planets: `${baseUrl}/planets`,
-    species: `${baseUrl}/species`,
-    starships: `${baseUrl}/starships`,
-    vehicles: `${baseUrl}/vehicles`,
-  });
-});
-
+app.use("/api", rootRoutes);
 app.use("/api", filmRoutes);
 app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname), "..", "build", "index.html");
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, "/", "../build/index.html"));
 });
 
 app.listen(port, () => {
   console.log(`Server Running on port ${port}`);
 });
 
-// /api
-// /api/people
-// /api/people/:id
-// /api/people/?search=
-// /api/planets
-// /api/planets/:id
-// /api/planets/?search=
-// /api/films
-// /api/films/:id
-// /api/starships
-// /api/starships/:id
-// /api/starships/?search=
-// /api/vehicles
-// /api/vehicles/:id
-// /api/vehicles/?search=
-// /api/species
 // /api/species/?search=
