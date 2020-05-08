@@ -1,7 +1,50 @@
-import React from "react";
-import { Link, Route } from "react-router-dom";
+import React, { Fragment, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+// import ReactJson from "react-json-view";
 
 function App() {
+  const [endpoint, setEndpoint] = useState("");
+  const [currentData, setCurrentData] = useState();
+
+  const handleClick = (apiEndpoint) => {
+    fetch(`/api/${apiEndpoint}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setCurrentData(data);
+        setEndpoint(apiEndpoint);
+      })
+      .catch((err) => console.log(err));
+  };
+
+  const renderData = () => {
+    if (typeof currentData === "object") {
+      return (
+        <>
+          {/* <ReactJson
+            style={{ width: "53%", maxHeight: "340px", textAlign: "left" }}
+            src={currentData.result.properties}
+            name={false}
+            theme="bright:inverted"
+            indentWidth={10}
+            enableClipboard={false}
+            enableAdd={false}
+            enableDelete={false}
+            displayDataTypes={false}
+            displayObjectSize={false}
+            collapseStringsAfterLength={false}
+          /> */}
+          <pre>{JSON.stringify(currentData, null, 2)}</pre>
+        </>
+      );
+    } else {
+      return null;
+    }
+  };
+
+  useEffect(() => {
+    handleClick("people/1");
+  }, []);
+
   return (
     <div className="App">
       <div className="row yellow">
@@ -24,33 +67,48 @@ function App() {
           </div>
         </div>
 
-        <div class="row">
+        <div className="row">
           <hr />
           <h1>Try it now!</h1>
-          <div class="input-group">
-            <span>https://rec-swapi.herokuapp.com/api/</span>
-            <input type="text" placeholder="people/1/" />
-            <span class="input-group-btn">
-              <button>request</button>
+          <div className="input-group">
+            <span className="input-group-addon">
+              https://rec-swapi.herokuapp.com/api/
             </span>
-            <small>
-              Need a hint? try{" "}
-              <a href="#">
-                <i>people/1/</i>
-              </a>{" "}
-              or{" "}
-              <a href="#">
-                <i>planets/3/</i>
-              </a>{" "}
-              or{" "}
-              <a href="#">
-                <i>starships/9/</i>
-              </a>
-            </small>
+            <input
+              className="input-group-control"
+              type="text"
+              placeholder="people/1/"
+              value={endpoint}
+              onChange={(e) => setEndpoint(e.target.value)}
+            />
+            <span className="input-group-btn">
+              <button
+                className="btn btn-primary"
+                onClick={() => handleClick(endpoint)}
+              >
+                request
+              </button>
+            </span>
           </div>
-          <p class="lead pad_top">Result:</p>
-          <div class="well">{/* API CONTENT */}</div>
-          <div class="row pad_bot">
+          <small>
+            Need a hint? try{" "}
+            <Link to="" onClick={() => handleClick("people/1")}>
+              <i>people/1/</i>
+            </Link>{" "}
+            or{" "}
+            <Link to="" onClick={() => handleClick("planets/3")}>
+              <i>planets/3/</i>
+            </Link>{" "}
+            or{" "}
+            <Link to="" onClick={() => handleClick("starships/9")}>
+              <i>starships/9/</i>
+            </Link>
+          </small>
+          <p>Result:</p>
+          <div className="json-content">
+            <div className="well">{renderData()}</div>
+          </div>
+          <div className="row pad_bot">
             <div>
               <h4>What is this?</h4>
               <p>
@@ -83,7 +141,7 @@ function App() {
           </div>
           <hr />
 
-          <div class="row">
+          <div className="row">
             <div>
               Originially by Paul Hallett | Refactored and Maintained by Ryan
               Curtis &copy;{new Date().getFullYear()}
