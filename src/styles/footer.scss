@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 15px 15px;
+  a {
+    color: #ffffff;
+    &:hover {
+      border-bottom: 1px solid;
+    }
+  }
+}

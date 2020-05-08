@@ -1,0 +1,27 @@
+.app-header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-color: #1c1e22;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  padding: 48px 0;
+  h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  p {
+    line-height: 1.4;
+    margin: 0 0 10px;
+    font-size: 21px;
+    font-weight: 200;
+  }
+  a {
+    color: #ffffff;
+    &:hover {
+      border-bottom: 1px solid;
+    }
+  }
+}
