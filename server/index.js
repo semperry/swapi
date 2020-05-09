@@ -1,4 +1,5 @@
 // TODO:
+// Rate Limiting, max 10,000 requests per day
 // Transport, Vehicle, Starship model refactor
 // Finish routes for vehicles and starships or just transports
 // Search queries

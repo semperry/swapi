@@ -24,8 +24,11 @@ hr {
   border-top: 1px solid #1c1e22;
 }
 
+h1,
+h2,
+h3,
 h4,
-h2 {
+h5 {
   font-size: 18px;
   margin: 10px 0;
   font-weight: 500;
@@ -33,9 +36,24 @@ h2 {
   color: inherit;
 }
 
+h1 {
+  font-size: 36px;
+  margin: 20px 0 10px 0;
+}
+
 h2 {
   font-size: 30px;
   margin: 20px 0 10px 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 14px;
 }
 
 pre {
@@ -52,6 +70,17 @@ pre {
   max-height: 340px;
   overflow-y: scroll;
   text-align: left;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+p {
+  margin: 0 0 10px;
 }
 
 .yellow {
