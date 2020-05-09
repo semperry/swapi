@@ -1,0 +1,17 @@
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding-left: 15px;
+
+  a {
+    color: #ffffff;
+    &:hover {
+      border-bottom: 1px solid;
+    }
+  }
+
+  pre {
+    overflow: hidden;
+    width: 70%;
+  }
+}

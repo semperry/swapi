@@ -4,8 +4,15 @@ function Footer() {
   return (
     <div className="footer">
       <div>
-        Originially by <a href="https://phalt.github.io/">Paul Hallett</a> |
-        Refactored and Maintained by Ryan Curtis &copy;
+        Originially by{" "}
+        <a href="https://phalt.github.io/" target="_blank">
+          Paul Hallett
+        </a>{" "}
+        | Refactored and Maintained by{" "}
+        <a href="https://github.com/semperry" target="_blank">
+          Ryan Curtis
+        </a>{" "}
+        &copy;
         {new Date().getFullYear()}
       </div>
       <div />
