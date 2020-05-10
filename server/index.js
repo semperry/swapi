@@ -24,6 +24,7 @@ const planetRoutes = require("./routes/planetRoutes");
 const speciesRoutes = require("./routes/speciesRoutes");
 const transportRoutes = require("./routes/transportRoutes");
 const rootRoutes = require("./routes/rootRoutes");
+const authRoutes = require("./routes/authRoutes");
 
 const MONGODB_URI =
   process.env.NODE_ENV === "production"
@@ -55,6 +56,7 @@ app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
+app.use("/auth", authRoutes);
 
 app.get(/.*/, (req, res) => {
   res.sendFile(path.join(__dirname, "/", "../build/index.html"));

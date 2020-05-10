@@ -1,6 +1,6 @@
-import React from "react";
+import React, { createContext, useReducer } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import "./styles/main.scss";
 import App from "./pages/App";
@@ -11,19 +11,41 @@ import NavBar from "./navigation/navbar";
 import Footer from "./components/footer";
 import SwapiHeader from "./components/swapiHeader";
 
+export const UserContext = createContext();
+
+const initialState = {
+  loggedInStatus: "NOT_LOGGED_IN",
+  user: {},
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "setUser":
+      return { ...state, user: action.user };
+    case "setLoggedInStatus":
+      return { ...state, loggedInStatus: action.loggedInStatus };
+    default:
+      return state;
+  }
+};
+
 function Main() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
   return (
-    <BrowserRouter>
-      <NavBar />
-      <SwapiHeader />
-      <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/about" component={About} />
-        <Route path="/docs" component={Docs} />
-        <Route path="/admin" component={Auth} />
-      </Switch>
-      <Footer />
-    </BrowserRouter>
+    <UserContext.Provider value={{ state, dispatch }}>
+      <BrowserRouter>
+        <NavBar />
+        <SwapiHeader />
+        <Switch>
+          <Route exact path="/" component={App} />
+          <Route path="/about" component={About} />
+          <Route path="/docs" component={Docs} />
+          <Route path="/admin" component={Auth} />
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    </UserContext.Provider>
   );
 }
 

@@ -1,9 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useContext } from "react";
+
+import { UserContext } from "../index";
+import LoginForm from "../components/login";
 
 function Auth() {
+  const { state, dispatch } = useContext(UserContext);
+  const [errorText, setErrorText] = useState("");
+
   return (
-    <div>
-      <h1>Hello from Auth</h1>
+    <div className="auth-container">
+      <LoginForm />
     </div>
   );
 }
