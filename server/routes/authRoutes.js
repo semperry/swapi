@@ -7,7 +7,7 @@ const userModel = require("../models/authModel");
 const authRouter = express.Router();
 
 // Post register
-authRouter.post("/register", (req, res) => {
+authRouter.post("/register", verifyToken, (req, res) => {
   const newUser = new userModel(req.body);
   const password = newUser.password;
 
