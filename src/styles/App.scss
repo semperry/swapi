@@ -64,9 +64,11 @@
     }
   }
 
-  small {
-    position: absolute;
-    left: 24.25%;
+  .example-routes-wrapper {
+    width: 100%;
+    position: relative;
+    right: 17%;
+
     a {
       color: #ffffff;
       &:hover {

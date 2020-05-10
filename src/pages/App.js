@@ -1,6 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/footer";
 // import ReactJson from "react-json-view";
 
 function App() {
@@ -81,20 +80,20 @@ function App() {
             </button>
           </span>
         </div>
-        <small>
+        <div className="example-routes-wrapper">
           Need a hint? try{" "}
           <Link to="" onClick={() => handleClick("people/1")}>
-            <i>people/1/</i>
+            people/1/
           </Link>{" "}
           or{" "}
           <Link to="" onClick={() => handleClick("planets/3")}>
-            <i>planets/3/</i>
+            planets/3/
           </Link>{" "}
           or{" "}
           <Link to="" onClick={() => handleClick("starships/9")}>
-            <i>starships/9/</i>
-          </Link>
-        </small>
+            starships/9/
+          </Link>{" "}
+        </div>
         <p className="result-header">Result:</p>
         <div className="json-content">
           <div className="well">{renderData()}</div>
