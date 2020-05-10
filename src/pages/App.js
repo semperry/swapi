@@ -61,9 +61,7 @@ function App() {
         <hr />
         <h1>Try it now!</h1>
         <div className="input-group">
-          <span className="input-group-addon">
-            https://rec-swapi.herokuapp.com/api/
-          </span>
+          <span className="input-group-addon">https://www.swapi.tech/api/</span>
           <input
             className="input-group-control"
             type="text"

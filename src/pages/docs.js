@@ -116,7 +116,7 @@ function Docs() {
         <pre>
           <code>
             {`
-fetch("https://rec-swapi.herokuapp.com/api/planets/1/")
+fetch("https://www.swapi.tech/api/planets/1/")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -155,14 +155,14 @@ fetch("https://rec-swapi.herokuapp.com/api/planets/1/")
         orbital_period: "304",
         population: "200000",
         residents: [
-          "https://rec-swapi.herokuapp.com/api/people/1/",
-          "https://rec-swapi.herokuapp.com/api/people/2/",
+          "https://www.swapi.tech/api/people/1/",
+          "https://www.swapi.tech/api/people/2/",
           ...
         ],
         rotation_period: "23",
         surface_water: "1",
         terrain: "Desert",
-        url: "https://rec-swapi.herokuapp.com/api/planets/1/",
+        url: "https://www.swapi.tech/api/planets/1/",
       }
     }
     ...
@@ -191,7 +191,7 @@ fetch("https://rec-swapi.herokuapp.com/api/planets/1/")
         <p>The Base URL for swapi is:</p>
 
         <pre>
-          <code>https://rec-swapi.herokuapp.com/api</code>
+          <code>https://www.swapi.tech/api</code>
         </pre>
 
         <p>
@@ -266,7 +266,7 @@ fetch("https://rec-swapi.herokuapp.com/api/planets/1/")
         </p>
 
         <p>
-          <code>https://rec-swapi.herokuapp.com/api/people/?search=r2</code>
+          <code>https://www.swapi.tech/api/people/?search=r2</code>
         </p>
 
         <p>
@@ -311,9 +311,7 @@ fetch("https://rec-swapi.herokuapp.com/api/planets/1/")
         </p>
 
         <p>
-          <code>
-            https://rec-swapi.herokuapp.com/api/planets/1/?format=wookiee
-          </code>
+          <code>https://www.swapi.tech/api/planets/1/?format=wookiee</code>
         </p>
 
         <h1>Resources</h1>
@@ -339,7 +337,7 @@ fetch("https://rec-swapi.herokuapp.com/api/planets/1/")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api")
+fetch("https://www.swapi.tech/api")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -354,12 +352,12 @@ fetch("https://rec-swapi.herokuapp.com/api")
         <pre>
           <code>
             {`{
-    "films": "https://rec-swapi.herokuapp.com/api/films/", 
-    "people": "https://rec-swapi.herokuapp.com/api/people/", 
-    "planets": "https://rec-swapi.herokuapp.com/api/planets/", 
-    "species": "https://rec-swapi.herokuapp.com/api/species/", 
-    "starships": "https://rec-swapi.herokuapp.com/api/starships/", 
-    "vehicles": "https://rec-swapi.herokuapp.com/api/vehicles/"
+    "films": "https://www.swapi.tech/api/films/", 
+    "people": "https://www.swapi.tech/api/people/", 
+    "planets": "https://www.swapi.tech/api/planets/", 
+    "species": "https://www.swapi.tech/api/species/", 
+    "starships": "https://www.swapi.tech/api/starships/", 
+    "vehicles": "https://www.swapi.tech/api/vehicles/"
   }`}
           </code>
         </pre>
@@ -433,7 +431,7 @@ fetch("https://rec-swapi.herokuapp.com/api")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api/people/1")
+fetch("https://www.swapi.tech/api/people/1")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -452,20 +450,20 @@ fetch("https://rec-swapi.herokuapp.com/api/people/1")
   properties: {
     "birth_year": "19 BBY", 
     "eye_color": "Blue", 
-    "films": [ "https://rec-swapi.herokuapp.com/api/films/1/", ... ], 
+    "films": [ "https://www.swapi.tech/api/films/1/", ... ], 
     "gender": "Male", 
     "hair_color": "Blond", 
     "height": "172", 
-    "homeworld": "https://rec-swapi.herokuapp.com/api/planets/1/", 
+    "homeworld": "https://www.swapi.tech/api/planets/1/", 
     "mass": "77", 
     "name": "Luke Skywalker", 
     "skin_color": "Fair", 
     "created": "2014-12-09T13:50:51.644000Z", 
     "edited": "2014-12-10T13:52:43.172000Z", 
-    "species": [ "https://rec-swapi.herokuapp.com/api/species/1/" ], 
-    "starships": [ "https://rec-swapi.herokuapp.com/api/starships/12/", ... ], 
-    "url": "https://rec-swapi.herokuapp.com/api/people/1/", 
-    "vehicles": [ "https://rec-swapi.herokuapp.com/api/vehicles/14/" ... ]
+    "species": [ "https://www.swapi.tech/api/species/1/" ], 
+    "starships": [ "https://www.swapi.tech/api/starships/12/", ... ], 
+    "url": "https://www.swapi.tech/api/people/1/", 
+    "vehicles": [ "https://www.swapi.tech/api/vehicles/14/" ... ]
   }
 }`}
           </code>
@@ -596,7 +594,7 @@ fetch("https://rec-swapi.herokuapp.com/api/people/1")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api/films/1")
+fetch("https://www.swapi.tech/api/films/1")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -613,20 +611,20 @@ fetch("https://rec-swapi.herokuapp.com/api/films/1")
             {`{
     ...
     "properties": {
-      "characters": [ "https://rec-swapi.herokuapp.com/api/people/1/", ... ],
+      "characters": [ "https://www.swapi.tech/api/people/1/", ... ],
       "created": "2014-12-10T14:23:31.880000Z",
       "director": "George Lucas",
       "edited": "2014-12-12T11:24:39.858000Z",
       "episode_id": 4,
       "opening_crawl": "It is a period of civil war ...",
-      "planets": [ "https://rec-swapi.herokuapp.com/api/planets/1/", ... ],
+      "planets": [ "https://www.swapi.tech/api/planets/1/", ... ],
       "producer": "Gary Kurtz, Rick McCallum",
       "release_date": "1977-05-25",
-      "species": [ "https://rec-swapi.herokuapp.com/api/species/1/", ... ],
-      "starships": [ "https://rec-swapi.herokuapp.com/api/starships/2/", ... ],
+      "species": [ "https://www.swapi.tech/api/species/1/", ... ],
+      "starships": [ "https://www.swapi.tech/api/starships/2/", ... ],
       "title": "A New Hope",
-      "url": "https://rec-swapi.herokuapp.com/api/films/1/",
-      "vehicles": [ "https://rec-swapi.herokuapp.com/api/vehicles/4/", ... ]
+      "url": "https://www.swapi.tech/api/films/1/",
+      "vehicles": [ "https://www.swapi.tech/api/vehicles/4/", ... ]
     }
   }`}
           </code>
@@ -746,7 +744,7 @@ fetch("https://rec-swapi.herokuapp.com/api/films/1")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api/starships/9")
+fetch("https://www.swapi.tech/api/starships/9")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -777,10 +775,10 @@ fetch("https://rec-swapi.herokuapp.com/api/starships/9")
     "model": "DS-1 Orbital Battle Station",
     "name": "Death Star",
     "passengers": "843342",
-    "films": [ "https://rec-swapi.herokuapp.com/api/films/1/" ],
+    "films": [ "https://www.swapi.tech/api/films/1/" ],
     "pilots": [],
     "starship_class": "Deep Space Mobile Battlestation",
-    "url": "https://rec-swapi.herokuapp.com/api/starships/9/"
+    "url": "https://www.swapi.tech/api/starships/9/"
   }
 }`}
           </code>
@@ -932,7 +930,7 @@ fetch("https://rec-swapi.herokuapp.com/api/starships/9")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api/vehicles/4")
+fetch("https://www.swapi.tech/api/vehicles/4")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -962,8 +960,8 @@ fetch("https://rec-swapi.herokuapp.com/api/vehicles/4")
     "name": "Sand Crawler",
     "passengers": "30",
     "pilots": [],
-    "films": [ "https://rec-swapi.herokuapp.com/api/films/1/" ],
-    "url": "https://rec-swapi.herokuapp.com/api/vehicles/4/",
+    "films": [ "https://www.swapi.tech/api/films/1/" ],
+    "url": "https://www.swapi.tech/api/vehicles/4/",
     "vehicle_class": "wheeled"
   }
 }`}
@@ -1101,7 +1099,7 @@ fetch("https://rec-swapi.herokuapp.com/api/vehicles/4")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api/species/3")
+fetch("https://www.swapi.tech/api/species/3")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -1126,13 +1124,13 @@ fetch("https://rec-swapi.herokuapp.com/api/species/3")
     "edited": "2014-12-10T16:44:31.486000Z",
     "eye_colors": "blue, green, yellow, brown, golden, red",
     "hair_colors": "black, brown",
-    "homeworld": "https://rec-swapi.herokuapp.com/api/planets/14/",
+    "homeworld": "https://www.swapi.tech/api/planets/14/",
     "language": "Shyriiwook",
     "name": "Wookie",
-    "people": [ "https://rec-swapi.herokuapp.com/api/people/13/" ],
-    "films": [ "https://rec-swapi.herokuapp.com/api/films/1/", ... ],
+    "people": [ "https://www.swapi.tech/api/people/13/" ],
+    "films": [ "https://www.swapi.tech/api/films/1/", ... ],
     "skin_colors": "gray",
-    "url": "https://rec-swapi.herokuapp.com/api/species/3/"
+    "url": "https://www.swapi.tech/api/species/3/"
   }
 }`}
           </code>
@@ -1260,7 +1258,7 @@ fetch("https://rec-swapi.herokuapp.com/api/species/3")
           <code>
             {" "}
             {`
-fetch("https://rec-swapi.herokuapp.com/api/planets/1")
+fetch("https://www.swapi.tech/api/planets/1")
 .then(res => res.json())
 .then(data => console.log(data))
 .catch(err => console.error(err))
@@ -1281,16 +1279,16 @@ fetch("https://rec-swapi.herokuapp.com/api/planets/1")
     "created": "2014-12-09T13:50:49.641000Z",
     "diameter": "10465",
     "edited": "2014-12-15T13:48:16.167217Z",
-    "films": [ "https://rec-swapi.herokuapp.com/api/films/1/", ... ],
+    "films": [ "https://www.swapi.tech/api/films/1/", ... ],
     "gravity": "1",
     "name": "Tatooine",
     "orbital_period": "304",
     "population": "120000",
-    "residents": [ "https://rec-swapi.herokuapp.com/api/people/1/", ... ],
+    "residents": [ "https://www.swapi.tech/api/people/1/", ... ],
     "rotation_period": "23",
     "surface_water": "1",
     "terrain": "Dessert",
-    "url": "https://rec-swapi.herokuapp.com/api/planets/1/"
+    "url": "https://www.swapi.tech/api/planets/1/"
   }
 }`}
           </code>

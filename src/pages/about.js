@@ -93,7 +93,7 @@ function About() {
 
         <pre>
           <code>
-            fetch('https://rec-swapi.herokuapp.com/api/planets/1')
+            fetch('https://www.swapi.tech/api/planets/1')
             <br /> .then(res => res.json())
             <br /> .then(data => console.log(data))
             <br /> .catch(err => console.error(err);
