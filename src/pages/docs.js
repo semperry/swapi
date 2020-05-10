@@ -226,8 +226,8 @@ fetch("https://www.swapi.tech/api/planets/1/")
           what you can do to just <strong>GET</strong>-ing the data. If you find
           a mistake in the data, then{" "}
           <a
-            onClick={console.log("author email: ryan.curtis88@gmail.com")}
-            href="mailto:ryan.curtis88@gmail.com"
+            onClick={console.log("author email: admin@swapi.tech")}
+            href="mailto:admin@swapi.tech"
             target="_blank"
           >
             email the author
