@@ -75,4 +75,16 @@ authRouter.post("/login", (req, res) => {
   });
 });
 
+// Get logged in status
+authRouter.get("/logged-in", verifyToken, (req, res) => {
+  res.status(200).json({ loggedIn: true, user: req.user });
+});
+
+// Delete logout
+authRouter.delete("/logout", verifyToken, (req, res) => {
+  res.cookie._token = "";
+
+  res.status(200).json({ message: "Logged out" });
+});
+
 module.exports = authRouter;

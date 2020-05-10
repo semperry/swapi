@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from "react";
+import React, { createContext, useReducer, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
@@ -33,6 +33,39 @@ const reducer = (state, action) => {
 function Main() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
+  const handleLogout = () => {
+    fetch("/auth/logout", {
+      method: "delete",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.message === "Logged out") {
+          dispatch({ type: "setUser", user: {} });
+          dispatch({
+            type: "setLoggedInStatus",
+            loggedInStatus: "NOT_LOGGED_IN",
+          });
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  // Check login status for auto creds
+  useEffect(() => {
+    fetch("/auth/logged-in")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.loggedIn) {
+          dispatch({ type: "setUser", user: data.user });
+          dispatch({ type: "setLoggedInStatus", loggedInStatus: "LOGGED_IN" });
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
   return (
     <UserContext.Provider value={{ state, dispatch }}>
       <BrowserRouter>
@@ -49,6 +82,9 @@ function Main() {
           )}
         </Switch>
         <Footer />
+        {state.loggedInStatus === "LOGGED_IN" ? (
+          <button onClick={handleLogout}>Logout</button>
+        ) : null}
       </BrowserRouter>
     </UserContext.Provider>
   );
