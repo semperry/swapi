@@ -38,7 +38,7 @@ transportRouter.get("/transport/migrate", verifyToken, (req, res) => {
         });
         newTransport.save();
       });
-      res.status(200).end();
+      res.status(200).json({ message: "data migrated" });
     } catch (err) {
       res.status(500).json({ error: `${err}` });
     }
@@ -69,7 +69,7 @@ transportRouter.get("/starships/migrate", verifyToken, (req, res) => {
         const updatedStarship = new StarShipModel(newStarship);
         updatedStarship.save();
       });
-      res.status(200).end();
+      res.status(200).json({ message: "data migrated" });
     } catch (err) {
       res.status(500).json({ error: `${err}` });
     }
@@ -100,7 +100,7 @@ transportRouter.get("/vehicles/migrate", verifyToken, (req, res) => {
         const updatedVehicle = new VehicleModel(newVehicle);
         updatedVehicle.save();
       });
-      res.status(200).end();
+      res.status(200).json({ message: "data migrated" });
     } catch (err) {
       res.status(500).json({ error: `${err}` });
     }
