@@ -62,7 +62,11 @@ authRouter.post("/login", (req, res) => {
           res.status(401).json({ message: "could not login" });
         } else if (result) {
           await generateToken(res, user);
-          res.status(200).json({ message: "authorized", loggedIn: true });
+          res.status(200).json({
+            message: "authorized",
+            loggedIn: true,
+            user: { roles: user.roles, id: user._id },
+          });
         } else {
           res.status(401).json({ message: "not authorized" });
         }

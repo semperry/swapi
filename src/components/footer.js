@@ -5,11 +5,19 @@ function Footer() {
     <div className="footer">
       <div>
         Originially by{" "}
-        <a href="https://phalt.github.io/" target="_blank">
+        <a
+          href="https://phalt.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Paul Hallett
         </a>{" "}
         | Refactored and Maintained by{" "}
-        <a href="https://github.com/semperry" target="_blank">
+        <a
+          href="https://github.com/semperry"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Ryan Curtis
         </a>{" "}
         &copy;

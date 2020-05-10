@@ -10,6 +10,7 @@ import Auth from "./pages/auth";
 import NavBar from "./navigation/navbar";
 import Footer from "./components/footer";
 import SwapiHeader from "./components/swapiHeader";
+import AdminDashboard from "./pages/admin";
 
 export const UserContext = createContext();
 
@@ -41,7 +42,11 @@ function Main() {
           <Route exact path="/" component={App} />
           <Route path="/about" component={About} />
           <Route path="/docs" component={Docs} />
-          <Route path="/admin" component={Auth} />
+          {state.loggedInStatus === "NOT_LOGGED_IN" ? (
+            <Route path="/admin" component={Auth} />
+          ) : (
+            <Route path="/admin" component={AdminDashboard} />
+          )}
         </Switch>
         <Footer />
       </BrowserRouter>

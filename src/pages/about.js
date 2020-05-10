@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function About() {
   return (
@@ -46,7 +46,11 @@ function About() {
         <p>
           I have replicated the original SWAPI platform, not only as a challenge
           for myself ( the{" "}
-          <a href="https://github.com/phalt/swapi" target="_blank">
+          <a
+            href="https://github.com/phalt/swapi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             Official SWAPI repository{" "}
           </a>{" "}
@@ -105,37 +109,58 @@ function About() {
 
         <p>
           Originially SWAPI used{" "}
-          <a href="https://djangoproject.com" target="_blank">
+          <a
+            href="https://djangoproject.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Django{" "}
           </a>
           and{" "}
-          <a href="https://django-rest-framework.org" target="_blank">
+          <a
+            href="https://django-rest-framework.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Django REST Framework
           </a>{" "}
           to serve a{" "}
-          <a href="https://en.wikipedia.org/wiki/REST" target="_blank">
+          <a
+            href="https://en.wikipedia.org/wiki/REST"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             RESTish
           </a>{" "}
           API to you.
         </p>
         <p>
           In this implementation I used{" "}
-          <a href="https://reactjs.org" target="_blank">
+          <a
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             React
           </a>{" "}
           and{" "}
-          <a href="https://expressjs.com" target="_blank">
+          <a
+            href="https://expressjs.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Express
           </a>{" "}
           to serve a{" "}
           <a
             href="https://en.wikipedia.org/wiki/Monolithic_application"
             target="_blank"
+            rel="noopener noreferrer"
           >
             monolothic
           </a>{" "}
           style application . The data is all formatted in{" "}
-          <a href="http://json.org" target="_blank">
+          <a href="http://json.org" target="_blank" rel="noopener noreferrer">
             JSON
           </a>
           .
@@ -145,7 +170,11 @@ function About() {
 
         <p>
           I am{" "}
-          <a href="https://github.com/semperry" target="_blank">
+          <a
+            href="https://github.com/semperry"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Ryan Curtis
           </a>
           , Full Stack Web Engineer and Instructor at Bottega Tech coding
@@ -156,7 +185,7 @@ function About() {
 
         <p>
           This project was originally built and maintained by{" "}
-          <a href="http://phalt.co" target="_blank">
+          <a href="http://phalt.co" target="_blank" rel="noopener noreferrer">
             Paul Hallett
           </a>
           .
@@ -170,7 +199,11 @@ function About() {
 
         <p>
           All data has been freely collected from open sources such as{" "}
-          <a href="https://starwars.wikia.com" target="_blank">
+          <a
+            href="https://starwars.wikia.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Wookiepedia
           </a>
           .
@@ -190,27 +223,47 @@ function About() {
 
         <ul>
           <li>
-            <a href="https://phalt.co" target="_blank">
+            <a
+              href="https://phalt.co"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Paul Hallett
             </a>
           </li>
           <li>
-            <a href="https://github.com/Videocard" target="_blank">
+            <a
+              href="https://github.com/Videocard"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Owen Hallett
             </a>
           </li>
           <li>
-            <a href="https://github.com/carvilsi" target="_blank">
+            <a
+              href="https://github.com/carvilsi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Carvilsi
             </a>
           </li>
           <li>
-            <a href="https://github.com/astagi" target="_blank">
+            <a
+              href="https://github.com/astagi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Andrea Stagi
             </a>
           </li>
           <li>
-            <a href="https://github.com/juriy" target="_blank">
+            <a
+              href="https://github.com/juriy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Juriy Bura
             </a>
           </li>

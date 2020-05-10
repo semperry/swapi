@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function Docs() {
   return (
@@ -99,13 +99,18 @@ function Docs() {
 
         <p>
           Open up a terminal and use{" "}
-          <a href="http://curl.haxx.se" target="_blank">
+          <a
+            href="http://curl.haxx.se"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             curl
           </a>{" "}
           or use a{" "}
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
             target="_blank"
+            rel="noopener noreferrer"
           >
             fetch
           </a>{" "}
@@ -129,12 +134,17 @@ fetch("https://www.swapi.tech/api/planets/1/")
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
             target="_blank"
+            rel="noopener noreferrer"
           >
             fetch
           </a>{" "}
           If you don't want to use the fetch api, just use the <em>curl</em>{" "}
           command, your browser window, or{" "}
-          <a href="https://www.postman.com/" target="_blank">
+          <a
+            href="https://www.postman.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Postman
           </a>{" "}
           instead.
@@ -229,6 +239,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
             onClick={console.log("author email: admin@swapi.tech")}
             href="mailto:admin@swapi.tech"
             target="_blank"
+            rel="noopener noreferrer"
           >
             email the author
           </a>
