@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const peopleRouter = express.Router();
 
+const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const People = require("../models/peopleModel");
 
@@ -9,30 +10,36 @@ const baseUrl = require("../baseUrl");
 const peopleFixture = require("../fixtures/people.json");
 
 // Json migration
-peopleRouter.get("/people/migrate", (req, res) => {
-  try {
-    peopleFixture.forEach((person) => {
-      const newPerson = new People(person);
-      newPerson.uid = person.pk;
-      newPerson.properties = person.fields;
-      newPerson.properties.homeworld = `${baseUrl}/planets/${person.fields.homeworld}`;
-      newPerson.properties.url = `${baseUrl}/people/${person.pk}`;
+peopleRouter.get("/people/migrate", verifyToken, (req, res) => {
+  if (req.user.roles.includes("superuser")) {
+    try {
+      peopleFixture.forEach((person) => {
+        const newPerson = new People(person);
+        newPerson.uid = person.pk;
+        newPerson.properties = person.fields;
+        newPerson.properties.homeworld = `${baseUrl}/planets/${person.fields.homeworld}`;
+        newPerson.properties.url = `${baseUrl}/people/${person.pk}`;
 
-      Object.keys(person.fields).forEach((field) => {
-        if (Array.isArray(person.fields[field])) {
-          newPerson.properties[field] = [];
-          person.fields[field].forEach((item) => {
-            newPerson.properties[field].push(
-              `${baseUrl}/${field === "characters" ? "people" : field}/${item}`
-            );
-          });
-        }
+        Object.keys(person.fields).forEach((field) => {
+          if (Array.isArray(person.fields[field])) {
+            newPerson.properties[field] = [];
+            person.fields[field].forEach((item) => {
+              newPerson.properties[field].push(
+                `${baseUrl}/${
+                  field === "characters" ? "people" : field
+                }/${item}`
+              );
+            });
+          }
+        });
+        newPerson.save();
       });
-      newPerson.save();
-    });
-    res.status(200).end();
-  } catch (err) {
-    res.status(500).json({ error: `${err}` });
+      res.status(200).end();
+    } catch (err) {
+      res.status(500).json({ error: `${err}` });
+    }
+  } else {
+    res.status(401).json({ message: "Invalid permissions" });
   }
 });
 
@@ -98,7 +105,7 @@ peopleRouter.get("/people/:id", (req, res) => {
 });
 
 // POST
-peopleRouter.post("/people", (req, res) => {
+peopleRouter.post("/people", verifyToken, (req, res) => {
   const newPerson = new People(req.body);
   newPerson.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
 
@@ -115,7 +122,7 @@ peopleRouter.post("/people", (req, res) => {
 });
 
 // PUT
-peopleRouter.put("/people/update/:id", (req, res) => {
+peopleRouter.put("/people/update/:id", verifyToken, (req, res) => {
   People.findOne({ uid: req.params.id }, (err, person) => {
     if (err) {
       res
@@ -159,7 +166,7 @@ peopleRouter.put("/people/update/:id", (req, res) => {
 });
 
 // DELETE
-peopleRouter.delete("/people/delete/:id", (req, res) => {
+peopleRouter.delete("/people/delete/:id", verifyToken, (req, res) => {
   People.findOneAndDelete({ uid: req.params.id }, (err, result) => {
     if (err) {
       res

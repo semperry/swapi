@@ -3,8 +3,6 @@
 // Transport, Vehicle, Starship model refactor
 // Finish routes for vehicles and starships or just transports
 // Search queries
-// Authorization and authentication
-// Documentation
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");

@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const transportRouter = express.Router();
 
+const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 
 const TransportModel = require("../models/transportModel");
@@ -14,88 +15,102 @@ const vehicleFixture = require("../fixtures/vehicles.json");
 const starshipFixture = require("../fixtures/starships.json");
 
 // Json migration - Transports
-transportRouter.get("/transport/migrate", (req, res) => {
-  try {
-    tranportFixture.forEach((transport) => {
-      const newTransport = new TransportModel(transport);
-      newTransport.uid = transport.pk;
-      newTransport.properties = transport.fields;
-      newTransport.properties.url = `${baseUrl}/transport/${transport.pk}`;
+transportRouter.get("/transport/migrate", verifyToken, (req, res) => {
+  if (req.user.roles.includes("superuser")) {
+    try {
+      tranportFixture.forEach((transport) => {
+        const newTransport = new TransportModel(transport);
+        newTransport.uid = transport.pk;
+        newTransport.properties = transport.fields;
+        newTransport.properties.url = `${baseUrl}/transport/${transport.pk}`;
 
-      Object.keys(transport.fields).forEach((field) => {
-        if (Array.isArray(transport.fields[field])) {
-          newTransport.properties[field] = [];
-          transport.fields[field].forEach((item) => {
-            newTransport.properties[field].push(
-              `${baseUrl}/${field === "characters" ? "people" : field}/${item}`
-            );
-          });
-        }
+        Object.keys(transport.fields).forEach((field) => {
+          if (Array.isArray(transport.fields[field])) {
+            newTransport.properties[field] = [];
+            transport.fields[field].forEach((item) => {
+              newTransport.properties[field].push(
+                `${baseUrl}/${
+                  field === "characters" ? "people" : field
+                }/${item}`
+              );
+            });
+          }
+        });
+        newTransport.save();
       });
-      newTransport.save();
-    });
-    res.status(200).end();
-  } catch (err) {
-    res.status(500).json({ error: `${err}` });
+      res.status(200).end();
+    } catch (err) {
+      res.status(500).json({ error: `${err}` });
+    }
+  } else {
+    res.status(401).json({ message: "Invalid permissions" });
   }
 });
 
 // Json migration - Starships
-transportRouter.get("/starships/migrate", (req, res) => {
-  try {
-    starshipFixture.forEach(async (starship) => {
-      let newStarship;
-      await TransportModel.findOne({ uid: starship.pk }, (err, transport) => {
-        newStarship = {
-          properties: {
-            ...starship.fields,
-            ...transport.properties.toObject(),
-            pilots: starship.fields.pilots.map((pilot) => {
-              return `${baseUrl}/people/${pilot}`;
-            }),
-            url: `${baseUrl}/starships/${transport.uid}`,
-          },
-          uid: transport.uid,
-        };
+transportRouter.get("/starships/migrate", verifyToken, (req, res) => {
+  if (req.user.roles.includes("superuser")) {
+    try {
+      starshipFixture.forEach(async (starship) => {
+        let newStarship;
+        await TransportModel.findOne({ uid: starship.pk }, (err, transport) => {
+          newStarship = {
+            properties: {
+              ...starship.fields,
+              ...transport.properties.toObject(),
+              pilots: starship.fields.pilots.map((pilot) => {
+                return `${baseUrl}/people/${pilot}`;
+              }),
+              url: `${baseUrl}/starships/${transport.uid}`,
+            },
+            uid: transport.uid,
+          };
+        });
+        const updatedStarship = new StarShipModel(newStarship);
+        updatedStarship.save();
       });
-      const updatedStarship = new StarShipModel(newStarship);
-      updatedStarship.save();
-    });
-    res.status(200).end();
-  } catch (err) {
-    res.status(500).json({ error: `${err}` });
+      res.status(200).end();
+    } catch (err) {
+      res.status(500).json({ error: `${err}` });
+    }
+  } else {
+    res.status(401).json({ message: "Invalid permissions" });
   }
 });
 
 // Json migration - Vehicles
-transportRouter.get("/vehicles/migrate", (req, res) => {
-  try {
-    vehicleFixture.forEach(async (vehicle) => {
-      let newVehicle;
-      await TransportModel.findOne({ uid: vehicle.pk }, (err, transport) => {
-        newVehicle = {
-          properties: {
-            ...vehicle.fields,
-            ...transport.properties.toObject(),
-            pilots: vehicle.fields.pilots.map((pilot) => {
-              return `${baseUrl}/people/${pilot}`;
-            }),
-            url: `${baseUrl}/vehicles/${transport.uid}`,
-          },
-          uid: transport.uid,
-        };
+transportRouter.get("/vehicles/migrate", verifyToken, (req, res) => {
+  if (req.user.roles.includes("superuser")) {
+    try {
+      vehicleFixture.forEach(async (vehicle) => {
+        let newVehicle;
+        await TransportModel.findOne({ uid: vehicle.pk }, (err, transport) => {
+          newVehicle = {
+            properties: {
+              ...vehicle.fields,
+              ...transport.properties.toObject(),
+              pilots: vehicle.fields.pilots.map((pilot) => {
+                return `${baseUrl}/people/${pilot}`;
+              }),
+              url: `${baseUrl}/vehicles/${transport.uid}`,
+            },
+            uid: transport.uid,
+          };
+        });
+        const updatedVehicle = new VehicleModel(newVehicle);
+        updatedVehicle.save();
       });
-      const updatedVehicle = new VehicleModel(newVehicle);
-      updatedVehicle.save();
-    });
-    res.status(200).end();
-  } catch (err) {
-    res.status(500).json({ error: `${err}` });
+      res.status(200).end();
+    } catch (err) {
+      res.status(500).json({ error: `${err}` });
+    }
+  } else {
+    res.status(401).json({ message: "Invalid permissions" });
   }
 });
 
 // GET all transports
-transportRouter.get("/transport", (req, res) => {
+transportRouter.get("/transport", verifyToken, (req, res) => {
   const { page, limit } = req.query;
 
   TransportModel.countDocuments((err, total) => {

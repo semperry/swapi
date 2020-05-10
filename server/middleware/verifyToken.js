@@ -10,13 +10,19 @@ const verifyToken = (req, res, next) => {
         .json({ message: "not logged in", error: "No Session Found" });
     }
 
-    const decrypt = jwt.verify(token, process.env.JWT_SECRET);
-
-    req.user = {
-      _id: decrypt._id,
-      roles: decrypt.roles,
-    };
-    next();
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+      if (err) {
+        return res
+          .status(401)
+          .json({ message: "invalid token", error: `${err}` });
+      } else {
+        req.user = {
+          _id: decoded._id,
+          roles: decoded.roles,
+        };
+        next();
+      }
+    });
   } catch (error) {
     return res
       .status(401)

@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const planetRouter = express.Router();
 
+const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const Planets = require("../models/planetModel");
 const baseUrl = require("../baseUrl");
@@ -9,29 +10,35 @@ const baseUrl = require("../baseUrl");
 const planetFixture = require("../fixtures/planets.json");
 
 // Json migration
-planetRouter.get("/planets/migrate", (req, res) => {
-  try {
-    planetFixture.forEach((planet) => {
-      const newPlanet = new Planets(planet);
-      newPlanet.uid = planet.pk;
-      newPlanet.properties = planet.fields;
-      newPlanet.properties.url = `${baseUrl}/planets/${planet.pk}`;
+planetRouter.get("/planets/migrate", verifyToken, (req, res) => {
+  if (req.user.roles.includes("superuser")) {
+    try {
+      planetFixture.forEach((planet) => {
+        const newPlanet = new Planets(planet);
+        newPlanet.uid = planet.pk;
+        newPlanet.properties = planet.fields;
+        newPlanet.properties.url = `${baseUrl}/planets/${planet.pk}`;
 
-      Object.keys(planet.fields).forEach((field) => {
-        if (Array.isArray(planet.fields[field])) {
-          newPlanet.properties[field] = [];
-          planet.fields[field].forEach((item) => {
-            newPlanet.properties[field].push(
-              `${baseUrl}/${field === "characters" ? "people" : field}/${item}`
-            );
-          });
-        }
+        Object.keys(planet.fields).forEach((field) => {
+          if (Array.isArray(planet.fields[field])) {
+            newPlanet.properties[field] = [];
+            planet.fields[field].forEach((item) => {
+              newPlanet.properties[field].push(
+                `${baseUrl}/${
+                  field === "characters" ? "people" : field
+                }/${item}`
+              );
+            });
+          }
+        });
+        newPlanet.save();
       });
-      newPlanet.save();
-    });
-    res.status(200).end();
-  } catch (err) {
-    res.status(500).json({ error: `${err}` });
+      res.status(200).end();
+    } catch (err) {
+      res.status(500).json({ error: `${err}` });
+    }
+  } else {
+    res.status(401).json({ message: "Invalide permissions" });
   }
 });
 
@@ -97,7 +104,7 @@ planetRouter.get("/planets/:id", (req, res) => {
 });
 
 // POST
-planetRouter.post("/planets", (req, res) => {
+planetRouter.post("/planets", verifyToken, (req, res) => {
   const newPlanet = new Planets(req.body);
   newPlanet.properties.url = `${req.baseUrl}/${req.route.path}/${req.body.uid}`;
 
@@ -114,7 +121,7 @@ planetRouter.post("/planets", (req, res) => {
 });
 
 // PUT
-planetRouter.put("/planets/update/:id", (req, res) => {
+planetRouter.put("/planets/update/:id", verifyToken, (req, res) => {
   Planets.findOne({ uid: req.params.id }, (err, planet) => {
     if (err) {
       res
@@ -159,7 +166,7 @@ planetRouter.put("/planets/update/:id", (req, res) => {
 });
 
 // DELETE
-planetRouter.delete("/planets/delete/:id", (req, res) => {
+planetRouter.delete("/planets/delete/:id", verifyToken, (req, res) => {
   Planets.findOneAndDelete({ uid: req.params.id }, (err, result) => {
     if (err) {
       res
