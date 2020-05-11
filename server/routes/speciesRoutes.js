@@ -7,41 +7,6 @@ const Paginate = require("../middleware/pagination");
 const SpeciesModel = require("../models/speciesModel");
 
 const baseUrl = require("../baseUrl");
-const speciesFixture = require("../fixtures/species.json");
-
-// Json migration
-speciesRouter.get("/species/migrate", verifyToken, (req, res) => {
-  if (req.user.roles.includes("superuser")) {
-    try {
-      speciesFixture.forEach((specimen) => {
-        const newSpecies = new SpeciesModel(specimen);
-        newSpecies.uid = specimen.pk;
-        newSpecies.properties = specimen.fields;
-        newSpecies.properties.url = `${baseUrl}/species/${specimen.pk}`;
-        newSpecies.properties.homeworld = `${baseUrl}/planets/${specimen.pk}`;
-
-        Object.keys(specimen.fields).forEach((field) => {
-          if (Array.isArray(specimen.fields[field])) {
-            newSpecies.properties[field] = [];
-            specimen.fields[field].forEach((item) => {
-              newSpecies.properties[field].push(
-                `${baseUrl}/${
-                  field === "characters" ? "people" : field
-                }/${item}`
-              );
-            });
-          }
-        });
-        newSpecies.save();
-      });
-      res.status(200).end();
-    } catch (err) {
-      res.status(500).json({ error: `${err}` });
-    }
-  } else {
-    res.status(401).json({ message: "Invalid permissions" });
-  }
-});
 
 // GET all
 speciesRouter.get("/species", (req, res) => {
@@ -107,7 +72,7 @@ speciesRouter.get("/species/:id", (req, res) => {
 // POST
 speciesRouter.post("/species", verifyToken, (req, res) => {
   const newSpecies = new SpeciesModel(req.body);
-  newSpecies.properties.url = `${req.baseUrl}/${req.route.path}/${req.body.uid}`;
+  newSpecies.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
 
   newSpecies
     .save()

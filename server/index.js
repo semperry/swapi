@@ -1,7 +1,8 @@
 // TODO:
+// Single migration for all json files
 // Transport, Vehicle, Starship model refactor
-// Finish routes for vehicles and starships or just transports
 // Search queries
+// JSON Schema routes
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
@@ -24,6 +25,7 @@ const speciesRoutes = require("./routes/speciesRoutes");
 const transportRoutes = require("./routes/transportRoutes");
 const rootRoutes = require("./routes/rootRoutes");
 const authRoutes = require("./routes/authRoutes");
+const migrationRoutes = require("./routes/migrationsRoutes");
 
 const MONGODB_URI =
   process.env.NODE_ENV === "production"

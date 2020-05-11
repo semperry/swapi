@@ -7,41 +7,6 @@ const Paginate = require("../middleware/pagination");
 const People = require("../models/peopleModel");
 
 const baseUrl = require("../baseUrl");
-const peopleFixture = require("../fixtures/people.json");
-
-// Json migration
-peopleRouter.get("/people/migrate", verifyToken, (req, res) => {
-  if (req.user.roles.includes("superuser")) {
-    try {
-      peopleFixture.forEach((person) => {
-        const newPerson = new People(person);
-        newPerson.uid = person.pk;
-        newPerson.properties = person.fields;
-        newPerson.properties.homeworld = `${baseUrl}/planets/${person.fields.homeworld}`;
-        newPerson.properties.url = `${baseUrl}/people/${person.pk}`;
-
-        Object.keys(person.fields).forEach((field) => {
-          if (Array.isArray(person.fields[field])) {
-            newPerson.properties[field] = [];
-            person.fields[field].forEach((item) => {
-              newPerson.properties[field].push(
-                `${baseUrl}/${
-                  field === "characters" ? "people" : field
-                }/${item}`
-              );
-            });
-          }
-        });
-        newPerson.save();
-      });
-      res.status(200).end();
-    } catch (err) {
-      res.status(500).json({ error: `${err}` });
-    }
-  } else {
-    res.status(401).json({ message: "Invalid permissions" });
-  }
-});
 
 // GET all
 peopleRouter.get("/people", async (req, res) => {

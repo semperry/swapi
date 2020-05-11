@@ -7,41 +7,6 @@ const Paginate = require("../middleware/pagination");
 const Planets = require("../models/planetModel");
 const baseUrl = require("../baseUrl");
 
-const planetFixture = require("../fixtures/planets.json");
-
-// Json migration
-planetRouter.get("/planets/migrate", verifyToken, (req, res) => {
-  if (req.user.roles.includes("superuser")) {
-    try {
-      planetFixture.forEach((planet) => {
-        const newPlanet = new Planets(planet);
-        newPlanet.uid = planet.pk;
-        newPlanet.properties = planet.fields;
-        newPlanet.properties.url = `${baseUrl}/planets/${planet.pk}`;
-
-        Object.keys(planet.fields).forEach((field) => {
-          if (Array.isArray(planet.fields[field])) {
-            newPlanet.properties[field] = [];
-            planet.fields[field].forEach((item) => {
-              newPlanet.properties[field].push(
-                `${baseUrl}/${
-                  field === "characters" ? "people" : field
-                }/${item}`
-              );
-            });
-          }
-        });
-        newPlanet.save();
-      });
-      res.status(200).end();
-    } catch (err) {
-      res.status(500).json({ error: `${err}` });
-    }
-  } else {
-    res.status(401).json({ message: "Invalide permissions" });
-  }
-});
-
 // GET all
 planetRouter.get("/planets", (req, res) => {
   const { page, limit } = req.query;
@@ -106,7 +71,7 @@ planetRouter.get("/planets/:id", (req, res) => {
 // POST
 planetRouter.post("/planets", verifyToken, (req, res) => {
   const newPlanet = new Planets(req.body);
-  newPlanet.properties.url = `${req.baseUrl}/${req.route.path}/${req.body.uid}`;
+  newPlanet.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
 
   newPlanet
     .save()

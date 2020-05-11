@@ -5,41 +5,6 @@ const verifyToken = require("../middleware/verifyToken");
 const Films = require("../models/filmModel");
 const baseUrl = require("../baseUrl");
 
-const filmFixture = require("../fixtures/films.json");
-
-// Json migration
-filmRouter.get("/films/migrate", verifyToken, (req, res) => {
-  if (req.user.roles.includes("superuser")) {
-    try {
-      filmFixture.forEach((film) => {
-        const newFilm = new Films(film);
-        newFilm.uid = film.pk;
-        newFilm.properties = film.fields;
-        newFilm.properties.url = `${baseUrl}/films/${film.pk}`;
-
-        Object.keys(film.fields).forEach((field) => {
-          if (Array.isArray(film.fields[field])) {
-            newFilm.properties[field] = [];
-            film.fields[field].forEach((item) => {
-              newFilm.properties[field].push(
-                `${baseUrl}/${
-                  field === "characters" ? "people" : field
-                }/${item}`
-              );
-            });
-          }
-        });
-        newFilm.save();
-      });
-      res.status(200).end();
-    } catch (err) {
-      res.status(500).json({ error: `${err}` });
-    }
-  } else {
-    res.status(401).json({ message: "invalid permissions" });
-  }
-});
-
 // GET all
 filmRouter.get("/films", (req, res) => {
   Films.find((err, films) => {
