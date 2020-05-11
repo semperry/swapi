@@ -15,7 +15,6 @@ const port = process.env.PORT || 8080;
 
 // Rate Limiters
 const apiLimiter = require("./middleware/apiLimiter");
-const authLimiter = require("./middleware/authLimiter");
 
 // Routes
 const filmRoutes = require("./routes/filmRoutes");
@@ -63,7 +62,6 @@ app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
 
-app.use("/auth", authLimiter);
 app.use("/auth", authRoutes);
 
 app.get(/.*/, (req, res) => {

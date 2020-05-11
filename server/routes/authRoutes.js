@@ -6,8 +6,10 @@ const verifyToken = require("../middleware/verifyToken");
 const userModel = require("../models/authModel");
 const authRouter = express.Router();
 
+const authLimiter = require("../middleware/authLimiter");
+
 // Post register
-authRouter.post("/register", verifyToken, (req, res) => {
+authRouter.post("/register", authLimiter, verifyToken, (req, res) => {
   const newUser = new userModel(req.body);
   const password = newUser.password;
 
