@@ -1,5 +1,4 @@
 // TODO:
-// Rate Limiting, max 10,000 requests per day
 // Transport, Vehicle, Starship model refactor
 // Finish routes for vehicles and starships or just transports
 // Search queries
@@ -11,10 +10,12 @@ const mongoose = require("mongoose");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 
-const baseUrl = require("./baseUrl");
-
 const app = express();
 const port = process.env.PORT || 8080;
+
+// Rate Limiters
+const apiLimiter = require("./middleware/apiLimiter");
+const authLimiter = require("./middleware/authLimiter");
 
 // Routes
 const filmRoutes = require("./routes/filmRoutes");
@@ -54,12 +55,15 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "..", "build")));
 
 // Use Routes
+app.use("/api", apiLimiter);
 app.use("/api", rootRoutes);
 app.use("/api", filmRoutes);
 app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
+
+app.use("/auth", authLimiter);
 app.use("/auth", authRoutes);
 
 app.get(/.*/, (req, res) => {
