@@ -8,8 +8,32 @@ const People = require("../models/peopleModel");
 
 const baseUrl = require("../baseUrl");
 
+// Search
+const searchQuery = (req, res, next) => {
+  if (!req.query.search) {
+    next();
+  } else {
+    People.find(
+      {
+        "properties.name": { $regex: `${req.query.search}`, $options: "i" },
+      },
+      (err, results) => {
+        if (err) {
+          res
+            .status(400)
+            .json({ errors: `${err}`, message: "Could not find film" });
+        } else if (results) {
+          res.status(200).json({ message: "ok", results });
+        } else {
+          res.status(404).json({ message: "No results, refine your query" });
+        }
+      }
+    );
+  }
+};
+
 // GET all
-peopleRouter.get("/people", async (req, res) => {
+peopleRouter.get("/people", searchQuery, async (req, res) => {
   const { page, limit } = req.query;
 
   People.countDocuments((err, total) => {

@@ -23,6 +23,8 @@ const peopleRoutes = require("./routes/peopleRoutes");
 const planetRoutes = require("./routes/planetRoutes");
 const speciesRoutes = require("./routes/speciesRoutes");
 const transportRoutes = require("./routes/transportRoutes");
+const starshipRoutes = require("./routes/starshipRoutes");
+const vehicleRoutes = require("./routes/vehicleRoutes");
 const rootRoutes = require("./routes/rootRoutes");
 const authRoutes = require("./routes/authRoutes");
 const migrationRoutes = require("./routes/migrationsRoutes");
@@ -63,6 +65,9 @@ app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
+app.use("/api", starshipRoutes);
+app.use("/api", vehicleRoutes);
+
 app.use("/data", migrationRoutes);
 
 app.use("/auth", authRoutes);

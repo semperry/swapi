@@ -264,12 +264,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
           <a name="search"></a>
         </p>
 
-        <h3>
-          Searching -{" "}
-          <strong>
-            <b>NOT YET IMPLEMENTED</b>
-          </strong>
-        </h3>
+        <h3>Searching</h3>
 
         <p>
           All resources support a <code>search</code> parameter that filters the

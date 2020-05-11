@@ -8,8 +8,42 @@ const StarshipModel = require("../models/starshipModel");
 
 const baseUrl = require("../baseUrl");
 
+// Search
+const searchQuery = (req, res, next) => {
+  if (!req.query.search) {
+    next();
+  } else {
+    StarshipModel.find(
+      {
+        $or: [
+          {
+            "properties.name": { $regex: `${req.query.search}`, $options: "i" },
+          },
+          {
+            "properties.model": {
+              $regex: `${req.query.search}`,
+              $options: "i",
+            },
+          },
+        ],
+      },
+      (err, results) => {
+        if (err) {
+          res
+            .status(400)
+            .json({ errors: `${err}`, message: "Could not find starship" });
+        } else if (results) {
+          res.status(200).json({ message: "ok", results });
+        } else {
+          res.status(404).json({ message: "No results, refine your query" });
+        }
+      }
+    );
+  }
+};
+
 // GET all
-starshipRouter.get("/starhsips", (req, res) => {
+starshipRouter.get("/starships", searchQuery, (req, res) => {
   const { page, limit } = req.query;
 
   StarshipModel.countDocuments((err, total) => {

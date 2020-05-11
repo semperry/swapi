@@ -2,11 +2,35 @@ require("dotenv").config();
 const express = require("express");
 const transportRouter = express.Router();
 
+const TransportModel = require("../models/transportModel");
 const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 
+const searchQuery = (req, res, next) => {
+  if (!req.query.search) {
+    next();
+  } else {
+    TransportModel.find(
+      {
+        "properties.name": { $regex: `${req.query.search}`, $options: "i" },
+      },
+      (err, results) => {
+        if (err) {
+          res
+            .status(400)
+            .json({ errors: `${err}`, message: "Could not find transport" });
+        } else if (results) {
+          res.status(200).json({ message: "ok", results });
+        } else {
+          res.status(404).json({ message: "No results, refine your query" });
+        }
+      }
+    );
+  }
+};
+
 // GET all transports
-transportRouter.get("/transport", verifyToken, (req, res) => {
+transportRouter.get("/transport", verifyToken, searchQuery, (req, res) => {
   const { page, limit } = req.query;
 
   TransportModel.countDocuments((err, total) => {

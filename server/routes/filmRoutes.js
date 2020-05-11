@@ -5,8 +5,32 @@ const verifyToken = require("../middleware/verifyToken");
 const Films = require("../models/filmModel");
 const baseUrl = require("../baseUrl");
 
+// Search
+const searchQuery = (req, res, next) => {
+  if (!req.query.search) {
+    next();
+  } else {
+    Films.find(
+      {
+        "properties.title": { $regex: `${req.query.search}`, $options: "i" },
+      },
+      (err, results) => {
+        if (err) {
+          res
+            .status(400)
+            .json({ errors: `${err}`, message: "Could not find film" });
+        } else if (results) {
+          res.status(200).json({ message: "ok", results });
+        } else {
+          res.status(404).json({ message: "No results, refine your query" });
+        }
+      }
+    );
+  }
+};
+
 // GET all
-filmRouter.get("/films", (req, res) => {
+filmRouter.get("/films", searchQuery, (req, res) => {
   Films.find((err, films) => {
     if (err) {
       res
@@ -35,7 +59,7 @@ filmRouter.get("/films/:id", (req, res) => {
 
 // POST
 filmRouter.post("/films", verifyToken, (req, res) => {
-  req.body.properties.url = `http://localhost:4000/api${req.route.path}/${req.body.uid}`;
+  req.body.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
   const newFilm = new Films(req.body);
 
   newFilm

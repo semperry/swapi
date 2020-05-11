@@ -8,8 +8,42 @@ const VehicleModel = require("../models/vehicleModel");
 
 const baseUrl = require("../baseUrl");
 
+// Search
+const searchQuery = (req, res, next) => {
+  if (!req.query.search) {
+    next();
+  } else {
+    VehicleModel.find(
+      {
+        $or: [
+          {
+            "properties.name": { $regex: `${req.query.search}`, $options: "i" },
+          },
+          {
+            "properties.model": {
+              $regex: `${req.query.search}`,
+              $options: "i",
+            },
+          },
+        ],
+      },
+      (err, results) => {
+        if (err) {
+          res
+            .status(400)
+            .json({ errors: `${err}`, message: "Could not find vehicle" });
+        } else if (results) {
+          res.status(200).json({ message: "ok", results });
+        } else {
+          res.status(404).json({ message: "No results, refine your query" });
+        }
+      }
+    );
+  }
+};
+
 // GET all
-vehicleRouter.get("/vehicles", (req, res) => {
+vehicleRouter.get("/vehicles", searchQuery, (req, res) => {
   const { page, limit } = req.query;
 
   VehicleModel.countDocuments((err, total) => {
