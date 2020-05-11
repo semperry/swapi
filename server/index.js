@@ -63,6 +63,7 @@ app.use("/api", peopleRoutes);
 app.use("/api", planetRoutes);
 app.use("/api", speciesRoutes);
 app.use("/api", transportRoutes);
+app.use("/data", migrationRoutes);
 
 app.use("/auth", authRoutes);
 
