@@ -1,8 +1,7 @@
 // TODO:
 // Single migration for all json files
 // Transport, Vehicle, Starship model refactor
-// Search queries
-// JSON Schema routes
+// Wookie encoding
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");

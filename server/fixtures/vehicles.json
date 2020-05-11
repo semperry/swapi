@@ -4,272 +4,311 @@
       "vehicle_class": "wheeled",
       "pilots": []
     },
-    "pk": 4
+    "pk": 4,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": []
     },
-    "pk": 6
+    "pk": 6,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": []
     },
-    "pk": 7
+    "pk": 7,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "starfighter",
       "pilots": []
     },
-    "pk": 8
+    "pk": 8,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "airspeeder",
       "pilots": [1, 18]
     },
-    "pk": 14
+    "pk": 14,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "space/planetary bomber",
       "pilots": []
     },
-    "pk": 16
+    "pk": 16,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "assault walker",
       "pilots": []
     },
-    "pk": 18
+    "pk": 18,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "walker",
       "pilots": [13]
     },
-    "pk": 19
+    "pk": 19,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": []
     },
-    "pk": 20
+    "pk": 20,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "sail barge",
       "pilots": []
     },
-    "pk": 24
+    "pk": 24,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft cargo skiff",
       "pilots": []
     },
-    "pk": 25
+    "pk": 25,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "starfighter",
       "pilots": []
     },
-    "pk": 26
+    "pk": 26,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "speeder",
       "pilots": [1, 5]
     },
-    "pk": 30
+    "pk": 30,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "starfighter",
       "pilots": []
     },
-    "pk": 33
+    "pk": 33,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": []
     },
-    "pk": 34
+    "pk": 34,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": []
     },
-    "pk": 35
+    "pk": 35,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": []
     },
-    "pk": 36
+    "pk": 36,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "landing craft",
       "pilots": []
     },
-    "pk": 37
+    "pk": 37,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "submarine",
       "pilots": [10, 32]
     },
-    "pk": 38
+    "pk": 38,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "speeder",
       "pilots": [44]
     },
-    "pk": 42
+    "pk": 42,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "repulsorcraft",
       "pilots": [11]
     },
-    "pk": 44
+    "pk": 44,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "airspeeder",
       "pilots": [70]
     },
-    "pk": 45
+    "pk": 45,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "airspeeder",
       "pilots": [11]
     },
-    "pk": 46
+    "pk": 46,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "gunship",
       "pilots": []
     },
-    "pk": 50
+    "pk": 50,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "gunship",
       "pilots": []
     },
-    "pk": 51
+    "pk": 51,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "walker",
       "pilots": []
     },
-    "pk": 53
+    "pk": 53,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "walker",
       "pilots": []
     },
-    "pk": 54
+    "pk": 54,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "speeder",
       "pilots": [67]
     },
-    "pk": 55
+    "pk": 55,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "transport",
       "pilots": []
     },
-    "pk": 56
+    "pk": 56,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "starfighter",
       "pilots": []
     },
-    "pk": 57
+    "pk": 57,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "wheeled walker",
       "pilots": [79]
     },
-    "pk": 60
+    "pk": 60,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "fire suppression ship",
       "pilots": []
     },
-    "pk": 62
+    "pk": 62,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "droid starfighter",
       "pilots": []
     },
-    "pk": 67
+    "pk": 67,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "airspeeder",
       "pilots": []
     },
-    "pk": 69
+    "pk": 69,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "air speeder",
       "pilots": []
     },
-    "pk": 70
+    "pk": 70,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "wheeled walker",
       "pilots": []
     },
-    "pk": 71
+    "pk": 71,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "droid tank",
       "pilots": []
     },
-    "pk": 72
+    "pk": 72,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "airspeeder",
       "pilots": []
     },
-    "pk": 73
+    "pk": 73,
+    "schema": "vehicles"
   },
   {
     "fields": {
       "vehicle_class": "walker",
       "pilots": []
     },
-    "pk": 76
+    "pk": 76,
+    "schema": "vehicles"
   }
 ]

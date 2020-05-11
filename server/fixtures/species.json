@@ -13,7 +13,8 @@
       "average_lifespan": "120",
       "average_height": "180"
     },
-    "pk": 1
+    "pk": 1,
+    "schema": "species"
   },
   {
     "fields": {
@@ -29,7 +30,8 @@
       "average_lifespan": "indefinite",
       "average_height": "n/a"
     },
-    "pk": 2
+    "pk": 2,
+    "schema": "species"
   },
   {
     "fields": {
@@ -45,7 +47,8 @@
       "average_lifespan": "400",
       "average_height": "210"
     },
-    "pk": 3
+    "pk": 3,
+    "schema": "species"
   },
   {
     "fields": {
@@ -61,7 +64,8 @@
       "average_lifespan": "unknown",
       "average_height": "170"
     },
-    "pk": 4
+    "pk": 4,
+    "schema": "species"
   },
   {
     "fields": {
@@ -77,7 +81,8 @@
       "average_lifespan": "1000",
       "average_height": "300"
     },
-    "pk": 5
+    "pk": 5,
+    "schema": "species"
   },
   {
     "fields": {
@@ -93,7 +98,8 @@
       "average_lifespan": "900",
       "average_height": "66"
     },
-    "pk": 6
+    "pk": 6,
+    "schema": "species"
   },
   {
     "fields": {
@@ -109,7 +115,8 @@
       "average_lifespan": "unknown",
       "average_height": "200"
     },
-    "pk": 7
+    "pk": 7,
+    "schema": "species"
   },
   {
     "fields": {
@@ -125,7 +132,8 @@
       "average_lifespan": "unknown",
       "average_height": "160"
     },
-    "pk": 8
+    "pk": 8,
+    "schema": "species"
   },
   {
     "fields": {
@@ -141,7 +149,8 @@
       "average_lifespan": "unknown",
       "average_height": "100"
     },
-    "pk": 9
+    "pk": 9,
+    "schema": "species"
   },
   {
     "fields": {
@@ -157,7 +166,8 @@
       "average_lifespan": "unknown",
       "average_height": "180"
     },
-    "pk": 10
+    "pk": 10,
+    "schema": "species"
   },
   {
     "fields": {
@@ -173,7 +183,8 @@
       "average_lifespan": "unknown",
       "average_height": "180"
     },
-    "pk": 11
+    "pk": 11,
+    "schema": "species"
   },
   {
     "fields": {
@@ -189,7 +200,8 @@
       "average_lifespan": "unknown",
       "average_height": "190"
     },
-    "pk": 12
+    "pk": 12,
+    "schema": "species"
   },
   {
     "fields": {
@@ -205,7 +217,8 @@
       "average_lifespan": "91",
       "average_height": "120"
     },
-    "pk": 13
+    "pk": 13,
+    "schema": "species"
   },
   {
     "fields": {
@@ -221,7 +234,8 @@
       "average_lifespan": "unknown",
       "average_height": "100"
     },
-    "pk": 14
+    "pk": 14,
+    "schema": "species"
   },
   {
     "fields": {
@@ -237,7 +251,8 @@
       "average_lifespan": "unknown",
       "average_height": "200"
     },
-    "pk": 15
+    "pk": 15,
+    "schema": "species"
   },
   {
     "fields": {
@@ -253,7 +268,8 @@
       "average_lifespan": "79",
       "average_height": "80"
     },
-    "pk": 16
+    "pk": 16,
+    "schema": "species"
   },
   {
     "fields": {
@@ -269,7 +285,8 @@
       "average_lifespan": "unknown",
       "average_height": "100"
     },
-    "pk": 17
+    "pk": 17,
+    "schema": "species"
   },
   {
     "fields": {
@@ -285,7 +302,8 @@
       "average_lifespan": "unknown",
       "average_height": "125"
     },
-    "pk": 18
+    "pk": 18,
+    "schema": "species"
   },
   {
     "fields": {
@@ -301,7 +319,8 @@
       "average_lifespan": "unknown",
       "average_height": "200"
     },
-    "pk": 19
+    "pk": 19,
+    "schema": "species"
   },
   {
     "fields": {
@@ -317,7 +336,8 @@
       "average_lifespan": "unknown",
       "average_height": "200"
     },
-    "pk": 20
+    "pk": 20,
+    "schema": "species"
   },
   {
     "fields": {
@@ -333,7 +353,8 @@
       "average_lifespan": "70",
       "average_height": "180"
     },
-    "pk": 21
+    "pk": 21,
+    "schema": "species"
   },
   {
     "fields": {
@@ -349,7 +370,8 @@
       "average_lifespan": "unknown",
       "average_height": "180"
     },
-    "pk": 22
+    "pk": 22,
+    "schema": "species"
   },
   {
     "fields": {
@@ -365,7 +387,8 @@
       "average_lifespan": "unknown",
       "average_height": "unknown"
     },
-    "pk": 23
+    "pk": 23,
+    "schema": "species"
   },
   {
     "fields": {
@@ -381,7 +404,8 @@
       "average_lifespan": "unknown",
       "average_height": "180"
     },
-    "pk": 24
+    "pk": 24,
+    "schema": "species"
   },
   {
     "fields": {
@@ -397,7 +421,8 @@
       "average_lifespan": "86",
       "average_height": "240"
     },
-    "pk": 25
+    "pk": 25,
+    "schema": "species"
   },
   {
     "fields": {
@@ -413,7 +438,8 @@
       "average_lifespan": "70",
       "average_height": "180"
     },
-    "pk": 26
+    "pk": 26,
+    "schema": "species"
   },
   {
     "fields": {
@@ -429,7 +455,8 @@
       "average_lifespan": "unknown",
       "average_height": "190"
     },
-    "pk": 27
+    "pk": 27,
+    "schema": "species"
   },
   {
     "fields": {
@@ -445,7 +472,8 @@
       "average_lifespan": "unknown",
       "average_height": "178"
     },
-    "pk": 28
+    "pk": 28,
+    "schema": "species"
   },
   {
     "fields": {
@@ -461,7 +489,8 @@
       "average_lifespan": "unknown",
       "average_height": "180"
     },
-    "pk": 29
+    "pk": 29,
+    "schema": "species"
   },
   {
     "fields": {
@@ -477,7 +506,8 @@
       "average_lifespan": "70",
       "average_height": "180"
     },
-    "pk": 30
+    "pk": 30,
+    "schema": "species"
   },
   {
     "fields": {
@@ -493,7 +523,8 @@
       "average_lifespan": "75",
       "average_height": "178"
     },
-    "pk": 31
+    "pk": 31,
+    "schema": "species"
   },
   {
     "fields": {
@@ -509,7 +540,8 @@
       "average_lifespan": "80",
       "average_height": "220"
     },
-    "pk": 32
+    "pk": 32,
+    "schema": "species"
   },
   {
     "fields": {
@@ -525,7 +557,8 @@
       "average_lifespan": "unknown",
       "average_height": "unknown"
     },
-    "pk": 33
+    "pk": 33,
+    "schema": "species"
   },
   {
     "fields": {
@@ -541,7 +574,8 @@
       "average_lifespan": "100",
       "average_height": "190"
     },
-    "pk": 34
+    "pk": 34,
+    "schema": "species"
   },
   {
     "fields": {
@@ -557,7 +591,8 @@
       "average_lifespan": "94",
       "average_height": "180"
     },
-    "pk": 35
+    "pk": 35,
+    "schema": "species"
   },
   {
     "fields": {
@@ -573,7 +608,8 @@
       "average_lifespan": "80",
       "average_height": "170"
     },
-    "pk": 36
+    "pk": 36,
+    "schema": "species"
   },
   {
     "fields": {
@@ -589,6 +625,7 @@
       "average_lifespan": "700",
       "average_height": "190"
     },
-    "pk": 37
+    "pk": 37,
+    "schema": "species"
   }
 ]

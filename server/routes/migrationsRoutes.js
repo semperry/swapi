@@ -1,4 +1,6 @@
 const express = require("express");
+const fs = require("fs");
+const path = require("path");
 const migrationRouter = express.Router();
 
 const verifyToken = require("../middleware/verifyToken");
@@ -15,6 +17,43 @@ const filmFixture = require("../fixtures/films.json");
 const peopleFixture = require("../fixtures/people.json");
 const planetFixture = require("../fixtures/planets.json");
 const speciesFixture = require("../fixtures/species.json");
+
+const migrateData = async (res) => {
+  const transportData = await fs.readFileSync(
+    path.join(__dirname + "/" + "../fixtures/transport.json"),
+    "utf8"
+  );
+
+  const allFixtures = await fs.readdirSync(
+    path.join(__dirname + "/" + "../fixtures"),
+    "utf8"
+  );
+  const formatFixtures = await allFixtures.map((file) => {
+    if (file !== "transport.json") {
+      return JSON.parse(
+        fs.readFileSync(path.join(`${__dirname}/../fixtures/${file}`), "utf8")
+      );
+    }
+  });
+
+  console.log(...formatFixtures);
+  // Send a report of what was updated and added
+  res.status(200).json(...formatFixtures, ...JSON.parse(transportData));
+};
+
+// go through tranport.json
+// go through the rest
+// query based on switch model
+// if exists, compare each obj to model
+// if not, add new
+
+migrationRouter.get("/migrate-all", verifyToken, (req, res) => {
+  if (req.user.roles.includes("superuser")) {
+    migrateData(res);
+  } else {
+    res.status(401).json({ message: "Not authorized" });
+  }
+});
 
 // Json migration
 migrationRouter.get("/species/migrate", verifyToken, (req, res) => {
