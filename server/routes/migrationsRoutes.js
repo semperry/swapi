@@ -24,6 +24,54 @@ const migrateData = async (res) => {
     "utf8"
   );
 
+  JSON.parse(transportData).forEach((transport) => {
+    TransportModel.findOne({ uid: `${transport.pk}` }, (err, result) => {
+      if (!result) {
+        const newTransport = new TransportModel(transport);
+        newTransport.uid = transport.pk;
+        newTransport.properties = transport.fields;
+        newTransport.properties.url = `${baseUrl}/transport/${transport.pk}`;
+
+        Object.keys(transport.fields).forEach((field) => {
+          if (Array.isArray(transport.fields[field])) {
+            newTransport.properties[field] = [];
+            transport.fields[field].forEach((item) => {
+              newTransport.properties[field].push(
+                `${baseUrl}/${
+                  field === "characters" ? "people" : field
+                }/${item}`
+              );
+            });
+          }
+        });
+        newTransport.save();
+      } else {
+        TransportModel.findOne(
+          { uid: `${transport.pk}` },
+          (err, transportToUpdate) => {
+            transportToUpdate.uid = transport.pk;
+            transportToUpdate.properties = transport.fields;
+            transportToUpdate.properties.url = `${baseUrl}/transport/${transport.pk}`;
+
+            Object.keys(transport.fields).forEach((field) => {
+              if (Array.isArray(transport.fields[field])) {
+                transport.properties[field] = [];
+                transport.fields[field].forEach((item) => {
+                  transport.properties[field].push(
+                    `${baseUrl}/${
+                      field === "characters" ? "people" : field
+                    }/${item}`
+                  );
+                });
+              }
+            });
+            transportToUpdate.save();
+          }
+        );
+      }
+    });
+  });
+
   const allFixtures = await fs.readdirSync(
     path.join(__dirname + "/" + "../fixtures"),
     "utf8"
@@ -36,7 +84,7 @@ const migrateData = async (res) => {
     }
   });
 
-  console.log(...formatFixtures);
+  // console.log(transportData);
   // Send a report of what was updated and added
   res.status(200).json(...formatFixtures, ...JSON.parse(transportData));
 };
