@@ -94,7 +94,7 @@ starshipRouter.get("/starships", searchQuery, (req, res) => {
 });
 
 // GET one
-starshipRouter.get("/starhsips/:id", (req, res) => {
+starshipRouter.get("/starships/:id", (req, res) => {
 	StarshipModel.findOne({ uid: `${req.params.id}` }, (err, starhsips) => {
 		if (err) {
 			res
