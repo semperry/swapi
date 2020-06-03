@@ -8,6 +8,10 @@ const verifyToken = require("../middleware/verifyToken");
 const TransportModel = require("../models/transportModel");
 const VehicleModel = require("../models/vehicleModel");
 const StarShipModel = require("../models/starshipModel");
+const PeopleModel = require("../models/peopleModel");
+const PlanetModel = require("../models/planetModel");
+const SpeciesModel = require("../models/speciesModel");
+const FilmModel = require("../models/filmModel");
 
 const baseUrl = require("../baseUrl");
 const tranportFixture = require("../fixtures/transport.json");
@@ -72,20 +76,70 @@ const migrateData = async (res) => {
     });
   });
 
+  // Migrate all that are not transport specific (films, people, planets, vehicles, starships, species)
   const allFixtures = await fs.readdirSync(
     path.join(__dirname + "/" + "../fixtures"),
     "utf8"
   );
+
   const formatFixtures = await allFixtures.map((file) => {
     if (file !== "transport.json") {
       return JSON.parse(
         fs.readFileSync(path.join(`${__dirname}/../fixtures/${file}`), "utf8")
       );
+    } else {
+      return;
     }
   });
 
-  // console.log(transportData);
+  [...formatFixtures].forEach((file) => {
+    if (file) {
+      file.forEach((record) => {
+        let currentModel;
+        switch (record.schema) {
+          case "vehicles":
+            currentModel = VehicleModel;
+            break;
+          case "starships":
+            currentModel = StarShipModel;
+            break;
+          case "people":
+            currentModel = PeopleModel;
+            break;
+          case "films":
+            currentModel = FilmModel;
+            break;
+          case "species":
+            currentModel = SpeciesModel;
+            break;
+          case "planets":
+            currentModel = PlanetModel;
+            break;
+        }
+
+        if (currentModel) {
+          currentModel
+            .findOne({ uid: `${record.pk}` }, (err, document) => {
+              if (!document) {
+                console.log("new");
+                // newDocument.save();
+              } else {
+                currentModel
+                  .findOne({ uid: `${record.pk}` }, (err, recordToUpdate) => {
+                    console.log("update");
+                    // recordToUpdate.save();
+                  })
+                  .catch((err) => console.log(err));
+              }
+            })
+            .catch((err) => console.log(err));
+        }
+      });
+    }
+  });
+
   // Send a report of what was updated and added
+
   res.status(200).json(...formatFixtures, ...JSON.parse(transportData));
 };
 
