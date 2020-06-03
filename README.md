@@ -32,7 +32,7 @@ Content-Type: application/json
 ],
 "rotation_period": "23",
 "surface_water": "1",
-"terrain": "Dessert",
+"terrain": "Desert",
 "url": "https://https://www.swapi.tech/api/planets/1/"
 }
 If your response looks slightly different don't panic. This is probably because more data has been added to swapi since we made this documentation.
@@ -448,7 +448,7 @@ Content-Type: application/json
 ],
 "rotation_period": "23",
 "surface_water": "1",
-"terrain": "Dessert",
+"terrain": "Desert",
 "url": "https://https://www.swapi.tech/api/planets/1/"
 }
 Attributes:
