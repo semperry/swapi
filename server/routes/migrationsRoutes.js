@@ -21,6 +21,7 @@ const filmFixture = require("../fixtures/films.json");
 const peopleFixture = require("../fixtures/people.json");
 const planetFixture = require("../fixtures/planets.json");
 const speciesFixture = require("../fixtures/species.json");
+const planetModel = require("../models/planetModel");
 
 const migrateData = async (res) => {
 	const transportData = await fs.readFileSync(
@@ -196,7 +197,7 @@ migrationRouter.get("/planets/migrate", verifyToken, (req, res) => {
 	if (req.user.roles.includes("superuser")) {
 		try {
 			planetFixture.forEach((planet) => {
-				const newPlanet = new Planets(planet);
+				const newPlanet = new planetModel(planet);
 				newPlanet.uid = planet.pk;
 				newPlanet.properties = planet.fields;
 				newPlanet.properties.url = `${baseUrl}/planets/${planet.pk}`;
@@ -229,7 +230,7 @@ migrationRouter.get("/people/migrate", verifyToken, (req, res) => {
 	if (req.user.roles.includes("superuser")) {
 		try {
 			peopleFixture.forEach((person) => {
-				const newPerson = new People(person);
+				const newPerson = new PeopleModel(person);
 				newPerson.uid = person.pk;
 				newPerson.properties = person.fields;
 				newPerson.properties.homeworld = `${baseUrl}/planets/${person.fields.homeworld}`;
@@ -249,7 +250,7 @@ migrationRouter.get("/people/migrate", verifyToken, (req, res) => {
 				});
 				newPerson.save();
 			});
-			res.status(200).end();
+			res.status(200).json({ message: "data migrated" });
 		} catch (err) {
 			res.status(500).json({ error: `${err}` });
 		}
@@ -257,7 +258,7 @@ migrationRouter.get("/people/migrate", verifyToken, (req, res) => {
 		res.status(401).json({ message: "Invalid permissions" });
 	}
 });
-
+// TODO: Send success message
 // Json migration
 migrationRouter.get("/films/migrate", verifyToken, (req, res) => {
 	if (req.user.roles.includes("superuser")) {
@@ -282,7 +283,7 @@ migrationRouter.get("/films/migrate", verifyToken, (req, res) => {
 				});
 				newFilm.save();
 			});
-			res.status(200).end();
+			res.status(200).json({ message: "data migrated" });
 		} catch (err) {
 			res.status(500).json({ error: `${err}` });
 		}
