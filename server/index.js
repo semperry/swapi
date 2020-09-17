@@ -29,26 +29,26 @@ const authRoutes = require("./routes/authRoutes");
 const migrationRoutes = require("./routes/migrationsRoutes");
 
 const MONGODB_URI =
-  process.env.NODE_ENV === "production"
-    ? process.env.MONGODB_URI
-    : "mongodb://localhost:27017/swapi";
+	process.env.NODE_ENV === "production"
+		? process.env.MONGODB_URI
+		: "mongodb://localhost:27017/swapi";
 
 mongoose.connect(
-  MONGODB_URI,
-  { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
-  (err) => {
-    if (!err) {
-      console.log("Connected to SWAPI DB");
-    } else {
-      console.log("Error connecting: ", err);
-    }
-  }
+	MONGODB_URI,
+	{ useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
+	(err) => {
+		if (!err) {
+			console.log("Connected to SWAPI DB");
+		} else {
+			console.log("Error connecting: ", err);
+		}
+	}
 );
 
 app.use(
-  cors({
-    credentials: true,
-  })
+	cors({
+		credentials: true,
+	})
 );
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -72,11 +72,11 @@ app.use("/data", migrationRoutes);
 app.use("/auth", authRoutes);
 
 app.get(/.*/, (req, res) => {
-  res.sendFile(path.join(__dirname, "/", "../build/index.html"));
+	res.sendFile(path.join(__dirname, "/", "../build/index.html"));
 });
 
 app.listen(port, () => {
-  console.log(`Server Running on port ${port}`);
+	console.log(`Server Running on port ${port}`);
 });
 
 // /api/species/?search=
