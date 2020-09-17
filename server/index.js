@@ -14,7 +14,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 // Rate Limiters
-const apiLimiter = require("./middleware/apiLimiter");
+const { apiLimiter } = require("./middleware/limiters");
 
 // Routes
 const filmRoutes = require("./routes/filmRoutes");

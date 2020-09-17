@@ -6,7 +6,7 @@ const verifyToken = require("../middleware/verifyToken");
 const userModel = require("../models/authModel");
 const authRouter = express.Router();
 
-const authLimiter = require("../middleware/authLimiter");
+const { authLimiter } = require("../middleware/limiters");
 
 // Post register
 authRouter.post("/register", authLimiter, verifyToken, (req, res) => {
