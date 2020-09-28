@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const vehicleRouter = express.Router();
 
+const { checkCache, setCache } = require("../middleware/cache");
 const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const VehicleModel = require("../models/vehicleModel");
@@ -94,16 +95,18 @@ vehicleRouter.get("/vehicles", searchQuery, (req, res) => {
 });
 
 // GET one
-vehicleRouter.get("/vehicles/:id", (req, res) => {
+vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {
 	VehicleModel.findOne({ uid: req.params.id }, (err, vehicles) => {
 		if (err) {
 			res
 				.status(400)
 				.json({ message: "Could not GET vehicles", errors: `${err}` });
 		} else if (vehicles) {
+			setCache(req, vehicles.toObject());
+
 			res.status(200).json({ message: "ok", result: vehicles });
 		} else {
-			res.status(404).end();
+			res.status(404).json({ message: "not found" });
 		}
 	});
 });

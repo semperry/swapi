@@ -1,6 +1,5 @@
 // TODO:
 // Contributions.md
-// Cache
 // Use virtualization for vehicles
 // Migrate to update all records, not append
 // Single migration for all json files
@@ -12,13 +11,13 @@ const cors = require("cors");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 
+// Rate Limiters
+const { apiLimiter } = require("./middleware/limiters");
+
 const dbConfig = require("./app/dbConfig");
 
 const app = express();
 const port = process.env.PORT;
-
-// Rate Limiters
-const { apiLimiter } = require("./middleware/limiters");
 
 // Routes
 const filmRoutes = require("./routes/filmRoutes");

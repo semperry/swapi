@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const starshipRouter = express.Router();
 
+const { checkCache, setCache } = require("../middleware/cache");
 const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const StarshipModel = require("../models/starshipModel");
@@ -94,16 +95,18 @@ starshipRouter.get("/starships", searchQuery, (req, res) => {
 });
 
 // GET one
-starshipRouter.get("/starships/:id", (req, res) => {
+starshipRouter.get("/starships/:id", checkCache, (req, res) => {
 	StarshipModel.findOne({ uid: `${req.params.id}` }, (err, starhsips) => {
 		if (err) {
 			res
 				.status(400)
 				.json({ message: "Could not GET starhsips", errors: `${err}` });
 		} else if (starhsips) {
+			setCache(req, starhsips.toObject());
+
 			res.status(200).json({ message: "ok", result: starhsips });
 		} else {
-			res.status(404).end();
+			res.status(404).json({ message: "not found" });
 		}
 	});
 });

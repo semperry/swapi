@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const peopleRouter = express.Router();
 
+const { checkCache, setCache } = require("../middleware/cache");
 const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const People = require("../models/peopleModel");
@@ -79,16 +80,18 @@ peopleRouter.get("/people", searchQuery, async (req, res) => {
 });
 
 // GET one
-peopleRouter.get("/people/:id", (req, res) => {
+peopleRouter.get("/people/:id", checkCache, (req, res) => {
 	People.findOne({ uid: req.params.id }, (err, person) => {
 		if (err) {
 			res
 				.status(400)
 				.json({ message: "Could not GET person", errors: `${err}` });
 		} else if (person) {
+			setCache(req, person.toObject());
+
 			res.status(200).json({ message: "ok", result: person });
 		} else {
-			res.status(404).end();
+			res.status(404).json({ message: "not found" });
 		}
 	});
 });
