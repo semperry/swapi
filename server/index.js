@@ -30,6 +30,7 @@ const vehicleRoutes = require("./routes/vehicleRoutes");
 const rootRoutes = require("./routes/rootRoutes");
 const authRoutes = require("./routes/authRoutes");
 const migrationRoutes = require("./routes/migrationsRoutes");
+const countRoutes = require("./routes/getCounts");
 
 dbConfig();
 
@@ -58,6 +59,7 @@ app.use("/api", [
 ]);
 app.use("/data", migrationRoutes);
 app.use("/auth", authRoutes);
+app.use("/count", countRoutes);
 
 app.get(/.*/, (req, res) => {
 	res.sendFile(path.join(__dirname, "/", "../build/index.html"));

@@ -18,7 +18,7 @@ class SwapiCache {
 			const result = { ...this.cache[`${routePath}:${id}`] };
 			delete result.time;
 
-			return res.status(200).json({ message: "ok", result, cached: true });
+			return res.status(200).json({ message: "ok", result });
 		} else {
 			next();
 		}
