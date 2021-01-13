@@ -1,13 +1,9 @@
-require("dotenv").config();
 const express = require("express");
 const peopleRouter = express.Router();
 
 const { checkCache, setCache } = require("../middleware/cache");
-const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const People = require("../models/peopleModel");
-
-const baseUrl = require("../baseUrl");
 
 // Search
 const searchQuery = (req, res, next) => {
@@ -92,82 +88,6 @@ peopleRouter.get("/people/:id", checkCache, (req, res) => {
 			res.status(200).json({ message: "ok", result: person });
 		} else {
 			res.status(404).json({ message: "not found" });
-		}
-	});
-});
-
-// POST
-peopleRouter.post("/people", verifyToken, (req, res) => {
-	const newPerson = new People(req.body);
-	newPerson.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
-
-	newPerson
-		.save()
-		.then((person) => {
-			res.status(200).json({ message: "Person Added", result: person });
-		})
-		.catch((err) => {
-			res
-				.status(400)
-				.json({ message: "Could not POST person", errors: `${err}` });
-		});
-});
-
-// PUT
-peopleRouter.put("/people/update/:id", verifyToken, (req, res) => {
-	People.findOne({ uid: req.params.id }, (err, person) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not PUT person", errors: `${err}` });
-		} else if (person) {
-			if (typeof req.body.properties === "undefined") {
-				try {
-					Object.keys(person.toObject()).forEach((attribute) => {
-						person[attribute] = req.body[attribute] || person[attribute];
-					});
-				} catch (err) {
-					console.log(err);
-				}
-			} else {
-				try {
-					Object.keys(person.toObject()).forEach((attribute) => {
-						if (attribute === "properties") {
-							Object.keys(person.properties.toObject()).forEach((property) => {
-								person.properties[property] =
-									req.body.properties[property] || person.properties[property];
-							});
-						} else {
-							person[attribute] = req.body[attribute] || person[attribute];
-						}
-					});
-				} catch (err) {
-					console.log(err);
-				}
-			}
-
-			person.properties.edited = Date.now();
-
-			person.save().then((person) => {
-				res.status(200).json({ message: "Person updatad", result: person });
-			});
-		} else {
-			res.status(404).end();
-		}
-	});
-});
-
-// DELETE
-peopleRouter.delete("/people/delete/:id", verifyToken, (req, res) => {
-	People.findOneAndDelete({ uid: req.params.id }, (err, result) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not DELETE person", errors: `${err}` });
-		} else if (result) {
-			res.status(200).json({ message: "Deleted" });
-		} else {
-			res.status(404).end();
 		}
 	});
 });

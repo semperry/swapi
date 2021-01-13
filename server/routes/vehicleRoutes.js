@@ -1,13 +1,9 @@
-require("dotenv").config();
 const express = require("express");
 const vehicleRouter = express.Router();
 
 const { checkCache, setCache } = require("../middleware/cache");
-const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const VehicleModel = require("../models/vehicleModel");
-
-const baseUrl = require("../baseUrl");
 
 // Search
 const searchQuery = (req, res, next) => {
@@ -107,86 +103,6 @@ vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {
 			res.status(200).json({ message: "ok", result: vehicles });
 		} else {
 			res.status(404).json({ message: "not found" });
-		}
-	});
-});
-
-// POST
-vehicleRouter.post("/vehicles", verifyToken, (req, res) => {
-	const newVehicle = new VehicleModel(req.body);
-	newVehicle.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
-
-	newVehicle
-		.save()
-		.then((vehicles) => {
-			res.status(200).json({ message: "Vehicle Added", result: vehicles });
-		})
-		.catch((err) => {
-			res
-				.status(400)
-				.json({ message: "Could not POST vehicles", errors: `${err}` });
-		});
-});
-
-// PUT
-vehicleRouter.put("/vehicles/update/:id", verifyToken, (req, res) => {
-	VehicleModel.findOne({ uid: req.params.id }, (err, vehicles) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not PUT vehicles", errors: `${err}` });
-		} else if (vehicles) {
-			if (typeof req.body.properties === "undefined") {
-				try {
-					Object.keys(vehicles.toObject()).forEach((attribute) => {
-						vehicles[attribute] = req.body[attribute] || vehicles[attribute];
-					});
-				} catch (err) {
-					console.log(err);
-				}
-			} else {
-				try {
-					Object.keys(vehicles.toObject()).forEach((attribute) => {
-						if (attribute === "properties") {
-							Object.keys(vehicles.properties.toObject()).forEach(
-								(property) => {
-									vehicles.properties[property] =
-										req.body.properties[property] ||
-										vehicles.properties[property];
-								}
-							);
-						} else {
-							vehicles[attribute] = req.body[attribute] || vehicles[attribute];
-						}
-					});
-				} catch (err) {
-					console.log(err);
-					res.status(400).json({ message: "Error", errors: `${err}` });
-				}
-			}
-
-			vehicles.properties.edited = Date.now();
-
-			vehicles.save().then((vehicle) => {
-				res.status(200).json({ message: "Vehicle updatad", result: vehicle });
-			});
-		} else {
-			res.status(404).end();
-		}
-	});
-});
-
-// DELETE
-vehicleRouter.delete("/vehicles/delete/:id", verifyToken, (req, res) => {
-	VehicleModel.findOneAndDelete({ uid: req.params.id }, (err, result) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not DELETE vehicles", errors: `${err}` });
-		} else if (result) {
-			res.status(200).json({ message: "Deleted" });
-		} else {
-			res.status(404).end();
 		}
 	});
 });

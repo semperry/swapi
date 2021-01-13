@@ -1,12 +1,9 @@
-require("dotenv").config();
 const express = require("express");
 const planetRouter = express.Router();
 
 const { checkCache, setCache } = require("../middleware/cache");
-const verifyToken = require("../middleware/verifyToken");
 const Paginate = require("../middleware/pagination");
 const Planets = require("../models/planetModel");
-const baseUrl = require("../baseUrl");
 
 const searchQuery = (req, res, next) => {
 	if (!req.query.search) {
@@ -90,83 +87,6 @@ planetRouter.get("/planets/:id", checkCache, (req, res) => {
 			res.status(200).json({ message: "ok", result: planet });
 		} else {
 			res.status(404).json({ message: "not found" });
-		}
-	});
-});
-
-// POST
-planetRouter.post("/planets", verifyToken, (req, res) => {
-	const newPlanet = new Planets(req.body);
-	newPlanet.properties.url = `${baseUrl}/${req.route.path}/${req.body.uid}`;
-
-	newPlanet
-		.save()
-		.then((planet) => {
-			res.status(200).json({ message: "Planet Added", result: planet });
-		})
-		.catch((err) => {
-			res
-				.status(400)
-				.json({ message: "Could not POST planet", errors: `${err}` });
-		});
-});
-
-// PUT
-planetRouter.put("/planets/update/:id", verifyToken, (req, res) => {
-	Planets.findOne({ uid: req.params.id }, (err, planet) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not PUT planet", errors: `${err}` });
-		} else if (planet) {
-			if (typeof req.body.properties === "undefined") {
-				try {
-					Object.keys(planet.toObject()).forEach((attribute) => {
-						planet[attribute] = req.body[attribute] || planet[attribute];
-					});
-				} catch (err) {
-					console.log(err);
-				}
-			} else {
-				try {
-					Object.keys(planet.toObject()).forEach((attribute) => {
-						if (attribute === "properties") {
-							Object.keys(planet.properties.toObject()).forEach((property) => {
-								planet.properties[property] =
-									req.body.properties[property] || planet.properties[property];
-							});
-						} else {
-							planet[attribute] = req.body[attribute] || planet[attribute];
-						}
-					});
-				} catch (err) {
-					console.log(err);
-					res.status(400).json({ message: "Error", errors: `${err}` });
-				}
-			}
-
-			planet.properties.edited = Date.now();
-
-			planet.save().then((planet) => {
-				res.status(200).json({ message: "Planet updatad", result: planet });
-			});
-		} else {
-			res.status(404).end();
-		}
-	});
-});
-
-// DELETE
-planetRouter.delete("/planets/delete/:id", verifyToken, (req, res) => {
-	Planets.findOneAndDelete({ uid: req.params.id }, (err, result) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not DELETE planet", errors: `${err}` });
-		} else if (result) {
-			res.status(200).json({ message: "Deleted" });
-		} else {
-			res.status(404).end();
 		}
 	});
 });

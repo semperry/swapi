@@ -1,7 +1,6 @@
 // TODO:
 // Counts to global state
 import React, { useState, useEffect } from "react";
-import { Fragment } from "react";
 
 function About() {
 	const [counts, setCounts] = useState({});

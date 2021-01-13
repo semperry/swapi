@@ -2,7 +2,7 @@ const baseUrl = require("../baseUrl");
 
 class Pagination {
 	constructor(req, page, limit, total) {
-		this.state = {
+		this.meta = {
 			req,
 			page,
 			limit,
@@ -12,7 +12,7 @@ class Pagination {
 	}
 
 	paginate = () => {
-		const { req, page, limit, total } = this.state;
+		const { req, page, limit, total } = this.meta;
 		this.query = {
 			skip: limit * (page - 1),
 			limit,

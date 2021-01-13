@@ -1,8 +1,6 @@
-const { count } = require("../models/filmModel");
-
 const countRouter = require("express").Router();
 
-const [People, Planets, Films, Species, Vehicles, Startships] = [
+const [People, Planets, Films, Species, Vehicles, Starships] = [
 	require("../models/peopleModel"),
 	require("../models/planetModel"),
 	require("../models/filmModel"),
@@ -10,7 +8,7 @@ const [People, Planets, Films, Species, Vehicles, Startships] = [
 	require("../models/vehicleModel"),
 	require("../models/starshipModel"),
 ];
-const models = [People, Planets, Films, Species, Vehicles, Startships];
+const models = [People, Planets, Films, Species, Vehicles, Starships];
 
 // Get counts
 countRouter.get("/all", (req, res) => {
