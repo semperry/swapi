@@ -1,5 +1,8 @@
 // TODO:
+// Cors policy
+// Refactor
 // Contributions.md
+// Squash Commits
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
