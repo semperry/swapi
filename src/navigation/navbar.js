@@ -1,5 +1,4 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
@@ -23,4 +22,4 @@ function NavBar() {
 	);
 }
 
-export default withRouter(NavBar);
+export default NavBar;
