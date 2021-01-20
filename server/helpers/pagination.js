@@ -1,4 +1,4 @@
-const baseUrl = require("../baseUrl");
+const baseUrl = require("../app/baseUrl");
 
 class Pagination {
 	constructor(req, page, limit, total) {

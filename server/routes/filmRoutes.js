@@ -1,7 +1,7 @@
 const express = require("express");
 const filmRouter = express.Router();
 
-const { checkCache, setCache } = require("../middleware/cache");
+const { checkCache, setCache } = require("../utils/cache");
 const Films = require("../models/filmModel");
 
 // Search

@@ -1,8 +1,8 @@
 const express = require("express");
 const planetRouter = express.Router();
 
-const { checkCache, setCache } = require("../middleware/cache");
-const Paginate = require("../middleware/pagination");
+const { checkCache, setCache } = require("../utils/cache");
+const Paginate = require("../helpers/pagination");
 const Planets = require("../models/planetModel");
 
 const searchQuery = (req, res, next) => {
