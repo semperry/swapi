@@ -9,8 +9,9 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
-// Rate Limiters
+// Middleware
 const { apiLimiter } = require("./middleware/limiters");
+const setEncoding = require("./middleware/encodingFormat");
 
 const dbConfig = require("./app/dbConfig");
 
@@ -34,8 +35,9 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "..", "build")));
 
 // Use Routes
-app.use("/api", apiLimiter);
 app.use("/api", [
+	apiLimiter,
+	setEncoding,
 	rootRoutes,
 	filmRoutes,
 	peopleRoutes,
