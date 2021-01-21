@@ -69,6 +69,18 @@ SWAPI provides two encodings for you to render the data with:
 
 JSON is the standard data format provided by SWAPI by default.
 
+###Wookiee
+
+Wookiee is for our tall hairy allies who speak Wookiee, this encoding
+is identical to JSON except with wookiee translations.
+
+Using the wookiee renderer is easy, just append
+
+> ?format=wookiee
+> to your urls:
+
+> https://www.swapi.tech/api/planets/1/?format=wookiee
+
 #Resources
 
 ###Root

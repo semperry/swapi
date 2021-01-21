@@ -299,12 +299,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					<a name="wookiee"></a>
 				</p>
 
-				<h3>
-					Wookiee -{" "}
-					<strong>
-						<b>NOT YET IMPLEMENTED</b>
-					</strong>
-				</h3>
+				<h3>Wookiee</h3>
 
 				<p>
 					Wookiee is for our tall hairy allies who speak Wookiee, this encoding
