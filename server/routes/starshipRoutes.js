@@ -2,6 +2,8 @@ const express = require("express");
 const starshipRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
+const withWookie = require("../utils/wookieeEncoding");
+const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
 const StarshipModel = require("../models/starshipModel");
 
@@ -30,7 +32,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find starship" });
 				} else if (results) {
-					res.status(200).json({ message: "ok", results });
+					withWookie(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -66,27 +68,33 @@ starshipRouter.get("/starships", searchQuery, (req, res) => {
 		);
 		const pager = starshipPagination.paginate();
 
-		StarshipModel.find({}, {}, starshipPagination.query, (err, results) => {
-			if (err) {
-				res
-					.status(400)
-					.json({ message: "Could not GET starhsips", errors: `${err}` });
-			} else if (results) {
-				res.status(200).json({
-					message: "ok",
-					...pager,
-					results: results.map((starship) => {
-						return {
-							uid: starship.uid,
-							name: starship.properties.name,
-							url: starship.properties.url,
-						};
-					}),
-				});
-			} else {
-				res.status(404).end();
+		StarshipModel.find(
+			{},
+			{},
+			{ ...starshipPagination.query, sort: { _id: 1 } },
+			(err, results) => {
+				if (err) {
+					res
+						.status(400)
+						.json({ message: "Could not GET starhsips", errors: `${err}` });
+				} else if (results) {
+					withWookie(req, res, {
+						...pager,
+						results: [
+							...results.map((starship) => {
+								return {
+									uid: starship.uid,
+									name: starship.properties.name,
+									url: starship.properties.url,
+								};
+							}),
+						],
+					});
+				} else {
+					res.status(404).end();
+				}
 			}
-		});
+		);
 	});
 });
 
@@ -98,9 +106,11 @@ starshipRouter.get("/starships/:id", checkCache, (req, res) => {
 				.status(400)
 				.json({ message: "Could not GET starhsips", errors: `${err}` });
 		} else if (starhsips) {
-			setCache(req, starhsips.toObject());
+			if (!isWookiee(req)) {
+				setCache(req, starhsips.toObject());
+			}
 
-			res.status(200).json({ message: "ok", result: starhsips });
+			withWookie(req, res, starhsips);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}

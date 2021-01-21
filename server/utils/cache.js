@@ -1,5 +1,6 @@
 // TODO:
 // Set Cache for all routes (result should be results, or do we streamline?)
+const isWookiee = require("./isWookiee");
 
 class SwapiCache {
 	constructor() {
@@ -8,6 +9,9 @@ class SwapiCache {
 	}
 
 	checkCache = (req, res, next) => {
+		if (isWookiee) {
+			return next();
+		}
 		const routePath = req.route.path.split("/")[1];
 		const id = req.params.id;
 

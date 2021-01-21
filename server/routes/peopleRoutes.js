@@ -2,6 +2,8 @@ const express = require("express");
 const peopleRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
+const withWookie = require("../utils/wookieeEncoding");
+const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
 const People = require("../models/peopleModel");
 
@@ -20,7 +22,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find film" });
 				} else if (results) {
-					res.status(200).json({ message: "ok", results });
+					withWookie(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -51,27 +53,33 @@ peopleRouter.get("/people", searchQuery, async (req, res) => {
 		const peoplePagination = new Paginate(req, pageNumber, resultLimit, total);
 		const pager = peoplePagination.paginate();
 
-		People.find({}, {}, peoplePagination.query, (err, results) => {
-			if (err) {
-				res
-					.status(400)
-					.json({ message: "Could not GET people", errors: `${err}` });
-			} else if (results) {
-				res.status(200).json({
-					message: "ok",
-					...pager,
-					results: results.map((person) => {
-						return {
-							uid: person.uid,
-							name: person.properties.name,
-							url: person.properties.url,
-						};
-					}),
-				});
-			} else {
-				res.status(404).end();
+		People.find(
+			{},
+			{},
+			{ ...peoplePagination.query, sort: { _id: 1 } },
+			(err, results) => {
+				if (err) {
+					res
+						.status(400)
+						.json({ message: "Could not GET people", errors: `${err}` });
+				} else if (results) {
+					withWookie(req, res, {
+						...pager,
+						results: [
+							...results.map((person) => {
+								return {
+									uid: person.uid,
+									name: person.properties.name,
+									url: person.properties.url,
+								};
+							}),
+						],
+					});
+				} else {
+					res.status(404).json({ message: "Not Found" });
+				}
 			}
-		});
+		);
 	});
 });
 
@@ -83,9 +91,11 @@ peopleRouter.get("/people/:id", checkCache, (req, res) => {
 				.status(400)
 				.json({ message: "Could not GET person", errors: `${err}` });
 		} else if (person) {
-			setCache(req, person.toObject());
+			if (!isWookiee(req)) {
+				setCache(req, person.toObject());
+			}
 
-			res.status(200).json({ message: "ok", result: person });
+			withWookie(req, res, person, false);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}

@@ -2,6 +2,8 @@ const express = require("express");
 const filmRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
+const withWookie = require("../utils/wookieeEncoding");
+const isWookiee = require("../utils/isWookiee");
 const Films = require("../models/filmModel");
 
 // Search
@@ -19,7 +21,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find film" });
 				} else if (results) {
-					res.status(200).json({ message: "ok", results });
+					withWookie(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -36,7 +38,7 @@ filmRouter.get("/films", searchQuery, (req, res) => {
 				.status(400)
 				.json({ message: "Could not GET Films", errors: `${err}` });
 		} else if (films) {
-			res.status(200).json({ message: "ok", results: films });
+			withWookie(req, res, films);
 		} else {
 			res.status(404).end();
 		}
@@ -49,9 +51,11 @@ filmRouter.get("/films/:id", checkCache, (req, res) => {
 		if (err) {
 			res.status(400).json({ message: "Could not GET film", errors: `${err}` });
 		} else if (film) {
-			setCache(req, film.toObject());
+			if (!isWookiee(req)) {
+				setCache(req, film.toObject());
+			}
 
-			res.status(200).json({ message: "ok", result: film });
+			withWookie(req, res, film, false);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}

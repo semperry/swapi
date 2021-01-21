@@ -2,6 +2,8 @@ const express = require("express");
 const speciesRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
+const withWookie = require("../utils/wookieeEncoding");
+const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
 const SpeciesModel = require("../models/speciesModel");
 
@@ -20,7 +22,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find specie" });
 				} else if (results) {
-					res.status(200).json({ message: "ok", results });
+					withWookie(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -51,27 +53,33 @@ speciesRouter.get("/species", searchQuery, (req, res) => {
 		const speciesPagination = new Paginate(req, pageNumber, resultLimit, total);
 		const pager = speciesPagination.paginate();
 
-		SpeciesModel.find({}, {}, speciesPagination.query, (err, results) => {
-			if (err) {
-				res
-					.status(400)
-					.json({ message: "Could not GET species", errors: `${err}` });
-			} else if (results) {
-				res.status(200).json({
-					message: "ok",
-					...pager,
-					results: results.map((specimen) => {
-						return {
-							uid: specimen.uid,
-							name: specimen.properties.name,
-							url: specimen.properties.url,
-						};
-					}),
-				});
-			} else {
-				res.status(404).end();
+		SpeciesModel.find(
+			{},
+			{},
+			{ ...speciesPagination.query, sort: { _id: 1 } },
+			(err, results) => {
+				if (err) {
+					res
+						.status(400)
+						.json({ message: "Could not GET species", errors: `${err}` });
+				} else if (results) {
+					withWookie(req, res, {
+						...pager,
+						results: [
+							...results.map((specimen) => {
+								return {
+									uid: specimen.uid,
+									name: specimen.properties.name,
+									url: specimen.properties.url,
+								};
+							}),
+						],
+					});
+				} else {
+					res.status(404).end();
+				}
 			}
-		});
+		);
 	});
 });
 
@@ -83,9 +91,11 @@ speciesRouter.get("/species/:id", checkCache, (req, res) => {
 				.status(400)
 				.json({ message: "Could not GET species", errors: `${err}` });
 		} else if (species) {
-			setCache(req, species.toObject());
+			if (!isWookiee(req)) {
+				setCache(req, species.toObject());
+			}
 
-			res.status(200).json({ message: "ok", result: species });
+			withWookie(req, res, species);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}

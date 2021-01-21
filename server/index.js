@@ -1,7 +1,9 @@
 // TODO:
-// Json encoding
+// Refactor Cache (with wookie data)
+// Simplify Search Query Middleware
+// Simplify pagination
 // Cors policy
-// Refactor
+// Refactor errythang
 // Contributions.md
 // Squash Commits
 require("dotenv").config();

@@ -3,6 +3,8 @@ const vehicleRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
 const Paginate = require("../helpers/pagination");
+const withWookie = require("../utils/wookieeEncoding");
+const isWookiee = require("../utils/isWookiee");
 const VehicleModel = require("../models/vehicleModel");
 
 // Search
@@ -30,7 +32,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find vehicle" });
 				} else if (results) {
-					res.status(200).json({ message: "ok", results });
+					withWookie(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -66,27 +68,33 @@ vehicleRouter.get("/vehicles", searchQuery, (req, res) => {
 		);
 		const pager = starshipPagination.paginate();
 
-		VehicleModel.find({}, {}, starshipPagination.query, (err, results) => {
-			if (err) {
-				res
-					.status(400)
-					.json({ message: "Could not GET vehicles", errors: `${err}` });
-			} else if (results) {
-				res.status(200).json({
-					message: "ok",
-					...pager,
-					results: results.map((vehicle) => {
-						return {
-							uid: vehicle.uid,
-							name: vehicle.properties.name,
-							url: vehicle.properties.url,
-						};
-					}),
-				});
-			} else {
-				res.status(404).end();
+		VehicleModel.find(
+			{},
+			{},
+			{ ...starshipPagination.query, sort: { _id: 1 } },
+			(err, results) => {
+				if (err) {
+					res
+						.status(400)
+						.json({ message: "Could not GET vehicles", errors: `${err}` });
+				} else if (results) {
+					withWookie(req, res, {
+						...pager,
+						results: [
+							...results.map((vehicle) => {
+								return {
+									uid: vehicle.uid,
+									name: vehicle.properties.name,
+									url: vehicle.properties.url,
+								};
+							}),
+						],
+					});
+				} else {
+					res.status(404).end();
+				}
 			}
-		});
+		);
 	});
 });
 
@@ -98,9 +106,11 @@ vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {
 				.status(400)
 				.json({ message: "Could not GET vehicles", errors: `${err}` });
 		} else if (vehicles) {
-			setCache(req, vehicles.toObject());
+			if (!isWookiee(req)) {
+				setCache(req, vehicles.toObject());
+			}
 
-			res.status(200).json({ message: "ok", result: vehicles });
+			withWookie(req, res, vehicles);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}
