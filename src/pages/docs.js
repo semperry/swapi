@@ -1407,9 +1407,7 @@ fetch("https://www.swapi.tech/api/planets/1")
 					<ul>
 						<li>
 							<a href="https://github.com/carriemathieu/sw_tour">sw_tour</a> by{" "}
-							<a href="https://github.com/carriemathieu/sw_tour">
-								Carrie Mathieu.
-							</a>{" "}
+							<a href="https://github.com/carriemathieu">Carrie Mathieu.</a>{" "}
 							First Official swapi.tech helper library. Thanks Carrie!
 						</li>
 					</ul>
