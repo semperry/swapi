@@ -193,8 +193,7 @@ function About() {
 					>
 						Ryan Curtis
 					</a>
-					, Full Stack Web Engineer and Instructor at Bottega Tech coding
-					school.
+					, Full Stack Web Engineer and development manager. school.
 				</p>
 
 				<h2>Original author?</h2>
