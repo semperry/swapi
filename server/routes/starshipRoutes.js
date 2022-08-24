@@ -9,18 +9,20 @@ const StarshipModel = require("../models/starshipModel");
 
 // Search
 const searchQuery = (req, res, next) => {
-	if (!req.query.search) {
+	const { name, model } = req.query;
+
+	if (!name && !model) {
 		next();
 	} else {
 		StarshipModel.find(
 			{
 				$or: [
 					{
-						"properties.name": { $regex: `${req.query.search}`, $options: "i" },
+						"properties.name": { $regex: `${name}`, $options: "i" },
 					},
 					{
 						"properties.model": {
-							$regex: `${req.query.search}`,
+							$regex: `${model}`,
 							$options: "i",
 						},
 					},

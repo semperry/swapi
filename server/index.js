@@ -17,9 +17,9 @@ const cors = require("cors");
 const path = require("path");
 
 // Middleware
-const connectDb = require("./middleware/connectDb");
 const { apiLimiter, apiSlowDown } = require("./middleware/limiters");
 const setEncoding = require("./middleware/encodingFormat");
+const dbConfig = require("./app/dbConfig");
 
 const allowedHeaders = ["GET"];
 
@@ -36,6 +36,7 @@ const vehicleRoutes = require("./routes/vehicleRoutes");
 const rootRoutes = require("./routes/rootRoutes");
 const countRoutes = require("./routes/getCounts");
 
+dbConfig();
 app.set("trust proxy", 1);
 app.use(
 	cors({
@@ -57,7 +58,6 @@ app.use("/api", [
 	apiLimiter,
 	apiSlowDown,
 	setEncoding,
-	connectDb,
 	rootRoutes,
 	filmRoutes,
 	peopleRoutes,
@@ -66,7 +66,7 @@ app.use("/api", [
 	starshipRoutes,
 	vehicleRoutes,
 ]);
-app.use("/count", connectDb, countRoutes);
+app.use("/count", countRoutes);
 
 // Catch all
 app.get(/.*/, (req, res) => {

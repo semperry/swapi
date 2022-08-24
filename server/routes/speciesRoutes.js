@@ -9,12 +9,12 @@ const SpeciesModel = require("../models/speciesModel");
 
 // Search
 const searchQuery = (req, res, next) => {
-	if (!req.query.search) {
+	if (!req.query.name) {
 		next();
 	} else {
 		SpeciesModel.find(
 			{
-				"properties.name": { $regex: `${req.query.search}`, $options: "i" },
+				"properties.name": { $regex: `${req.query.name}`, $options: "i" },
 			},
 			(err, results) => {
 				if (err) {

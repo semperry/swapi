@@ -8,12 +8,12 @@ const Paginate = require("../helpers/pagination");
 const Planets = require("../models/planetModel");
 
 const searchQuery = (req, res, next) => {
-	if (!req.query.search) {
+	if (!req.query.name) {
 		next();
 	} else {
 		Planets.find(
 			{
-				"properties.name": { $regex: `${req.query.search}`, $options: "i" },
+				"properties.name": { $regex: `${req.query.name}`, $options: "i" },
 			},
 			(err, results) => {
 				if (err) {

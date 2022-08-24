@@ -8,12 +8,12 @@ const Films = require("../models/filmModel");
 
 // Search
 const searchQuery = (req, res, next) => {
-	if (!req.query.search) {
+	if (!req.query.title) {
 		next();
 	} else {
 		Films.find(
 			{
-				"properties.title": { $regex: `${req.query.search}`, $options: "i" },
+				"properties.title": { $regex: `${req.query.title}`, $options: "i" },
 			},
 			(err, results) => {
 				if (err) {

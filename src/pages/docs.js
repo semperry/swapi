@@ -78,7 +78,7 @@ function Docs() {
 				<hr />
 
 				<p>
-					<a name="intro"></a>
+					<a href="#intro" name="intro"></a>
 				</p>
 
 				<h3>Introduction</h3>
@@ -93,7 +93,7 @@ function Docs() {
 				</p>
 
 				<p>
-					<a name="start"></a>
+					<a href="#start" name="start"></a>
 				</p>
 
 				<h3>Getting started</h3>
@@ -190,7 +190,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				</p>
 
 				<p>
-					<a name="base"></a>
+					<a href="#base" name="base"></a>
 				</p>
 
 				<h3>Base URL</h3>
@@ -213,7 +213,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				</p>
 
 				<p>
-					<a name="rate"></a>
+					<a href="#rate" name="rate"></a>
 				</p>
 
 				<h3>Rate limiting</h3>
@@ -228,7 +228,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				</p>
 
 				<p>
-					<a name="rate-slowing"></a>
+					<a href="#rate-slowing" name="rate-slowing"></a>
 				</p>
 
 				<h3>Rate slowing</h3>
@@ -241,7 +241,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				</p>
 
 				<p>
-					<a name="auth"></a>
+					<a href="#auth" name="auth"></a>
 				</p>
 
 				<h3>Authentication</h3>
@@ -263,7 +263,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				</p>
 
 				<p>
-					<a name="schema"></a>
+					<a href="#schema" name="schema"></a>
 				</p>
 
 				{/* <h3>JSON Schema</h3>
@@ -277,7 +277,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
         </p> */}
 
 				<p>
-					<a name="search"></a>
+					<a href="#search" name="search"></a>
 				</p>
 
 				<h3>Searching</h3>
@@ -304,7 +304,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				<p>SWAPI provides two encodings for you to render the data with:</p>
 
 				<p>
-					<a name="json"></a>
+					<a href="#json" name="json"></a>
 				</p>
 
 				<h3>JSON</h3>
@@ -312,7 +312,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				<p>JSON is the standard data format provided by SWAPI by default.</p>
 
 				<p>
-					<a name="wookiee"></a>
+					<a href="#wookiee" name="wookiee"></a>
 				</p>
 
 				<h3>Wookiee</h3>
@@ -337,7 +337,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				<hr />
 
 				<p>
-					<a name="root"></a>
+					<a href="#root" name="root"></a>
 				</p>
 
 				<h3>Root</h3>
@@ -414,7 +414,7 @@ fetch("https://www.swapi.tech/api")
 				<hr />
 
 				<p>
-					<a name="people"></a>
+					<a href="#people" name="people"></a>
 				</p>
 
 				<h3>People</h3>
@@ -580,7 +580,7 @@ fetch("https://www.swapi.tech/api/people/1")
 				<hr />
 
 				<p>
-					<a name="films"></a>
+					<a href="#films" name="films"></a>
 				</p>
 
 				<h3>Films</h3>
@@ -727,7 +727,7 @@ fetch("https://www.swapi.tech/api/films/1")
 				<hr />
 
 				<p>
-					<a name="starships"></a>
+					<a href="#starships" name="starships"></a>
 				</p>
 
 				<h3>Starships</h3>
@@ -913,7 +913,7 @@ fetch("https://www.swapi.tech/api/starships/9")
 				<hr />
 
 				<p>
-					<a name="vehicles"></a>
+					<a href="#vehicles" name="vehicles"></a>
 				</p>
 
 				<h3>Vehicles</h3>
@@ -1082,7 +1082,7 @@ fetch("https://www.swapi.tech/api/vehicles/4")
 				<hr />
 
 				<p>
-					<a name="species"></a>
+					<a href="#species" name="species"></a>
 				</p>
 
 				<h3>Species</h3>
@@ -1241,7 +1241,7 @@ fetch("https://www.swapi.tech/api/species/3")
 				<hr />
 
 				<p>
-					<a name="planets"></a>
+					<a href="#planets" name="planets"></a>
 				</p>
 
 				<h3>Planets</h3>
