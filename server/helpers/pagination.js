@@ -22,11 +22,11 @@ class Pagination {
 			previous:
 				page === 1
 					? null
-					: `${req.swapi_url}${req.route.path}?page=${page - 1}&limit=${limit}`,
+					: `${req.swapi_url}/api${req.route.path}?page=${page - 1}&limit=${limit}`,
 			next:
 				page >= Math.ceil(total / limit)
 					? null
-					: `${req.swapi_url}${req.route.path}?page=${page + 1}&limit=${limit}`,
+					: `${req.swapi_url}/api${req.route.path}?page=${page + 1}&limit=${limit}`,
 		};
 	};
 }
