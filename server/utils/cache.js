@@ -8,7 +8,7 @@ class SwapiCache {
 		this.window = 10 * 60 * 1000;
 	}
 
-	checkCache = (req, res, next) => {
+	checkCache = (req, res, next) => { 
 		if (isWookiee) {
 			return next();
 		}
@@ -35,7 +35,7 @@ class SwapiCache {
 		this.cache[`${routePath}:${id}`] = {
 			...data,
 			time: Date.now(),
-		};
+		}; 
 	};
 }
 

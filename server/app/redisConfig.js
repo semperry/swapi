@@ -1,10 +1,10 @@
-const redis = require("redis");
+// const redis = require("redis");
 
-const redis_port = process.env.REDIS_URL || 6379;
+// const redis_port = process.env.REDIS_URL || 6379;
 // Place port back into position
-const redis_client = redis.createClient(redis_port);
+// const redis_client = redis.createClient(redis_port);
 
-module.exports = redis_client;
+// module.exports = redis_client;
 
 // app.use("/getKeys", (req, res) => {
 // 	redisClient.keys("*", (err, data) => {
