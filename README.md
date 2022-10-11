@@ -47,6 +47,10 @@ The Base URL for swapi is:
 
 https://www.swapi.tech/api/
 
+OR
+
+https://swapi.tech/api/
+
 _The documentation below assumes you are prepending the Base URL to the endpoints in order to make requests._
 
 ### Rate limiting

@@ -31,6 +31,7 @@ function Docs() {
 						<a href="#search">Searching</a>
 					</li>
 				</ul>
+				
 				<h5>Encodings</h5>
 				<ul className="list-group">
 					<li className="list-group-item">
@@ -74,15 +75,9 @@ function Docs() {
 
 			<div className="documentation-body">
 				<h1>Documentation</h1>
-
 				<hr />
 
-				<p>
-					<a href="#intro" name="intro"></a>
-				</p>
-
-				<h3>Introduction</h3>
-
+				<h3 id="intro">Introduction</h3>
 				<p>
 					Welcome to the swapi, the Star Wars API! This documentation should
 					help you familiarise yourself with the resources available and how to
@@ -92,12 +87,7 @@ function Docs() {
 					your problems should be solved just by reading through it.
 				</p>
 
-				<p>
-					<a href="#start" name="start"></a>
-				</p>
-
-				<h3>Getting started</h3>
-
+				<h3 id="start">Getting started</h3>
 				<p>Let's make our first API request to the Star Wars API!</p>
 
 				<p>
@@ -189,12 +179,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					documentation.
 				</p>
 
-				<p>
-					<a href="#base" name="base"></a>
-				</p>
-
-				<h3>Base URL</h3>
-
+				<h3 id="base">Base URL</h3>
 				<p>
 					The <strong>Base URL</strong> is the root URL for all of the API, if
 					you ever make a request to swapi and you get back a{" "}
@@ -204,7 +189,13 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				<p>The Base URL for swapi is:</p>
 
 				<pre>
-					<code>https://www.swapi.tech/api</code>
+					<code>https://www.swapi.tech/api/</code>
+				</pre>
+				
+				<p>OR</p>
+
+				<pre>
+					<code>https://swapi.tech/api/</code>
 				</pre>
 
 				<p>
@@ -212,11 +203,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					endpoints in order to make requests.
 				</p>
 
-				<p>
-					<a href="#rate" name="rate"></a>
-				</p>
-
-				<h3>Rate limiting</h3>
+				<h3 id="rate">Rate limiting</h3>
 
 				<p>
 					Swapi has rate limiting to prevent malicious abuse (as if anyone would
@@ -227,11 +214,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					over. There should be no reason for hitting the rate limit.
 				</p>
 
-				<p>
-					<a href="#rate-slowing" name="rate-slowing"></a>
-				</p>
-
-				<h3>Rate slowing</h3>
+				<h3 id="rate-slowing">Rate slowing</h3>
 
 				<p>
 					Swapi now has rate slowing on top of the rate limiting. Rate slowing
@@ -240,11 +223,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					subsequent request will take longer to receieve a response for.
 				</p>
 
-				<p>
-					<a href="#auth" name="auth"></a>
-				</p>
-
-				<h3>Authentication</h3>
+				<h3 id="auth">Authentication</h3>
 
 				<p>
 					Swapi is a <strong>completely open API</strong>. No authentication is
@@ -262,13 +241,9 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					.
 				</p>
 
-				<p>
-					<a href="#schema" name="schema"></a>
-				</p>
-
-				{/* <h3>JSON Schema</h3>
-
-        <p>
+				<h3 id="schema">JSON Schema</h3>
+						<p>Coming Soon</p>
+        {/* <p>
           All resources support <a href="https://jsonschema.net">JSON Schema</a>
           . Making a request to <code>/api/&lt;resource&gt;/schema</code> will
           give you the details of that resource. This will allow you to
@@ -276,11 +251,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
           types.
         </p> */}
 
-				<p>
-					<a href="#search" name="search"></a>
-				</p>
-
-				<h3>Searching</h3>
+				<h3 id="search">Searching</h3>
 
 				<p>
 					All resources support a <code>search</code> parameter that filters the
@@ -303,19 +274,11 @@ fetch("https://www.swapi.tech/api/planets/1/")
 
 				<p>SWAPI provides two encodings for you to render the data with:</p>
 
-				<p>
-					<a href="#json" name="json"></a>
-				</p>
-
-				<h3>JSON</h3>
+				<h3 id="json">JSON</h3>
 
 				<p>JSON is the standard data format provided by SWAPI by default.</p>
 
-				<p>
-					<a href="#wookiee" name="wookiee"></a>
-				</p>
-
-				<h3>Wookiee</h3>
+				<h3 id="wookiee">Wookiee</h3>
 
 				<p>
 					Wookiee is for our tall hairy allies who speak Wookiee, this encoding
@@ -336,11 +299,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 
 				<hr />
 
-				<p>
-					<a href="#root" name="root"></a>
-				</p>
-
-				<h3>Root</h3>
+				<h3 id="root">Root</h3>
 
 				<p>
 					The Root resource provides information on all available resources
@@ -413,11 +372,7 @@ fetch("https://www.swapi.tech/api")
 
 				<hr />
 
-				<p>
-					<a href="#people" name="people"></a>
-				</p>
-
-				<h3>People</h3>
+				<h3 id="people">People</h3>
 
 				<p>
 					A People resource is an individual person or character within the Star
@@ -579,11 +534,7 @@ fetch("https://www.swapi.tech/api/people/1")
 
 				<hr />
 
-				<p>
-					<a href="#films" name="films"></a>
-				</p>
-
-				<h3>Films</h3>
+				<h3 id="films">Films</h3>
 
 				<p>A Film resource is a single film.</p>
 
@@ -726,11 +677,7 @@ fetch("https://www.swapi.tech/api/films/1")
 
 				<hr />
 
-				<p>
-					<a href="#starships" name="starships"></a>
-				</p>
-
-				<h3>Starships</h3>
+				<h3 id="starships">Starships</h3>
 
 				<p>
 					A Starship resource is a single transport craft that has hyperdrive
@@ -912,11 +859,7 @@ fetch("https://www.swapi.tech/api/starships/9")
 
 				<hr />
 
-				<p>
-					<a href="#vehicles" name="vehicles"></a>
-				</p>
-
-				<h3>Vehicles</h3>
+				<h3 id="vehicles">Vehicles</h3>
 
 				<p>
 					A Vehicle resource is a single transport craft that{" "}
@@ -1081,11 +1024,7 @@ fetch("https://www.swapi.tech/api/vehicles/4")
 
 				<hr />
 
-				<p>
-					<a href="#species" name="species"></a>
-				</p>
-
-				<h3>Species</h3>
+				<h3 id="species">Species</h3>
 
 				<p>
 					A Species resource is a type of person or character within the Star
@@ -1240,11 +1179,7 @@ fetch("https://www.swapi.tech/api/species/3")
 
 				<hr />
 
-				<p>
-					<a href="#planets" name="planets"></a>
-				</p>
-
-				<h3>Planets</h3>
+				<h3 id="planets">Planets</h3>
 
 				<p>
 					A Planet resource is a large mass, planet or planetoid in the Star
@@ -1401,8 +1336,8 @@ fetch("https://www.swapi.tech/api/planets/1")
 					in a native programming language. Be on the look out for more, or
 					submit your own: support@swapi.tech
 				</p>
-
-				<p>
+				
+				<div className="helper-container">
 					<h2 id="ruby">Ruby</h2>
 					<ul>
 						<li>
@@ -1411,7 +1346,7 @@ fetch("https://www.swapi.tech/api/planets/1")
 							First Official swapi.tech helper library. Thanks Carrie!
 						</li>
 					</ul>
-				</p>
+				</div>
 			</div>
 		</div>
 	);
