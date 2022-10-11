@@ -19,6 +19,7 @@ const path = require("path");
 // Middleware
 const { apiLimiter, apiSlowDown } = require("./middleware/limiters");
 const setEncoding = require("./middleware/encodingFormat");
+const setUrl = require("./middleware/setUrl");
 const dbConfig = require("./app/dbConfig");
 
 const allowedHeaders = ["GET"];
@@ -58,6 +59,7 @@ app.use("/api", [
 	apiLimiter,
 	apiSlowDown,
 	setEncoding,
+	setUrl,
 	rootRoutes,
 	filmRoutes,
 	peopleRoutes,

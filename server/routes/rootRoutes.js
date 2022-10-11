@@ -2,9 +2,10 @@ const express = require("express");
 const router = express.Router();
 
 const withWookie = require("../utils/wookieeEncoding");
-const baseUrl = require("../app/baseUrl");
 
 router.get("/", (req, res) => {
+	const baseUrl = req.swapi_url;
+
 	withWookie(req, res, {
 		films: `${baseUrl}/films`,
 		people: `${baseUrl}/people`,

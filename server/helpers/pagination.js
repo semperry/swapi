@@ -1,5 +1,3 @@
-const baseUrl = require("../app/baseUrl");
-
 class Pagination {
 	constructor(req, page, limit, total) {
 		this.meta = {
@@ -24,11 +22,11 @@ class Pagination {
 			previous:
 				page === 1
 					? null
-					: `${baseUrl}${req.route.path}?page=${page - 1}&limit=${limit}`,
+					: `${req.swapi_url}${req.route.path}?page=${page - 1}&limit=${limit}`,
 			next:
 				page >= Math.ceil(total / limit)
 					? null
-					: `${baseUrl}${req.route.path}?page=${page + 1}&limit=${limit}`,
+					: `${req.swapi_url}${req.route.path}?page=${page + 1}&limit=${limit}`,
 		};
 	};
 }
