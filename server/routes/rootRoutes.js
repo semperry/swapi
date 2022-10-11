@@ -4,7 +4,7 @@ const router = express.Router();
 const withWookie = require("../utils/wookieeEncoding");
 
 router.get("/", (req, res) => {
-	const baseUrl = req.swapi_url;
+	const baseUrl = req.swapi_url + "/api";
 
 	withWookie(req, res, {
 		films: `${baseUrl}/films`,
