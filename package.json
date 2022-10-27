@@ -1,6 +1,6 @@
 {
 	"name": "swapi-client",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"private": true,
 	"description": "SWAPI is down for good. I need a new swapi.",
 	"dependencies": {
