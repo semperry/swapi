@@ -1,5 +1,4 @@
 import React from "react";
-import { HashLink as Link } from "react-router-hash-link";
 
 function SwapiHeader() {
 	return (
@@ -7,9 +6,10 @@ function SwapiHeader() {
 			<div className="app-header">
 				<h1>SWAPI</h1>
 				<p>The Star Wars API</p>
-				
-				<p>
-					<Link to="/about#what-happened">(...looking for swapi.co?)</Link>
+
+				<p className="pulsing">
+					"In my experience, there's no such thing as luck. Big changes are
+					coming, and we must be prepared."{" "}
 				</p>
 			</div>
 		</div>

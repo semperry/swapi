@@ -1,6 +1,5 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// import ReactJson from "react-json-view";
 
 function App() {
 	const [endpoint, setEndpoint] = useState("");
@@ -18,24 +17,7 @@ function App() {
 
 	const renderData = () => {
 		if (typeof currentData === "object") {
-			return (
-				<>
-					{/* <ReactJson
-            style={{ width: "53%", maxHeight: "340px", textAlign: "left" }}
-            src={currentData.result.properties}
-            name={false}
-            theme="bright:inverted"
-            indentWidth={10}
-            enableClipboard={false}
-            enableAdd={false}
-            enableDelete={false}
-            displayDataTypes={false}
-            displayObjectSize={false}
-            collapseStringsAfterLength={false}
-          /> */}
-					<pre>{JSON.stringify(currentData, null, 2)}</pre>
-				</>
-			);
+			return <pre>{JSON.stringify(currentData, null, 2)}</pre>;
 		} else {
 			return null;
 		}
