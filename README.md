@@ -1,3 +1,5 @@
+# *We're shifting gears here at Swapi. This Repo will remain available for those that want a copy, but the app itself will include new features and functionality that will not be included in this version.*
+
 # Documentation
 
 ### Introduction
