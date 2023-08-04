@@ -11,6 +11,25 @@
 // Refactor errythang
 // Contributions.md
 // Squash Commits
+// standardize search results
+// fuzzy matching
+// Private Repository x
+// Stack reproduction (nextjs?)
+// Crowd sourced data concensus?
+// quotes
+// planet sectors (galaxy -> territories (sectors) -> systems -> planets)?
+// armory (weapons, armor, technology)
+// Complete Data (Prequels: tfm, aotc, rots; Trilogy: anh, esb, rotj; Sequels: tfa, tlj, tros; Standalone: ro, solo; TV: mandolorian, bobf)
+// LLC (ACTUALLY, 501(c)(3)) (swapi.edu)
+// CMS for api's like swapi
+// Licensing
+// Auth
+// Tiers
+// Rate Limits / slowing
+// Custom Resources
+// Payment Gateway
+// Blog
+// Store
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
