@@ -1,12 +1,12 @@
 const countRouter = require("express").Router();
 
 const [People, Planets, Films, Species, Vehicles, Starships] = [
-	require("../models/peopleModel"),
-	require("../models/planetModel"),
-	require("../models/filmModel"),
-	require("../models/speciesModel"),
-	require("../models/vehicleModel"),
-	require("../models/starshipModel"),
+	require("../models/PeopleModel"),
+	require("../models/PlanetModel"),
+	require("../models/FilmModel"),
+	require("../models/SpeciesModel"),
+	require("../models/VehicleModel"),
+	require("../models/StarshipModel"),
 ];
 const models = [People, Planets, Films, Species, Vehicles, Starships];
 

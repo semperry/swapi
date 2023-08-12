@@ -5,7 +5,7 @@ const { checkCache, setCache } = require("../utils/cache");
 const withWookie = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
-const StarshipModel = require("../models/starshipModel");
+const StarshipModel = require("../models/StarshipModel");
 
 // Search
 const searchQuery = (req, res, next) => {

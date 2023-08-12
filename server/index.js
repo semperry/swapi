@@ -1,4 +1,7 @@
 // TODO:
+// File Structure
+// films, counts, people, planets, root(static), species, starships, vehicles
+// Remove Fixtures after backing up data
 // Use redis to handle limiters
 // IP grabber on each route for analytics
 // Separate limiters for each route

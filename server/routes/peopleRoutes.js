@@ -5,7 +5,7 @@ const { checkCache, setCache } = require("../utils/cache");
 const withWookie = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
-const People = require("../models/peopleModel");
+const People = require("../models/PeopleModel");
 
 // Search
 const searchQuery = (req, res, next) => {
@@ -20,7 +20,7 @@ const searchQuery = (req, res, next) => {
 				if (err) {
 					res
 						.status(400)
-						.json({ errors: `${err}`, message: "Could not find film" });
+						.json({ errors: `${err}`, message: "Could not find person" });
 				} else if (results) {
 					withWookie(req, res, results);
 				} else {

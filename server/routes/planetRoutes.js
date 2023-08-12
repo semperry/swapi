@@ -5,7 +5,7 @@ const { checkCache, setCache } = require("../utils/cache");
 const withWookie = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
-const Planets = require("../models/planetModel");
+const Planets = require("../models/PlanetModel");
 
 const searchQuery = (req, res, next) => {
 	if (!req.query.name) {
