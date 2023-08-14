@@ -1,5 +1,5 @@
 const filmService = require("../services/filmService");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 const { setCache } = require("../utils/cache");
 
 // Get All Films
@@ -11,7 +11,7 @@ const getFilms = async (req, res) => {
 			return res.status(404).json({ message: "Films not found" });
 		}
 
-		return withWookie(req, res, films);
+		return withWookiee(req, res, films);
 	} catch (err) {
 		console.error("Get Films Error: ", err);
 
@@ -36,7 +36,7 @@ const getFilm = async (req, res) => {
 			setCache(req, film.toObject());
 		}
 
-		return withWookie(req, res, film);
+		return withWookiee(req, res, film);
 	} catch (error) {
 		console.error("Get Film Error: ", error);
 

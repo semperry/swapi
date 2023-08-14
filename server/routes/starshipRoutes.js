@@ -2,7 +2,7 @@ const express = require("express");
 const starshipRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
 const Paginate = require("../helpers/pagination");
 const StarshipModel = require("../models/StarshipModel");
@@ -34,7 +34,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find starship" });
 				} else if (results) {
-					withWookie(req, res, results);
+					withWookiee(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -80,7 +80,7 @@ starshipRouter.get("/starships", searchQuery, (req, res) => {
 						.status(400)
 						.json({ message: "Could not GET starhsips", errors: `${err}` });
 				} else if (results) {
-					withWookie(req, res, {
+					withWookiee(req, res, {
 						...pager,
 						results: [
 							...results.map((starship) => {
@@ -112,7 +112,7 @@ starshipRouter.get("/starships/:id", checkCache, (req, res) => {
 				setCache(req, starhsips.toObject());
 			}
 
-			withWookie(req, res, starhsips);
+			withWookiee(req, res, starhsips);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}

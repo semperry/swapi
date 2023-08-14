@@ -3,7 +3,7 @@ const express = require("express");
 const { checkCache } = require("../utils/cache");
 const People = require("../models/PeopleModel");
 const peopleController = require("../controllers/peopleController");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 
 const peopleRouter = express.Router();
 
@@ -22,7 +22,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find person" });
 				} else if (results) {
-					withWookie(req, res, results);
+					withWookiee(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}

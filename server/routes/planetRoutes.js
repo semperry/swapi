@@ -2,7 +2,7 @@ const express = require("express");
 
 const Planets = require("../models/PlanetModel");
 const planetController = require("../controllers/planetController");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 const { checkCache } = require("../utils/cache");
 
 const planetRouter = express.Router();
@@ -21,7 +21,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find planet" });
 				} else if (results) {
-					withWookie(req, res, results);
+					withWookiee(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}

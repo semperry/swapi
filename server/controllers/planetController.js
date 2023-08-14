@@ -1,6 +1,6 @@
 const isWookiee = require("../utils/isWookiee");
 const planetService = require("../services/planetService");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 const { setCache } = require("../utils/cache");
 
 // Get All
@@ -16,7 +16,7 @@ const getPlanets = async (req, res) => {
 
 		if (!planets) return res.status(404).json({ message: "Planets not found" });
 
-		return withWookie(req, res, {
+		return withWookiee(req, res, {
 			...pager,
 			results: [
 				...planets.map((planet) => {
@@ -50,7 +50,7 @@ const getPlanet = async (req, res) => {
 			setCache(req, planet.toObject());
 		}
 
-		return withWookie(req, res, planet);
+		return withWookiee(req, res, planet);
 	} catch (error) {
 		console.error(`Get Planet Error: ${error}`);
 

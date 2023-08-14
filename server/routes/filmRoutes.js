@@ -1,7 +1,7 @@
 const express = require("express");
 
 const filmController = require("../controllers/filmController");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 const { checkCache } = require("../utils/cache");
 const Films = require("../models/FilmModel");
 
@@ -22,7 +22,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find film" });
 				} else if (results) {
-					withWookie(req, res, results);
+					withWookiee(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}

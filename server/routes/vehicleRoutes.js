@@ -3,7 +3,7 @@ const vehicleRouter = express.Router();
 
 const { checkCache, setCache } = require("../utils/cache");
 const Paginate = require("../helpers/pagination");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
 const VehicleModel = require("../models/VehicleModel");
 
@@ -34,7 +34,7 @@ const searchQuery = (req, res, next) => {
 						.status(400)
 						.json({ errors: `${err}`, message: "Could not find vehicle" });
 				} else if (results) {
-					withWookie(req, res, results);
+					withWookiee(req, res, results);
 				} else {
 					res.status(404).json({ message: "No results, refine your query" });
 				}
@@ -80,7 +80,7 @@ vehicleRouter.get("/vehicles", searchQuery, (req, res) => {
 						.status(400)
 						.json({ message: "Could not GET vehicles", errors: `${err}` });
 				} else if (results) {
-					withWookie(req, res, {
+					withWookiee(req, res, {
 						...pager,
 						results: [
 							...results.map((vehicle) => {
@@ -112,7 +112,7 @@ vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {
 				setCache(req, vehicles.toObject());
 			}
 
-			withWookie(req, res, vehicles);
+			withWookiee(req, res, vehicles);
 		} else {
 			res.status(404).json({ message: "not found" });
 		}

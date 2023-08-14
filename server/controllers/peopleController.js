@@ -1,6 +1,6 @@
 const peopleService = require("../services/peopleService");
 const { setCache } = require("../utils/cache");
-const withWookie = require("../utils/wookieeEncoding");
+const withWookiee = require("../utils/wookieeEncoding");
 
 // Get All
 const getPeople = async (req, res) => {
@@ -15,7 +15,7 @@ const getPeople = async (req, res) => {
 
 		if (!people) return res.status(404).json({ message: "People not found" });
 
-		return withWookie(req, res, {
+		return withWookiee(req, res, {
 			...pager,
 			results: [
 				...people.map((person) => {
@@ -49,7 +49,7 @@ const getPerson = async (req, res) => {
 			setCache(req, person.toObject());
 		}
 
-		return withWookie(req, res, person);
+		return withWookiee(req, res, person);
 	} catch (error) {
 		console.error(`Get Person Error: ${error}`);
 
