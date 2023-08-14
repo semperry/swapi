@@ -1,6 +1,9 @@
 // TODO:
 // File Structure
 //// films, counts, people, planets, root(static), species, starships, vehicles
+// Simplify Search Query Middleware
+// standardize search results
+// Refactor Pagination workflow
 // Localize globals
 // Remove Fixtures after backing up data
 // Use redis to handle limiters
@@ -8,24 +11,17 @@
 // Separate limiters for each route
 // Add to Terms of service about polling
 // Refactor Cache (with wookie data)
-// Simplify Search Query Middleware
 // Simplify pagination
 // Cors policy
 // Helmet
 // Refactor errythang
-// Contributions.md
 // Squash Commits
-// standardize search results
 // fuzzy matching
-// Private Repository x
-// Stack reproduction (nextjs?)
-// Crowd sourced data concensus?
 // quotes
 // planet sectors (galaxy -> territories (sectors) -> systems -> planets)?
 // armory (weapons, armor, technology)
 // Complete Data (Prequels: tfm, aotc, rots; Trilogy: anh, esb, rotj; Sequels: tfa, tlj, tros; Standalone: ro, solo; TV: mandolorian, bobf)
 // LLC (ACTUALLY, 501(c)(3)) (swapi.edu)
-// CMS for api's like swapi
 // Licensing
 // Auth
 // Tiers
