@@ -1,8 +1,8 @@
 const express = require("express");
 
 const filmController = require("../controllers/filmController");
-const { checkCache } = require("../utils/cache");
 const withWookie = require("../utils/wookieeEncoding");
+const { checkCache } = require("../utils/cache");
 const Films = require("../models/FilmModel");
 
 const filmRouter = express.Router();
