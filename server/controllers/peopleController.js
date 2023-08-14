@@ -49,7 +49,7 @@ const getPerson = async (req, res) => {
 			setCache(req, person.toObject());
 		}
 
-		return withWookie(req, res, person, false);
+		return withWookie(req, res, person);
 	} catch (error) {
 		console.error(`Get Person Error: ${error}`);
 

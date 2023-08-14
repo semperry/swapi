@@ -1,6 +1,7 @@
 // TODO:
 // File Structure
-// films, counts, people, planets, root(static), species, starships, vehicles
+//// films, counts, people, planets, root(static), species, starships, vehicles
+// Localize globals
 // Remove Fixtures after backing up data
 // Use redis to handle limiters
 // IP grabber on each route for analytics
