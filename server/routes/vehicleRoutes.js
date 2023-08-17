@@ -1,11 +1,12 @@
 const express = require("express");
-const vehicleRouter = express.Router();
 
-const { checkCache, setCache } = require("../utils/cache");
-const Paginate = require("../helpers/pagination");
-const withWookiee = require("../utils/wookieeEncoding");
 const isWookiee = require("../utils/isWookiee");
+const vehicleController = require("../controllers/vehicleController");
 const VehicleModel = require("../models/VehicleModel");
+const withWookiee = require("../utils/wookieeEncoding");
+const { checkCache, setCache } = require("../utils/cache");
+
+const vehicleRouter = express.Router();
 
 // Search
 const searchQuery = (req, res, next) => {
@@ -44,61 +45,7 @@ const searchQuery = (req, res, next) => {
 };
 
 // GET all
-vehicleRouter.get("/vehicles", searchQuery, (req, res) => {
-	const { page, limit } = req.query;
-
-	VehicleModel.countDocuments((err, total) => {
-		if (err) {
-			return res.status(400).json({ error: true, message: "Could not Count" });
-		}
-		const pageNumber =
-			page && limit
-				? parseInt(page) < 1
-					? 1
-					: parseInt(page) > Math.ceil(total / limit)
-					? Math.ceil(total / limit)
-					: parseInt(page)
-				: 1;
-		const resultLimit =
-			page && limit ? (parseInt(limit) > total ? total : parseInt(limit)) : 10;
-
-		const starshipPagination = new Paginate(
-			req,
-			pageNumber,
-			resultLimit,
-			total
-		);
-		const pager = starshipPagination.paginate();
-
-		VehicleModel.find(
-			{},
-			{},
-			{ ...starshipPagination.query, sort: { _id: 1 } },
-			(err, results) => {
-				if (err) {
-					res
-						.status(400)
-						.json({ message: "Could not GET vehicles", errors: `${err}` });
-				} else if (results) {
-					withWookiee(req, res, {
-						...pager,
-						results: [
-							...results.map((vehicle) => {
-								return {
-									uid: vehicle.uid,
-									name: vehicle.properties.name,
-									url: vehicle.properties.url,
-								};
-							}),
-						],
-					});
-				} else {
-					res.status(404).end();
-				}
-			}
-		);
-	});
-});
+vehicleRouter.get("/vehicles", searchQuery, vehicleController.getVehicles);
 
 // GET one
 vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {

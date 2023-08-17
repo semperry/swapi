@@ -1,6 +1,6 @@
 // TODO:
 // File Structure
-//// films, counts, people, planets, root(static), species, starships, vehicles
+//// counts, root(static)
 // Simplify Search Query Middleware
 // standardize search results
 // Refactor Pagination workflow
