@@ -1,6 +1,7 @@
 // TODO:
 // File Structure
-//// counts, root(static)
+//// root(static)
+// Count Refactor (aggregate vs loop?)
 // Simplify Search Query Middleware
 // standardize search results
 // Refactor Pagination workflow
@@ -54,7 +55,7 @@ const speciesRoutes = require("./routes/speciesRoutes");
 const starshipRoutes = require("./routes/starshipRoutes");
 const vehicleRoutes = require("./routes/vehicleRoutes");
 const rootRoutes = require("./routes/rootRoutes");
-const countRoutes = require("./routes/getCounts");
+const countRoutes = require("./routes/countRoutes");
 
 dbConfig();
 app.set("trust proxy", 1);
