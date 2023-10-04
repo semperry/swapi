@@ -31,7 +31,7 @@ function Docs() {
 						<a href="#search">Searching</a>
 					</li>
 				</ul>
-				
+
 				<h5>Encodings</h5>
 				<ul className="list-group">
 					<li className="list-group-item">
@@ -44,7 +44,7 @@ function Docs() {
 				<h5>Resources</h5>
 				<ul className="list-group">
 					<li className="list-group-item">
-						<a href="#root">Root</a>
+						<a href="#resources">Root</a>
 					</li>
 					<li className="list-group-item">
 						<a href="#people">People</a>
@@ -67,6 +67,10 @@ function Docs() {
 				</ul>
 				<h5>Helper libraries</h5>
 				<ul className="list-group">
+					<li className="list-group-item">
+						<a href="#react">React</a>
+					</li>
+
 					<li className="list-group-item">
 						<a href="#ruby">Ruby</a>
 					</li>
@@ -191,7 +195,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				<pre>
 					<code>https://www.swapi.tech/api/</code>
 				</pre>
-				
+
 				<p>OR</p>
 
 				<pre>
@@ -242,8 +246,8 @@ fetch("https://www.swapi.tech/api/planets/1/")
 				</p>
 
 				<h3 id="schema">JSON Schema</h3>
-						<p>Coming Soon</p>
-        {/* <p>
+				<p>Coming Soon</p>
+				{/* <p>
           All resources support <a href="https://jsonschema.net">JSON Schema</a>
           . Making a request to <code>/api/&lt;resource&gt;/schema</code> will
           give you the details of that resource. This will allow you to
@@ -299,7 +303,7 @@ fetch("https://www.swapi.tech/api/planets/1/")
 
 				<hr />
 
-				<h3 id="root">Root</h3>
+				<h3 id="resources">Root</h3>
 
 				<p>
 					The Root resource provides information on all available resources
@@ -1336,13 +1340,49 @@ fetch("https://www.swapi.tech/api/planets/1")
 					in a native programming language. Be on the look out for more, or
 					submit your own: support@swapi.tech
 				</p>
-				
+
 				<div className="helper-container">
+					<h2 id="react">React</h2>
+					<ul>
+						<li>
+							<a
+								href="https://www.npmjs.com/package/react-swapi"
+								target="_blank"
+								rel="noreferrer"
+							>
+								react-swapi
+							</a>{" "}
+							by{" "}
+							<a
+								href="https://github.com/semperry"
+								rel="noreferrer"
+								target="_blank"
+							>
+								Ryan Curtis.
+							</a>{" "}
+							Custom hooks for programmatically acceessing SWAPI info, created
+							by the same person to bring you Swapi.tech
+						</li>
+					</ul>
+
 					<h2 id="ruby">Ruby</h2>
 					<ul>
 						<li>
-							<a href="https://github.com/carriemathieu/sw_tour">sw_tour</a> by{" "}
-							<a href="https://github.com/carriemathieu">Carrie Mathieu.</a>{" "}
+							<a
+								href="https://github.com/carriemathieu/sw_tour"
+								target="_blank"
+								rel="noreferrer"
+							>
+								sw_tour
+							</a>{" "}
+							by{" "}
+							<a
+								href="https://github.com/carriemathieu"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Carrie Mathieu.
+							</a>{" "}
 							First Official swapi.tech helper library. Thanks Carrie!
 						</li>
 					</ul>

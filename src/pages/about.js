@@ -104,7 +104,7 @@ function About() {
 				<p>
 					The original swapi had amazing helper libraries that I will steadily
 					begin implenting. If you have one to contribute, or would like to
-					contribute, feel free to contact me.
+					contribute, feel free to contact me: inquiry@swapi.tech
 				</p>
 
 				<p>
