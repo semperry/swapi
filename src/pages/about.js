@@ -193,7 +193,7 @@ function About() {
 					>
 						Ryan Curtis
 					</a>
-					, Full Stack Web Engineer and development manager. school.
+					, Full Stack Web Engineer and CTO.
 				</p>
 
 				<h2>Original author?</h2>
