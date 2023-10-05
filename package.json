@@ -3,6 +3,9 @@
 	"version": "0.1.0",
 	"private": true,
 	"description": "The main course for all things Swapi",
+	"engines": {
+		"node": ">=16.18.0 <17.0.0"
+	},
 	"dependencies": {
 		"cors": "^2.8.5",
 		"dotenv": "^8.2.0",
