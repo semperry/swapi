@@ -1,16 +1,36 @@
 // TODO:
+// File Structure
+//// root(static)
+// Count Refactor (aggregate vs loop?)
+// Simplify Search Query Middleware
+// standardize search results
+// Refactor Pagination workflow
+// Localize globals
+// Remove Fixtures after backing up data
 // Use redis to handle limiters
 // IP grabber on each route for analytics
 // Separate limiters for each route
 // Add to Terms of service about polling
 // Refactor Cache (with wookie data)
-// Simplify Search Query Middleware
 // Simplify pagination
 // Cors policy
 // Helmet
 // Refactor errythang
-// Contributions.md
 // Squash Commits
+// fuzzy matching
+// quotes
+// planet sectors (galaxy -> territories (sectors) -> systems -> planets)?
+// armory (weapons, armor, technology)
+// Complete Data (Prequels: tfm, aotc, rots; Trilogy: anh, esb, rotj; Sequels: tfa, tlj, tros; Standalone: ro, solo; TV: mandolorian, bobf)
+// LLC (ACTUALLY, 501(c)(3)) (swapi.edu)
+// Licensing
+// Auth
+// Tiers
+// Rate Limits / slowing
+// Custom Resources
+// Payment Gateway
+// Blog
+// Store
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
@@ -35,7 +55,7 @@ const speciesRoutes = require("./routes/speciesRoutes");
 const starshipRoutes = require("./routes/starshipRoutes");
 const vehicleRoutes = require("./routes/vehicleRoutes");
 const rootRoutes = require("./routes/rootRoutes");
-const countRoutes = require("./routes/getCounts");
+const countRoutes = require("./routes/countRoutes");
 
 dbConfig();
 app.set("trust proxy", 1);
