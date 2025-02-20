@@ -17,17 +17,18 @@ const getVehicles = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: expanded
-				? vehicles
-				: [
-						...vehicles.map((vehicle) => {
-							return {
-								uid: vehicle.uid,
-								name: vehicle.properties.name,
-								url: vehicle.properties.url,
-							};
-						}),
-				  ],
+			results:
+				expanded === "true"
+					? vehicles
+					: [
+							...vehicles.map((vehicle) => {
+								return {
+									uid: vehicle.uid,
+									name: vehicle.properties.name,
+									url: vehicle.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Could not GET Vehicles: ${error}`);

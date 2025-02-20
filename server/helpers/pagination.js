@@ -11,6 +11,8 @@ class Pagination {
 
 	paginate = () => {
 		const { req, page, limit, total } = this.meta;
+		let { expanded } = req.query;
+		expanded = expanded === "true" ? expanded : false;
 
 		this.query = {
 			skip: limit * (page - 1),
@@ -25,13 +27,13 @@ class Pagination {
 					? null
 					: `${req.swapi_url}/api${req.route.path}?page=${
 							page - 1
-					  }&limit=${limit}`,
+					  }&limit=${limit}${expanded ? "&expanded=" + expanded : ""}`,
 			next:
 				page >= Math.ceil(total / limit)
 					? null
 					: `${req.swapi_url}/api${req.route.path}?page=${
 							page + 1
-					  }&limit=${limit}`,
+					  }&limit=${limit}${expanded ? "&expanded=" + expanded : ""}`,
 		};
 	};
 

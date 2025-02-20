@@ -17,17 +17,18 @@ const getStarships = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: expanded
-				? starships
-				: [
-						...starships.map((starship) => {
-							return {
-								uid: starship.uid,
-								name: starship.properties.name,
-								url: starship.properties.url,
-							};
-						}),
-				  ],
+			results:
+				expanded === "true"
+					? starships
+					: [
+							...starships.map((starship) => {
+								return {
+									uid: starship.uid,
+									name: starship.properties.name,
+									url: starship.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Could not GET starhsips: ${error}`);

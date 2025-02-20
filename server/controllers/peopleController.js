@@ -17,17 +17,18 @@ const getPeople = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: expanded
-				? people
-				: [
-						...people.map((person) => {
-							return {
-								uid: person.uid,
-								name: person.properties.name,
-								url: person.properties.url,
-							};
-						}),
-				  ],
+			results:
+				expanded === "true"
+					? people
+					: [
+							...people.map((person) => {
+								return {
+									uid: person.uid,
+									name: person.properties.name,
+									url: person.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Get People Error: ${error}`);

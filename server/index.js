@@ -1,14 +1,11 @@
 // TODO:
-// File Structure
-//// root(static)
+// Seed script for dev
 // Count Refactor (aggregate vs loop?)
 // Simplify Search Query Middleware
 // standardize search results
 // Refactor Pagination workflow
-// Localize globals
 // Remove Fixtures after backing up data
 // Use redis to handle limiters
-// IP grabber on each route for analytics
 // Separate limiters for each route
 // Add to Terms of service about polling
 // Refactor Cache (with wookie data)
@@ -22,8 +19,6 @@
 // planet sectors (galaxy -> territories (sectors) -> systems -> planets)?
 // armory (weapons, armor, technology)
 // Complete Data (Prequels: tfm, aotc, rots; Trilogy: anh, esb, rotj; Sequels: tfa, tlj, tros; Standalone: ro, solo; TV: mandolorian, bobf)
-// LLC (ACTUALLY, 501(c)(3)) (swapi.edu)
-// Licensing
 // Auth
 // Tiers
 // Rate Limits / slowing

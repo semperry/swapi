@@ -18,17 +18,18 @@ const getPlanets = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: expanded
-				? planets
-				: [
-						...planets.map((planet) => {
-							return {
-								uid: planet.uid,
-								name: planet.properties.name,
-								url: planet.properties.url,
-							};
-						}),
-				  ],
+			results:
+				expanded === "true"
+					? planets
+					: [
+							...planets.map((planet) => {
+								return {
+									uid: planet.uid,
+									name: planet.properties.name,
+									url: planet.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Get Planets Error: ${error}`);

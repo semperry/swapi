@@ -17,17 +17,18 @@ const getSpecies = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: expanded
-				? species
-				: [
-						...species.map((specimen) => {
-							return {
-								uid: specimen.uid,
-								name: specimen.properties.name,
-								url: specimen.properties.url,
-							};
-						}),
-				  ],
+			results:
+				expanded === "true"
+					? species
+					: [
+							...species.map((specimen) => {
+								return {
+									uid: specimen.uid,
+									name: specimen.properties.name,
+									url: specimen.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Could not GET Species: ${error}`);
