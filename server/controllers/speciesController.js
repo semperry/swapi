@@ -4,7 +4,7 @@ const withWookiee = require("../utils/wookieeEncoding");
 
 // Get All
 const getSpecies = async (req, res) => {
-	const { page, limit } = req.query;
+	const { page, limit, expanded } = req.query;
 
 	try {
 		const { species, pager } = await speciesService.getAllSpecies(
@@ -17,15 +17,18 @@ const getSpecies = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: [
-				...species.map((specimen) => {
-					return {
-						uid: specimen.uid,
-						name: specimen.properties.name,
-						url: specimen.properties.url,
-					};
-				}),
-			],
+			results:
+				expanded === "true"
+					? species
+					: [
+							...species.map((specimen) => {
+								return {
+									uid: specimen.uid,
+									name: specimen.properties.name,
+									url: specimen.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Could not GET Species: ${error}`);

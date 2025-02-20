@@ -5,7 +5,7 @@ const { setCache } = require("../utils/cache");
 
 // Get All
 const getPlanets = async (req, res) => {
-	const { page, limit } = req.query;
+	const { page, limit, expanded } = req.query;
 
 	try {
 		const { planets, pager } = await planetService.getAllPlanets(
@@ -18,15 +18,18 @@ const getPlanets = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: [
-				...planets.map((planet) => {
-					return {
-						uid: planet.uid,
-						name: planet.properties.name,
-						url: planet.properties.url,
-					};
-				}),
-			],
+			results:
+				expanded === "true"
+					? planets
+					: [
+							...planets.map((planet) => {
+								return {
+									uid: planet.uid,
+									name: planet.properties.name,
+									url: planet.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Get Planets Error: ${error}`);

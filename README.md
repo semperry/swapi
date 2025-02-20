@@ -1,4 +1,4 @@
-# *We're shifting gears here at Swapi. This Repo will remain available for those that want a copy, but the app itself will include new features and functionality that will not be included in this version.*
+# _We're shifting gears here at Swapi. This Repo will remain available for those that want a copy, but the app itself will include new features and functionality that will not be included in this version._
 
 # Documentation
 
@@ -76,6 +76,12 @@ All resources support a search parameter that filters the set of resources retur
 > https://www.swapi.tech/api/people/?search=r2
 
 All searches will use case-insensitive partial matches on the set of search fields. To see the set of search fields for each resource, check out the individual resource documentation. For more information on advanced search terms see here.
+
+### Query String Parameters
+
+Routes that include all resources now supports an 'expanded' parameter that will return all of the requested resource's properties instead of the short hand version:
+
+> https://www.swapi.tech/api/starships/?expanded=true
 
 ### Encodings
 

@@ -4,7 +4,7 @@ const withWookiee = require("../utils/wookieeEncoding");
 
 // Get All
 const getPeople = async (req, res) => {
-	const { page, limit } = req.query;
+	const { page, limit, expanded } = req.query;
 
 	try {
 		const { people, pager } = await peopleService.getAllPeople(
@@ -17,15 +17,18 @@ const getPeople = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: [
-				...people.map((person) => {
-					return {
-						uid: person.uid,
-						name: person.properties.name,
-						url: person.properties.url,
-					};
-				}),
-			],
+			results:
+				expanded === "true"
+					? people
+					: [
+							...people.map((person) => {
+								return {
+									uid: person.uid,
+									name: person.properties.name,
+									url: person.properties.url,
+								};
+							}),
+					  ],
 		});
 	} catch (error) {
 		console.error(`Get People Error: ${error}`);

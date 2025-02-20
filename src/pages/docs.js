@@ -30,6 +30,9 @@ function Docs() {
 					<li className="list-group-item">
 						<a href="#search">Searching</a>
 					</li>
+					<li className="list-group-item">
+						<a href="#params">Query Params</a>
+					</li>
 				</ul>
 
 				<h5>Encodings</h5>
@@ -270,6 +273,18 @@ fetch("https://www.swapi.tech/api/planets/1/")
 					All searches will use case-insensitive partial matches on the set of
 					search fields. To see the set of search fields for each resource,
 					check out the individual resource documentation.
+				</p>
+
+				<h3 id="params">Query String Parameters</h3>
+
+				<p>
+					Routes that include all resources now supports an{" "}
+					<code>expanded</code> parameter that will return all of the requested
+					resource's properties instead of the short hand version:
+				</p>
+
+				<p>
+					<code>https://www.swapi.tech/api/starships/?expanded=true</code>
 				</p>
 
 				<h1>Encodings</h1>
