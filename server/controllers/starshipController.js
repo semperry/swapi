@@ -4,7 +4,7 @@ const withWookiee = require("../utils/wookieeEncoding");
 
 // Get All
 const getStarships = async (req, res) => {
-	const { page, limit } = req.query;
+	const { page, limit, expanded } = req.query;
 
 	try {
 		const { pager, starships } = await starshipService.getAllStarships(
@@ -17,15 +17,17 @@ const getStarships = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: [
-				...starships.map((starship) => {
-					return {
-						uid: starship.uid,
-						name: starship.properties.name,
-						url: starship.properties.url,
-					};
-				}),
-			],
+			results: expanded
+				? starships
+				: [
+						...starships.map((starship) => {
+							return {
+								uid: starship.uid,
+								name: starship.properties.name,
+								url: starship.properties.url,
+							};
+						}),
+				  ],
 		});
 	} catch (error) {
 		console.error(`Could not GET starhsips: ${error}`);

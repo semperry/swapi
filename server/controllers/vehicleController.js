@@ -4,7 +4,7 @@ const withWookiee = require("../utils/wookieeEncoding");
 
 // Get All
 const getVehicles = async (req, res) => {
-	const { page, limit } = req.query;
+	const { page, limit, expanded } = req.query;
 
 	try {
 		const { vehicles, pager } = await vehicleService.getAllVehicles(
@@ -17,15 +17,17 @@ const getVehicles = async (req, res) => {
 
 		return withWookiee(req, res, {
 			...pager,
-			results: [
-				...vehicles.map((vehicle) => {
-					return {
-						uid: vehicle.uid,
-						name: vehicle.properties.name,
-						url: vehicle.properties.url,
-					};
-				}),
-			],
+			results: expanded
+				? vehicles
+				: [
+						...vehicles.map((vehicle) => {
+							return {
+								uid: vehicle.uid,
+								name: vehicle.properties.name,
+								url: vehicle.properties.url,
+							};
+						}),
+				  ],
 		});
 	} catch (error) {
 		console.error(`Could not GET Vehicles: ${error}`);
