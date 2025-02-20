@@ -6,9 +6,9 @@ function About() {
 	const [counts, setCounts] = useState({});
 
 	const renderStats = () => {
-		return Object.keys(counts).map((stat) => {
+		return Object.keys(counts).map((stat, idx) => {
 			return (
-				<p>
+				<p key={idx}>
 					{stat[0].toUpperCase() + stat.slice(1)}: {counts[stat]}
 				</p>
 			);
