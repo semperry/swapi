@@ -15,32 +15,33 @@ const searchQuery = (req, res, next) => {
 	if (!name && !model) {
 		next();
 	} else {
-		VehicleModel.find(
-			{
-				$or: [
-					{
-						"properties.name": { $regex: `${name}`, $options: "i" },
+		VehicleModel.find({
+			$or: [
+				{
+					"properties.name": { $regex: `${name}`, $options: "i" },
+				},
+				{
+					"properties.model": {
+						$regex: `${model}`,
+						$options: "i",
 					},
-					{
-						"properties.model": {
-							$regex: `${model}`,
-							$options: "i",
-						},
-					},
-				],
-			},
-			(err, results) => {
-				if (err) {
-					res
-						.status(400)
-						.json({ errors: `${err}`, message: "Could not find vehicle" });
-				} else if (results) {
+				},
+			],
+		})
+			.then((results) => {
+				if (results) {
 					withWookiee(req, res, results);
 				} else {
-					res.status(404).json({ message: "No results, refine your query" });
+					return res
+						.status(404)
+						.json({ message: "No results, refine your query" });
 				}
-			}
-		);
+			})
+			.catch((err) => {
+				return res
+					.status(400)
+					.json({ errors: `${err}`, message: "Could not find vehicle" });
+			});
 	}
 };
 
