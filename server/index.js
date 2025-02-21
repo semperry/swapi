@@ -51,6 +51,7 @@ const starshipRoutes = require("./routes/starshipRoutes");
 const vehicleRoutes = require("./routes/vehicleRoutes");
 const rootRoutes = require("./routes/rootRoutes");
 const countRoutes = require("./routes/countRoutes");
+const addAdURL = require("./middleware/addAdURL");
 
 dbConfig();
 app.set("trust proxy", 1);
@@ -71,6 +72,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api", [
+	addAdURL,
 	apiLimiter,
 	apiSlowDown,
 	setEncoding,

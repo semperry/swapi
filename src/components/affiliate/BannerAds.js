@@ -24,7 +24,9 @@ const BannerAds = () => {
 			className="banner-images-container"
 			style={{ backroundImage: images[imageIndex] }}
 		>
-			<img src={images[imageIndex]} alt="Saber Masters deal" />
+			<a href="https://www.sabermasters.com/discount/RYAN47680" target="_blank">
+				<img src={images[imageIndex]} alt="Saber Masters deal" />
+			</a>
 		</div>
 	);
 };

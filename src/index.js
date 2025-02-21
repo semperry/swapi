@@ -19,19 +19,24 @@ function Main() {
 			<SwapiHeader />
 
 			<div className="row ad-box">
-				<div
-					className="banner-ad-box pulsing yellow"
-					onClick={() =>
-						window.open(
-							"https://www.sabermasters.com/discount/RYAN47680",
-							"_blank",
-							"noopener,noreferrer"
-						)
-					}
-				>
-					<span>Get yours today!</span>
+				<div className="banner-ad-box pulsing">
+					<span>
+						<a
+							className="yellow"
+							href="https://www.sabermasters.com/discount/RYAN47680"
+							target="_blank"
+						>
+							Get yours today!
+						</a>
+					</span>
 					<BannerAds />
-					<span>Get yours today!</span>
+					<a
+						className="yellow"
+						href="https://www.sabermasters.com/discount/RYAN47680"
+						target="_blank"
+					>
+						Get yours today!
+					</a>
 				</div>
 
 				<PayPalButton />
