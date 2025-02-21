@@ -1,5 +1,3 @@
-import React from "react";
-
 function SwapiHeader() {
 	return (
 		<div className="row yellow">

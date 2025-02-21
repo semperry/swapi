@@ -12,15 +12,3 @@
 		}
 	}
 }
-
-#donate-form {
-	position: fixed;
-	top: 40%;
-	right: 15px;
-	filter: brightness(50%);
-	transition: 0.3s ease-in-out all;
-
-	&:hover {
-		filter: brightness(100%);
-	}
-}

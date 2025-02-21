@@ -9,12 +9,34 @@ import Docs from "./pages/docs";
 import NavBar from "./navigation/navbar";
 import Footer from "./components/footer";
 import SwapiHeader from "./components/swapiHeader";
+import BannerAds from "./components/affiliate/BannerAds";
+import PayPalButton from "./components/affiliate/PayPalButton";
 
 function Main() {
 	return (
 		<BrowserRouter>
 			<NavBar />
 			<SwapiHeader />
+
+			<div className="row ad-box">
+				<div
+					className="banner-ad-box pulsing yellow"
+					onClick={() =>
+						window.open(
+							"https://www.sabermasters.com/discount/RYAN47680",
+							"_blank",
+							"noopener,noreferrer"
+						)
+					}
+				>
+					<span>Get yours today!</span>
+					<BannerAds />
+					<span>Get yours today!</span>
+				</div>
+
+				<PayPalButton />
+			</div>
+
 			<Switch>
 				<Route exact path="/" component={App} />
 				<Route path="/about" component={About} />
