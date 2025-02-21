@@ -12,22 +12,23 @@ const searchQuery = (req, res, next) => {
 	if (!req.query.name) {
 		next();
 	} else {
-		SpeciesModel.find(
-			{
-				"properties.name": { $regex: `${req.query.name}`, $options: "i" },
-			},
-			(err, results) => {
-				if (err) {
-					res
-						.status(400)
-						.json({ errors: `${err}`, message: "Could not find specie" });
-				} else if (results) {
+		SpeciesModel.find({
+			"properties.name": { $regex: `${req.query.name}`, $options: "i" },
+		})
+			.then((results) => {
+				if (results) {
 					withWookiee(req, res, results);
 				} else {
-					res.status(404).json({ message: "No results, refine your query" });
+					return res
+						.status(404)
+						.json({ message: "No results, refine your query" });
 				}
-			}
-		);
+			})
+			.catch((err) => {
+				return res
+					.status(400)
+					.json({ errors: `${err}`, message: "Could not find specie" });
+			});
 	}
 };
 

@@ -12,22 +12,23 @@ const searchQuery = (req, res, next) => {
 	if (!req.query.title) {
 		next();
 	} else {
-		Films.find(
-			{
-				"properties.title": { $regex: `${req.query.title}`, $options: "i" },
-			},
-			(err, results) => {
-				if (err) {
-					res
-						.status(400)
-						.json({ errors: `${err}`, message: "Could not find film" });
-				} else if (results) {
+		Films.find({
+			"properties.title": { $regex: `${req.query.title}`, $options: "i" },
+		})
+			.then((results) => {
+				if (results) {
 					withWookiee(req, res, results);
 				} else {
-					res.status(404).json({ message: "No results, refine your query" });
+					return res
+						.status(404)
+						.json({ message: "No results, refine your query" });
 				}
-			}
-		);
+			})
+			.catch((err) =>
+				res
+					.status(400)
+					.json({ errors: `${err}`, message: "Could not find film" })
+			);
 	}
 };
 
