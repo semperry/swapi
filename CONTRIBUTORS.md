@@ -65,4 +65,4 @@ People who help answer questions, support users, or spread the word about swapi.
 
 ## Want to be listed here?
 
-Contributions of all types are welcome! If you've contributed to swapi.tech in any way and aren't listed, feel free to open an issue or submit a pull request to be added.
+Contributions of all types are welcome! If you've contributed to swapi.tech in any way and aren't listed, feel free to submit a pull request to be added.
