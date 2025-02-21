@@ -26,7 +26,7 @@ function Main() {
 							href="https://www.sabermasters.com/discount/RYAN47680"
 							target="_blank"
 						>
-							Get yours today!
+							Get $10 Off!
 						</a>
 					</span>
 					<BannerAds />
@@ -35,7 +35,7 @@ function Main() {
 						href="https://www.sabermasters.com/discount/RYAN47680"
 						target="_blank"
 					>
-						Get yours today!
+						Get $10 Off!
 					</a>
 				</div>
 
