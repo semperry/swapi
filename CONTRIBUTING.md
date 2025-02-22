@@ -89,7 +89,7 @@ git checkout -b feature-branch-name
 
 - Test your changes locally.
 - Ensure new features do not introduce breaking changes.
-- If making UI or API changes, update relevant **documentation**.
+- If making UI or API changes, update relevant **documentation** in the documentation React component as well as the README file if necessary.
 
 ### 3. Commit and Push
 
@@ -101,12 +101,16 @@ git push origin feature-branch-name
 
 ### 4. Open a Pull Request
 
-1. Go to your forked repository on GitHub.
-2. Click **Compare & pull request**.
-3. Fill in a clear **title and description** of your changes.
-4. Ensure all commits are squashed into a single meaningful commit before submitting the PR.
-5. Add yourself to the [`CONTRIBUTORS.md`](CONTRIBUTORS.md) file under the appropriate section and in alphabetical order.
-6. Submit the PR and wait for review!
+1. Checkout to the main branch and pull any changes from the upstream remote.
+2. Checkout again to your feature branch, and merge any new changes from main. Resolve all conflicts if necessary.
+3. Push any changes if there were conflicts.
+4. Go to your forked repository on GitHub.
+5. Click **Compare & pull request**.
+6. Fill in a clear **title and description** of your changes.
+7. Ensure all commits are squashed into a single meaningful commit before submitting the PR.
+8. Add yourself to the [`CONTRIBUTORS.md`](CONTRIBUTORS.md) file under the appropriate section and in alphabetical order.
+9. If you have financially supported the project, you may also add yourself under the **Donors & Supporters section** in both this file and the [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+10. Submit the PR and wait for review!
 
 ---
 
@@ -120,6 +124,7 @@ All contributions are recognized in [`CONTRIBUTORS.md`](CONTRIBUTORS.md). You ca
 - 🌱 **Ideas & Suggestions**: Proposing new features.
 - 🔌 **Third-Party Integrations**: Creating libraries or SDKs.
 - 📢 **Community & Support**: Helping others use Swapi.
+- 💖 **Donors & Supporters**: Providing financial contributions to keep the project running.
 
 Want to be listed? Open an issue or PR! 🚀
 

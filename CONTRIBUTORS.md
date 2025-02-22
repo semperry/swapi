@@ -1,8 +1,8 @@
 # Contributors ✨
 
-Swapi.tech is an open-source project made possible by contributions from an amazing community. Below is a list of people who have helped improve and maintain this project in various ways.
+Swapi is an open-source project made possible by contributions from an amazing community. Below is a list of people who have helped improve and maintain this project in various ways.
 
-We appreciate all contributions—whether it's code, documentation, bug reports, ideas, community support, or third-party integrations. Want to contribute? Check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide!
+We appreciate all contributions whether it's code, documentation, bug reports, ideas, community support, third-party integrations, or financial support. Want to contribute? Check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide!
 
 ---
 
@@ -41,7 +41,7 @@ Developers who have built tools, wrappers, or third-party libraries to extend sw
 
 Contributors who improved the API docs, examples, and guides.
 
--
+- _(No contributors yet. Want to help? Open an issue or PR!)_
 
 ## 🐛 Bug Reports & Testing
 
@@ -55,14 +55,29 @@ Users who reported bugs or helped with testing.
 
 People who provided valuable insights, suggestions, or feature requests.
 
--
+- _(No contributors yet. Want to help? Open an issue or PR!)_
 
 ## 📢 Community & Support
 
 People who help answer questions, support users, or spread the word about swapi.tech.
 
--
+- _(No contributors yet. Want to help? Open an issue or PR!)_
+
+---
+
+## 💖 Donors & Supporters
+
+A huge thank you to those who have financially supported Swapi! Your contributions help keep the project running and improve its development.
+
+- **[Andrew Wold](https://github.com/Andrewf9001)** – Supported Swapi financially
+- **[Tom Power](https://github.com/TPower2112)** – Supported Swapi financially
+- **[Norman MacPherson](https://github.com/leemacpherson)** – Supported Swapi financially
+- _(Donated? Add yourself here!)_
+
+Thank you all so much!!!
+
+---
 
 ## Want to be listed here?
 
-Contributions of all types are welcome! If you've contributed to swapi.tech in any way and aren't listed, feel free to submit a pull request to be added.
+Contributions of all types are welcome! If you've contributed to Swapi in any way and aren't listed, feel free to submit a pull request to be added.
