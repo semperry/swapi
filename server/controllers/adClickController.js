@@ -2,9 +2,16 @@ const adClickService = require("../services/adClickService");
 
 const addClick = async (req, res) => {
 	const [referrer, userAgent] = [req.get("Referrer"), req.get("User-Agent")];
+	const originType = req.params.originType;
+
+	console.log(req.params);
 
 	try {
-		const newClick = await adClickService.addClick(referrer, userAgent);
+		const newClick = await adClickService.addClick(
+			referrer,
+			userAgent,
+			originType
+		);
 
 		return res.status(200).json({ message: "Click tracked", click: newClick });
 	} catch (error) {

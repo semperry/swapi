@@ -1,9 +1,9 @@
 const Click = require("../models/AdClickModel");
 
-const addClick = async (referrer, userAgent) => {
+const addClick = async (referrer, userAgent, type) => {
 	try {
 		const newClick = await Click.create({
-			adName: "Saber Masters",
+			adName: `Saber Masters: ${type}`,
 			timestamp: new Date(),
 			referrer,
 			userAgent,
