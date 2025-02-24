@@ -4,8 +4,6 @@ const addClick = async (req, res) => {
 	const [referrer, userAgent] = [req.get("Referrer"), req.get("User-Agent")];
 	const originType = req.params.originType;
 
-	console.log(req.params);
-
 	try {
 		const newClick = await adClickService.addClick(
 			referrer,

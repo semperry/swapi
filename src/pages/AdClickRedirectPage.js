@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import LoadingSpinner from "../components/common/LoadingSpinner";
 
 const AdClickRedirectPage = (props) => {
 	const originType = props.match.params.originType;
@@ -30,9 +31,19 @@ const AdClickRedirectPage = (props) => {
 	}, [originType]);
 
 	return (
-		<div>
-			<h3>Getting your Discount Ready</h3>
-			<p>...Loading</p>
+		<div
+			className="pulsing"
+			style={{
+				display: "flex",
+				justifyContent: "center",
+				alignItems: "center",
+				flexDirection: "column",
+			}}
+		>
+			<h2>Getting your Discount Ready</h2>
+			<p>
+				<LoadingSpinner />
+			</p>
 		</div>
 	);
 };
