@@ -16,7 +16,7 @@ import "./styles/main.scss";
 
 function Main() {
 	const trackAndRedirect = () => {
-		fetch("http://localhost:8080/track/saber-masters")
+		fetch("/track/saber-masters")
 			.then(() => {
 				window.open(
 					"https://www.sabermasters.com/discount/RYAN47680",
