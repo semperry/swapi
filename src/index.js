@@ -2,15 +2,17 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import "./styles/main.scss";
-import App from "./pages/App";
 import About from "./pages/about";
-import Docs from "./pages/docs";
-import NavBar from "./navigation/navbar";
-import Footer from "./components/footer";
-import SwapiHeader from "./components/swapiHeader";
+import AdClickRedirectPage from "./pages/AdClickRedirectPage";
+import App from "./pages/App";
 import BannerAds from "./components/affiliate/BannerAds";
+import Docs from "./pages/docs";
+import Footer from "./components/footer";
+import NavBar from "./navigation/navbar";
 import PayPalButton from "./components/affiliate/PayPalButton";
+import SwapiHeader from "./components/swapiHeader";
+
+import "./styles/main.scss";
 
 function Main() {
 	const trackAndRedirect = () => {
@@ -44,6 +46,10 @@ function Main() {
 				<Route path="/about" component={About} />
 				<Route path="/documentation" component={Docs} />
 				<Route path="/docs" component={Docs} />
+				<Route
+					path="/partner-discount/:originType"
+					component={AdClickRedirectPage}
+				/>
 			</Switch>
 			<Footer />
 		</BrowserRouter>
