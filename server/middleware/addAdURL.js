@@ -7,7 +7,7 @@ function addAdURL(_, res, next) {
 		data.support = {
 			contact: "admin@swapi.tech",
 			donate:
-				"https://www.paypal.com/donate?token=2VGWvL-DXMDnO2Zy7d13qAxGSQYpZEKBVWrnK8ahwXTtrBJi4tXQtEBwcfWOjt-DoXagFraQrEs2eysl",
+				"https://www.paypal.com/donate/?business=2HGAUVTWGR5T2&no_recurring=0&currency_code=USD",
 			partnerDiscounts: {
 				saberMasters: {
 					link: "https://www.sabermasters.com/discount/RYAN47680",
