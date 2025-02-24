@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import LoadingSpinner from "../components/common/LoadingSpinner";
+import AtAtSpinner from "../components/common/AtAtSpinner";
 
 const AdClickRedirectPage = (props) => {
 	const originType = props.match.params.originType;
@@ -22,7 +22,7 @@ const AdClickRedirectPage = (props) => {
 						);
 					})
 					.catch((err) => console.error("Tracking failed: ", err)),
-			2000
+			3000
 		);
 
 		return () => {
@@ -42,7 +42,8 @@ const AdClickRedirectPage = (props) => {
 		>
 			<h2>Getting your Discount Ready</h2>
 			<p>
-				<LoadingSpinner />
+				<AtAtSpinner />
+				You will be redirected shortly...
 			</p>
 		</div>
 	);
