@@ -13,30 +13,27 @@ import BannerAds from "./components/affiliate/BannerAds";
 import PayPalButton from "./components/affiliate/PayPalButton";
 
 function Main() {
+	const trackAndRedirect = () => {
+		fetch("http://localhost:8080/track/saber-masters")
+			.then(() => {
+				window.open(
+					"https://www.sabermasters.com/discount/RYAN47680",
+					"_blank"
+				);
+			})
+			.catch((err) => console.error("Tracking failed: ", err));
+	};
+
 	return (
 		<BrowserRouter>
 			<NavBar />
 			<SwapiHeader />
 
 			<div className="row ad-box">
-				<div className="banner-ad-box pulsing">
-					<span>
-						<a
-							className="yellow"
-							href="https://www.sabermasters.com/discount/RYAN47680"
-							target="_blank"
-						>
-							Get $10 Off!
-						</a>
-					</span>
+				<div className="banner-ad-box pulsing" onClick={trackAndRedirect}>
+					<span>Get $10 Off!</span>
 					<BannerAds />
-					<a
-						className="yellow"
-						href="https://www.sabermasters.com/discount/RYAN47680"
-						target="_blank"
-					>
-						Get $10 Off!
-					</a>
+					Get $10 Off!
 				</div>
 
 				<PayPalButton />

@@ -33,9 +33,10 @@ const path = require("path");
 
 // Middleware
 const { apiLimiter, apiSlowDown } = require("./middleware/limiters");
+const addAdURL = require("./middleware/addAdURL");
+const dbConfig = require("./app/dbConfig");
 const setEncoding = require("./middleware/encodingFormat");
 const setUrl = require("./middleware/setUrl");
-const dbConfig = require("./app/dbConfig");
 
 const allowedHeaders = ["GET"];
 
@@ -43,15 +44,15 @@ const app = express();
 const port = process.env.PORT;
 
 // Routes
+const adClickRoutes = require("./routes/adClickRoutes");
+const countRoutes = require("./routes/countRoutes");
 const filmRoutes = require("./routes/filmRoutes");
 const peopleRoutes = require("./routes/peopleRoutes");
 const planetRoutes = require("./routes/planetRoutes");
+const rootRoutes = require("./routes/rootRoutes");
 const speciesRoutes = require("./routes/speciesRoutes");
 const starshipRoutes = require("./routes/starshipRoutes");
 const vehicleRoutes = require("./routes/vehicleRoutes");
-const rootRoutes = require("./routes/rootRoutes");
-const countRoutes = require("./routes/countRoutes");
-const addAdURL = require("./middleware/addAdURL");
 
 dbConfig();
 app.set("trust proxy", 1);
@@ -86,6 +87,7 @@ app.use("/api", [
 	vehicleRoutes,
 ]);
 app.use("/count", countRoutes);
+app.use("/track", apiLimiter, apiSlowDown, adClickRoutes);
 
 // Catch all
 app.get(/.*/, (req, res) => {
