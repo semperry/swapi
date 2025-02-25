@@ -14,6 +14,6 @@ module.exports = () => {
 		});
 
 	mongoose.connection.on("error", (err) =>
-		console.log("Error after successful connection: ", err)
+		console.log("Error after successful connection: ", err),
 	);
 };

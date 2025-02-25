@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd ../client && npm install && npm run build",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-slow-down": "^2.0.3",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

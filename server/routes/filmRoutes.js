@@ -27,7 +27,7 @@ const searchQuery = (req, res, next) => {
 			.catch((err) =>
 				res
 					.status(400)
-					.json({ errors: `${err}`, message: "Could not find film" })
+					.json({ errors: `${err}`, message: "Could not find film" }),
 			);
 	}
 };

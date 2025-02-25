@@ -12,7 +12,7 @@ const getAllVehicles = async (req, page, limit) => {
 		const vehicles = await VehicleModel.find(
 			{},
 			{},
-			{ ...vehiclePagination.query, sort: { _id: 1 } }
+			{ ...vehiclePagination.query, sort: { _id: 1 } },
 		);
 
 		return { vehicles, pager };

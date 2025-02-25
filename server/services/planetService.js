@@ -12,7 +12,7 @@ const getAllPlanets = async (req, page, limit) => {
 		const planets = await Planets.find(
 			{},
 			{},
-			{ ...planetPagination.query, sort: { _id: 1 } }
+			{ ...planetPagination.query, sort: { _id: 1 } },
 		);
 
 		return { pager, planets };

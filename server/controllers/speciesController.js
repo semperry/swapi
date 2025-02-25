@@ -10,7 +10,7 @@ const getSpecies = async (req, res) => {
 		const { species, pager } = await speciesService.getAllSpecies(
 			req,
 			page,
-			limit
+			limit,
 		);
 
 		if (!species) return res.status(404).json({ message: "Species not found" });
@@ -28,7 +28,7 @@ const getSpecies = async (req, res) => {
 									url: specimen.properties.url,
 								};
 							}),
-					  ],
+						],
 		});
 	} catch (error) {
 		console.error(`Could not GET Species: ${error}`);

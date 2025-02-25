@@ -10,14 +10,14 @@ const getAllStarships = async (req, page, limit) => {
 			req,
 			pageNumber,
 			resultLimit,
-			total
+			total,
 		);
 		const pager = starshipPagination.paginate();
 
 		const starships = await StarshipModel.find(
 			{},
 			{},
-			{ ...starshipPagination.query, sort: { _id: 1 } }
+			{ ...starshipPagination.query, sort: { _id: 1 } },
 		);
 
 		return { pager, starships };

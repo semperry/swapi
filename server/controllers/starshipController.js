@@ -10,7 +10,7 @@ const getStarships = async (req, res) => {
 		const { pager, starships } = await starshipService.getAllStarships(
 			req,
 			page,
-			limit
+			limit,
 		);
 
 		if (!starships) return res.status(404).json({ message: "Not found" });
@@ -28,7 +28,7 @@ const getStarships = async (req, res) => {
 									url: starship.properties.url,
 								};
 							}),
-					  ],
+						],
 		});
 	} catch (error) {
 		console.error(`Could not GET starhsips: ${error}`);

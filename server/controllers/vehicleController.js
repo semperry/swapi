@@ -10,7 +10,7 @@ const getVehicles = async (req, res) => {
 		const { vehicles, pager } = await vehicleService.getAllVehicles(
 			req,
 			page,
-			limit
+			limit,
 		);
 
 		if (!vehicles) return res.status(404).json({ message: "Not found" });
@@ -28,7 +28,7 @@ const getVehicles = async (req, res) => {
 									url: vehicle.properties.url,
 								};
 							}),
-					  ],
+						],
 		});
 	} catch (error) {
 		console.error(`Could not GET Vehicles: ${error}`);

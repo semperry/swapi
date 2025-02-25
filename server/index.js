@@ -1,49 +1,18 @@
-// TODO:
-// Seed script for dev
-// Count Refactor (aggregate vs loop?)
-// Simplify Search Query Middleware
-// standardize search results
-// Refactor Pagination workflow
-// Remove Fixtures after backing up data
-// Use redis to handle limiters
-// Separate limiters for each route
-// Add to Terms of service about polling
-// Refactor Cache (with wookie data)
-// Simplify pagination
-// Cors policy
-// Helmet
-// Refactor errythang
-// Squash Commits
-// fuzzy matching
-// quotes
-// planet sectors (galaxy -> territories (sectors) -> systems -> planets)?
-// armory (weapons, armor, technology)
-// Complete Data (Prequels: tfm, aotc, rots; Trilogy: anh, esb, rotj; Sequels: tfa, tlj, tros; Standalone: ro, solo; TV: mandolorian, bobf)
-// Auth
-// Tiers
-// Rate Limits / slowing
-// Custom Resources
-// Payment Gateway
-// Blog
-// Store
-require("dotenv").config();
-const express = require("express");
-const cors = require("cors");
 const path = require("path");
 
-// Middleware
-const { apiLimiter, apiSlowDown } = require("./middleware/limiters");
+dotenv = require("dotenv").config({ path: path.join(__dirname, "../.env") });
+const cors = require("cors");
+const express = require("express");
+
+const dbConfig = require("./config/dbConfig");
+
+// Middleware modules
 const addAdURL = require("./middleware/addAdURL");
-const dbConfig = require("./app/dbConfig");
 const setEncoding = require("./middleware/encodingFormat");
 const setUrl = require("./middleware/setUrl");
+const { apiLimiter, apiSlowDown } = require("./middleware/limiters");
 
-const allowedHeaders = ["GET"];
-
-const app = express();
-const port = process.env.PORT;
-
-// Routes
+// Route modules
 const adClickRoutes = require("./routes/adClickRoutes");
 const countRoutes = require("./routes/countRoutes");
 const filmRoutes = require("./routes/filmRoutes");
@@ -54,16 +23,26 @@ const speciesRoutes = require("./routes/speciesRoutes");
 const starshipRoutes = require("./routes/starshipRoutes");
 const vehicleRoutes = require("./routes/vehicleRoutes");
 
+// Config
+const app = express();
+const PORT = process.env.PORT || 5000;
+
 dbConfig();
+
+const allowedHeaders = ["GET"];
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
 app.set("trust proxy", 1);
 app.use(
 	cors({
 		methods: allowedHeaders,
-	})
+	}),
 );
 
-app.use(express.static(path.join(__dirname, "..", "build")));
-
+// Honey Pot middleware to drop NPM Package traffic flood
 app.use((req, res, next) => {
 	if (!allowedHeaders.includes(req.method)) {
 		req.destroy();
@@ -72,6 +51,7 @@ app.use((req, res, next) => {
 	}
 });
 
+// API Routes
 app.use("/api", [
 	addAdURL,
 	apiLimiter,
@@ -89,11 +69,15 @@ app.use("/api", [
 app.use("/count", countRoutes);
 app.use("/track", apiLimiter, apiSlowDown, adClickRoutes);
 
-// Catch all
-app.get(/.*/, (req, res) => {
-	res.sendFile(path.join(__dirname, "/", "../build/index.html"));
-});
+// Production Build
+if (process.env.NODE_ENV === "production") {
+	app.use(express.static(path.join(__dirname, "../client/dist")));
 
-app.listen(port, () => {
-	console.log(`Server Running on port ${port}`);
+	app.get("*", (req, res) => {
+		res.sendFile(path.resolve(__dirname, "../client/dist", "index.html"));
+	});
+}
+
+app.listen(PORT, () => {
+	console.log(`Server running on port ${PORT}`);
 });

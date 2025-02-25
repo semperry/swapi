@@ -10,7 +10,7 @@ const getPeople = async (req, res) => {
 		const { people, pager } = await peopleService.getAllPeople(
 			req,
 			page,
-			limit
+			limit,
 		);
 
 		if (!people) return res.status(404).json({ message: "People not found" });
@@ -28,7 +28,7 @@ const getPeople = async (req, res) => {
 									url: person.properties.url,
 								};
 							}),
-					  ],
+						],
 		});
 	} catch (error) {
 		console.error(`Get People Error: ${error}`);
