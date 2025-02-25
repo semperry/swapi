@@ -1,0 +1,16 @@
+{
+  "name": "swapi-vite",
+  "version": "1.0.0",
+  "description": "Root package.json for swapi client and server.",
+  "main": "eslint.config.js",
+  "scripts": {
+		"start": "cd server && node index.js",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
