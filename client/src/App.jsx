@@ -16,7 +16,7 @@ const App = () => {
 			.then(() => {
 				window.open(
 					"https://www.sabermasters.com/discount/RYAN47680",
-					"_blank"
+					"_blank",
 				);
 			})
 			.catch((err) => console.error("Tracking failed: ", err));

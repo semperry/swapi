@@ -8,7 +8,7 @@ const addClick = async (req, res) => {
 		const newClick = await adClickService.addClick(
 			referrer,
 			userAgent,
-			originType
+			originType,
 		);
 
 		return res.status(200).json({ message: "Click tracked", click: newClick });

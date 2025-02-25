@@ -39,7 +39,7 @@ app.set("trust proxy", 1);
 app.use(
 	cors({
 		methods: allowedHeaders,
-	})
+	}),
 );
 
 // Honey Pot middleware to drop NPM Package traffic flood

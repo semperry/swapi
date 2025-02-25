@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const images = Object.values(
 	import.meta.glob("../../assets/images/saber-masters/*.{png,jpg,jpeg,webp}", {
 		eager: true,
-	})
+	}),
 ).map((img) => img.default);
 
 const BannerAds = () => {

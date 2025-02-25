@@ -11,7 +11,7 @@ const getPlanets = async (req, res) => {
 		const { planets, pager } = await planetService.getAllPlanets(
 			req,
 			page,
-			limit
+			limit,
 		);
 
 		if (!planets) return res.status(404).json({ message: "Planets not found" });
@@ -29,7 +29,7 @@ const getPlanets = async (req, res) => {
 									url: planet.properties.url,
 								};
 							}),
-					  ],
+						],
 		});
 	} catch (error) {
 		console.error(`Get Planets Error: ${error}`);

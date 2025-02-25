@@ -14,15 +14,15 @@ const AdClickRedirectPage = (props) => {
 					`/track/saber-masters/${
 						originType.includes("sabermasters-swapi") ? "api-click" : "ad-click"
 					}`,
-					{ signal }
+					{ signal },
 				)
 					.then(() => {
 						window.location.replace(
-							"https://www.sabermasters.com/discount/RYAN47680"
+							"https://www.sabermasters.com/discount/RYAN47680",
 						);
 					})
 					.catch((err) => console.error("Tracking failed: ", err)),
-			3000
+			3000,
 		);
 
 		return () => {

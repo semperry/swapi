@@ -52,7 +52,7 @@ starshipRouter.get("/starships", searchQuery, starshipController.getStarships);
 starshipRouter.get(
 	"/starships/:id",
 	checkCache,
-	starshipController.getStarship
+	starshipController.getStarship,
 );
 
 module.exports = starshipRouter;

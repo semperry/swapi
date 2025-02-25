@@ -12,7 +12,7 @@ const getAllPeople = async (req, page, limit) => {
 		const people = await People.find(
 			{},
 			{},
-			{ ...peoplePagination.query, sort: { _id: 1 } }
+			{ ...peoplePagination.query, sort: { _id: 1 } },
 		);
 
 		return { pager, people };

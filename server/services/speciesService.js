@@ -12,7 +12,7 @@ const getAllSpecies = async (req, page, limit) => {
 		const species = await Species.find(
 			{},
 			{},
-			{ ...speciesPagination.query, sort: { _id: 1 } }
+			{ ...speciesPagination.query, sort: { _id: 1 } },
 		);
 
 		return { species, pager };

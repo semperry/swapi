@@ -27,13 +27,13 @@ class Pagination {
 					? null
 					: `${req.swapi_url}/api${req.route.path}?page=${
 							page - 1
-					  }&limit=${limit}${expanded ? "&expanded=" + expanded : ""}`,
+						}&limit=${limit}${expanded ? "&expanded=" + expanded : ""}`,
 			next:
 				page >= Math.ceil(total / limit)
 					? null
 					: `${req.swapi_url}/api${req.route.path}?page=${
 							page + 1
-					  }&limit=${limit}${expanded ? "&expanded=" + expanded : ""}`,
+						}&limit=${limit}${expanded ? "&expanded=" + expanded : ""}`,
 		};
 	};
 
@@ -43,8 +43,8 @@ class Pagination {
 				? parseInt(page) < 1
 					? 1
 					: parseInt(page) > Math.ceil(total / limit)
-					? Math.ceil(total / limit)
-					: parseInt(page)
+						? Math.ceil(total / limit)
+						: parseInt(page)
 				: 1;
 
 		const resultLimit =
