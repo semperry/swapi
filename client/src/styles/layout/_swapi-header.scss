@@ -1,12 +1,6 @@
 @use "../abstracts/animations" as *;
 
 .app-header {
-	text-align: center;
-	margin-top: 60px;
-	background-color: #1c1e22;
-	border: 1px solid rgba(0, 0, 0, 0.6);
-	border-radius: 6px;
-	padding: 48px 0;
 	h1 {
 		font-size: 50px;
 		font-weight: lighter;
@@ -25,15 +19,6 @@
 			border-bottom: 1px solid;
 		}
 	}
-}
-
-.attack {
-	position: relative;
-	animation: slideshow 15s linear infinite;
-}
-
-.pulsing {
-	animation: pulse 3s infinite;
 }
 
 

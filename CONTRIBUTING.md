@@ -94,12 +94,16 @@ If you find a bug or have a feature request:
 
 ### 1. Create a Feature Branch
 
-Always create a new branch for your changes:
+Always create a new branch from `dev` for your changes:
 
 ```sh
-# From the main branch
-git checkout -b feature-branch-name
+git checkout dev # Switch to the dev branch
+git fetch upstream dev # Fetch the latest dev branch from the main repo
+git pull upstream dev # Ensure your local dev branch is up to date
+git checkout -b feature-branch-name # Create your feature branch
 ```
+
+#### ✅ This ensures all features branch from dev, preventing conflicts in main.
 
 ### 2. Make Your Changes
 
@@ -117,16 +121,29 @@ git push origin feature-branch-name
 
 ### 4. Open a Pull Request
 
-1. Checkout to the main branch and pull any changes from the upstream remote.
-2. Checkout again to your feature branch, and merge any new changes from main. Resolve all conflicts if necessary.
-3. Push any changes if there were conflicts.
-4. Go to your forked repository on GitHub.
-5. Click **Compare & pull request**.
-6. Fill in a clear **title and description** of your changes.
-7. Ensure all commits are squashed into a single meaningful commit before submitting the PR.
-8. Add yourself to the [`CONTRIBUTORS.md`](CONTRIBUTORS.md) file under the appropriate section and in alphabetical order.
-9. If you have financially supported the project, you may also add yourself under the **Donors & Supporters section** in both this file and the [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
-10. Submit the PR and wait for review!
+1. **Make sure your feature branch is up to date with `dev` from the main repo:**
+   ```sh
+   git checkout dev
+   git fetch upstream dev # Fetch the latest changes
+   git pull upstream dev # Pull the latest dev into local dev branch
+   git checkout your-feature-name
+   git merge dev  # Merge the latest dev into your feature branch
+   ```
+2. Push your branch to GitHub. If there were conflicts or final changes made, be sure to add and commit first.
+   ```sh
+   git push origin your-feature-name
+   ```
+3. Go to your forked repository on GitHub.
+4. Click **Compare & pull request**.
+
+- Base branch: `dev` (not main!)
+- Compare branch: your-feature-name
+- Fill in a clear **title and description** of your changes.
+- Ensure all commits are squashed into a single meaningful commit before submitting the PR.
+- Add yourself to the [`CONTRIBUTORS.md`](CONTRIBUTORS.md) file under the appropriate section and in alphabetical order, if you haven't already. Recommit and push if necessary.
+- If you have financially supported the project, you may also add yourself under the **Donors & Supporters section** in both this file and the [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+
+9. Submit the PR and wait for review!
 
 ---
 
@@ -149,3 +166,7 @@ Want to be listed? Open an issue or PR! 🚀
 ## ❓ Need Help?
 
 If you have any questions, feel free to **open a discussion** or reach out via [GitHub Issues](https://github.com/semperry/swapi/issues). Happy coding! 🎉
+
+```
+
+```
