@@ -1,17 +1,6 @@
 @use "../abstracts/variables" as *;
 
-.ad-box {
-	display: flex;
-	align-items: center;
-	position: sticky;
-	justify-content: space-between;
-	top:0;
-	border-bottom: 1px solid black;
-	z-index: 1;
-	height: 100px;
-	margin-bottom: 45px;
-	background-color: $main-background;
-	
+.sticky-ad-bar {	
 	.banner-ad-box {
 		cursor: pointer;
 		display: flex;

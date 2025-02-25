@@ -1,6 +1,6 @@
 .content-container {
   text-align: center;
-  margin-top: 60px;
+
   .input-group {
     .input-group-addon {
       padding: 8px 12px;
@@ -67,7 +67,7 @@
   .example-routes-wrapper {
     width: 100%;
     position: relative;
-    right: 17%;
+    right: 15%;
 
     a {
       color: #ffffff;
@@ -95,7 +95,7 @@
     min-height: 20px;
 
     .well {
-      width: 50%;
+      max-width: 50%;
       padding: 19px;
       margin-bottom: 20px;
       background-color: #1c1e22;

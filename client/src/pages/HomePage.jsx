@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
+
 import AtAtSpinner from "../components/common/AtAtSpinner";
 
 const HomePage = () => {
@@ -14,7 +15,6 @@ const HomePage = () => {
 			.then((res) => res.json())
 			.then((data) => {
 				setCurrentData(data);
-				setEndpoint(endpoint);
 			})
 			.catch((err) => console.log(err))
 			.finally(() => setIsDataLoading(false));
@@ -61,7 +61,7 @@ const HomePage = () => {
 					<input
 						className="input-group-control"
 						type="text"
-						placeholder="people/1/"
+						placeholder="...try people/1/, or select from below."
 						value={endpoint}
 						onChange={(e) => setEndpoint(e.target.value)}
 					/>
