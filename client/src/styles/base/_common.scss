@@ -1,5 +1,10 @@
 @use "../abstracts/variables" as *;
 
+html, body {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -13,7 +18,6 @@ body {
 	background-color: $main-background;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	// overflow-y: hidden;
 }
 
 a {
@@ -85,8 +89,4 @@ samp {
 
 p {
 	margin: 0 0 10px;
-}
-
-.yellow {
-	color: $swapi-yellow;
 }

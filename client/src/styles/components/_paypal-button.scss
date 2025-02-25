@@ -1,11 +1,7 @@
 #donate-form {
-	position: sticky;
-	top: 0;
-	right: 25px;
 	text-align: center;
 	filter: brightness(50%);
 	transition: 0.3s ease-in-out all;
-	z-index: 1;
 
 	&:hover {
 		filter: brightness(100%);

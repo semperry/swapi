@@ -1,4 +1,4 @@
-@keyframes pulse {
+@keyframes glow-pulse {
 	0% {
 		filter: brightness(1);
 	}
@@ -11,11 +11,25 @@
 	}
 }
 
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
 @keyframes slideshow {
-	0% {
-		left: 100%;
-	}
-	100% {
-		left: -100%;
-	}
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.attack {
+	animation: slideshow 15s linear infinite;
+}
+
+.pulsing {
+	animation: pulse 3s ease-in-out infinite;
+}
+
+.glow-pulse {
+	animation: glow-pulse 3s infinite;
 }
