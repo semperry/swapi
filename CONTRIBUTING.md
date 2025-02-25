@@ -22,36 +22,51 @@ Thank you for your interest in contributing to Swapi! 🚀 This guide will help 
 
 ### 2. Install Dependencies
 
-Swapi requires Node.js and npm. Install dependencies using:
+Swapi requires **Node.js** and **npm**. Install dependencies using:
 
 ```sh
 npm install
 ```
 
-### 3. Run the Project Locally
+You will need to run this in the root directory, as well as both the client and server folders.
 
-There are multiple ways to start the project based on your needs:
+### 3. Running the Project Locally (Vite + Express)
 
-- **Start the frontend development server for React and SCSS work**:
-  ```sh
-  npm start
-  ```
-- **Start the backend development server for API development**:
-  ```sh
-  npm run dev:server
-  ```
-- **Build the frontend and run the backend for a production mockup, and to have requests proxied properly**:
+Swapi is now a **Vite + Express** project. Use the following commands based on what you need:
+
+- **Start the development server from the root directory (this spins up both frontend & backend with hot reloading):**
+
   ```sh
   npm run dev
   ```
 
-The API should now be running on `http://localhost:8080` or potentially `http://localhost:8081`. Adjust scripts as needed based on your environment.
+  - **Frontend runs on** `http://localhost:5173`
+  - **Backend API runs on** `http://localhost:5000`
+  - **Requests from :5173 will proxy to :5000**
 
-The API should now be running on `http://localhost:8080`.
+- **Run only the backend (Express server with Nodemon):**
 
-### 4. Seed your Mongo instance
+  ```sh
+  npm run dev:server
+  ```
 
-Currently, there is no seed script available. The fixtures includes the original data from swapi. Seed script is in the making.
+- **Run only the frontend (Vite's hot-reload dev server):**
+
+  ```sh
+  npm run dev:client
+  ```
+
+- **Build the frontend for production:**
+  ```sh
+  npm run build
+  ```
+
+### 4. MongoDB Setup & Seeding
+
+Swapi requires a **MongoDB instance** to run locally.
+
+Currently, **no seed script** is available, but we plan to add one.
+For now, **import the fixture data manually**.
 
 ---
 
@@ -61,6 +76,7 @@ Currently, there is no seed script available. The fixtures includes the original
 - Use **meaningful commit messages**.
 - Write **clear and concise comments** where necessary.
 - Ensure code changes **do not break existing functionality**.
+- Format code for tabs with a size of 2.
 
 ---
 
