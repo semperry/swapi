@@ -9,6 +9,8 @@ function SwapiHeader() {
 					"In my experience, there's no such thing as luck. Big changes are
 					coming, and we must be prepared."{" "}
 				</p>
+
+				<p>Over 3,000,000+ API requests served every day!</p>
 			</div>
 		</div>
 	);
