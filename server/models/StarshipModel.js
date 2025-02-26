@@ -75,6 +75,11 @@ const Starship = new Schema({
 			required: true,
 			default: "Unknown",
 		},
+		films: {
+			type: Array,
+			default: [],
+			required: true,
+		},
 		pilots: {
 			type: Array,
 			default: [],
