@@ -49,22 +49,6 @@ const searchQuery = (req, res, next) => {
 vehicleRouter.get("/vehicles", searchQuery, vehicleController.getVehicles);
 
 // GET one
-vehicleRouter.get("/vehicles/:id", checkCache, (req, res) => {
-	VehicleModel.findOne({ uid: req.params.id }, (err, vehicles) => {
-		if (err) {
-			res
-				.status(400)
-				.json({ message: "Could not GET vehicles", errors: `${err}` });
-		} else if (vehicles) {
-			if (!isWookiee(req)) {
-				setCache(req, vehicles.toObject());
-			}
-
-			withWookiee(req, res, vehicles);
-		} else {
-			res.status(404).json({ message: "not found" });
-		}
-	});
-});
+vehicleRouter.get("/vehicles/:id", checkCache, vehicleController.getVehicle);
 
 module.exports = vehicleRouter;
