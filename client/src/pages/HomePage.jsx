@@ -30,6 +30,11 @@ const HomePage = () => {
 		[endpoint]
 	);
 
+	const handleChange = (e) => {
+		setIsDataLoading(true);
+		setEndpoint(e.target.value);
+	};
+
 	const renderData = () => {
 		if (isDataLoading)
 			return (
@@ -78,7 +83,7 @@ const HomePage = () => {
 						type="text"
 						placeholder="...try people/1/, or select from below."
 						value={endpoint}
-						onChange={(e) => setEndpoint(e.target.value)}
+						onChange={handleChange}
 						onKeyUp={(e) => {
 							if (e.key === "Enter") handleFetchPreview();
 						}}
