@@ -65,8 +65,40 @@ Swapi is now a **Vite + Express** project. Use the following commands based on w
 
 Swapi requires a **MongoDB instance** to run locally.
 
-Currently, **no seed script** is available, but we plan to add one.
-For now, **import the fixture data manually**.
+## 🌱 Seeding the Database
+
+Before running the project, you may want to **populate the database** with demo data.
+
+### **🛠 Running the Seed Script**
+
+To seed **all available models**, from inside of the **server directory**, run:
+
+```sh
+npm run seed
+```
+
+🛠 Seeding Specific Models
+You can optionally specify which models to seed:
+
+```sh
+npm run seed -- people films planets
+```
+
+This will only seed the people, films, and planets collections.
+
+- NOTE: passing starships or vehicles will automatically seed from "transports".
+
+⚠️ Confirmation Step
+The script will prompt you for confirmation before proceeding with the seeding process.
+
+🛠 Resetting the Database
+If you need to completely reset the database, you can run:
+
+```sh
+node resetDB.js
+```
+
+🚀 Now you're ready to contribute!
 
 ---
 
@@ -166,7 +198,3 @@ Want to be listed? Open an issue or PR! 🚀
 ## ❓ Need Help?
 
 If you have any questions, feel free to **open a discussion** or reach out via [GitHub Issues](https://github.com/semperry/swapi/issues). Happy coding! 🎉
-
-```
-
-```

@@ -1,6 +1,6 @@
 const path = require("path");
 
-dotenv = require("dotenv").config({ path: path.join(__dirname, "../.env") });
+require("dotenv").config({ path: path.join(__dirname, "../.env") });
 const cors = require("cors");
 const express = require("express");
 
@@ -39,7 +39,7 @@ app.set("trust proxy", 1);
 app.use(
 	cors({
 		methods: allowedHeaders,
-	}),
+	})
 );
 
 // Honey Pot middleware to drop NPM Package traffic flood
