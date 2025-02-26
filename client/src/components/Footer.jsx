@@ -4,7 +4,7 @@ const Footer = () => {
 			<div>
 				Originially by{" "}
 				<a
-					href="https://phalt.github.io/"
+					href="https://github.com/phalt"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

@@ -2,23 +2,33 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 
 import AtAtSpinner from "../components/common/AtAtSpinner";
+import useDebounce from "../hooks/useDebounce";
 
 const HomePage = () => {
-	const [endpoint, setEndpoint] = useState("people/1");
+	const [endpoint, setEndpoint] = useState("");
 	const [currentData, setCurrentData] = useState();
 	const [isDataLoading, setIsDataLoading] = useState(true);
+	const debouncedEndpoint = useDebounce(endpoint);
 
-	const handleFetchPreview = useCallback(() => {
-		setIsDataLoading(true);
+	const handleFetchPreview = useCallback(
+		(signal) => {
+			setIsDataLoading(true);
 
-		fetch(`/api/${endpoint}`)
-			.then((res) => res.json())
-			.then((data) => {
-				setCurrentData(data);
-			})
-			.catch((err) => console.log(err))
-			.finally(() => setIsDataLoading(false));
-	}, []);
+			fetch(`/api/${endpoint}`, { signal })
+				.then((res) => res.json())
+				.then((data) => {
+					setCurrentData(data);
+					setIsDataLoading(false);
+				})
+				.catch((err) => {
+					console.log(err);
+					if (!signal.aborted) {
+						setIsDataLoading(false);
+					}
+				});
+		},
+		[endpoint]
+	);
 
 	const renderData = () => {
 		if (isDataLoading)
@@ -28,7 +38,7 @@ const HomePage = () => {
 					message="Fetching your data, stanby..."
 				/>
 			);
-		if (typeof currentData === "object") {
+		if (currentData) {
 			return <pre>{JSON.stringify(currentData, null, 2)}</pre>;
 		} else {
 			return null;
@@ -36,10 +46,15 @@ const HomePage = () => {
 	};
 
 	useEffect(() => {
-		if (!currentData) {
-			handleFetchPreview();
+		const abortController = new AbortController();
+		const signal = abortController.signal;
+
+		if (debouncedEndpoint || !currentData) {
+			handleFetchPreview(signal);
 		}
-	}, [handleFetchPreview]);
+
+		return () => abortController.abort();
+	}, [debouncedEndpoint]);
 
 	return (
 		<div className="content-container">
@@ -64,11 +79,15 @@ const HomePage = () => {
 						placeholder="...try people/1/, or select from below."
 						value={endpoint}
 						onChange={(e) => setEndpoint(e.target.value)}
+						onKeyUp={(e) => {
+							if (e.key === "Enter") handleFetchPreview();
+						}}
 					/>
 					<span className="input-group-btn">
 						<button
 							className="btn btn-primary"
-							onClick={() => handleFetchPreview(endpoint)}
+							disabled={!endpoint}
+							onClick={() => handleFetchPreview()}
 						>
 							request
 						</button>
