@@ -4,8 +4,8 @@ const path = require("path");
 require("dotenv").config({ path: path.join(__dirname, "../../.env") });
 
 const dbConfig = require("../config/dbConfig");
-const applyRoutes = require("./routes");
 const applyMiddleware = require("./middleware");
+const applyRoutes = require("./routes");
 const { applyConfig } = require("../config/config");
 
 const app = express();

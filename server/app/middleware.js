@@ -25,7 +25,7 @@ const applyMiddleware = (app) => {
 	});
 
 	// API-Specific Middleware
-	app.use("/api", [addAdURL, apiLimiter, apiSlowDown, setEncoding, setUrl]);
+	app.use("/api", [apiLimiter, apiSlowDown, setEncoding, setUrl, addAdURL]);
 	app.use("/track", [apiLimiter, apiSlowDown]);
 };
 

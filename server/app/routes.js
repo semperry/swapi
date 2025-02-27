@@ -9,11 +9,8 @@ const starshipRoutes = require("../routes/starshipRoutes");
 const vehicleRoutes = require("../routes/vehicleRoutes");
 
 const applyRoutes = (app) => {
-	app.use("/", rootRoutes);
-	app.use("/count", countRoutes);
-	app.use("/track", adClickRoutes);
-
 	app.use("/api", [
+		rootRoutes,
 		filmRoutes,
 		peopleRoutes,
 		planetRoutes,
@@ -21,6 +18,8 @@ const applyRoutes = (app) => {
 		starshipRoutes,
 		vehicleRoutes,
 	]);
+	app.use("/count", countRoutes);
+	app.use("/track", adClickRoutes);
 };
 
 module.exports = applyRoutes;

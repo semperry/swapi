@@ -6,7 +6,7 @@ import useDebounce from "../hooks/useDebounce";
 
 const HomePage = () => {
 	const [endpoint, setEndpoint] = useState("");
-	const [currentData, setCurrentData] = useState();
+	const [currentData, setCurrentData] = useState(null);
 	const [isDataLoading, setIsDataLoading] = useState(true);
 	const debouncedEndpoint = useDebounce(endpoint);
 
