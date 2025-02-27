@@ -6,7 +6,7 @@ import SwapiHeader from "../components/SwapiHeader";
 
 const Layout = ({ children }) => {
 	const trackAndRedirect = () => {
-		fetch("/track/saber-masters")
+		fetch("/track/saber-masters/ad-site-click")
 			.then(() => {
 				window.open(
 					"https://www.sabermasters.com/discount/RYAN47680",

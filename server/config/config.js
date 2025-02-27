@@ -6,4 +6,8 @@ const API_BASE_URL =
 		? "https://www.swapi.tech/api"
 		: "http://localhost:5000/api";
 
-module.exports = { API_BASE_URL };
+const applyConfig = (app) => {
+	app.set("trust proxy", 1);
+};
+
+module.exports = { API_BASE_URL, applyConfig };
