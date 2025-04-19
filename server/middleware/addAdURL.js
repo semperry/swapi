@@ -20,6 +20,10 @@ const addAdURL = (_, res, next) => {
 					link: `${url}/partner-discount/sabermasters-swapi`,
 					details: "Use this link to automatically get $10 off your purchase!",
 				},
+				heartMath: {
+					link: "https://www.heartmath.com/ryanc",
+					details: "Looking for some Jedi-like inner peace? Take 10% off your heart-brain coherence tools from the HeartMath Institute!"
+				},
 			},
 		};
 		data.social = {
