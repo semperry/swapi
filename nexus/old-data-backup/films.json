@@ -1,0 +1,221 @@
+[
+	{
+		"fields": {
+			"starships": [2, 3, 5, 9, 10, 11, 12, 13],
+			"vehicles": [4, 6, 7, 8],
+			"planets": [1, 2, 3],
+			"producer": "Gary Kurtz, Rick McCallum",
+			"title": "A New Hope",
+			"episode_id": 4,
+			"director": "George Lucas",
+			"release_date": "1977-05-25",
+			"opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
+			"characters": [
+				1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 81
+			],
+			"species": [1, 2, 3, 4, 5],
+			"description": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire."
+		},
+		"pk": 1,
+		"schema": "films"
+	},
+	{
+		"fields": {
+			"starships": [3, 10, 11, 12, 15, 17, 21, 22, 23],
+			"vehicles": [8, 14, 16, 18, 19, 20],
+			"planets": [4, 5, 6, 27],
+			"producer": "Gary Kurtz, Rick McCallum",
+			"title": "The Empire Strikes Back",
+			"episode_id": 5,
+			"director": "Irvin Kershner",
+			"release_date": "1980-05-17",
+			"opening_crawl": "It is a dark time for the\r\nRebellion. Although the Death\r\nStar has been destroyed,\r\nImperial troops have driven the\r\nRebel forces from their hidden\r\nbase and pursued them across\r\nthe galaxy.\r\n\r\nEvading the dreaded Imperial\r\nStarfleet, a group of freedom\r\nfighters led by Luke Skywalker\r\nhas established a new secret\r\nbase on the remote ice world\r\nof Hoth.\r\n\r\nThe evil lord Darth Vader,\r\nobsessed with finding young\r\nSkywalker, has dispatched\r\nthousands of remote probes into\r\nthe far reaches of space....",
+			"characters": [1, 2, 3, 4, 5, 10, 13, 14, 18, 20, 21, 22, 23, 24, 25, 26],
+			"species": [1, 2, 3, 6, 7],
+			"description": "After the destruction of the Death Star, Imperial forces continue to pursue the Rebels. After the Rebellion’s defeat on the ice planet Hoth, Luke journeys to the planet Dagobah to train with Jedi Master Yoda, who has lived in hiding since the fall of the Republic. In an attempt to convert Luke to the dark side, Darth Vader lures young Skywalker into a trap in the Cloud City of Bespin."
+		},
+		"pk": 2,
+		"schema": "films"
+	},
+	{
+		"fields": {
+			"starships": [2, 3, 10, 11, 12, 15, 17, 22, 23, 27, 28, 29],
+			"vehicles": [8, 16, 18, 19, 24, 25, 26, 30],
+			"planets": [1, 5, 7, 8, 9],
+			"producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
+			"title": "Return of the Jedi",
+			"episode_id": 6,
+			"director": "Richard Marquand",
+			"release_date": "1983-05-25",
+			"opening_crawl": "Luke Skywalker has returned to\r\nhis home planet of Tatooine in\r\nan attempt to rescue his\r\nfriend Han Solo from the\r\nclutches of the vile gangster\r\nJabba the Hutt.\r\n\r\nLittle does Luke know that the\r\nGALACTIC EMPIRE has secretly\r\nbegun construction on a new\r\narmored space station even\r\nmore powerful than the first\r\ndreaded Death Star.\r\n\r\nWhen completed, this ultimate\r\nweapon will spell certain doom\r\nfor the small band of rebels\r\nstruggling to restore freedom\r\nto the galaxy...",
+			"characters": [
+				1, 2, 3, 4, 5, 10, 13, 14, 16, 18, 20, 21, 22, 25, 27, 28, 29, 30, 31,
+				45
+			],
+			"species": [1, 2, 3, 5, 6, 8, 9, 10, 15],
+			"description": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war..."
+		},
+		"pk": 3,
+		"schema": "films"
+	},
+	{
+		"fields": {
+			"starships": [31, 32, 39, 40, 41],
+			"vehicles": [33, 34, 35, 36, 37, 38, 42],
+			"planets": [1, 8, 9],
+			"producer": "Rick McCallum",
+			"title": "The Phantom Menace",
+			"episode_id": 1,
+			"director": "George Lucas",
+			"release_date": "1999-05-19",
+			"opening_crawl": "Turmoil has engulfed the\r\nGalactic Republic. The taxation\r\nof trade routes to outlying star\r\nsystems is in dispute.\r\n\r\nHoping to resolve the matter\r\nwith a blockade of deadly\r\nbattleships, the greedy Trade\r\nFederation has stopped all\r\nshipping to the small planet\r\nof Naboo.\r\n\r\nWhile the Congress of the\r\nRepublic endlessly debates\r\nthis alarming chain of events,\r\nthe Supreme Chancellor has\r\nsecretly dispatched two Jedi\r\nKnights, the guardians of\r\npeace and justice in the\r\ngalaxy, to settle the conflict....",
+			"characters": [
+				2, 3, 10, 11, 16, 20, 21, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42,
+				43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59
+			],
+			"species": [
+				1, 2, 6, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
+				27
+			],
+			"description": "Experience the heroic action and unforgettable adventures of Star Wars: Episode I - The Phantom Menace. See the first fateful steps in the journey of Anakin Skywalker. Stranded on the desert planet Tatooine after rescuing young Queen Amidala from the impending invasion of Naboo, Jedi apprentice Obi-Wan Kenobi and his Jedi Master Qui-Gon Jinn discover nine-year-old Anakin, who is unusually strong in the Force. Anakin wins a thrilling Podrace and with it his freedom as he leaves his home to be trained as a Jedi. The heroes return to Naboo where Anakin and the Queen face massive invasion forces while the two Jedi contend with a deadly foe named Darth Maul. Only then do they realize the invasion is merely the first step in a sinister scheme by the re-emergent forces of darkness known as the Sith."
+		},
+		"pk": 4,
+		"schema": "films"
+	},
+	{
+		"fields": {
+			"starships": [21, 32, 39, 43, 47, 48, 49, 52, 58],
+			"vehicles": [4, 44, 45, 46, 50, 51, 53, 54, 55, 56, 57],
+			"planets": [1, 8, 9, 10, 11],
+			"producer": "Rick McCallum",
+			"title": "Attack of the Clones",
+			"episode_id": 2,
+			"director": "George Lucas",
+			"release_date": "2002-05-16",
+			"opening_crawl": "There is unrest in the Galactic\r\nSenate. Several thousand solar\r\nsystems have declared their\r\nintentions to leave the Republic.\r\n\r\nThis separatist movement,\r\nunder the leadership of the\r\nmysterious Count Dooku, has\r\nmade it difficult for the limited\r\nnumber of Jedi Knights to maintain \r\npeace and order in the galaxy.\r\n\r\nSenator Amidala, the former\r\nQueen of Naboo, is returning\r\nto the Galactic Senate to vote\r\non the critical issue of creating\r\nan ARMY OF THE REPUBLIC\r\nto assist the overwhelmed\r\nJedi....",
+			"characters": [
+				2, 3, 6, 7, 10, 11, 20, 21, 22, 33, 35, 36, 40, 43, 46, 51, 52, 53, 58,
+				59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76,
+				77, 78, 82
+			],
+			"species": [1, 2, 6, 12, 13, 15, 28, 29, 30, 31, 32, 33, 34, 35],
+			"description": "Watch the seeds of Anakin Skywalker's transformation take root in Star Wars: Episode II - Attack of the Clones. Ten years after the invasion of Naboo, the galaxy is on the brink of civil war. Under the leadership of a renegade Jedi named Count Dooku, thousands of solar systems threaten to break away from the Galactic Republic. When an assassination attempt is made on Senator Padmé Amidala, the former Queen of Naboo, twenty-year-old Jedi apprentice Anakin Skywalker is assigned to protect her. In the course of his mission, Anakin discovers his love for Padmé as well as his own darker side. Soon, Anakin, Padmé, and Obi-Wan Kenobi are drawn into the heart of the Separatist movement and the beginning of the Clone Wars."
+		},
+		"pk": 5,
+		"schema": "films"
+	},
+	{
+		"fields": {
+			"starships": [2, 32, 48, 59, 61, 63, 64, 65, 66, 68, 74, 75],
+			"vehicles": [33, 50, 53, 56, 60, 62, 67, 69, 70, 71, 72, 73, 76],
+			"planets": [1, 2, 5, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19],
+			"producer": "Rick McCallum",
+			"title": "Revenge of the Sith",
+			"episode_id": 3,
+			"director": "George Lucas",
+			"release_date": "2005-05-19",
+			"opening_crawl": "War! The Republic is crumbling\r\nunder attacks by the ruthless\r\nSith Lord, Count Dooku.\r\nThere are heroes on both sides.\r\nEvil is everywhere.\r\n\r\nIn a stunning move, the\r\nfiendish droid leader, General\r\nGrievous, has swept into the\r\nRepublic capital and kidnapped\r\nChancellor Palpatine, leader of\r\nthe Galactic Senate.\r\n\r\nAs the Separatist Droid Army\r\nattempts to flee the besieged\r\ncapital with their valuable\r\nhostage, two Jedi Knights lead a\r\ndesperate mission to rescue the\r\ncaptive Chancellor....",
+			"characters": [
+				1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 20, 21, 33, 35, 46, 51, 52, 53, 54,
+				55, 56, 58, 63, 64, 67, 68, 75, 78, 79, 80, 81, 82, 83
+			],
+			"species": [
+				1, 2, 3, 6, 15, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 33, 34, 35, 36,
+				37
+			],
+			"description": "Years after the onset of the Clone Wars, the noble Jedi Knights lead a massive clone army into a galaxy-wide battle against the Separatists. When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker is seduced by the dark side of the Force to become the Emperor’s new apprentice – Darth Vader. The Jedi are decimated, as Obi-Wan Kenobi and Jedi Master Yoda are forced into hiding."
+		},
+		"pk": 6,
+		"schema": "films"
+	},
+	{
+		"fields": {
+			"title": "The Rise of Skywalker",
+			"episode_id": 9,
+			"description": "Lucasfilm and director J.J. Abrams join forces once more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+			"release_date": "2019-12-18",
+			"producer": "J.J. Abrams, Kathleen Kennedy, Michelle Rejwan",
+			"director": "J.J. Abrams",
+			"opening_crawl": "The dead speak! The galaxy has\r\nheard a mysterious broadcast,\r\na threat of REVENGE in the\r\nsinister voice of the late\r\nEMPEROR PALPATINE.\r\n\r\nGENERAL LEIA ORGANA\r\ndispatches secret agents to\r\ngather intelligence, while REY,\r\nthe last hope of the Jedi, trains\r\nfor battle against the diabolical\r\nFIRST ORDER.\r\n\r\nMeanwhile, Supreme Leader\r\nKYLO REN rages in search\r\nof the phantom Emperor,\r\ndetermined to destroy any\r\nthreat to his power....",
+			"characters": [],
+			"species": [],
+			"planets": [],
+			"starships": [],
+			"vehicles": []
+		},
+		"schema": "films",
+		"pk": 7
+	},
+	{
+		"fields": {
+			"title": "Solo: A Star Wars Story",
+			"episode_id": 0,
+			"description": "Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.",
+			"release_date": "2018-05-23",
+			"producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+			"director": "Ron Howard",
+			"opening_crawl": "It is a lawless time.\r\n\r\nCRIME SYNDICATES compete for resources – food, medicine, and HYPERFUEL.\r\n\r\nOn the shipbuilding planet of CORELLIA, the foul LADY PROXIMA forces runaways into a life of crime in exchange for shelter and protection.\r\n\r\nOn these mean streets, a young man fights for survival, but yearns to fly among the stars....",
+			"characters": [14],
+			"species": [],
+			"planets": [],
+			"starships": [],
+			"vehicles": []
+		},
+		"schema": "films",
+		"pk": 8
+	},
+	{
+		"fields": {
+			"title": "The Last Jedi",
+			"episode_id": 8,
+			"description": "The Resistance is in desperate need of help when they find themselves impossibly pursued by the First Order. While Rey travels to a remote planet called Ahch-To to recruit Luke Skywalker to the Resistance, Finn and Rose, a mechanic, go on their own mission in the hopes of helping the Resistance finally escape the First Order. But everyone finds themselves on the salt-planet of Crait for a last stand. ",
+			"release_date": "2017-12-13",
+			"producer": "Kathleen Kennedy, Leifur B. Dagfinnsson, Ram Bergman",
+			"director": "Rian Johnson",
+			"opening_crawl": "Tragedy has struck the New\r\nRepublic. After the deaths of\r\nmillions caused by the First\r\nOrder’s sinister Starkiller Base,\r\ntensions are growing strong\r\nwithin the RESISTANCE.\r\n\r\nLittle do they know that\r\nSupreme Leader Snoke is about\r\nto begin training Kylo Ren\r\nin the dark secrets of the\r\nFORCE. With this ancient\r\nknowledge, the Resistance will\r\nstand no chance against them.\r\n\r\nGeneral Leia Organa has sent Rey\r\nto retrieve her brother, Luke\r\nSkywalker, from his self-induced\r\nexile, as he is the last hope to\r\nsave the galaxy from the treachery\r\nof the First Order…",
+			"characters": [],
+			"species": [],
+			"planets": [],
+			"starships": [],
+			"vehicles": []
+		},
+		"schema": "films",
+		"pk": 9
+	},
+	{
+		"fields": {
+			"title": "Rogue One: A Star Wars Story",
+			"episode_id": 0,
+			"description": "From Lucasfilm comes the first of the Star Wars standalone films, “Rogue One: A Star Wars Story,” an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire’s ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves.",
+			"release_date": "2016-12-16",
+			"producer": "Kathleen Kennedy, Tony To, Allison Shearmur, Simon Emanuel, Leifur B. Dagfinnsson",
+			"director": "Gareth Edwards",
+			"opening_crawl": "None",
+			"characters": [],
+			"species": [],
+			"planets": [],
+			"starships": [],
+			"vehicles": []
+		},
+		"schema": "films",
+		"pk": 10
+	},
+	{
+		"fields": {
+			"title": "The Force Awakens",
+			"episode_id": 7,
+			"description": "Thirty years since the destruction of the second Death Star, the sinister First Order, commanded by the mysterious Snoke and apprentice Kylo Ren, rise from the ashes of the Empire. The Resistance, led by General Leia Organa, attempts to thwart the First Order's threat, but they're desperate for help. Rey, a desert scavenger, and Finn, an ex-stormtrooper, find themselves joining forces with Han Solo and Chewbacca in a desperate mission to return a BB-unit droid with a map to Luke Skywalker back to the Resistance. ",
+			"release_date": "2015-12-18",
+			"producer": "J.J. Abrams, Kathleen Kennedy, Bryan Burk",
+			"director": "J.J. Abrams",
+			"opening_crawl": "Luke Skywalker has vanished.\r\nIn his absence, the sinister FIRST ORDER has risen from the ashes of the Empire and will not rest until Skywalker, the last Jedi, has been destroyed.\r\nWith the support of the REPUBLIC, General Leia Organa leads a brave RESISTANCE. She is desperate to find her brother Luke and gain his help in restoring peace and justice to the galaxy.\r\nLeia has sent her most daring pilot on a secret mission to Jakku, where an old ally has discovered a clue to Luke’s whereabouts…",
+			"characters": [],
+			"species": [],
+			"planets": [],
+			"starships": [],
+			"vehicles": []
+		},
+		"schema": "films",
+		"pk": 11
+	}
+]

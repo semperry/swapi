@@ -1,0 +1,1769 @@
+{
+  "rating": null,
+  "images": {
+    "assets": {
+      "catalog_poster_image": {
+        "base_url": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+        "base_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+        "api_params": {
+          "region": "0,0,1446,2160"
+        },
+        "cdn_url": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg?region=0%2C0%2C1446%2C2160",
+        "cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg?region=0%2C0%2C1446%2C2160",
+        "alt_text": "Star Wars: A New Hope poster"
+      }
+    }
+  },
+  "year": 1977,
+  "translations": {},
+  "desc": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+  "digital_released_on": null,
+  "streaming_released_on": null,
+  "physical_released_on": null,
+  "phase": null,
+  "release": "May 25, 1977",
+  "crew": [],
+  "meta": true,
+  "genres": null,
+  "catalog_poster": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg"
+  },
+  "display_genres": null,
+  "display_ratings": null,
+  "display_runtime": null,
+  "logo_full_size": null,
+  "secondary_title": null,
+  "raw_dates": {
+    "release": "1977-05-25",
+    "digital_released_on": null,
+    "streaming_released_on": null,
+    "physical_released_on": null
+  },
+  "rich_text": null,
+  "id": "4cd593eaf85589592fc489de",
+  "slug": "films/star-wars-episode-iv-a-new-hope",
+  "entity_type": "movie",
+  "entity_config": {
+    "rounded_corners": "default",
+    "thumb_outline": true,
+    "aspect_ratio": "poster",
+    "button_cta": "more_info",
+    "text_alignment": "left",
+    "details_visibility": "default"
+  },
+  "title": "Star Wars: A New Hope (Episode IV)",
+  "aria_label": "Star Wars: A New Hope poster",
+  "deep_link_ref": "#star-wars-episode-iv-a-new-hope",
+  "thumb": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+  "catalogImage": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg?region=0%2C0%2C1446%2C2160",
+  "featured_entity_translation": "Featured Content",
+  "description": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+  "short_desc": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+  "dynamic_desc": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+  "cta_button_title": "See More",
+  "thumb_data": {
+    "src": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+    "base_src": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg"
+  },
+  "alt_text": "Star Wars: A New Hope poster",
+  "base_images": {
+    "desktop": {
+      "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C231%2C583%2C328",
+      "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C83%2C589%2C587",
+      "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C219%2C586%2C293",
+      "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C194%2C589%2C442"
+    },
+    "mobile": {
+      "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C231%2C583%2C328",
+      "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C83%2C589%2C587",
+      "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C219%2C586%2C293",
+      "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C194%2C589%2C442"
+    }
+  },
+  "section_label": "films",
+  "section_class": "films",
+  "type": "Movie",
+  "href": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+  "characters": {
+    "count": 33,
+    "title": "Characters",
+    "data": [
+      {
+        "id": "616b22dd460f0492a01ad05b",
+        "slug": "admiral-motti",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Admiral Motti",
+        "featured_entity_translation": "Featured Content",
+        "description": "A young, ambitious Imperial officer from the Outer Rim world of Seswenna, Admiral Motti saw the Death Star as the ultimate power in the universe, and burned to use that power against any who dared challenge the Empire. The commander of the Star Destroyer Steel Talon, he served as one of the Imperial military’s Joint Chiefs, becoming an ally of Grand Moff Tarkin’s and head of naval operations aboard the Death Star. He died when the battle station was destroyed.",
+        "short_desc": "A young, ambitious Imperial officer from the Outer Rim world of Seswenna, Admiral Motti saw the Death Star as the ultimate power in the universe, and burned to use that power against any who dared challenge the Empire. The commander of the Star Destroyer Steel Talon, he served as one of the Imperial military’s Joint Chiefs, becoming an ally of Grand Moff Tarkin’s and head of naval operations aboard the Death Star. He died when the battle station was destroyed.",
+        "dynamic_desc": "A young, ambitious Imperial officer from the Outer Rim world of Seswenna, Admiral Motti saw the Death Star as the ultimate power in the universe, and burned to use that power against any who dared challenge the Empire. The commander of the Star Destroyer Steel Talon, he served as one of the Imperial military’s Joint Chiefs, becoming an ally of Grand Moff Tarkin’s and head of naval operations aboard the Death Star. He died when the battle station was destroyed.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=260%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=417%2C0%2C878%2C878"
+          },
+          "alt_text": "Admiral Motti"
+        },
+        "alt_text": "Admiral Motti",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=417%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralmotti_01_169_f01d2570.jpeg?region=260%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/admiral-motti"
+      },
+      {
+        "id": "616b235ed4bce492a01ad05b",
+        "slug": "beru-lars",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Beru Lars",
+        "featured_entity_translation": "Featured Content",
+        "description": "In her youth, Beru Whitesun's aspirations did not reach beyond Tatooine. The shy young woman was content to marry Owen Lars and lead the tough life of a moisture farmer. In time, she became a surrogate mother and guardian to their nephew, Luke Skywalker. Fiercely protective of the child, Beru would do anything to ensure Luke's safety and happiness.",
+        "short_desc": "In her youth, Beru Whitesun's aspirations did not reach beyond Tatooine. The shy young woman was content to marry Owen Lars and lead the tough life of a moisture farmer. In time, she became a surrogate mother and guardian to their nephew, Luke Skywalker. Fiercely protective of the child, Beru would do anything to ensure Luke's safety and happiness.",
+        "dynamic_desc": "In her youth, Beru Whitesun's aspirations did not reach beyond Tatooine. The shy young woman was content to marry Owen Lars and lead the tough life of a moisture farmer. In time, she became a surrogate mother and guardian to their nephew, Luke Skywalker. Fiercely protective of the child, Beru would do anything to ensure Luke's safety and happiness.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=220%2C0%2C1060%2C531",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=342%2C0%2C938%2C527",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=531%2C0%2C676%2C507",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=640%2C0%2C480%2C480"
+          },
+          "alt_text": "Beru Lars"
+        },
+        "alt_text": "Beru Lars",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=342%2C0%2C938%2C527",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=640%2C0%2C480%2C480",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=220%2C0%2C1060%2C531",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png?region=531%2C0%2C676%2C507"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.65m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/beru-lars"
+      },
+      {
+        "id": "616b26ead0f0d492a01ad05b",
+        "slug": "biggs-darklighter",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Biggs Darklighter",
+        "featured_entity_translation": "Featured Content",
+        "description": "Biggs Darklighter grew up on Tatooine with Luke Skywalker, and shared his friend's dreams of escaping the dull desert world. After graduating from the Imperial Academy, he defected from the Empire's service to join the Rebellion. He and Luke were reunited at Yavin 4's Rebel base, and flew together against the Death Star. Luke returned from that mission as a hero, but Biggs did not survive.",
+        "short_desc": "Biggs Darklighter grew up on Tatooine with Luke Skywalker, and shared his friend's dreams of escaping the dull desert world. After graduating from the Imperial Academy, he defected from the Empire's service to join the Rebellion. He and Luke were reunited at Yavin 4's Rebel base, and flew together against the Death Star. Luke returned from that mission as a hero, but Biggs did not survive.",
+        "dynamic_desc": "Biggs Darklighter grew up on Tatooine with Luke Skywalker, and shared his friend's dreams of escaping the dull desert world. After graduating from the Imperial Academy, he defected from the Empire's service to join the Rebellion. He and Luke were reunited at Yavin 4's Rebel base, and flew together against the Death Star. Luke returned from that mission as a hero, but Biggs did not survive.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=352%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=520%2C0%2C878%2C878"
+          },
+          "alt_text": "Biggs Darklighter"
+        },
+        "alt_text": "Biggs Darklighter",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=520%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=352%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.83m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/biggs-darklighter"
+      },
+      {
+        "id": "616b235274eee492a01ad05b",
+        "slug": "boba-fett",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Boba Fett",
+        "featured_entity_translation": "Featured Content",
+        "description": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+        "short_desc": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+        "dynamic_desc": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=174%2C45%2C1106%2C553",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=143%2C0%2C1137%2C853",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=311%2C0%2C853%2C853"
+          },
+          "alt_text": "Boba Fett"
+        },
+        "alt_text": "Boba Fett",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=311%2C0%2C853%2C853",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=174%2C45%2C1106%2C553",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=143%2C0%2C1137%2C853"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.83m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/boba-fett"
+      },
+      {
+        "id": "616b2b389be13492a01ad05b",
+        "slug": "boshek",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "BoShek",
+        "featured_entity_translation": "Featured Content",
+        "description": "A Corellian smuggler and pilot-for-hire, BoShek was cooling his heels at the bar in Tatooine’s Mos Eisley cantina when Obi-Wan Kenobi introduced himself and said he was looking to hire a charter without attracting Imperial attention. BoShek didn’t take the job, but he knew two pilots who might be interested, and introduced Kenobi to Chewbacca the Wookiee.",
+        "short_desc": "A Corellian smuggler and pilot-for-hire, BoShek was cooling his heels at the bar in Tatooine’s Mos Eisley cantina when Obi-Wan Kenobi introduced himself and said he was looking to hire a charter without attracting Imperial attention. BoShek didn’t take the job, but he knew two pilots who might be interested, and introduced Kenobi to Chewbacca the Wookiee.",
+        "dynamic_desc": "A Corellian smuggler and pilot-for-hire, BoShek was cooling his heels at the bar in Tatooine’s Mos Eisley cantina when Obi-Wan Kenobi introduced himself and said he was looking to hire a charter without attracting Imperial attention. BoShek didn’t take the job, but he knew two pilots who might be interested, and introduced Kenobi to Chewbacca the Wookiee.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=203%2C0%2C1322%2C661",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=252%2C0%2C1175%2C661",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=498%2C0%2C883%2C661",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=639%2C0%2C661%2C661"
+          },
+          "alt_text": "BoShek"
+        },
+        "alt_text": "BoShek",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=252%2C0%2C1175%2C661",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=639%2C0%2C661%2C661",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=203%2C0%2C1322%2C661",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/boshek-main-image_f7900f5e.jpeg?region=498%2C0%2C883%2C661"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/boshek"
+      },
+      {
+        "id": "616b2378b6e91492a01ad05b",
+        "slug": "c-3po-see-threepio",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "C-3PO (See-Threepio)",
+        "featured_entity_translation": "Featured Content",
+        "description": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "short_desc": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "dynamic_desc": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=129%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=233%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=336%2C0%2C537%2C536"
+          },
+          "alt_text": "C-3PO (See-Threepio)"
+        },
+        "alt_text": "C-3PO (See-Threepio)",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=336%2C0%2C537%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=129%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=233%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.77m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/c-3po"
+      },
+      {
+        "id": "616b2711b3b78492a01ad05b",
+        "slug": "captain-antilles",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Captain Antilles",
+        "featured_entity_translation": "Featured Content",
+        "description": "A level-headed ship officer schooled in diplomacy, and a capable pilot entrusted to ferry about the royal family of Alderaan, Captain Antilles served in Bail Organa's command staff. He was part of the bridge crew of Organa's diplomatic cruiser, a role he would continue during the time Princess Leia served as Senator of Alderaan.",
+        "short_desc": "A level-headed ship officer schooled in diplomacy, and a capable pilot entrusted to ferry about the royal family of Alderaan, Captain Antilles served in Bail Organa's command staff. He was part of the bridge crew of Organa's diplomatic cruiser, a role he would continue during the time Princess Leia served as Senator of Alderaan.",
+        "dynamic_desc": "A level-headed ship officer schooled in diplomacy, and a capable pilot entrusted to ferry about the royal family of Alderaan, Captain Antilles served in Bail Organa's command staff. He was part of the bridge crew of Organa's diplomatic cruiser, a role he would continue during the time Princess Leia served as Senator of Alderaan.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C49%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=195%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C0%2C876%2C878"
+          },
+          "alt_text": "Captain Antilles"
+        },
+        "alt_text": "Captain Antilles",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C0%2C876%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C49%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=195%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/captain-antilles"
+      },
+      {
+        "id": "616b2362d2b85492a01ad05b",
+        "slug": "chewbacca",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Chewbacca",
+        "featured_entity_translation": "Featured Content",
+        "description": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "short_desc": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "dynamic_desc": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=16%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=0%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536"
+          },
+          "alt_text": "Chewbacca"
+        },
+        "alt_text": "Chewbacca",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=16%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=0%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.28m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/chewbacca"
+      },
+      {
+        "id": "616b23a6b453e492a01ad05b",
+        "slug": "darth-vader",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Darth Vader",
+        "featured_entity_translation": "Featured Content",
+        "description": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+        "short_desc": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+        "dynamic_desc": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=74%2C37%2C1144%2C572",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=71%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=213%2C0%2C854%2C854"
+          },
+          "alt_text": "Darth Vader"
+        },
+        "alt_text": "Darth Vader",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=213%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=74%2C37%2C1144%2C572",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=71%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.03m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/darth-vader"
+      },
+      {
+        "id": "616b2bc5cd414492a01ad05b",
+        "slug": "dex-tiree",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Dex Tiree",
+        "featured_entity_translation": "Featured Content",
+        "description": "Dex Tiree was a human pilot from Onderon who fought with distinction at the Battle of Yavin under the designation “Gold Two.” He was Jon “Dutch” Vander’s wingman, piloting a Y-Wing with the rest of Gold Squadron in the assault on the Death Star. Sadly, he was the first pilot hit when the Dark Lord of the Sith Darth Vader arrived in his TIE Advanced.",
+        "short_desc": "Dex Tiree was a human pilot from Onderon who fought with distinction at the Battle of Yavin under the designation “Gold Two.” He was Jon “Dutch” Vander’s wingman, piloting a Y-Wing with the rest of Gold Squadron in the assault on the Death Star. Sadly, he was the first pilot hit when the Dark Lord of the Sith Darth Vader arrived in his TIE Advanced.",
+        "dynamic_desc": "Dex Tiree was a human pilot from Onderon who fought with distinction at the Battle of Yavin under the designation “Gold Two.” He was Jon “Dutch” Vander’s wingman, piloting a Y-Wing with the rest of Gold Squadron in the assault on the Death Star. Sadly, he was the first pilot hit when the Dark Lord of the Sith Darth Vader arrived in his TIE Advanced.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=117%2C0%2C1326%2C663",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=191%2C0%2C1179%2C663",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=338%2C0%2C884%2C663",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=449%2C0%2C663%2C663"
+          },
+          "alt_text": "Dex Tiree"
+        },
+        "alt_text": "Dex Tiree",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=191%2C0%2C1179%2C663",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=449%2C0%2C663%2C663",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=117%2C0%2C1326%2C663",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/dex-tiree_3efe56ad.jpeg?region=338%2C0%2C884%2C663"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/dex-tiree"
+      },
+      {
+        "id": "616b2a9b5d4df492a01ad05b",
+        "slug": "doctor-cornelius-evazan",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Doctor Cornelius Evazan",
+        "featured_entity_translation": "Featured Content",
+        "description": "A grubby, scarred smuggler from Alsakan, Cornelius Evazan was once a promising surgeon, but became notorious for conducting cruel medical experiments. Dr. Evazan tried to bully Luke Skywalker in the Mos Eisley cantina, boasting that he faced a death sentence in 12 systems. The doctor and his pal Ponda Baba assumed the young farmboy would be an easy target, and paid little heed to the old man in dusty robes who’d accompanied young Luke into the bar. That was a fatal mistake: when Evazan hurled Luke aside and pulled his blaster, Obi-Wan Kenobi coolly ignited his lightsaber and cut Evazan down.",
+        "short_desc": "A grubby, scarred smuggler from Alsakan, Cornelius Evazan was once a promising surgeon, but became notorious for conducting cruel medical experiments. Dr. Evazan tried to bully Luke Skywalker in the Mos Eisley cantina, boasting that he faced a death sentence in 12 systems. The doctor and his pal Ponda Baba assumed the young farmboy would be an easy target, and paid little heed to the old man in dusty robes who’d accompanied young Luke into the bar. That was a fatal mistake: when Evazan hurled Luke aside and pulled his blaster, Obi-Wan Kenobi coolly ignited his lightsaber and cut Evazan down.",
+        "dynamic_desc": "A grubby, scarred smuggler from Alsakan, Cornelius Evazan was once a promising surgeon, but became notorious for conducting cruel medical experiments. Dr. Evazan tried to bully Luke Skywalker in the Mos Eisley cantina, boasting that he faced a death sentence in 12 systems. The doctor and his pal Ponda Baba assumed the young farmboy would be an easy target, and paid little heed to the old man in dusty robes who’d accompanied young Luke into the bar. That was a fatal mistake: when Evazan hurled Luke aside and pulled his blaster, Obi-Wan Kenobi coolly ignited his lightsaber and cut Evazan down.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=18%2C279%2C1244%2C622",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=0%2C243%2C1250%2C705",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=0%2C124%2C1239%2C931",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=0%2C142%2C1239%2C1239"
+          },
+          "alt_text": "Doctor Cornelius Evazan"
+        },
+        "alt_text": "Doctor Cornelius Evazan",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=0%2C243%2C1250%2C705",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=0%2C142%2C1239%2C1239",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=18%2C279%2C1244%2C622",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/dr-evazan-main-image_bf435393.jpeg?region=0%2C124%2C1239%2C931"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/doctor-cornelius-evazan"
+      },
+      {
+        "id": "616b2bc9a1002492a01ad05b",
+        "slug": "figrin-d-an",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Figrin D’an",
+        "featured_entity_translation": "Featured Content",
+        "description": "Figrin D’an was the rocking frontman for the all-Bith band “The Modal Nodes.” His deft playing of the Kloo Horn for the band earned him the nickname “Fiery” Figrin. Playing their most recognizable tune in the Mos Eisley cantina, they were interrupted briefly when Obi-Wan Kenobi attacked Ponda Boba and Dr. Cornelius Evazan.",
+        "short_desc": "Figrin D’an was the rocking frontman for the all-Bith band “The Modal Nodes.” His deft playing of the Kloo Horn for the band earned him the nickname “Fiery” Figrin. Playing their most recognizable tune in the Mos Eisley cantina, they were interrupted briefly when Obi-Wan Kenobi attacked Ponda Boba and Dr. Cornelius Evazan.",
+        "dynamic_desc": "Figrin D’an was the rocking frontman for the all-Bith band “The Modal Nodes.” His deft playing of the Kloo Horn for the band earned him the nickname “Fiery” Figrin. Playing their most recognizable tune in the Mos Eisley cantina, they were interrupted briefly when Obi-Wan Kenobi attacked Ponda Boba and Dr. Cornelius Evazan.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=0%2C0%2C1186%2C594",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=0%2C0%2C1186%2C668",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=45%2C0%2C1067%2C802",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=173%2C0%2C800%2C802"
+          },
+          "alt_text": "Figrin D’an"
+        },
+        "alt_text": "Figrin D’an",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=0%2C0%2C1186%2C668",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=173%2C0%2C800%2C802",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=0%2C0%2C1186%2C594",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/figrin-dan_59ce7b09.jpeg?region=45%2C0%2C1067%2C802"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.79m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/figrin-d-an"
+      },
+      {
+        "id": "616b2ac20bbe0492a01ad05b",
+        "slug": "garindan",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Garindan",
+        "featured_entity_translation": "Featured Content",
+        "description": "A long-snooted Kubaz, Garindan made a living ferreting out information in Mos Eisley and selling it to the highest bidder. After the Empire hired Garindan and other spies to search for a pair of missing droids, the Kubaz discovered a duo that fit the Imperial description. He followed Luke Skywalker and Obi-Wan Kenobi to Docking Bay 94 for their rendezvous with Han Solo, then summoned Imperial troops to apprehend them.",
+        "short_desc": "A long-snooted Kubaz, Garindan made a living ferreting out information in Mos Eisley and selling it to the highest bidder. After the Empire hired Garindan and other spies to search for a pair of missing droids, the Kubaz discovered a duo that fit the Imperial description. He followed Luke Skywalker and Obi-Wan Kenobi to Docking Bay 94 for their rendezvous with Han Solo, then summoned Imperial troops to apprehend them.",
+        "dynamic_desc": "A long-snooted Kubaz, Garindan made a living ferreting out information in Mos Eisley and selling it to the highest bidder. After the Empire hired Garindan and other spies to search for a pair of missing droids, the Kubaz discovered a duo that fit the Imperial description. He followed Luke Skywalker and Obi-Wan Kenobi to Docking Bay 94 for their rendezvous with Han Solo, then summoned Imperial troops to apprehend them.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=0%2C16%2C797%2C397",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=0%2C21%2C797%2C448",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=21%2C0%2C691%2C519",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=278%2C0%2C519%2C519"
+          },
+          "alt_text": "Garindan"
+        },
+        "alt_text": "Garindan",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=0%2C21%2C797%2C448",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=278%2C0%2C519%2C519",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=0%2C16%2C797%2C397",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/garindan-main-image_409cd281.jpeg?region=21%2C0%2C691%2C519"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/garindan"
+      },
+      {
+        "id": "616b2ac8b772f492a01ad05b",
+        "slug": "garven-dreis",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Garven Dreis",
+        "featured_entity_translation": "Featured Content",
+        "description": "A native of the planet Virujansi, Garven “Dave” Dreis flew in the Battle of Yavin as Red Leader. After witnessing the death of his friend Pops Krail and the pilots of Gold Squadron at the hands of Darth Vader, Dreis began his own run at the Death Star’s thermal exhaust port, with Luke Skywalker keeping another group of Red Squadron pilots back in case the attempt failed. Dreis survived long enough to fire his proton torpedoes at the battle station’s exhaust port, but his shot impacted on the surface instead of entering the port. Vader then gunned Red Leader down.",
+        "short_desc": "A native of the planet Virujansi, Garven “Dave” Dreis flew in the Battle of Yavin as Red Leader. After witnessing the death of his friend Pops Krail and the pilots of Gold Squadron at the hands of Darth Vader, Dreis began his own run at the Death Star’s thermal exhaust port, with Luke Skywalker keeping another group of Red Squadron pilots back in case the attempt failed. Dreis survived long enough to fire his proton torpedoes at the battle station’s exhaust port, but his shot impacted on the surface instead of entering the port. Vader then gunned Red Leader down.",
+        "dynamic_desc": "A native of the planet Virujansi, Garven “Dave” Dreis flew in the Battle of Yavin as Red Leader. After witnessing the death of his friend Pops Krail and the pilots of Gold Squadron at the hands of Darth Vader, Dreis began his own run at the Death Star’s thermal exhaust port, with Luke Skywalker keeping another group of Red Squadron pilots back in case the attempt failed. Dreis survived long enough to fire his proton torpedoes at the battle station’s exhaust port, but his shot impacted on the surface instead of entering the port. Vader then gunned Red Leader down.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=0%2C0%2C800%2C401",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=0%2C0%2C800%2C451",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=69%2C0%2C711%2C533",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=163%2C0%2C533%2C533"
+          },
+          "alt_text": "Garven Dreis"
+        },
+        "alt_text": "Garven Dreis",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=0%2C0%2C800%2C451",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=163%2C0%2C533%2C533",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=0%2C0%2C800%2C401",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/garven-dreis_efe9195b.jpeg?region=69%2C0%2C711%2C533"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/garven-dreis"
+      },
+      {
+        "id": "616b2b36fb5fb492a01ad05b",
+        "slug": "general-tagge",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Tagge",
+        "featured_entity_translation": "Featured Content",
+        "description": "Born into wealth and privilege on Tepasi, General Cassio Tagge served as chief of military operations aboard the first Death Star, though he disdained the battle station as “Tarkin’s Folly.” Unlike his rival Admiral Motti, Tagge took the threat posed by the Rebel Alliance seriously. Tagge was not aboard the Death Star when it exploded over Yavin; acknowledging that Tagge had been correct about the rebel threat, the Emperor promoted him to Grand General and placed him in charge of the Imperial military.",
+        "short_desc": "Born into wealth and privilege on Tepasi, General Cassio Tagge served as chief of military operations aboard the first Death Star, though he disdained the battle station as “Tarkin’s Folly.” Unlike his rival Admiral Motti, Tagge took the threat posed by the Rebel Alliance seriously. Tagge was not aboard the Death Star when it exploded over Yavin; acknowledging that Tagge had been correct about the rebel threat, the Emperor promoted him to Grand General and placed him in charge of the Imperial military.",
+        "dynamic_desc": "Born into wealth and privilege on Tepasi, General Cassio Tagge served as chief of military operations aboard the first Death Star, though he disdained the battle station as “Tarkin’s Folly.” Unlike his rival Admiral Motti, Tagge took the threat posed by the Rebel Alliance seriously. Tagge was not aboard the Death Star when it exploded over Yavin; acknowledging that Tagge had been correct about the rebel threat, the Emperor promoted him to Grand General and placed him in charge of the Imperial military.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=0%2C0%2C1316%2C657",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=0%2C0%2C1170%2C657",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=60%2C0%2C877%2C657",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=184%2C0%2C656%2C657"
+          },
+          "alt_text": "General Tagge"
+        },
+        "alt_text": "General Tagge",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=0%2C0%2C1170%2C657",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=184%2C0%2C656%2C657",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=0%2C0%2C1316%2C657",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-tagge-main-image_d9443d72.jpeg?region=60%2C0%2C877%2C657"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-tagge"
+      },
+      {
+        "id": "616b28efe6511492a01ad05b",
+        "slug": "grand-moff-tarkin",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Grand Moff Tarkin",
+        "featured_entity_translation": "Featured Content",
+        "description": "An ambitious, ruthless proponent of military power, Wilhuff Tarkin became a favorite of Supreme Chancellor Palpatine and rose rapidly through the Imperial ranks. Shortly after the Empire's creation, he was put in charge of the construction of the Death Star. Tarkin saw the Death Star as a way to crush all dissent to the Empire's rule -- fear of the station's planet-killing superlaser would keep the galaxy's star systems in line. He demonstrated the station's power by destroying Alderaan, but died soon afterwards when the Death Star itself was destroyed.",
+        "short_desc": "An ambitious, ruthless proponent of military power, Wilhuff Tarkin became a favorite of Supreme Chancellor Palpatine and rose rapidly through the Imperial ranks. Shortly after the Empire's creation, he was put in charge of the construction of the Death Star. Tarkin saw the Death Star as a way to crush all dissent to the Empire's rule -- fear of the station's planet-killing superlaser would keep the galaxy's star systems in line. He demonstrated the station's power by destroying Alderaan, but died soon afterwards when the Death Star itself was destroyed.",
+        "dynamic_desc": "An ambitious, ruthless proponent of military power, Wilhuff Tarkin became a favorite of Supreme Chancellor Palpatine and rose rapidly through the Imperial ranks. Shortly after the Empire's creation, he was put in charge of the construction of the Death Star. Tarkin saw the Death Star as a way to crush all dissent to the Empire's rule -- fear of the station's planet-killing superlaser would keep the galaxy's star systems in line. He demonstrated the station's power by destroying Alderaan, but died soon afterwards when the Death Star itself was destroyed.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=0%2C0%2C1577%2C790",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=0%2C0%2C1403%2C790",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=97%2C0%2C1053%2C790",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=230%2C0%2C790%2C790"
+          },
+          "alt_text": "Grand Moff Tarkin"
+        },
+        "alt_text": "Grand Moff Tarkin",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=0%2C0%2C1403%2C790",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=230%2C0%2C790%2C790",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=0%2C0%2C1577%2C790",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=97%2C0%2C1053%2C790"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.85m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/grand-moff-tarkin"
+      },
+      {
+        "id": "616b279f09bd4492a01ad05b",
+        "slug": "greedo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Greedo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Greedo was a Rodian bounty hunter with a tapir-like snout, bulbous eyes, pea-green skin, and a crest of spines atop his skull. He was overzealous and a bit slow on the take, not to mention a pretty poor shot with a blaster. Though he fancied himself a big time bounty hunter in the employ of no less an underworld figure than Jabba the Hutt, in truth, no one took him too seriously.",
+        "short_desc": "Greedo was a Rodian bounty hunter with a tapir-like snout, bulbous eyes, pea-green skin, and a crest of spines atop his skull. He was overzealous and a bit slow on the take, not to mention a pretty poor shot with a blaster. Though he fancied himself a big time bounty hunter in the employ of no less an underworld figure than Jabba the Hutt, in truth, no one took him too seriously.",
+        "dynamic_desc": "Greedo was a Rodian bounty hunter with a tapir-like snout, bulbous eyes, pea-green skin, and a crest of spines atop his skull. He was overzealous and a bit slow on the take, not to mention a pretty poor shot with a blaster. Though he fancied himself a big time bounty hunter in the employ of no less an underworld figure than Jabba the Hutt, in truth, no one took him too seriously.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=0%2C49%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=195%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=341%2C0%2C878%2C878"
+          },
+          "alt_text": "Greedo"
+        },
+        "alt_text": "Greedo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=341%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=0%2C49%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg?region=195%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.74m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/greedo"
+      },
+      {
+        "id": "616b23c1b9a0a492a01ad05b",
+        "slug": "han-solo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Han Solo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "short_desc": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "dynamic_desc": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=240%2C0%2C1440%2C1080",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=420%2C0%2C1080%2C1080"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Han Solo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=420%2C0%2C1080%2C1080",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=240%2C0%2C1440%2C1080"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.8m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/han-solo"
+      },
+      {
+        "id": "616b23d1f515a492a01ad05b",
+        "slug": "jabba-the-hutt",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Jabba the Hutt",
+        "featured_entity_translation": "Featured Content",
+        "description": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+        "short_desc": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+        "dynamic_desc": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C2%2C1200%2C600",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C0%2C1200%2C675",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=150%2C0%2C900%2C675",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=263%2C0%2C675%2C675"
+          },
+          "alt_text": "Jabba the Hutt"
+        },
+        "alt_text": "Jabba the Hutt",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C0%2C1200%2C675",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=263%2C0%2C675%2C675",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C2%2C1200%2C600",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=150%2C0%2C900%2C675"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Length: 3.9m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/jabba-the-hutt"
+      },
+      {
+        "id": "616b278c585d3492a01ad05b",
+        "slug": "jan-dodonna",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Jan Dodonna",
+        "featured_entity_translation": "Featured Content",
+        "description": "General Jan Dodonna serves as the military leader of the rebel base on Yavin 4. His calm demeanor hides an incisive, strategic mind that serves the Rebellion well.",
+        "short_desc": "General Jan Dodonna serves as the military leader of the rebel base on Yavin 4. His calm demeanor hides an incisive, strategic mind that serves the Rebellion well.",
+        "dynamic_desc": "General Jan Dodonna serves as the military leader of the rebel base on Yavin 4. His calm demeanor hides an incisive, strategic mind that serves the Rebellion well.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=0%2C47%2C1569%2C785",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=4%2C0%2C1561%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=199%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=346%2C0%2C878%2C878"
+          },
+          "alt_text": "Jan Dodonna"
+        },
+        "alt_text": "Jan Dodonna",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=4%2C0%2C1561%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=346%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=0%2C47%2C1569%2C785",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_generaldodonna_01_169_d3a64fe4.jpeg?region=199%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.82m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/jan-dodonna"
+      },
+      {
+        "id": "616b2aa909e18492a01ad05b",
+        "slug": "jek-porkins",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Jek Porkins",
+        "featured_entity_translation": "Featured Content",
+        "description": "Jek Porkins was a pilot and trader who abandoned his homeworld when the Empire moved in and developed a new military base there. The burly rebel pilot flew an X-wing at the Battle of Yavin under the call sign Red 6. His X-wing developed a mechanical problem early in the battle, leaving him struggling to maneuver. Before Porkins or his astromech could fix the problem, one of the Death Star’s turbolasers zeroed in on the X-wing, incinerating it and killing Porkins instantly.",
+        "short_desc": "Jek Porkins was a pilot and trader who abandoned his homeworld when the Empire moved in and developed a new military base there. The burly rebel pilot flew an X-wing at the Battle of Yavin under the call sign Red 6. His X-wing developed a mechanical problem early in the battle, leaving him struggling to maneuver. Before Porkins or his astromech could fix the problem, one of the Death Star’s turbolasers zeroed in on the X-wing, incinerating it and killing Porkins instantly.",
+        "dynamic_desc": "Jek Porkins was a pilot and trader who abandoned his homeworld when the Empire moved in and developed a new military base there. The burly rebel pilot flew an X-wing at the Battle of Yavin under the call sign Red 6. His X-wing developed a mechanical problem early in the battle, leaving him struggling to maneuver. Before Porkins or his astromech could fix the problem, one of the Death Star’s turbolasers zeroed in on the X-wing, incinerating it and killing Porkins instantly.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=0%2C0%2C1280%2C642",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=0%2C0%2C1280%2C721",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=142%2C0%2C1138%2C852",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=268%2C0%2C854%2C852"
+          },
+          "alt_text": "Jek Porkins"
+        },
+        "alt_text": "Jek Porkins",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=0%2C0%2C1280%2C721",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=268%2C0%2C854%2C852",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=0%2C0%2C1280%2C642",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/jek-porkins-main-image_0b8d2d13.jpeg?region=142%2C0%2C1138%2C852"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.8m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/jek-porkins"
+      },
+      {
+        "id": "616b2ab018fda492a01ad05b",
+        "slug": "jon-dutch-vander",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Jon \"Dutch\" Vander",
+        "featured_entity_translation": "Featured Content",
+        "description": "Jon Vander, nicknamed “Dutch,” is a former Imperial pilot who defected when he was ordered to bomb rebel-friendly areas of his home planet. As Gold Leader in the rebellion, Vander flies a Y-wing and commands a squadron of gifted pilots.",
+        "short_desc": "Jon Vander, nicknamed “Dutch,” is a former Imperial pilot who defected when he was ordered to bomb rebel-friendly areas of his home planet. As Gold Leader in the rebellion, Vander flies a Y-wing and commands a squadron of gifted pilots.",
+        "dynamic_desc": "Jon Vander, nicknamed “Dutch,” is a former Imperial pilot who defected when he was ordered to bomb rebel-friendly areas of his home planet. As Gold Leader in the rebellion, Vander flies a Y-wing and commands a squadron of gifted pilots.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C80%2C928%2C466",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C84%2C733%2C412",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C6%2C683%2C513",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C0%2C669%2C667"
+          },
+          "alt_text": "Jon \"Dutch\" Vander"
+        },
+        "alt_text": "Jon \"Dutch\" Vander",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C84%2C733%2C412",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C0%2C669%2C667",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C80%2C928%2C466",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/jon-dutch-vander_ed24f84e.jpeg?region=0%2C6%2C683%2C513"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/jon-dutch-vander"
+      },
+      {
+        "id": "616b23f0e818f492a01ad05b",
+        "slug": "leia-organa",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Leia Organa",
+        "featured_entity_translation": "Featured Content",
+        "description": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+        "short_desc": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+        "dynamic_desc": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=133%2C157%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=367%2C153%2C1043%2C784",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=493%2C153%2C787%2C787"
+          },
+          "alt_text": "Leia Organa"
+        },
+        "alt_text": "Leia Organa",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=493%2C153%2C787%2C787",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=133%2C157%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=367%2C153%2C1043%2C784"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.5m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/leia-organa"
+      },
+      {
+        "id": "616b23e6f5453492a01ad05b",
+        "slug": "luke-skywalker",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Luke Skywalker",
+        "featured_entity_translation": "Featured Content",
+        "description": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "short_desc": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "dynamic_desc": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=60%2C150%2C1580%2C790",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=270%2C143%2C1070%2C804",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=407%2C143%2C813%2C814"
+          },
+          "alt_text": "Luke Skywalker"
+        },
+        "alt_text": "Luke Skywalker",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=407%2C143%2C813%2C814",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=60%2C150%2C1580%2C790",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=270%2C143%2C1070%2C804"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.72m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/luke-skywalker"
+      },
+      {
+        "id": "616b2c0569571492a01ad05b",
+        "slug": "momaw-nadon",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Momaw Nadon",
+        "featured_entity_translation": "Featured Content",
+        "description": "An exile from Ithor, Momaw Nadon was a rebel sympathizer who cultivated a hidden garden in the mountains south of Mos Eisley. Nadon was in the Mos Eisley Cantina when Luke Skywalker and Obi-Wan Kenobi arrived in search of a pilot who could take them to Alderaan without attracting Imperial attention.",
+        "short_desc": "An exile from Ithor, Momaw Nadon was a rebel sympathizer who cultivated a hidden garden in the mountains south of Mos Eisley. Nadon was in the Mos Eisley Cantina when Luke Skywalker and Obi-Wan Kenobi arrived in search of a pilot who could take them to Alderaan without attracting Imperial attention.",
+        "dynamic_desc": "An exile from Ithor, Momaw Nadon was a rebel sympathizer who cultivated a hidden garden in the mountains south of Mos Eisley. Nadon was in the Mos Eisley Cantina when Luke Skywalker and Obi-Wan Kenobi arrived in search of a pilot who could take them to Alderaan without attracting Imperial attention.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=0%2C0%2C1250%2C626",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=0%2C0%2C1250%2C704",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=307%2C0%2C943%2C707",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=427%2C0%2C823%2C824"
+          },
+          "alt_text": "Momaw Nadon"
+        },
+        "alt_text": "Momaw Nadon",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=0%2C0%2C1250%2C704",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=427%2C0%2C823%2C824",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=0%2C0%2C1250%2C626",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/momaw-nadon-2_a6fae2f8.jpeg?region=307%2C0%2C943%2C707"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.95m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/momaw-nadon"
+      },
+      {
+        "id": "616b2425483bc492a01ad05b",
+        "slug": "obi-wan-kenobi",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Obi-Wan Kenobi",
+        "featured_entity_translation": "Featured Content",
+        "description": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+        "short_desc": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+        "dynamic_desc": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C642",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C721",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1137%2C853",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C853%2C853"
+          },
+          "alt_text": "Obi-Wan Kenobi"
+        },
+        "alt_text": "Obi-Wan Kenobi",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C721",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C853%2C853",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C642",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1137%2C853"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.82m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/obi-wan-kenobi"
+      },
+      {
+        "id": "616b286531835492a01ad05b",
+        "slug": "owen-lars",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Owen Lars",
+        "featured_entity_translation": "Featured Content",
+        "description": "Owen Lars continued his father Cliegg’s efforts to build his homestead into a productive farm, working alongside his wife, Beru. Helping with the dreary chores required to keep the farm profitable, Owen relies on his nephew, Luke Skywalker, whom the couple raised since birth. Like most moisture farmers on Tatooine, Lars is fiercely protective of his land and his family. When there is an intrusion on the tranquility of the Lars Homestead, Owen defends his home. ",
+        "short_desc": "Owen Lars continued his father Cliegg’s efforts to build his homestead into a productive farm, working alongside his wife, Beru. Helping with the dreary chores required to keep the farm profitable, Owen relies on his nephew, Luke Skywalker, whom the couple raised since birth. Like most moisture farmers on Tatooine, Lars is fiercely protective of his land and his family. When there is an intrusion on the tranquility of the Lars Homestead, Owen defends his home. ",
+        "dynamic_desc": "Owen Lars continued his father Cliegg’s efforts to build his homestead into a productive farm, working alongside his wife, Beru. Helping with the dreary chores required to keep the farm profitable, Owen relies on his nephew, Luke Skywalker, whom the couple raised since birth. Like most moisture farmers on Tatooine, Lars is fiercely protective of his land and his family. When there is an intrusion on the tranquility of the Lars Homestead, Owen defends his home. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=0%2C24%2C1280%2C642",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=0%2C34%2C1053%2C593",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=0%2C0%2C940%2C706",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=8%2C0%2C774%2C774"
+          },
+          "alt_text": "Owen Lars"
+        },
+        "alt_text": "Owen Lars",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=0%2C34%2C1053%2C593",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=8%2C0%2C774%2C774",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=0%2C24%2C1280%2C642",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg?region=0%2C0%2C940%2C706"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.78m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/owen-lars"
+      },
+      {
+        "id": "616b2a9d825b0492a01ad05b",
+        "slug": "ponda-baba",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Ponda Baba",
+        "featured_entity_translation": "Featured Content",
+        "description": "A burly Aqualish thug, Ponda Baba smuggled spice for Jabba the Hutt alongside his friend Dr. Cornelius Evazan, a murderous former surgeon Ponda had rescued from a bounty hunter. Ponda was one of the alien barflies escaping the heat of Tatooine’s twin suns when Luke Skywalker and Obi-Wan Kenobi visited the Mos Eisley Cantina. Bored and looking for excitement, Ponda picked a fight with Luke, which Evazan quickly escalated. But the two bullies had picked the wrong target – Obi-Wan interceded, taking action when Ponda and Evazan refused to back down. The old Jedi’s lightsaber left Evazan dead and Ponda missing an arm, ending the quarrel rather decisively.",
+        "short_desc": "A burly Aqualish thug, Ponda Baba smuggled spice for Jabba the Hutt alongside his friend Dr. Cornelius Evazan, a murderous former surgeon Ponda had rescued from a bounty hunter. Ponda was one of the alien barflies escaping the heat of Tatooine’s twin suns when Luke Skywalker and Obi-Wan Kenobi visited the Mos Eisley Cantina. Bored and looking for excitement, Ponda picked a fight with Luke, which Evazan quickly escalated. But the two bullies had picked the wrong target – Obi-Wan interceded, taking action when Ponda and Evazan refused to back down. The old Jedi’s lightsaber left Evazan dead and Ponda missing an arm, ending the quarrel rather decisively.",
+        "dynamic_desc": "A burly Aqualish thug, Ponda Baba smuggled spice for Jabba the Hutt alongside his friend Dr. Cornelius Evazan, a murderous former surgeon Ponda had rescued from a bounty hunter. Ponda was one of the alien barflies escaping the heat of Tatooine’s twin suns when Luke Skywalker and Obi-Wan Kenobi visited the Mos Eisley Cantina. Bored and looking for excitement, Ponda picked a fight with Luke, which Evazan quickly escalated. But the two bullies had picked the wrong target – Obi-Wan interceded, taking action when Ponda and Evazan refused to back down. The old Jedi’s lightsaber left Evazan dead and Ponda missing an arm, ending the quarrel rather decisively.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=0%2C0%2C1633%2C818",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=33%2C0%2C1454%2C818",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=233%2C0%2C1094%2C818",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=390%2C0%2C820%2C818"
+          },
+          "alt_text": "Ponda Baba"
+        },
+        "alt_text": "Ponda Baba",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=33%2C0%2C1454%2C818",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=390%2C0%2C820%2C818",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=0%2C0%2C1633%2C818",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/ponda-baba-main-image_5addfeb7.jpeg?region=233%2C0%2C1094%2C818"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.85m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/ponda-baba"
+      },
+      {
+        "id": "616b243d6c5f6492a01ad05b",
+        "slug": "r2-d2",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "R2-D2",
+        "featured_entity_translation": "Featured Content",
+        "description": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "short_desc": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "dynamic_desc": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=167%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=353%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=431%2C0%2C536%2C536"
+          },
+          "alt_text": "R2-D2"
+        },
+        "alt_text": "R2-D2",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=431%2C0%2C536%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=167%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=353%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.09m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/r2-d2"
+      },
+      {
+        "id": "616b2afe8c740492a01ad05b",
+        "slug": "r5-d4",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "R5-D4",
+        "featured_entity_translation": "Featured Content",
+        "description": "A red astromech droid, R5-D4 thought he'd found a home when the Jawas sold him to Owen Lars, along with the protocol droid C-3PO. But R5's motivator blew as he rolled away from the sandcrawler, forcing the Jawas to take him back in exchange for R2-D2.",
+        "short_desc": "A red astromech droid, R5-D4 thought he'd found a home when the Jawas sold him to Owen Lars, along with the protocol droid C-3PO. But R5's motivator blew as he rolled away from the sandcrawler, forcing the Jawas to take him back in exchange for R2-D2.",
+        "dynamic_desc": "A red astromech droid, R5-D4 thought he'd found a home when the Jawas sold him to Owen Lars, along with the protocol droid C-3PO. But R5's motivator blew as he rolled away from the sandcrawler, forcing the Jawas to take him back in exchange for R2-D2.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=114%2C0%2C1332%2C666",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=374%2C0%2C1186%2C666",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=466%2C0%2C888%2C666",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=601%2C0%2C667%2C666"
+          },
+          "alt_text": "R5-D4"
+        },
+        "alt_text": "R5-D4",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=374%2C0%2C1186%2C666",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=601%2C0%2C667%2C666",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=114%2C0%2C1332%2C666",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=466%2C0%2C888%2C666"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.97m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/r5-d4"
+      },
+      {
+        "id": "616b2917af26c492a01ad05b",
+        "slug": "wedge-antilles",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Wedge Antilles",
+        "featured_entity_translation": "Featured Content",
+        "description": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "short_desc": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "dynamic_desc": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=241%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=436%2C0%2C878%2C878"
+          },
+          "alt_text": "Wedge Antilles"
+        },
+        "alt_text": "Wedge Antilles",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=436%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=241%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/wedge-antilles"
+      },
+      {
+        "id": "616b2ac39e53c492a01ad05b",
+        "slug": "wuher",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Wuher",
+        "featured_entity_translation": "Featured Content",
+        "description": "You didn’t survive in the Mos Eisley Cantina by being nice, and Wuher was a survivor. The gruff bartender dispensed drinks to the spacers, moisture farmers and barflies escaping the Tatooine heat; did his best to enforce the seedy bar’s handful of rules (no droids and no settling fights with blasters); and avoided trouble, whether it began with trigger-happy patrons or stormtroopers investigating the latest incident.",
+        "short_desc": "You didn’t survive in the Mos Eisley Cantina by being nice, and Wuher was a survivor. The gruff bartender dispensed drinks to the spacers, moisture farmers and barflies escaping the Tatooine heat; did his best to enforce the seedy bar’s handful of rules (no droids and no settling fights with blasters); and avoided trouble, whether it began with trigger-happy patrons or stormtroopers investigating the latest incident.",
+        "dynamic_desc": "You didn’t survive in the Mos Eisley Cantina by being nice, and Wuher was a survivor. The gruff bartender dispensed drinks to the spacers, moisture farmers and barflies escaping the Tatooine heat; did his best to enforce the seedy bar’s handful of rules (no droids and no settling fights with blasters); and avoided trouble, whether it began with trigger-happy patrons or stormtroopers investigating the latest incident.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=0%2C46%2C800%2C401",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=0%2C44%2C800%2C450",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=0%2C48%2C800%2C602",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=52%2C0%2C652%2C650"
+          },
+          "alt_text": "Wuher"
+        },
+        "alt_text": "Wuher",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=0%2C44%2C800%2C450",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=52%2C0%2C652%2C650",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=0%2C46%2C800%2C401",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/wuher-main-image_883bdea2.jpeg?region=0%2C48%2C800%2C602"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/wuher"
+      },
+      {
+        "id": "616b22ea5a78c492a01ad05b",
+        "slug": "wullf-yularen",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Wullf Yularen",
+        "featured_entity_translation": "Featured Content",
+        "description": "An admiral in the Republic's service, Yularen served gallantly in the Clone Wars, commanding a Jedi Cruiser in many campaigns against Separatist forces. Yularen was assigned to serve with the Jedi General Anakin Skywalker, and the rigid officer and the impulsive Jedi made for an odd combination. Yularen admired Anakin's bravery and instincts in battle while deploring his recklessness and willingness to interpret orders creatively -- or ignore them altogether.",
+        "short_desc": "An admiral in the Republic's service, Yularen served gallantly in the Clone Wars, commanding a Jedi Cruiser in many campaigns against Separatist forces. Yularen was assigned to serve with the Jedi General Anakin Skywalker, and the rigid officer and the impulsive Jedi made for an odd combination. Yularen admired Anakin's bravery and instincts in battle while deploring his recklessness and willingness to interpret orders creatively -- or ignore them altogether.",
+        "dynamic_desc": "An admiral in the Republic's service, Yularen served gallantly in the Clone Wars, commanding a Jedi Cruiser in many campaigns against Separatist forces. Yularen was assigned to serve with the Jedi General Anakin Skywalker, and the rigid officer and the impulsive Jedi made for an odd combination. Yularen admired Anakin's bravery and instincts in battle while deploring his recklessness and willingness to interpret orders creatively -- or ignore them altogether.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=0%2C200%2C1620%2C810",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=0%2C84%2C1620%2C911",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=90%2C0%2C1440%2C1080",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=270%2C0%2C1080%2C1080"
+          },
+          "alt_text": "Wullf Yularen"
+        },
+        "alt_text": "Wullf Yularen",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=0%2C84%2C1620%2C911",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=270%2C0%2C1080%2C1080",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=0%2C200%2C1620%2C810",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/andor-107-quotes-wullf-yularen_c_3b8e6386.jpeg?region=90%2C0%2C1440%2C1080"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.81m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/wullf-yularen"
+      }
+    ]
+  }
+}

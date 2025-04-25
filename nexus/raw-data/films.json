@@ -1,0 +1,982 @@
+{
+	"count": 11,
+	"title": "Chronological",
+	"data": [
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg",
+						"api_params": {
+							"region": "0,13,1433,2147"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg?region=0%2C13%2C1433%2C2147",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg?region=0%2C13%2C1433%2C2147",
+						"alt_text": "Star Wars: The Phantom Menace poster"
+					}
+				}
+			},
+			"year": 1999,
+			"translations": {},
+			"desc": "Experience the heroic action and unforgettable adventures of Star Wars: Episode I - The Phantom Menace. See the first fateful steps in the journey of Anakin Skywalker. Stranded on the desert planet Tatooine after rescuing young Queen Amidala from the impending invasion of Naboo, Jedi apprentice Obi-Wan Kenobi and his Jedi Master Qui-Gon Jinn discover nine-year-old Anakin, who is unusually strong in the Force. Anakin wins a thrilling Podrace and with it his freedom as he leaves his home to be trained as a Jedi. The heroes return to Naboo where Anakin and the Queen face massive invasion forces while the two Jedi contend with a deadly foe named Darth Maul. Only then do they realize the invasion is merely the first step in a sinister scheme by the re-emergent forces of darkness known as the Sith.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "May 19, 1999",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "1999-05-19",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4e50975435c9feab189a1eee",
+			"slug": "films/star-wars-episode-i-the-phantom-menace",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: The Phantom Menace (Episode I)",
+			"aria_label": "Star Wars: The Phantom Menace poster",
+			"deep_link_ref": "#star-wars-episode-i-the-phantom-menace",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg?region=0%2C13%2C1433%2C2147",
+			"featured_entity_translation": "Featured Content",
+			"description": "Experience the heroic action and unforgettable adventures of Star Wars: Episode I - The Phantom Menace. See the first fateful steps in the journey of Anakin Skywalker. Stranded on the desert planet Tatooine after rescuing young Queen Amidala from the impending invasion of Naboo, Jedi apprentice Obi-Wan Kenobi and his Jedi Master Qui-Gon Jinn discover nine-year-old Anakin, who is unusually strong in the Force. Anakin wins a thrilling Podrace and with it his freedom as he leaves his home to be trained as a Jedi. The heroes return to Naboo where Anakin and the Queen face massive invasion forces while the two Jedi contend with a deadly foe named Darth Maul. Only then do they realize the invasion is merely the first step in a sinister scheme by the re-emergent forces of darkness known as the Sith.",
+			"short_desc": "Experience the heroic action and unforgettable adventures of Star Wars: Episode I - The Phantom Menace. See the first fateful steps in the journey of Anakin Skywalker. Stranded on the desert planet Tatooine after rescuing young Queen Amidala from the impending invasion of Naboo, Jedi apprentice Obi-Wan Kenobi and his Jedi Master Qui-Gon Jinn discover nine-year-old Anakin, who is unusually strong in the Force. Anakin wins a thrilling Podrace and with it his freedom as he leaves his home to be trained as a Jedi. The heroes return to Naboo where Anakin and the Queen face massive invasion forces while the two Jedi contend with a deadly foe named Darth Maul. Only then do they realize the invasion is merely the first step in a sinister scheme by the re-emergent forces of darkness known as the Sith.",
+			"dynamic_desc": "Experience the heroic action and unforgettable adventures of Star Wars: Episode I - The Phantom Menace. See the first fateful steps in the journey of Anakin Skywalker. Stranded on the desert planet Tatooine after rescuing young Queen Amidala from the impending invasion of Naboo, Jedi apprentice Obi-Wan Kenobi and his Jedi Master Qui-Gon Jinn discover nine-year-old Anakin, who is unusually strong in the Force. Anakin wins a thrilling Podrace and with it his freedom as he leaves his home to be trained as a Jedi. The heroes return to Naboo where Anakin and the Queen face massive invasion forces while the two Jedi contend with a deadly foe named Darth Maul. Only then do they realize the invasion is merely the first step in a sinister scheme by the re-emergent forces of darkness known as the Sith.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/EP1-IA-99993-RESIZED_f9ae99b6.jpeg"
+			},
+			"alt_text": "Star Wars: The Phantom Menace poster",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=0%2C278%2C678%2C382",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=28%2C83%2C631%2C630",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=0%2C250%2C678%2C340",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=0%2C179%2C678%2C506"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=0%2C278%2C678%2C382",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=28%2C83%2C631%2C630",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=0%2C250%2C678%2C340",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Phantom-Menace-I-Poster_f5832812.jpeg?region=0%2C179%2C678%2C506"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-i-the-phantom-menace"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg",
+						"api_params": {
+							"region": "0,0,1464,2160"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg?region=0%2C0%2C1464%2C2160",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg?region=0%2C0%2C1464%2C2160",
+						"alt_text": "Star Wars: Attack of the Clones poster"
+					}
+				}
+			},
+			"year": 2002,
+			"translations": {},
+			"desc": "Watch the seeds of Anakin Skywalker's transformation take root in Star Wars: Episode II - Attack of the Clones. Ten years after the invasion of Naboo, the galaxy is on the brink of civil war. Under the leadership of a renegade Jedi named Count Dooku, thousands of solar systems threaten to break away from the Galactic Republic. When an assassination attempt is made on Senator Padmé Amidala, the former Queen of Naboo, twenty-year-old Jedi apprentice Anakin Skywalker is assigned to protect her. In the course of his mission, Anakin discovers his love for Padmé as well as his own darker side. Soon, Anakin, Padmé, and Obi-Wan Kenobi are drawn into the heart of the Separatist movement and the beginning of the Clone Wars.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "May 16, 2002",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "2002-05-16",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4e50977ea7b5aeab189a1eee",
+			"slug": "films/star-wars-episode-ii-attack-of-the-clones",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: Attack of the Clones (Episode II)",
+			"aria_label": "Star Wars: Attack of the Clones poster",
+			"deep_link_ref": "#star-wars-episode-ii-attack-of-the-clones",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg?region=0%2C0%2C1464%2C2160",
+			"featured_entity_translation": "Featured Content",
+			"description": "Watch the seeds of Anakin Skywalker's transformation take root in Star Wars: Episode II - Attack of the Clones. Ten years after the invasion of Naboo, the galaxy is on the brink of civil war. Under the leadership of a renegade Jedi named Count Dooku, thousands of solar systems threaten to break away from the Galactic Republic. When an assassination attempt is made on Senator Padmé Amidala, the former Queen of Naboo, twenty-year-old Jedi apprentice Anakin Skywalker is assigned to protect her. In the course of his mission, Anakin discovers his love for Padmé as well as his own darker side. Soon, Anakin, Padmé, and Obi-Wan Kenobi are drawn into the heart of the Separatist movement and the beginning of the Clone Wars.",
+			"short_desc": "Watch the seeds of Anakin Skywalker's transformation take root in Star Wars: Episode II - Attack of the Clones. Ten years after the invasion of Naboo, the galaxy is on the brink of civil war. Under the leadership of a renegade Jedi named Count Dooku, thousands of solar systems threaten to break away from the Galactic Republic. When an assassination attempt is made on Senator Padmé Amidala, the former Queen of Naboo, twenty-year-old Jedi apprentice Anakin Skywalker is assigned to protect her. In the course of his mission, Anakin discovers his love for Padmé as well as his own darker side. Soon, Anakin, Padmé, and Obi-Wan Kenobi are drawn into the heart of the Separatist movement and the beginning of the Clone Wars.",
+			"dynamic_desc": "Watch the seeds of Anakin Skywalker's transformation take root in Star Wars: Episode II - Attack of the Clones. Ten years after the invasion of Naboo, the galaxy is on the brink of civil war. Under the leadership of a renegade Jedi named Count Dooku, thousands of solar systems threaten to break away from the Galactic Republic. When an assassination attempt is made on Senator Padmé Amidala, the former Queen of Naboo, twenty-year-old Jedi apprentice Anakin Skywalker is assigned to protect her. In the course of his mission, Anakin discovers his love for Padmé as well as his own darker side. Soon, Anakin, Padmé, and Obi-Wan Kenobi are drawn into the heart of the Separatist movement and the beginning of the Clone Wars.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/EP2-IA-69221-RESIZED_1e8e0971.jpeg"
+			},
+			"alt_text": "Star Wars: Attack of the Clones poster",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=0%2C194%2C678%2C380",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=0%2C49%2C678%2C679",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=0%2C188%2C678%2C340",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=19%2C130%2C659%2C493"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=0%2C194%2C678%2C380",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=0%2C49%2C678%2C679",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=0%2C188%2C678%2C340",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=19%2C130%2C659%2C493"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-ii-attack-of-the-clones"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg",
+						"api_params": {
+							"region": "0,0,1464,2160"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg?region=0%2C0%2C1464%2C2160",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg?region=0%2C0%2C1464%2C2160",
+						"alt_text": "Star Wars: Revenge of the Sith poster"
+					}
+				}
+			},
+			"year": 2005,
+			"translations": {},
+			"desc": "Years after the onset of the Clone Wars, the noble Jedi Knights lead a massive clone army into a galaxy-wide battle against the Separatists. When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker is seduced by the dark side of the Force to become the Emperor’s new apprentice – Darth Vader. The Jedi are decimated, as Obi-Wan Kenobi and Jedi Master Yoda are forced into hiding.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "May 19, 2005",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "2005-05-19",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4e5097c1340170c39e786773",
+			"slug": "films/star-wars-episode-iii-revenge-of-the-sith",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: Revenge of the Sith (Episode III)",
+			"aria_label": "Star Wars: Revenge of the Sith poster",
+			"deep_link_ref": "#star-wars-episode-iii-revenge-of-the-sith",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg?region=0%2C0%2C1464%2C2160",
+			"featured_entity_translation": "Featured Content",
+			"description": "Years after the onset of the Clone Wars, the noble Jedi Knights lead a massive clone army into a galaxy-wide battle against the Separatists. When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker is seduced by the dark side of the Force to become the Emperor’s new apprentice – Darth Vader. The Jedi are decimated, as Obi-Wan Kenobi and Jedi Master Yoda are forced into hiding.",
+			"short_desc": "Years after the onset of the Clone Wars, the noble Jedi Knights lead a massive clone army into a galaxy-wide battle against the Separatists. When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker is seduced by the dark side of the Force to become the Emperor’s new apprentice – Darth Vader. The Jedi are decimated, as Obi-Wan Kenobi and Jedi Master Yoda are forced into hiding.",
+			"dynamic_desc": "Years after the onset of the Clone Wars, the noble Jedi Knights lead a massive clone army into a galaxy-wide battle against the Separatists. When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker is seduced by the dark side of the Force to become the Emperor’s new apprentice – Darth Vader. The Jedi are decimated, as Obi-Wan Kenobi and Jedi Master Yoda are forced into hiding.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/image_ff356cdb.jpeg"
+			},
+			"alt_text": "Star Wars: Revenge of the Sith poster",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C340%2C746%2C420",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C58%2C746%2C747",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C356%2C746%2C374",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C244%2C746%2C557"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C340%2C746%2C420",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C58%2C746%2C747",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C356%2C746%2C374",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Revenge-Sith-III-Poster_646108ce.jpeg?region=0%2C244%2C746%2C557"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-iii-revenge-of-the-sith"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg",
+						"api_params": {
+							"region": "0,0,864,1280"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg?region=0%2C0%2C864%2C1280",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg?region=0%2C0%2C864%2C1280",
+						"alt_text": ""
+					},
+					"poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg",
+						"api_params": {
+							"region": "0,0,713,1280"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg?region=0%2C0%2C713%2C1280",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg?region=0%2C0%2C713%2C1280",
+						"alt_text": ""
+					}
+				}
+			},
+			"year": 2018,
+			"translations": {},
+			"desc": "Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "May 23, 2018",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "2018-05-23",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "55bd9dba3075d498577efb8e",
+			"slug": "films/solo",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Solo: A Star Wars Story",
+			"deep_link_ref": "#solo",
+			"poster": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg?region=0%2C0%2C713%2C1280",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg?region=0%2C0%2C864%2C1280",
+			"featured_entity_translation": "Featured Content",
+			"description": "Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.",
+			"short_desc": "Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.",
+			"dynamic_desc": "Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/solo-theatrical-poster_f98a86eb_62fc4b3c.jpeg"
+			},
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=0%2C385%2C1298%2C729",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=6%2C136%2C1256%2C1257",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=0%2C397%2C1298%2C646",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=0%2C361%2C1298%2C972"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=0%2C385%2C1298%2C729",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=6%2C136%2C1256%2C1257",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=0%2C397%2C1298%2C646",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg?region=0%2C361%2C1298%2C972"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/solo"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg",
+						"api_params": {
+							"region": "0,0,1688,2500"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg?region=0%2C0%2C1688%2C2500",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg?region=0%2C0%2C1688%2C2500",
+						"alt_text": ""
+					},
+					"poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg",
+						"api_params": {
+							"region": "0,0,1688,2500"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg?region=0%2C0%2C1688%2C2500",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg?region=0%2C0%2C1688%2C2500",
+						"alt_text": ""
+					}
+				}
+			},
+			"year": 2016,
+			"translations": {},
+			"desc": "From Lucasfilm comes the first of the Star Wars standalone films, “Rogue One: A Star Wars Story,” an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire’s ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": null,
+			"crew": [],
+			"meta": null,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": null,
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "5204c02a1c67212c82287485",
+			"slug": "films/rogue-one",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Rogue One: A Star Wars Story",
+			"deep_link_ref": "#rogue-one",
+			"poster": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg?region=0%2C0%2C1688%2C2500",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg?region=0%2C0%2C1688%2C2500",
+			"featured_entity_translation": "Featured Content",
+			"description": "From Lucasfilm comes the first of the Star Wars standalone films, “Rogue One: A Star Wars Story,” an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire’s ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves.",
+			"short_desc": "From Lucasfilm comes the first of the Star Wars standalone films, “Rogue One: A Star Wars Story,” an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire’s ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves.",
+			"dynamic_desc": "From Lucasfilm comes the first of the Star Wars standalone films, “Rogue One: A Star Wars Story,” an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire’s ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/5adfd0618fdfb900016b5ca6-image_64bc2f8e.jpeg"
+			},
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C0%2C1688%2C957",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C93%2C1688%2C1682",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C77%2C1688%2C849",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C247%2C1688%2C1265"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C0%2C1688%2C957",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C93%2C1688%2C1682",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C77%2C1688%2C849",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rogueone_onesheeta_8a255456.jpeg?region=0%2C247%2C1688%2C1265"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/rogue-one"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+						"api_params": {
+							"region": "0,0,1446,2160"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg?region=0%2C0%2C1446%2C2160",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg?region=0%2C0%2C1446%2C2160",
+						"alt_text": "Star Wars: A New Hope poster"
+					}
+				}
+			},
+			"year": 1977,
+			"translations": {},
+			"desc": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "May 25, 1977",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "1977-05-25",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4cd593eaf85589592fc489de",
+			"slug": "films/star-wars-episode-iv-a-new-hope",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: A New Hope (Episode IV)",
+			"aria_label": "Star Wars: A New Hope poster",
+			"deep_link_ref": "#star-wars-episode-iv-a-new-hope",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg?region=0%2C0%2C1446%2C2160",
+			"featured_entity_translation": "Featured Content",
+			"description": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+			"short_desc": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+			"dynamic_desc": "Luke Skywalker begins a journey that will change the galaxy in Star Wars: Episode IV - A New Hope. Nineteen years after the formation of the Empire, Luke is thrust into the struggle of the Rebel Alliance when he meets Obi-Wan Kenobi, who has lived for years in seclusion on the desert planet of Tatooine. Obi-Wan begins Luke’s Jedi training as Luke joins him on a daring mission to rescue the beautiful Rebel leader Princess Leia from the clutches of Darth Vader and the evil Empire.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/EP4_POS_2_D-RESIZED_f977074a.jpeg"
+			},
+			"alt_text": "Star Wars: A New Hope poster",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C231%2C583%2C328",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C83%2C589%2C587",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C219%2C586%2C293",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C194%2C589%2C442"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C231%2C583%2C328",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C83%2C589%2C587",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=40%2C219%2C586%2C293",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-New-Hope-IV-Poster_c217085b.jpeg?region=43%2C194%2C589%2C442"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg",
+						"api_params": {
+							"region": "0,0,1424,2160"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg?region=0%2C0%2C1424%2C2160",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg?region=0%2C0%2C1424%2C2160",
+						"alt_text": "Star Wars: The Empire Strikes Back poster"
+					}
+				}
+			},
+			"year": 1980,
+			"translations": {},
+			"desc": "After the destruction of the Death Star, Imperial forces continue to pursue the Rebels. After the Rebellion’s defeat on the ice planet Hoth, Luke journeys to the planet Dagobah to train with Jedi Master Yoda, who has lived in hiding since the fall of the Republic. In an attempt to convert Luke to the dark side, Darth Vader lures young Skywalker into a trap in the Cloud City of Bespin.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": null,
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": null,
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4e50811e5f140eff9f3e8e30",
+			"slug": "films/star-wars-episode-v-the-empire-strikes-back",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: The Empire Strikes Back (Episode V)",
+			"aria_label": "Star Wars: The Empire Strikes Back poster",
+			"deep_link_ref": "#star-wars-episode-v-the-empire-strikes-back",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg?region=0%2C0%2C1424%2C2160",
+			"featured_entity_translation": "Featured Content",
+			"description": "After the destruction of the Death Star, Imperial forces continue to pursue the Rebels. After the Rebellion’s defeat on the ice planet Hoth, Luke journeys to the planet Dagobah to train with Jedi Master Yoda, who has lived in hiding since the fall of the Republic. In an attempt to convert Luke to the dark side, Darth Vader lures young Skywalker into a trap in the Cloud City of Bespin.",
+			"short_desc": "After the destruction of the Death Star, Imperial forces continue to pursue the Rebels. After the Rebellion’s defeat on the ice planet Hoth, Luke journeys to the planet Dagobah to train with Jedi Master Yoda, who has lived in hiding since the fall of the Republic. In an attempt to convert Luke to the dark side, Darth Vader lures young Skywalker into a trap in the Cloud City of Bespin.",
+			"dynamic_desc": "After the destruction of the Death Star, Imperial forces continue to pursue the Rebels. After the Rebellion’s defeat on the ice planet Hoth, Luke journeys to the planet Dagobah to train with Jedi Master Yoda, who has lived in hiding since the fall of the Republic. In an attempt to convert Luke to the dark side, Darth Vader lures young Skywalker into a trap in the Cloud City of Bespin.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg"
+			},
+			"alt_text": "Star Wars: The Empire Strikes Back poster",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=25%2C269%2C612%2C342",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=53%2C111%2C510%2C509",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=25%2C299%2C612%2C306",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=25%2C148%2C619%2C463"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=25%2C269%2C612%2C342",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=53%2C111%2C510%2C509",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=25%2C299%2C612%2C306",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg?region=25%2C148%2C619%2C463"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+						"api_params": {
+							"region": "0,0,1394,2160"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg?region=0%2C0%2C1394%2C2160",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg?region=0%2C0%2C1394%2C2160",
+						"alt_text": "Star Wars: Return of the Jedi poster"
+					}
+				}
+			},
+			"year": 1983,
+			"translations": {},
+			"desc": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "May 1, 1983",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "1983-05-01",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4e5096c5d194f0c06d086770",
+			"slug": "films/star-wars-episode-vi-return-of-the-jedi",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: Return of the Jedi (Episode VI)",
+			"aria_label": "Star Wars: Return of the Jedi poster",
+			"deep_link_ref": "#star-wars-episode-vi-return-of-the-jedi",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg?region=0%2C0%2C1394%2C2160",
+			"featured_entity_translation": "Featured Content",
+			"description": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+			"short_desc": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+			"dynamic_desc": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg"
+			},
+			"alt_text": "Star Wars: Return of the Jedi poster",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=12%2C123%2C624%2C349",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=6%2C83%2C620%2C618",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C210%2C624%2C312",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C235%2C627%2C469"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=12%2C123%2C624%2C349",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=6%2C83%2C620%2C618",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C210%2C624%2C312",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C235%2C627%2C469"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg",
+						"api_params": {
+							"region": "0,0,1620,2400"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C0%2C1620%2C2400",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C0%2C1620%2C2400",
+						"alt_text": "Star Wars: The Force Awakens Poster Art"
+					}
+				}
+			},
+			"year": 2015,
+			"translations": {},
+			"desc": "Thirty years since the destruction of the second Death Star, the sinister First Order, commanded by the mysterious Snoke and apprentice Kylo Ren, rise from the ashes of the Empire. The Resistance, led by General Leia Organa, attempts to thwart the First Order's threat, but they're desperate for help. Rey, a desert scavenger, and Finn, an ex-stormtrooper, find themselves joining forces with Han Solo and Chewbacca in a desperate mission to return a BB-unit droid with a map to Luke Skywalker back to the Resistance. ",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "December 18, 2015",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "2015-12-18",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "4f8fe0f76d569a6336b97e78",
+			"slug": "films/star-wars-episode-vii-the-force-awakens",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: The Force Awakens (Episode VII)",
+			"aria_label": "Star Wars: The Force Awakens Poster Art",
+			"deep_link_ref": "#star-wars-episode-vii-the-force-awakens",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C0%2C1620%2C2400",
+			"featured_entity_translation": "Featured Content",
+			"description": "Thirty years since the destruction of the second Death Star, the sinister First Order, commanded by the mysterious Snoke and apprentice Kylo Ren, rise from the ashes of the Empire. The Resistance, led by General Leia Organa, attempts to thwart the First Order's threat, but they're desperate for help. Rey, a desert scavenger, and Finn, an ex-stormtrooper, find themselves joining forces with Han Solo and Chewbacca in a desperate mission to return a BB-unit droid with a map to Luke Skywalker back to the Resistance. ",
+			"short_desc": "Thirty years since the destruction of the second Death Star, the sinister First Order, commanded by the mysterious Snoke and apprentice Kylo Ren, rise from the ashes of the Empire. The Resistance, led by General Leia Organa, attempts to thwart the First Order's threat, but they're desperate for help. Rey, a desert scavenger, and Finn, an ex-stormtrooper, find themselves joining forces with Han Solo and Chewbacca in a desperate mission to return a BB-unit droid with a map to Luke Skywalker back to the Resistance. ",
+			"dynamic_desc": "Thirty years since the destruction of the second Death Star, the sinister First Order, commanded by the mysterious Snoke and apprentice Kylo Ren, rise from the ashes of the Empire. The Resistance, led by General Leia Organa, attempts to thwart the First Order's threat, but they're desperate for help. Rey, a desert scavenger, and Finn, an ex-stormtrooper, find themselves joining forces with Han Solo and Chewbacca in a desperate mission to return a BB-unit droid with a map to Luke Skywalker back to the Resistance. ",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg"
+			},
+			"alt_text": "Star Wars: The Force Awakens Poster Art",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=148%2C193%2C1405%2C792",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C89%2C1620%2C1615",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=118%2C252%2C1384%2C696",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C170%2C1620%2C1215"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=148%2C193%2C1405%2C792",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C89%2C1620%2C1615",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=118%2C252%2C1384%2C696",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C170%2C1620%2C1215"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-vii-the-force-awakens"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg",
+						"api_params": {
+							"region": "0,0,960,1422"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg?region=0%2C0%2C960%2C1422",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg?region=0%2C0%2C960%2C1422",
+						"alt_text": "The Last Jedi Poster Art"
+					}
+				}
+			},
+			"year": 2017,
+			"translations": {},
+			"desc": "The Resistance is in desperate need of help when they find themselves impossibly pursued by the First Order. While Rey travels to a remote planet called Ahch-To to recruit Luke Skywalker to the Resistance, Finn and Rose, a mechanic, go on their own mission in the hopes of helping the Resistance finally escape the First Order. But everyone finds themselves on the salt-planet of Crait for a last stand. ",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "December 13, 2017",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "2017-12-13",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "52bcf1f27c8fc867c947de89",
+			"slug": "films/star-wars-episode-viii-the-last-jedi",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: The Last Jedi (Episode VIII)",
+			"aria_label": "The Last Jedi Poster Art",
+			"deep_link_ref": "#star-wars-episode-viii-the-last-jedi",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg?region=0%2C0%2C960%2C1422",
+			"featured_entity_translation": "Featured Content",
+			"description": "The Resistance is in desperate need of help when they find themselves impossibly pursued by the First Order. While Rey travels to a remote planet called Ahch-To to recruit Luke Skywalker to the Resistance, Finn and Rose, a mechanic, go on their own mission in the hopes of helping the Resistance finally escape the First Order. But everyone finds themselves on the salt-planet of Crait for a last stand. ",
+			"short_desc": "The Resistance is in desperate need of help when they find themselves impossibly pursued by the First Order. While Rey travels to a remote planet called Ahch-To to recruit Luke Skywalker to the Resistance, Finn and Rose, a mechanic, go on their own mission in the hopes of helping the Resistance finally escape the First Order. But everyone finds themselves on the salt-planet of Crait for a last stand. ",
+			"dynamic_desc": "The Resistance is in desperate need of help when they find themselves impossibly pursued by the First Order. While Rey travels to a remote planet called Ahch-To to recruit Luke Skywalker to the Resistance, Finn and Rose, a mechanic, go on their own mission in the hopes of helping the Resistance finally escape the First Order. But everyone finds themselves on the salt-planet of Crait for a last stand. ",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/sb_teaser2_1-sht_v3a_online_lg_86f89198.jpeg"
+			},
+			"alt_text": "The Last Jedi Poster Art",
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=0%2C0%2C1536%2C864",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=336%2C0%2C864%2C864",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=0%2C53%2C1536%2C768",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=203%2C0%2C1152%2C864"
+				},
+				"mobile": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=0%2C0%2C1536%2C864",
+					"ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=336%2C0%2C864%2C864",
+					"ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=0%2C53%2C1536%2C768",
+					"ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=203%2C0%2C1152%2C864"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-viii-the-last-jedi"
+		},
+		{
+			"rating": null,
+			"images": {
+				"assets": {
+					"catalog_poster_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+						"api_params": {
+							"region": "0,0,540,810"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg?region=0%2C0%2C540%2C810",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg?region=0%2C0%2C540%2C810",
+						"alt_text": ""
+					},
+					"mobile_hero_image": {
+						"base_url": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg",
+						"base_url_https": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg",
+						"api_params": {
+							"region": "0,0,729,1080"
+						},
+						"cdn_url": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C0%2C729%2C1080",
+						"cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C0%2C729%2C1080",
+						"alt_text": "Star Wars: The Rise of Skywalker poster"
+					}
+				}
+			},
+			"year": 2019,
+			"translations": {},
+			"desc": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+			"digital_released_on": null,
+			"streaming_released_on": null,
+			"physical_released_on": null,
+			"phase": null,
+			"release": "December 18, 2019",
+			"crew": [],
+			"meta": true,
+			"genres": null,
+			"catalog_poster": {
+				"image": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg"
+			},
+			"display_genres": null,
+			"display_ratings": null,
+			"display_runtime": null,
+			"logo_full_size": null,
+			"secondary_title": null,
+			"raw_dates": {
+				"release": "2019-12-18",
+				"digital_released_on": null,
+				"streaming_released_on": null,
+				"physical_released_on": null
+			},
+			"rich_text": null,
+			"id": "5696c796e5e413acb244b2d4",
+			"slug": "films/star-wars-episode-ix-the-rise-of-skywalker",
+			"entity_type": "movie",
+			"entity_config": {
+				"rounded_corners": "default",
+				"thumb_outline": true,
+				"aspect_ratio": "poster",
+				"button_cta": "more_info",
+				"text_alignment": "left",
+				"details_visibility": "default"
+			},
+			"title": "Star Wars: The Rise of Skywalker (Episode IX)",
+			"deep_link_ref": "#star-wars-episode-ix-the-rise-of-skywalker",
+			"thumb": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+			"catalogImage": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg?region=0%2C0%2C540%2C810",
+			"featured_entity_translation": "Featured Content",
+			"description": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+			"short_desc": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+			"dynamic_desc": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+			"cta_button_title": "See More",
+			"thumb_data": {
+				"src": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+				"base_src": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg"
+			},
+			"base_images": {
+				"desktop": {
+					"ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rise-of-skywalker-home-ent-desktop-gumstick_e6ac6bd4.jpeg?region=0%2C0%2C1536%2C864",
+					"ratio_5x2": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C394%2C729%2C292"
+				}
+			},
+			"section_label": "films",
+			"section_class": "films",
+			"hero_mobile": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C0%2C729%2C1080",
+			"type": "Movie",
+			"href": "https://www.starwars.com/films/star-wars-episode-ix-the-rise-of-skywalker"
+		}
+	]
+}

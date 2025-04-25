@@ -1,0 +1,2038 @@
+{
+  "rating": null,
+  "images": {
+    "assets": {
+      "catalog_poster_image": {
+        "base_url": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+        "base_url_https": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+        "api_params": {
+          "region": "0,0,540,810"
+        },
+        "cdn_url": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg?region=0%2C0%2C540%2C810",
+        "cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg?region=0%2C0%2C540%2C810",
+        "alt_text": ""
+      },
+      "mobile_hero_image": {
+        "base_url": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg",
+        "base_url_https": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg",
+        "api_params": {
+          "region": "0,0,729,1080"
+        },
+        "cdn_url": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C0%2C729%2C1080",
+        "cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C0%2C729%2C1080",
+        "alt_text": "Star Wars: The Rise of Skywalker poster"
+      }
+    }
+  },
+  "year": 2019,
+  "translations": {},
+  "desc": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+  "digital_released_on": null,
+  "streaming_released_on": null,
+  "physical_released_on": null,
+  "phase": null,
+  "release": "December 18, 2019",
+  "crew": [],
+  "meta": true,
+  "genres": null,
+  "catalog_poster": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg"
+  },
+  "display_genres": null,
+  "display_ratings": null,
+  "display_runtime": null,
+  "logo_full_size": null,
+  "secondary_title": null,
+  "raw_dates": {
+    "release": "2019-12-18",
+    "digital_released_on": null,
+    "streaming_released_on": null,
+    "physical_released_on": null
+  },
+  "rich_text": null,
+  "id": "5696c796e5e413acb244b2d4",
+  "slug": "films/star-wars-episode-ix-the-rise-of-skywalker",
+  "entity_type": "movie",
+  "entity_config": {
+    "rounded_corners": "default",
+    "thumb_outline": true,
+    "aspect_ratio": "poster",
+    "button_cta": "more_info",
+    "text_alignment": "left",
+    "details_visibility": "default"
+  },
+  "title": "Star Wars: The Rise of Skywalker (Episode IX)",
+  "deep_link_ref": "#star-wars-episode-ix-the-rise-of-skywalker",
+  "thumb": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+  "catalogImage": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg?region=0%2C0%2C540%2C810",
+  "featured_entity_translation": "Featured Content",
+  "description": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+  "short_desc": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+  "dynamic_desc": "Lucasfilm and director J.J. Abrams join forces once  more to take viewers on an epic journey to a galaxy far, far away with Star Wars: The Rise of Skywalker, the riveting conclusion of the  landmark Skywalker saga, in which new legends will be born and the final battle for freedom is yet to come.",
+  "cta_button_title": "See More",
+  "thumb_data": {
+    "src": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg",
+    "base_src": "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-films-poster-catalog_c46adc71.jpeg"
+  },
+  "base_images": {
+    "desktop": {
+      "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rise-of-skywalker-home-ent-desktop-gumstick_e6ac6bd4.jpeg?region=0%2C0%2C1536%2C864",
+      "ratio_5x2": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C394%2C729%2C292"
+    }
+  },
+  "section_label": "films",
+  "section_class": "films",
+  "hero_mobile": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-poster_bb7938a9.jpeg?region=0%2C0%2C729%2C1080",
+  "type": "Movie",
+  "href": "https://www.starwars.com/films/star-wars-episode-ix-the-rise-of-skywalker",
+  "characters": {
+    "count": 42,
+    "title": "Characters",
+    "data": [
+      {
+        "id": "616b321a5c507492a01ad05b",
+        "slug": "admiral-griss",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Admiral Griss",
+        "featured_entity_translation": "Featured Content",
+        "description": "A veteran First Order officer, Frantis Griss commands the Steadfast and its battlegroup and sits on the Supreme Council. He has an excellent relationship with Allegiant General Pryde, which proves useful when the First Order must coordinate its efforts with the Sith armada revealed at Exegol.",
+        "short_desc": "A veteran First Order officer, Frantis Griss commands the Steadfast and its battlegroup and sits on the Supreme Council. He has an excellent relationship with Allegiant General Pryde, which proves useful when the First Order must coordinate its efforts with the Sith armada revealed at Exegol.",
+        "dynamic_desc": "A veteran First Order officer, Frantis Griss commands the Steadfast and its battlegroup and sits on the Supreme Council. He has an excellent relationship with Allegiant General Pryde, which proves useful when the First Order must coordinate its efforts with the Sith armada revealed at Exegol.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=0%2C21%2C1280%2C642",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=137%2C42%2C1143%2C643",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=143%2C0%2C1137%2C853",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=340%2C0%2C853%2C853"
+          },
+          "alt_text": "Admiral Griss"
+        },
+        "alt_text": "Admiral Griss",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=137%2C42%2C1143%2C643",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=340%2C0%2C853%2C853",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=0%2C21%2C1280%2C642",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/admiral-griss-main_d6144ea9.jpeg?region=143%2C0%2C1137%2C853"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/admiral-griss"
+      },
+      {
+        "id": "616b31ce1a6b1492a01ad05b",
+        "slug": "aftab-ackbar",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Aftab Ackbar",
+        "featured_entity_translation": "Featured Content",
+        "description": "To uphold the legacy of his father, Admiral Gial Ackbar’s son, Aftab, now serves the Resistance as a Y-wing pilot. Beyond his family's close ties to rebel efforts, Aftab’s recruitment was part of a larger effort to bring more Mon Calamari aid to the cause.",
+        "short_desc": "To uphold the legacy of his father, Admiral Gial Ackbar’s son, Aftab, now serves the Resistance as a Y-wing pilot. Beyond his family's close ties to rebel efforts, Aftab’s recruitment was part of a larger effort to bring more Mon Calamari aid to the cause.",
+        "dynamic_desc": "To uphold the legacy of his father, Admiral Gial Ackbar’s son, Aftab, now serves the Resistance as a Y-wing pilot. Beyond his family's close ties to rebel efforts, Aftab’s recruitment was part of a larger effort to bring more Mon Calamari aid to the cause.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=0%2C0%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=0%2C0%2C1281%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=116%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=235%2C0%2C854%2C854"
+          },
+          "alt_text": "Aftab Ackbar"
+        },
+        "alt_text": "Aftab Ackbar",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=0%2C0%2C1281%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=235%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=0%2C0%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg?region=116%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/aftab-ackbar"
+      },
+      {
+        "id": "616b31c971bc4492a01ad05b",
+        "slug": "albrekh",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Albrekh",
+        "featured_entity_translation": "Featured Content",
+        "description": "An eccentric Sith alchemist and metalsmith known for a steady hand, Albrekh uses an ancient Sith forge to join the fragments of Kylo Ren’s shattered helmet with a glowing red lattice of Sarrassian iron.",
+        "short_desc": "An eccentric Sith alchemist and metalsmith known for a steady hand, Albrekh uses an ancient Sith forge to join the fragments of Kylo Ren’s shattered helmet with a glowing red lattice of Sarrassian iron.",
+        "dynamic_desc": "An eccentric Sith alchemist and metalsmith known for a steady hand, Albrekh uses an ancient Sith forge to join the fragments of Kylo Ren’s shattered helmet with a glowing red lattice of Sarrassian iron.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=10%2C53%2C1270%2C635",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=0%2C53%2C1280%2C719",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=136%2C0%2C1140%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=208%2C0%2C854%2C854"
+          },
+          "alt_text": "Albrekh"
+        },
+        "alt_text": "Albrekh",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=0%2C53%2C1280%2C719",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=208%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=10%2C53%2C1270%2C635",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/albrekh-main_1cf0561c.jpeg?region=136%2C0%2C1140%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/albrekh"
+      },
+      {
+        "id": "616b3227fe8bf492a01ad05b",
+        "slug": "ap-lek",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Ap’Lek",
+        "featured_entity_translation": "Featured Content",
+        "description": "A cunning strategist, Ap’lek enjoys using trickery and stealth to outmaneuver his foes, before cornering them and finishing them off with a blow from his massive vibro-ax, once the weapon of a Mandalorian executioner. ",
+        "short_desc": "A cunning strategist, Ap’lek enjoys using trickery and stealth to outmaneuver his foes, before cornering them and finishing them off with a blow from his massive vibro-ax, once the weapon of a Mandalorian executioner. ",
+        "dynamic_desc": "A cunning strategist, Ap’lek enjoys using trickery and stealth to outmaneuver his foes, before cornering them and finishing them off with a blow from his massive vibro-ax, once the weapon of a Mandalorian executioner. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=0%2C7%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=204%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=300%2C0%2C720%2C720"
+          },
+          "alt_text": "Ap’Lek"
+        },
+        "alt_text": "Ap’Lek",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=300%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=0%2C7%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/apilek-main_ab19a1be.jpeg?region=204%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/ap-lek"
+      },
+      {
+        "id": "616b31b0cf53d492a01ad05b",
+        "slug": "babu-frik",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Babu Frik",
+        "featured_entity_translation": "Featured Content",
+        "description": "A tiny droidsmith working among the Spice Runners of Kijimi, the well-regarded Babu Frik can reprogram or modify virtually any droid, regardless of the security measures protecting its systems.",
+        "short_desc": "A tiny droidsmith working among the Spice Runners of Kijimi, the well-regarded Babu Frik can reprogram or modify virtually any droid, regardless of the security measures protecting its systems.",
+        "dynamic_desc": "A tiny droidsmith working among the Spice Runners of Kijimi, the well-regarded Babu Frik can reprogram or modify virtually any droid, regardless of the security measures protecting its systems.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=15%2C11%2C1265%2C632",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=0%2C0%2C1281%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=21%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=66%2C0%2C854%2C854"
+          },
+          "alt_text": "Babu Frik"
+        },
+        "alt_text": "Babu Frik",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=0%2C0%2C1281%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=66%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=15%2C11%2C1265%2C632",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/babu-frik-main_4da7f430.jpeg?region=21%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/babu-frik"
+      },
+      {
+        "id": "616b2b6ca415f492a01ad05b",
+        "slug": "bb-8",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "BB-8",
+        "featured_entity_translation": "Featured Content",
+        "description": "A skittish but loyal astromech, BB-8 accompanied Poe Dameron on many missions for the Resistance, helping to keep his X-wing in working order. When Poe’s mission to Jakku ended with his capture by the First Order, BB-8 fled into the desert with a vital clue to the location of Luke Skywalker. He rejoined Poe in time for the attack on Starkiller Base, then helped Rey locate Skywalker’s planet of exile. As the Resistance rebuilt its forces after the Battle of Crait, BB-8 helped both Poe and Rey.",
+        "short_desc": "A skittish but loyal astromech, BB-8 accompanied Poe Dameron on many missions for the Resistance, helping to keep his X-wing in working order. When Poe’s mission to Jakku ended with his capture by the First Order, BB-8 fled into the desert with a vital clue to the location of Luke Skywalker. He rejoined Poe in time for the attack on Starkiller Base, then helped Rey locate Skywalker’s planet of exile. As the Resistance rebuilt its forces after the Battle of Crait, BB-8 helped both Poe and Rey.",
+        "dynamic_desc": "A skittish but loyal astromech, BB-8 accompanied Poe Dameron on many missions for the Resistance, helping to keep his X-wing in working order. When Poe’s mission to Jakku ended with his capture by the First Order, BB-8 fled into the desert with a vital clue to the location of Luke Skywalker. He rejoined Poe in time for the attack on Starkiller Base, then helped Rey locate Skywalker’s planet of exile. As the Resistance rebuilt its forces after the Battle of Crait, BB-8 helped both Poe and Rey.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=187%2C40%2C882%2C496",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=320%2C51%2C567%2C425",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=353%2C38%2C498%2C498"
+          },
+          "alt_text": "BB-8"
+        },
+        "alt_text": "BB-8",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=187%2C40%2C882%2C496",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=353%2C38%2C498%2C498",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=320%2C51%2C567%2C425"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.67m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/bb-8"
+      },
+      {
+        "id": "616b31cc88de3492a01ad05b",
+        "slug": "beaumont-kin",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Beaumont Kin",
+        "featured_entity_translation": "Featured Content",
+        "description": "A historian who once aspired to become an educator, after the destruction of the Hosnian system Beaumont Kin abandoned his academic career to become a captain in the Resistance’s intelligence division. He offers the cause broad knowledge on a variety of topics.",
+        "short_desc": "A historian who once aspired to become an educator, after the destruction of the Hosnian system Beaumont Kin abandoned his academic career to become a captain in the Resistance’s intelligence division. He offers the cause broad knowledge on a variety of topics.",
+        "dynamic_desc": "A historian who once aspired to become an educator, after the destruction of the Hosnian system Beaumont Kin abandoned his academic career to become a captain in the Resistance’s intelligence division. He offers the cause broad knowledge on a variety of topics.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=0%2C58%2C1281%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=0%2C67%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=21%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=129%2C0%2C854%2C854"
+          },
+          "alt_text": "Beaumont Kin"
+        },
+        "alt_text": "Beaumont Kin",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=0%2C67%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=129%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=0%2C58%2C1281%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/beaumont-kin-main_6f85612e.jpeg?region=21%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/beaumont-kin"
+      },
+      {
+        "id": "616b32015788f492a01ad05b",
+        "slug": "boolio",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Boolio",
+        "featured_entity_translation": "Featured Content",
+        "description": "A mine overseer at the Sinta Glacier Colony, Boolio finds himself thrust into the galactic struggle after a mole within the First Order mysteriously supplies him with a file filled with critical intelligence. Acting swiftly, Boolio arranges to deliver this intel to the Resistance. His heroism soon leads to his arrest and execution.",
+        "short_desc": "A mine overseer at the Sinta Glacier Colony, Boolio finds himself thrust into the galactic struggle after a mole within the First Order mysteriously supplies him with a file filled with critical intelligence. Acting swiftly, Boolio arranges to deliver this intel to the Resistance. His heroism soon leads to his arrest and execution.",
+        "dynamic_desc": "A mine overseer at the Sinta Glacier Colony, Boolio finds himself thrust into the galactic struggle after a mole within the First Order mysteriously supplies him with a file filled with critical intelligence. Acting swiftly, Boolio arranges to deliver this intel to the Resistance. His heroism soon leads to his arrest and execution.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=260%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=427%2C0%2C715%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=480%2C0%2C536%2C536"
+          },
+          "alt_text": "Boolio"
+        },
+        "alt_text": "Boolio",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=260%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=480%2C0%2C536%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/boolio-main_bab306ba.jpeg?region=427%2C0%2C715%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.78m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/boolio"
+      },
+      {
+        "id": "616b2378b6e91492a01ad05b",
+        "slug": "c-3po-see-threepio",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "C-3PO (See-Threepio)",
+        "featured_entity_translation": "Featured Content",
+        "description": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "short_desc": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "dynamic_desc": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=129%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=233%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=336%2C0%2C537%2C536"
+          },
+          "alt_text": "C-3PO (See-Threepio)"
+        },
+        "alt_text": "C-3PO (See-Threepio)",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=336%2C0%2C537%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=129%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=233%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.77m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/c-3po"
+      },
+      {
+        "id": "616b322111866492a01ad05b",
+        "slug": "cardo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Cardo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Cardo is a walking arsenal, using a powerful customized arm cannon to spray death and destruction at the Knights of Ren’s targets. His years of tinkering with weapons have made him a skilled armorer, and he repairs his fellow Knights’ gear after their missions.",
+        "short_desc": "Cardo is a walking arsenal, using a powerful customized arm cannon to spray death and destruction at the Knights of Ren’s targets. His years of tinkering with weapons have made him a skilled armorer, and he repairs his fellow Knights’ gear after their missions.",
+        "dynamic_desc": "Cardo is a walking arsenal, using a powerful customized arm cannon to spray death and destruction at the Knights of Ren’s targets. His years of tinkering with weapons have made him a skilled armorer, and he repairs his fellow Knights’ gear after their missions.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=0%2C22%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=329%2C0%2C720%2C720"
+          },
+          "alt_text": "Cardo"
+        },
+        "alt_text": "Cardo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=329%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=0%2C22%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/cardo-main_9b42350a.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/cardo"
+      },
+      {
+        "id": "616b2362d2b85492a01ad05b",
+        "slug": "chewbacca",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Chewbacca",
+        "featured_entity_translation": "Featured Content",
+        "description": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "short_desc": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "dynamic_desc": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=16%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=0%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536"
+          },
+          "alt_text": "Chewbacca"
+        },
+        "alt_text": "Chewbacca",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=16%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=0%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.28m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/chewbacca"
+      },
+      {
+        "id": "616b2f6d71d07492a01ad05b",
+        "slug": "commander-d-acy",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Commander D'Acy",
+        "featured_entity_translation": "Featured Content",
+        "description": "Leia Organa personally recruited Larma D’Acy to join the Resistance after years of service defending the Warlentta system. With the support of her wife, Wrobie Tyce, who adapted her acumen as a courier ship pilot to fight the First Order by Larma’s side, D'Acy has stepped into a broader strategic command position, personally advising General Organa and rolling up her sleeves for the hands-on work of getting the Ajan Kloss outpost fully operational.",
+        "short_desc": "Leia Organa personally recruited Larma D’Acy to join the Resistance after years of service defending the Warlentta system. With the support of her wife, Wrobie Tyce, who adapted her acumen as a courier ship pilot to fight the First Order by Larma’s side, D'Acy has stepped into a broader strategic command position, personally advising General Organa and rolling up her sleeves for the hands-on work of getting the Ajan Kloss outpost fully operational.",
+        "dynamic_desc": "Leia Organa personally recruited Larma D’Acy to join the Resistance after years of service defending the Warlentta system. With the support of her wife, Wrobie Tyce, who adapted her acumen as a courier ship pilot to fight the First Order by Larma’s side, D'Acy has stepped into a broader strategic command position, personally advising General Organa and rolling up her sleeves for the hands-on work of getting the Ajan Kloss outpost fully operational.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=0%2C18%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=0%2C8%2C1281%2C719",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=95%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=229%2C0%2C854%2C854"
+          },
+          "alt_text": "Commander D'Acy"
+        },
+        "alt_text": "Commander D'Acy",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=0%2C8%2C1281%2C719",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=229%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=0%2C18%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/commander-d-acy-main_f239be90.jpeg?region=95%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/commander-d-acy"
+      },
+      {
+        "id": "616b31af48689492a01ad05b",
+        "slug": "d-o",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "D-O",
+        "featured_entity_translation": "Featured Content",
+        "description": "Cobbled from odds and ends in the workshop of a droidsmith, little D-O is an impressionable little roller that becomes fixated upon BB-8. ",
+        "short_desc": "Cobbled from odds and ends in the workshop of a droidsmith, little D-O is an impressionable little roller that becomes fixated upon BB-8. ",
+        "dynamic_desc": "Cobbled from odds and ends in the workshop of a droidsmith, little D-O is an impressionable little roller that becomes fixated upon BB-8. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=0%2C40%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=136%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=280%2C0%2C720%2C720"
+          },
+          "alt_text": "D-O"
+        },
+        "alt_text": "D-O",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=280%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=0%2C40%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=136%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/d-o"
+      },
+      {
+        "id": "616b247e5b642492a01ad05b",
+        "slug": "emperor-palpatine-darth-sidious",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Emperor Palpatine (Darth Sidious)",
+        "featured_entity_translation": "Featured Content",
+        "description": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+        "short_desc": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+        "dynamic_desc": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C107%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C25%2C1280%2C718",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=23%2C0%2C1136%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=154%2C0%2C854%2C854"
+          },
+          "alt_text": "Emperor Palpatine"
+        },
+        "alt_text": "Emperor Palpatine (Darth Sidious)",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C25%2C1280%2C718",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=154%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C107%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=23%2C0%2C1136%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.73m "
+              },
+              {
+                "name": "Height: 1.78m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious"
+      },
+      {
+        "id": "616b2b66dcc97492a01ad05b",
+        "slug": "finn",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Finn",
+        "featured_entity_translation": "Featured Content",
+        "description": "Committed to the cause of the Resistance, Finn fights alongside his closest friends in the struggle to defeat the First Order, the evil regime he once served as a stormtrooper. As FN-2187, he was trained from birth to serve the First Order, but a skirmish on Jakku awakened his conscience and drove him down a different path, one that proved both heroic and dangerous. ",
+        "short_desc": "Committed to the cause of the Resistance, Finn fights alongside his closest friends in the struggle to defeat the First Order, the evil regime he once served as a stormtrooper. As FN-2187, he was trained from birth to serve the First Order, but a skirmish on Jakku awakened his conscience and drove him down a different path, one that proved both heroic and dangerous. ",
+        "dynamic_desc": "Committed to the cause of the Resistance, Finn fights alongside his closest friends in the struggle to defeat the First Order, the evil regime he once served as a stormtrooper. As FN-2187, he was trained from birth to serve the First Order, but a skirmish on Jakku awakened his conscience and drove him down a different path, one that proved both heroic and dangerous. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=111%2C227%2C1169%2C585",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=75%2C177%2C1205%2C677",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=242%2C119%2C983%2C735",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=438%2C174%2C680%2C680"
+          },
+          "alt_text": "Finn"
+        },
+        "alt_text": "Finn",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=75%2C177%2C1205%2C677",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=438%2C174%2C680%2C680",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=111%2C227%2C1169%2C585",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg?region=242%2C119%2C983%2C735"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.78m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/finn"
+      },
+      {
+        "id": "616b32491e0fe492a01ad05b",
+        "slug": "general-engell",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Engell",
+        "featured_entity_translation": "Featured Content",
+        "description": "An admirer of Kylo Ren’s, Amret Engell has assumed responsibility for stormtrooper training after the death of Captain Phasma. She sees each new world liberated by the First Order as a source of valuable children to be trained as soldiers for Ren’s regime.",
+        "short_desc": "An admirer of Kylo Ren’s, Amret Engell has assumed responsibility for stormtrooper training after the death of Captain Phasma. She sees each new world liberated by the First Order as a source of valuable children to be trained as soldiers for Ren’s regime.",
+        "dynamic_desc": "An admirer of Kylo Ren’s, Amret Engell has assumed responsibility for stormtrooper training after the death of Captain Phasma. She sees each new world liberated by the First Order as a source of valuable children to be trained as soldiers for Ren’s regime.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=0%2C2%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=280%2C0%2C720%2C720"
+          },
+          "alt_text": "General Engell"
+        },
+        "alt_text": "General Engell",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=280%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=0%2C2%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-engells-main_30552427.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-engell"
+      },
+      {
+        "id": "616b2b51e1843492a01ad05b",
+        "slug": "general-hux",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Hux",
+        "featured_entity_translation": "Featured Content",
+        "description": "Young and ruthless, General Hux is a believer in technology, and eagerly awaits the day when the First Order’s innovations will help bring down the remnants of the New Republic and the Resistance – a victory he believes will also lead to his ruling the galaxy. His increasingly poisonous rivalry with Kylo Ren causes him to take a desperate gamble.",
+        "short_desc": "Young and ruthless, General Hux is a believer in technology, and eagerly awaits the day when the First Order’s innovations will help bring down the remnants of the New Republic and the Resistance – a victory he believes will also lead to his ruling the galaxy. His increasingly poisonous rivalry with Kylo Ren causes him to take a desperate gamble.",
+        "dynamic_desc": "Young and ruthless, General Hux is a believer in technology, and eagerly awaits the day when the First Order’s innovations will help bring down the remnants of the New Republic and the Resistance – a victory he believes will also lead to his ruling the galaxy. His increasingly poisonous rivalry with Kylo Ren causes him to take a desperate gamble.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=0%2C0%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=0%2C0%2C1281%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=137%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=208%2C0%2C854%2C854"
+          },
+          "alt_text": "General Hux"
+        },
+        "alt_text": "General Hux",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=0%2C0%2C1281%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=208%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=0%2C0%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg?region=137%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.85m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-hux"
+      },
+      {
+        "id": "616b3218d59ab492a01ad05b",
+        "slug": "general-parnadee",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Parnadee",
+        "featured_entity_translation": "Featured Content",
+        "description": "The First Order’s senior ground commander, Bellava Parnadee is focused on worlds resisting occupation by the regime, a duty that often takes her far from her regular post aboard the Steadfast. A member of the Supreme Council, she is careful to stay on the right side of mercurial Supreme Leader Kylo Ren.",
+        "short_desc": "The First Order’s senior ground commander, Bellava Parnadee is focused on worlds resisting occupation by the regime, a duty that often takes her far from her regular post aboard the Steadfast. A member of the Supreme Council, she is careful to stay on the right side of mercurial Supreme Leader Kylo Ren.",
+        "dynamic_desc": "The First Order’s senior ground commander, Bellava Parnadee is focused on worlds resisting occupation by the regime, a duty that often takes her far from her regular post aboard the Steadfast. A member of the Supreme Council, she is careful to stay on the right side of mercurial Supreme Leader Kylo Ren.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=0%2C16%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=280%2C0%2C720%2C720"
+          },
+          "alt_text": "General Parnadee"
+        },
+        "alt_text": "General Parnadee",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=280%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=0%2C16%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-parnadee-main_3d8570f2.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-parnadee"
+      },
+      {
+        "id": "616b31cb002c2492a01ad05b",
+        "slug": "general-pryde",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Pryde",
+        "featured_entity_translation": "Featured Content",
+        "description": "A veteran of the Imperial military, Allegiant General Pryde serves the First Order as part of a second wave of leadership kept in reserve by Supreme Leader Snoke during the unveiling of Starkiller Base. After Snoke’s death, Pryde serves the new Supreme Leader Kylo Ren in a position of privilege and power.",
+        "short_desc": "A veteran of the Imperial military, Allegiant General Pryde serves the First Order as part of a second wave of leadership kept in reserve by Supreme Leader Snoke during the unveiling of Starkiller Base. After Snoke’s death, Pryde serves the new Supreme Leader Kylo Ren in a position of privilege and power.",
+        "dynamic_desc": "A veteran of the Imperial military, Allegiant General Pryde serves the First Order as part of a second wave of leadership kept in reserve by Supreme Leader Snoke during the unveiling of Starkiller Base. After Snoke’s death, Pryde serves the new Supreme Leader Kylo Ren in a position of privilege and power.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=0%2C37%2C1281%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=0%2C21%2C1281%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=71%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=213%2C0%2C854%2C854"
+          },
+          "alt_text": "General Pryde"
+        },
+        "alt_text": "General Pryde",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=0%2C21%2C1281%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=213%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=0%2C37%2C1281%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-pryde-main_78f767c7.jpeg?region=71%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-pryde"
+      },
+      {
+        "id": "616b32173eaca492a01ad05b",
+        "slug": "general-quinn",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Quinn",
+        "featured_entity_translation": "Featured Content",
+        "description": "Domaric Quinn has ascended the First Order ranks to become an important commander and earn a seat on Kylo Ren’s Supreme Council. A former Imperial officer, he loathes the mysticism of the Force and is suspicious of the First Order’s new Sith allies on Exegol. When Ren tires of Quinn’s caustic questions, Quinn learns the perils of crossing the Supreme Leader. ",
+        "short_desc": "Domaric Quinn has ascended the First Order ranks to become an important commander and earn a seat on Kylo Ren’s Supreme Council. A former Imperial officer, he loathes the mysticism of the Force and is suspicious of the First Order’s new Sith allies on Exegol. When Ren tires of Quinn’s caustic questions, Quinn learns the perils of crossing the Supreme Leader. ",
+        "dynamic_desc": "Domaric Quinn has ascended the First Order ranks to become an important commander and earn a seat on Kylo Ren’s Supreme Council. A former Imperial officer, he loathes the mysticism of the Force and is suspicious of the First Order’s new Sith allies on Exegol. When Ren tires of Quinn’s caustic questions, Quinn learns the perils of crossing the Supreme Leader. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=136%2C45%2C1144%2C572",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=187%2C55%2C1093%2C614",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=141%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=343%2C0%2C854%2C854"
+          },
+          "alt_text": "General Quinn"
+        },
+        "alt_text": "General Quinn",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=187%2C55%2C1093%2C614",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=343%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=136%2C45%2C1144%2C572",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/general-quinn-main_bbe54055.jpeg?region=141%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-quinn"
+      },
+      {
+        "id": "616b23c1b9a0a492a01ad05b",
+        "slug": "han-solo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Han Solo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "short_desc": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "dynamic_desc": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=240%2C0%2C1440%2C1080",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=420%2C0%2C1080%2C1080"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Han Solo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=420%2C0%2C1080%2C1080",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=240%2C0%2C1440%2C1080"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.8m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/han-solo"
+      },
+      {
+        "id": "616b31adbd92e492a01ad05b",
+        "slug": "jannah",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Jannah",
+        "featured_entity_translation": "Featured Content",
+        "description": "From an oceanic moon, Jannah leads a band of warriors, ready to charge against the forces of the First Order.",
+        "short_desc": "From an oceanic moon, Jannah leads a band of warriors, ready to charge against the forces of the First Order.",
+        "dynamic_desc": "From an oceanic moon, Jannah leads a band of warriors, ready to charge against the forces of the First Order.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=0%2C21%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=0%2C67%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=71%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=250%2C0%2C854%2C854"
+          },
+          "alt_text": "Jannah"
+        },
+        "alt_text": "Jannah",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=0%2C67%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=250%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=0%2C21%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/jannah-main_4b348047.jpeg?region=71%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/jannah"
+      },
+      {
+        "id": "616b321dc64ef492a01ad05b",
+        "slug": "kalo-ne",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Kalo’ne",
+        "featured_entity_translation": "Featured Content",
+        "description": "A long-lived merchant and treadable driver, Kalo’ne has seen many a Festival of the Ancestors come and go on Pasaana. She makes a living ferrying visitors and locals across Pasaana in her sturdy treadable, which is filled with wares collected during her travels.",
+        "short_desc": "A long-lived merchant and treadable driver, Kalo’ne has seen many a Festival of the Ancestors come and go on Pasaana. She makes a living ferrying visitors and locals across Pasaana in her sturdy treadable, which is filled with wares collected during her travels.",
+        "dynamic_desc": "A long-lived merchant and treadable driver, Kalo’ne has seen many a Festival of the Ancestors come and go on Pasaana. She makes a living ferrying visitors and locals across Pasaana in her sturdy treadable, which is filled with wares collected during her travels.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=0%2C61%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=290%2C100%2C990%2C556",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=261%2C66%2C1019%2C764",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=488%2C47%2C792%2C794"
+          },
+          "alt_text": "Kalo’ne"
+        },
+        "alt_text": "Kalo’ne",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=290%2C100%2C990%2C556",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=488%2C47%2C792%2C794",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=0%2C61%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/kalo-ne-main_675bb3e8.jpeg?region=261%2C66%2C1019%2C764"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/kalo-ne"
+      },
+      {
+        "id": "616b31b255070492a01ad05b",
+        "slug": "klaud",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Klaud",
+        "featured_entity_translation": "Featured Content",
+        "description": "Klaud might have joined the Resistance as a result of mistaken identity, but he is welcomed as an ally by the freedom fighters. ",
+        "short_desc": "Klaud might have joined the Resistance as a result of mistaken identity, but he is welcomed as an ally by the freedom fighters. ",
+        "dynamic_desc": "Klaud might have joined the Resistance as a result of mistaken identity, but he is welcomed as an ally by the freedom fighters. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=0%2C8%2C1281%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=137%2C5%2C1143%2C643",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=556%2C5%2C724%2C543",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=559%2C0%2C721%2C722"
+          },
+          "alt_text": "Klaud"
+        },
+        "alt_text": "Klaud",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=137%2C5%2C1143%2C643",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=559%2C0%2C721%2C722",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=0%2C8%2C1281%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/klaud-main_80fe2839.jpeg?region=556%2C5%2C724%2C543"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/klaud"
+      },
+      {
+        "id": "616b3226382dd492a01ad05b",
+        "slug": "kuruk",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Kuruk",
+        "featured_entity_translation": "Featured Content",
+        "description": "A gifted sniper, Kuruk is the most solitary of the Knights of Ren, preferring to cover the group’s assaults from a carefully chosen vantage point above the battlefield. He also serves as pilot of the Night Buzzard.",
+        "short_desc": "A gifted sniper, Kuruk is the most solitary of the Knights of Ren, preferring to cover the group’s assaults from a carefully chosen vantage point above the battlefield. He also serves as pilot of the Night Buzzard.",
+        "dynamic_desc": "A gifted sniper, Kuruk is the most solitary of the Knights of Ren, preferring to cover the group’s assaults from a carefully chosen vantage point above the battlefield. He also serves as pilot of the Night Buzzard.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=0%2C40%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=280%2C0%2C720%2C720"
+          },
+          "alt_text": "Kuruk"
+        },
+        "alt_text": "Kuruk",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=280%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=0%2C40%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/kuruk-main_5aa550d3.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/kuruk"
+      },
+      {
+        "id": "616b23df6aa78492a01ad05b",
+        "slug": "lando-calrissian",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Lando Calrissian",
+        "featured_entity_translation": "Featured Content",
+        "description": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+        "short_desc": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+        "dynamic_desc": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=147%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=249%2C0%2C715%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=340%2C0%2C538%2C536"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Lando Calrissian",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=147%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=340%2C0%2C538%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=249%2C0%2C715%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.78m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/lando-calrissian"
+      },
+      {
+        "id": "616b23e6f5453492a01ad05b",
+        "slug": "luke-skywalker",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Luke Skywalker",
+        "featured_entity_translation": "Featured Content",
+        "description": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "short_desc": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "dynamic_desc": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=60%2C150%2C1580%2C790",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=270%2C143%2C1070%2C804",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=407%2C143%2C813%2C814"
+          },
+          "alt_text": "Luke Skywalker"
+        },
+        "alt_text": "Luke Skywalker",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=407%2C143%2C813%2C814",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=60%2C150%2C1580%2C790",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=270%2C143%2C1070%2C804"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.72m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/luke-skywalker"
+      },
+      {
+        "id": "616b2ca84ec54492a01ad05b",
+        "slug": "maz-kanata",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Maz Kanata",
+        "featured_entity_translation": "Featured Content",
+        "description": "Maz Kanata is more than a thousand years old, a diminutive being with vast experience at surviving in the underworld. From her castle on Takodana, Maz has seen galactic powers rise and fall and felt the Force ebb and flow, seeking an elusive balance between darkness and light. She has given many a young smuggler a start by offering credits, equipment or connections, and helped many an old friend rediscover a lost path.",
+        "short_desc": "Maz Kanata is more than a thousand years old, a diminutive being with vast experience at surviving in the underworld. From her castle on Takodana, Maz has seen galactic powers rise and fall and felt the Force ebb and flow, seeking an elusive balance between darkness and light. She has given many a young smuggler a start by offering credits, equipment or connections, and helped many an old friend rediscover a lost path.",
+        "dynamic_desc": "Maz Kanata is more than a thousand years old, a diminutive being with vast experience at surviving in the underworld. From her castle on Takodana, Maz has seen galactic powers rise and fall and felt the Force ebb and flow, seeking an elusive balance between darkness and light. She has given many a young smuggler a start by offering credits, equipment or connections, and helped many an old friend rediscover a lost path.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=0%2C49%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=149%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=485%2C0%2C878%2C878"
+          },
+          "alt_text": "Maz Kanata"
+        },
+        "alt_text": "Maz Kanata",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=485%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=0%2C49%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/tfa-db-maz-kanata-main-image_5022305c.jpeg?region=149%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.24m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/maz-kanata"
+      },
+      {
+        "id": "616b321bfe2fd492a01ad05b",
+        "slug": "nambi-ghima",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Nambi Ghima",
+        "featured_entity_translation": "Featured Content",
+        "description": "A young Aki-Aki girl, Nambi Ghima greets Rey at the Festival of Ancestors on Pasaana, offering a husk necklace as a gesture of welcome and inviting Rey to share her family history. Such hospitality is a trademark of even the youngest Aki-Aki.",
+        "short_desc": "A young Aki-Aki girl, Nambi Ghima greets Rey at the Festival of Ancestors on Pasaana, offering a husk necklace as a gesture of welcome and inviting Rey to share her family history. Such hospitality is a trademark of even the youngest Aki-Aki.",
+        "dynamic_desc": "A young Aki-Aki girl, Nambi Ghima greets Rey at the Festival of Ancestors on Pasaana, offering a husk necklace as a gesture of welcome and inviting Rey to share her family history. Such hospitality is a trademark of even the youngest Aki-Aki.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=164%2C0%2C953%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=376%2C0%2C715%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=471%2C0%2C538%2C536"
+          },
+          "alt_text": "Nambi Ghima"
+        },
+        "alt_text": "Nambi Ghima",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=164%2C0%2C953%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=471%2C0%2C538%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/nambi-ghima-main_c13c3f6a.jpeg?region=376%2C0%2C715%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/nambi-ghima"
+      },
+      {
+        "id": "616b283d10435492a01ad05b",
+        "slug": "nien-nunb",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Nien Nunb",
+        "featured_entity_translation": "Featured Content",
+        "description": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+        "short_desc": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+        "dynamic_desc": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C55%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C58%2C1281%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=134%2C53%2C1071%2C801",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=253%2C55%2C799%2C799"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Nien Nunb",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C58%2C1281%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=253%2C55%2C799%2C799",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C55%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=134%2C53%2C1071%2C801"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.6m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/nien-nunb"
+      },
+      {
+        "id": "616b32092276c492a01ad05b",
+        "slug": "ochi-of-bestoon",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Ochi of Bestoon",
+        "featured_entity_translation": "Featured Content",
+        "description": "During his infamous career, Ochi of Bestoon was a hunter of Sith relics, a ruthless assassin, and a devotee of the dark side of the Force. After the fall of the Empire, Luke Skywalker sought Ochi with the help of Lando Calrissian, only to have the trail go cold on Pasaana. Years later, Rey would find Ochi’s remains – and discover the relic hunter’s story was the key to unlocking the mystery of her own origins.",
+        "short_desc": "During his infamous career, Ochi of Bestoon was a hunter of Sith relics, a ruthless assassin, and a devotee of the dark side of the Force. After the fall of the Empire, Luke Skywalker sought Ochi with the help of Lando Calrissian, only to have the trail go cold on Pasaana. Years later, Rey would find Ochi’s remains – and discover the relic hunter’s story was the key to unlocking the mystery of her own origins.",
+        "dynamic_desc": "During his infamous career, Ochi of Bestoon was a hunter of Sith relics, a ruthless assassin, and a devotee of the dark side of the Force. After the fall of the Empire, Luke Skywalker sought Ochi with the help of Lando Calrissian, only to have the trail go cold on Pasaana. Years later, Rey would find Ochi’s remains – and discover the relic hunter’s story was the key to unlocking the mystery of her own origins.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=0%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=56%2C2%2C948%2C533",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=151%2C0%2C685%2C513",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=282%2C0%2C485%2C484"
+          },
+          "alt_text": "Ochi of Bestoon"
+        },
+        "alt_text": "Ochi of Bestoon",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=56%2C2%2C948%2C533",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=282%2C0%2C485%2C484",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=0%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/ochi-of-bestoon-main_ad651ffa.jpeg?region=151%2C0%2C685%2C513"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/ochi-of-bestoon"
+      },
+      {
+        "id": "616b3202e7036492a01ad05b",
+        "slug": "oma-tres",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Oma Tres",
+        "featured_entity_translation": "Featured Content",
+        "description": "As a bartender in Kijimi City’s infamous Spice Runners’ Den, Oma Tres has heard his share of discord – and on occupied Kijimi, the drums of war are part of the soundtrack of life. Tres can only hope the present strife will reach its crescendo and be followed by an era of harmony.",
+        "short_desc": "As a bartender in Kijimi City’s infamous Spice Runners’ Den, Oma Tres has heard his share of discord – and on occupied Kijimi, the drums of war are part of the soundtrack of life. Tres can only hope the present strife will reach its crescendo and be followed by an era of harmony.",
+        "dynamic_desc": "As a bartender in Kijimi City’s infamous Spice Runners’ Den, Oma Tres has heard his share of discord – and on occupied Kijimi, the drums of war are part of the soundtrack of life. Tres can only hope the present strife will reach its crescendo and be followed by an era of harmony.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=53%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=127%2C0%2C715%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=236%2C0%2C537%2C536"
+          },
+          "alt_text": "Oma Tres"
+        },
+        "alt_text": "Oma Tres",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=53%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=236%2C0%2C537%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/omas-tres-main_69fe6af3.jpeg?region=127%2C0%2C715%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/oma-tres"
+      },
+      {
+        "id": "616b2b4ac8fe7492a01ad05b",
+        "slug": "poe-dameron",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Poe Dameron",
+        "featured_entity_translation": "Featured Content",
+        "description": "A Resistance starfighter ace, Poe Dameron is one of Leia Organa’s most-trusted operatives. He can fly anything – which is fortunate given how often his headstrong nature leads him into trouble. Poe leads the attack that destroys Starkiller Base, but soon finds himself on the run from the First Order. Sidelined without his beloved X-wing, he learns tough lessons about leadership, heroism and sacrifice. Those lessons will prove essential in rebuilding the Resistance before a showdown with the forces of evil at Exegol.",
+        "short_desc": "A Resistance starfighter ace, Poe Dameron is one of Leia Organa’s most-trusted operatives. He can fly anything – which is fortunate given how often his headstrong nature leads him into trouble. Poe leads the attack that destroys Starkiller Base, but soon finds himself on the run from the First Order. Sidelined without his beloved X-wing, he learns tough lessons about leadership, heroism and sacrifice. Those lessons will prove essential in rebuilding the Resistance before a showdown with the forces of evil at Exegol.",
+        "dynamic_desc": "A Resistance starfighter ace, Poe Dameron is one of Leia Organa’s most-trusted operatives. He can fly anything – which is fortunate given how often his headstrong nature leads him into trouble. Poe leads the attack that destroys Starkiller Base, but soon finds himself on the run from the First Order. Sidelined without his beloved X-wing, he learns tough lessons about leadership, heroism and sacrifice. Those lessons will prove essential in rebuilding the Resistance before a showdown with the forces of evil at Exegol.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=0%2C0%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=373%2C9%2C514%2C513"
+          },
+          "alt_text": "Poe Dameron"
+        },
+        "alt_text": "Poe Dameron",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=373%2C9%2C514%2C513",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=0%2C0%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/poe-dameron"
+      },
+      {
+        "id": "616b243d6c5f6492a01ad05b",
+        "slug": "r2-d2",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "R2-D2",
+        "featured_entity_translation": "Featured Content",
+        "description": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "short_desc": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "dynamic_desc": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=167%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=353%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=431%2C0%2C536%2C536"
+          },
+          "alt_text": "R2-D2"
+        },
+        "alt_text": "R2-D2",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=431%2C0%2C536%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=167%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=353%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.09m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/r2-d2"
+      },
+      {
+        "id": "616b2b6181af8492a01ad05b",
+        "slug": "rey",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Rey",
+        "featured_entity_translation": "Featured Content",
+        "description": "Seemingly abandoned by her parents on Jakku, Rey grew up a scavenger amid the wreckage of war. Her life changed when she agreed to help a droid on an urgent mission for the Resistance. Rey discovered she was powerful in the Force, and sought out the vanished Jedi Master Luke Skywalker to train her. That ended in disappointment, as did her attempt to bring Kylo Ren back to the light. But the resilient Rey continued her training and learned the truth about her parentage and her mysterious connection with Kylo. She then faced her greatest test: a confrontation with fear and evil that would determine the galaxy’s fate.",
+        "short_desc": "Seemingly abandoned by her parents on Jakku, Rey grew up a scavenger amid the wreckage of war. Her life changed when she agreed to help a droid on an urgent mission for the Resistance. Rey discovered she was powerful in the Force, and sought out the vanished Jedi Master Luke Skywalker to train her. That ended in disappointment, as did her attempt to bring Kylo Ren back to the light. But the resilient Rey continued her training and learned the truth about her parentage and her mysterious connection with Kylo. She then faced her greatest test: a confrontation with fear and evil that would determine the galaxy’s fate.",
+        "dynamic_desc": "Seemingly abandoned by her parents on Jakku, Rey grew up a scavenger amid the wreckage of war. Her life changed when she agreed to help a droid on an urgent mission for the Resistance. Rey discovered she was powerful in the Force, and sought out the vanished Jedi Master Luke Skywalker to train her. That ended in disappointment, as did her attempt to bring Kylo Ren back to the light. But the resilient Rey continued her training and learned the truth about her parentage and her mysterious connection with Kylo. She then faced her greatest test: a confrontation with fear and evil that would determine the galaxy’s fate.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=180%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=240%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=376%2C0%2C535%2C536"
+          },
+          "alt_text": "Rey"
+        },
+        "alt_text": "Rey",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=180%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=376%2C0%2C535%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=240%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/rey"
+      },
+      {
+        "id": "616b2eeddf5f7492a01ad05b",
+        "slug": "rose-tico",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Rose Tico",
+        "featured_entity_translation": "Featured Content",
+        "description": "A maintenance tech with a talent for tinkering, Rose Tico joined the Resistance with her sister Paige after the First Order devastated her home system. A chance encounter with Finn pushed her onto the front lines of the new galactic civil war – and her sister’s death caused her to redouble her efforts for the Resistance cause.",
+        "short_desc": "A maintenance tech with a talent for tinkering, Rose Tico joined the Resistance with her sister Paige after the First Order devastated her home system. A chance encounter with Finn pushed her onto the front lines of the new galactic civil war – and her sister’s death caused her to redouble her efforts for the Resistance cause.",
+        "dynamic_desc": "A maintenance tech with a talent for tinkering, Rose Tico joined the Resistance with her sister Paige after the First Order devastated her home system. A chance encounter with Finn pushed her onto the front lines of the new galactic civil war – and her sister’s death caused her to redouble her efforts for the Resistance cause.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=0%2C113%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=8%2C92%2C1204%2C678",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=113%2C98%2C1010%2C756",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=242%2C113%2C741%2C741"
+          },
+          "alt_text": "Rose Tico"
+        },
+        "alt_text": "Rose Tico",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=8%2C92%2C1204%2C678",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=242%2C113%2C741%2C741",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=0%2C113%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg?region=113%2C98%2C1010%2C756"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/rose-tico"
+      },
+      {
+        "id": "616b2b5c0f4ab492a01ad05b",
+        "slug": "supreme-leader-kylo-ren",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Supreme Leader Kylo Ren",
+        "featured_entity_translation": "Featured Content",
+        "description": "The son of Han Solo and Leia Organa, Ben Solo was seduced by the dark side of the Force and renamed himself Kylo Ren: leader of the Knights of Ren, champion of the First Order, and apprentice to Supreme Leader Snoke. Driven to destroy the past, Kylo killed his father and his master, supplanting Snoke as Supreme Leader. But he remained haunted by his father’s death, his connection with the mysterious Rey, and the pull of the good in himself. In time, all three would help Ben Solo return to the light.",
+        "short_desc": "The son of Han Solo and Leia Organa, Ben Solo was seduced by the dark side of the Force and renamed himself Kylo Ren: leader of the Knights of Ren, champion of the First Order, and apprentice to Supreme Leader Snoke. Driven to destroy the past, Kylo killed his father and his master, supplanting Snoke as Supreme Leader. But he remained haunted by his father’s death, his connection with the mysterious Rey, and the pull of the good in himself. In time, all three would help Ben Solo return to the light.",
+        "dynamic_desc": "The son of Han Solo and Leia Organa, Ben Solo was seduced by the dark side of the Force and renamed himself Kylo Ren: leader of the Knights of Ren, champion of the First Order, and apprentice to Supreme Leader Snoke. Driven to destroy the past, Kylo killed his father and his master, supplanting Snoke as Supreme Leader. But he remained haunted by his father’s death, his connection with the mysterious Rey, and the pull of the good in himself. In time, all three would help Ben Solo return to the light.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=0%2C0%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=280%2C0%2C720%2C720"
+          },
+          "alt_text": "Supreme Leader Kylo Ren"
+        },
+        "alt_text": "Supreme Leader Kylo Ren",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=280%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=0%2C0%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/kylo-ren"
+      },
+      {
+        "id": "616b3224337f0492a01ad05b",
+        "slug": "trudgen",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Trudgen",
+        "featured_entity_translation": "Featured Content",
+        "description": "A collector of grim trophies, Trudgen fights with a massive vibrocleaver made even more deadly by embedded ultrasonic conductors. His hodgepodge armor and helmet are a personalized record of enemies he has defeated.",
+        "short_desc": "A collector of grim trophies, Trudgen fights with a massive vibrocleaver made even more deadly by embedded ultrasonic conductors. His hodgepodge armor and helmet are a personalized record of enemies he has defeated.",
+        "dynamic_desc": "A collector of grim trophies, Trudgen fights with a massive vibrocleaver made even more deadly by embedded ultrasonic conductors. His hodgepodge armor and helmet are a personalized record of enemies he has defeated.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=0%2C0%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=200%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=320%2C0%2C720%2C720"
+          },
+          "alt_text": "Trudgen"
+        },
+        "alt_text": "Trudgen",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=320%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=0%2C0%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/trudgen-main_1146dbec.jpeg?region=200%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/trudgen"
+      },
+      {
+        "id": "616b3222a6268492a01ad05b",
+        "slug": "ushar",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Ushar",
+        "featured_entity_translation": "Featured Content",
+        "description": "Ushar enjoys testing opponents’ mettle, giving those he deems worthy the honor of a quick death. His weapon of choice is a brutal war club enhanced with a concussion-field generator. While Ushar’s origins remain mysterious, his helmet’s breathing tubes suggest he comes from some species other than humanity.",
+        "short_desc": "Ushar enjoys testing opponents’ mettle, giving those he deems worthy the honor of a quick death. His weapon of choice is a brutal war club enhanced with a concussion-field generator. While Ushar’s origins remain mysterious, his helmet’s breathing tubes suggest he comes from some species other than humanity.",
+        "dynamic_desc": "Ushar enjoys testing opponents’ mettle, giving those he deems worthy the honor of a quick death. His weapon of choice is a brutal war club enhanced with a concussion-field generator. While Ushar’s origins remain mysterious, his helmet’s breathing tubes suggest he comes from some species other than humanity.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=0%2C0%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=380%2C0%2C720%2C720"
+          },
+          "alt_text": "Ushar"
+        },
+        "alt_text": "Ushar",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=380%2C0%2C720%2C720",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=0%2C0%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/ushar-main_b6b460c8.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/ushar"
+      },
+      {
+        "id": "616b321f7941c492a01ad05b",
+        "slug": "vicrul",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Vicrul",
+        "featured_entity_translation": "Featured Content",
+        "description": "A powerful but untrained user of the dark side of the Force, Vicrul sees himself as a harvester, using his vicious ultrasonic scythe to cut down enemies and take their souls to augment his own power. ",
+        "short_desc": "A powerful but untrained user of the dark side of the Force, Vicrul sees himself as a harvester, using his vicious ultrasonic scythe to cut down enemies and take their souls to augment his own power. ",
+        "dynamic_desc": "A powerful but untrained user of the dark side of the Force, Vicrul sees himself as a harvester, using his vicious ultrasonic scythe to cut down enemies and take their souls to augment his own power. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=0%2C0%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=0%2C0%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=160%2C0%2C960%2C720",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=213%2C0%2C683%2C682"
+          },
+          "alt_text": "Vicrul"
+        },
+        "alt_text": "Vicrul",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=0%2C0%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=213%2C0%2C683%2C682",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=0%2C0%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/vicrul-main_3ae1a83a.jpeg?region=160%2C0%2C960%2C720"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/vicrul"
+      },
+      {
+        "id": "616b2917af26c492a01ad05b",
+        "slug": "wedge-antilles",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Wedge Antilles",
+        "featured_entity_translation": "Featured Content",
+        "description": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "short_desc": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "dynamic_desc": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=241%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=436%2C0%2C878%2C878"
+          },
+          "alt_text": "Wedge Antilles"
+        },
+        "alt_text": "Wedge Antilles",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=436%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=241%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/wedge-antilles"
+      },
+      {
+        "id": "616b31b3e0df7492a01ad05b",
+        "slug": "zorii-bliss",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Zorii Bliss",
+        "featured_entity_translation": "Featured Content",
+        "description": "It is difficult for scoundrels to remain neutral in the war between First Order and Resistance, and Zorii Bliss and the Spice Runners of Kijimi must soon take a side. ",
+        "short_desc": "It is difficult for scoundrels to remain neutral in the war between First Order and Resistance, and Zorii Bliss and the Spice Runners of Kijimi must soon take a side. ",
+        "dynamic_desc": "It is difficult for scoundrels to remain neutral in the war between First Order and Resistance, and Zorii Bliss and the Spice Runners of Kijimi must soon take a side. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=0%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=0%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=71%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=158%2C0%2C538%2C536"
+          },
+          "alt_text": "Zorii Bliss"
+        },
+        "alt_text": "Zorii Bliss",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=0%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=158%2C0%2C538%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=0%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/zorii-bliss-main_77af69f5.jpeg?region=71%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/zorii-bliss"
+      }
+    ]
+  }
+}

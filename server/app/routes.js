@@ -9,6 +9,7 @@ const starshipRoutes = require("../routes/starshipRoutes");
 const vehicleRoutes = require("../routes/vehicleRoutes");
 
 const applyRoutes = (app) => {
+	app.use("/", adClickRoutes);
 	app.use("/api", [
 		rootRoutes,
 		filmRoutes,

@@ -1,5 +1,18 @@
 const adClickService = require("../services/adClickService");
 
+const getAdsTxt = async (req, res) => {
+	try {
+		const adTxtFile = await adClickService.getAdsTxt();
+		console.log(adTxtFile);
+
+		res.setHeader("Content-Type", "text/plain");
+		return res.status(200).send(adTxtFile);
+	} catch (error) {
+		console.error("Error reading ads.txt:", error);
+		res.status(500).send("Unable to serve ads.txt");
+	}
+};
+
 const addClick = async (req, res) => {
 	const [referrer, userAgent] = [req.get("Referrer"), req.get("User-Agent")];
 	const originType = req.params.originType;
@@ -8,7 +21,7 @@ const addClick = async (req, res) => {
 		const newClick = await adClickService.addClick(
 			referrer,
 			userAgent,
-			originType,
+			originType
 		);
 
 		return res.status(200).json({ message: "Click tracked", click: newClick });
@@ -35,5 +48,6 @@ const getClicks = async (_, res) => {
 
 module.exports = {
 	addClick,
+	getAdsTxt,
 	getClicks,
 };

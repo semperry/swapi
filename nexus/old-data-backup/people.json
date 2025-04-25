@@ -1,0 +1,5155 @@
+[
+	{
+		"description": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+		"fields": {
+			"name": "Luke Skywalker",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "blond",
+			"height": "172",
+			"eye_color": "blue",
+			"mass": "77",
+			"homeworld": 1,
+			"birth_year": "19BBY"
+		},
+		"pk": 1,
+		"schema": "people"
+	},
+	{
+		"description": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+		"fields": {
+			"name": "C-3PO",
+			"gender": "n/a",
+			"skin_color": "gold",
+			"hair_color": "n/a",
+			"height": "167",
+			"eye_color": "yellow",
+			"mass": "75",
+			"homeworld": 1,
+			"birth_year": "112BBY"
+		},
+		"pk": 2,
+		"schema": "people"
+	},
+	{
+		"description": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+		"fields": {
+			"name": "R2-D2",
+			"gender": "n/a",
+			"skin_color": "white, blue",
+			"hair_color": "n/a",
+			"height": "96",
+			"eye_color": "red",
+			"mass": "32",
+			"homeworld": 8,
+			"birth_year": "33BBY"
+		},
+		"pk": 3,
+		"schema": "people"
+	},
+	{
+		"description": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+		"fields": {
+			"name": "Darth Vader",
+			"gender": "male",
+			"skin_color": "white",
+			"hair_color": "none",
+			"height": "202",
+			"eye_color": "yellow",
+			"mass": "136",
+			"homeworld": 1,
+			"birth_year": "41.9BBY"
+		},
+		"pk": 4,
+		"schema": "people"
+	},
+	{
+		"description": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+		"fields": {
+			"name": "Leia Organa",
+			"gender": "female",
+			"skin_color": "light",
+			"hair_color": "brown",
+			"height": "150",
+			"eye_color": "brown",
+			"mass": "49",
+			"homeworld": 2,
+			"birth_year": "19BBY"
+		},
+		"pk": 5,
+		"schema": "people"
+	},
+	{
+		"description": "Owen Lars continued his father Cliegg’s efforts to build his homestead into a productive farm, working alongside his wife, Beru. Helping with the dreary chores required to keep the farm profitable, Owen relies on his nephew, Luke Skywalker, whom the couple raised since birth. Like most moisture farmers on Tatooine, Lars is fiercely protective of his land and his family. When there is an intrusion on the tranquility of the Lars Homestead, Owen defends his home. ",
+		"fields": {
+			"name": "Owen Lars",
+			"gender": "male",
+			"skin_color": "light",
+			"hair_color": "brown, grey",
+			"height": "178",
+			"eye_color": "blue",
+			"mass": "120",
+			"homeworld": 1,
+			"birth_year": "52BBY"
+		},
+		"pk": 6,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Beru Whitesun lars",
+			"gender": "female",
+			"skin_color": "light",
+			"hair_color": "brown",
+			"height": "165",
+			"eye_color": "blue",
+			"mass": "75",
+			"homeworld": 1,
+			"birth_year": "47BBY"
+		},
+		"pk": 7,
+		"schema": "people"
+	},
+	{
+		"description": "A red astromech droid, R5-D4 thought he'd found a home when the Jawas sold him to Owen Lars, along with the protocol droid C-3PO. But R5's motivator blew as he rolled away from the sandcrawler, forcing the Jawas to take him back in exchange for R2-D2.",
+		"fields": {
+			"name": "R5-D4",
+			"gender": "n/a",
+			"skin_color": "white, red",
+			"hair_color": "n/a",
+			"height": "97",
+			"eye_color": "red",
+			"mass": "32",
+			"homeworld": 1,
+			"birth_year": "unknown"
+		},
+		"pk": 8,
+		"schema": "people"
+	},
+	{
+		"description": "Biggs Darklighter grew up on Tatooine with Luke Skywalker, and shared his friend's dreams of escaping the dull desert world. After graduating from the Imperial Academy, he defected from the Empire's service to join the Rebellion. He and Luke were reunited at Yavin 4's Rebel base, and flew together against the Death Star. Luke returned from that mission as a hero, but Biggs did not survive.",
+		"fields": {
+			"name": "Biggs Darklighter",
+			"gender": "male",
+			"skin_color": "light",
+			"hair_color": "black",
+			"height": "183",
+			"eye_color": "brown",
+			"mass": "84",
+			"homeworld": 1,
+			"birth_year": "24BBY"
+		},
+		"pk": 9,
+		"schema": "people"
+	},
+	{
+		"description": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+		"fields": {
+			"name": "Obi-Wan Kenobi",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "auburn, white",
+			"height": "182",
+			"eye_color": "blue-gray",
+			"mass": "77",
+			"homeworld": 20,
+			"birth_year": "57BBY"
+		},
+		"pk": 10,
+		"schema": "people"
+	},
+	{
+		"description": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall. ",
+		"fields": {
+			"name": "Anakin Skywalker",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "blond",
+			"height": "188",
+			"eye_color": "blue",
+			"mass": "84",
+			"homeworld": 1,
+			"birth_year": "41.9BBY"
+		},
+		"pk": 11,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Wilhuff Tarkin",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "auburn, grey",
+			"height": "180",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 21,
+			"birth_year": "64BBY"
+		},
+		"pk": 12,
+		"schema": "people"
+	},
+	{
+		"description": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+		"fields": {
+			"name": "Chewbacca",
+			"gender": "male",
+			"skin_color": "unknown",
+			"hair_color": "brown",
+			"height": "228",
+			"eye_color": "blue",
+			"mass": "112",
+			"homeworld": 14,
+			"birth_year": "200BBY"
+		},
+		"pk": 13,
+		"schema": "people"
+	},
+	{
+		"description": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+		"fields": {
+			"name": "Han Solo",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "180",
+			"eye_color": "brown",
+			"mass": "80",
+			"homeworld": 22,
+			"birth_year": "29BBY"
+		},
+		"pk": 14,
+		"schema": "people"
+	},
+	{
+		"description": "Greedo was a Rodian bounty hunter with a tapir-like snout, bulbous eyes, pea-green skin, and a crest of spines atop his skull. He was overzealous and a bit slow on the take, not to mention a pretty poor shot with a blaster. Though he fancied himself a big time bounty hunter in the employ of no less an underworld figure than Jabba the Hutt, in truth, no one took him too seriously.",
+		"fields": {
+			"name": "Greedo",
+			"gender": "male",
+			"skin_color": "green",
+			"hair_color": "n/a",
+			"height": "173",
+			"eye_color": "black",
+			"mass": "74",
+			"homeworld": 23,
+			"birth_year": "44BBY"
+		},
+		"pk": 15,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Jabba Desilijic Tiure",
+			"gender": "hermaphrodite",
+			"skin_color": "green-tan, brown",
+			"hair_color": "n/a",
+			"height": "175",
+			"eye_color": "orange",
+			"mass": "1,358",
+			"homeworld": 24,
+			"birth_year": "600BBY"
+		},
+		"pk": 16,
+		"schema": "people"
+	},
+	{
+		"description": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+		"fields": {
+			"name": "Wedge Antilles",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "170",
+			"eye_color": "hazel",
+			"mass": "77",
+			"homeworld": 22,
+			"birth_year": "21BBY"
+		},
+		"pk": 18,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Jek Tono Porkins",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "180",
+			"eye_color": "blue",
+			"mass": "110",
+			"homeworld": 26,
+			"birth_year": "unknown"
+		},
+		"pk": 19,
+		"schema": "people"
+	},
+	{
+		"description": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality.",
+		"fields": {
+			"name": "Yoda",
+			"gender": "male",
+			"skin_color": "green",
+			"hair_color": "white",
+			"height": "66",
+			"eye_color": "brown",
+			"mass": "17",
+			"homeworld": 28,
+			"birth_year": "896BBY"
+		},
+		"pk": 20,
+		"schema": "people"
+	},
+	{
+		"description": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+		"fields": {
+			"name": "Palpatine",
+			"gender": "male",
+			"skin_color": "pale",
+			"hair_color": "grey",
+			"height": "170",
+			"eye_color": "yellow",
+			"mass": "75",
+			"homeworld": 8,
+			"birth_year": "82BBY"
+		},
+		"pk": 21,
+		"schema": "people"
+	},
+	{
+		"description": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+		"fields": {
+			"name": "Boba Fett",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "black",
+			"height": "183",
+			"eye_color": "brown",
+			"mass": "78.2",
+			"homeworld": 10,
+			"birth_year": "31.5BBY"
+		},
+		"pk": 22,
+		"schema": "people"
+	},
+	{
+		"description": "Many people in the galaxy fear droids, what with the memories of the Clone Wars still fresh in their minds. Far more terrifying than battle droids were assassin droids, independently programmed mechanical killers that had no masters. IG-88 is a battered chrome war droid who has become a bounty hunter, and answered Darth Vader's call to capture the Millennium Falcon during the events surrounding the Battle of Hoth.",
+		"fields": {
+			"name": "IG-88",
+			"gender": "none",
+			"skin_color": "metal",
+			"hair_color": "none",
+			"height": "200",
+			"eye_color": "red",
+			"mass": "140",
+			"homeworld": 28,
+			"birth_year": "15BBY"
+		},
+		"pk": 23,
+		"schema": "people"
+	},
+	{
+		"description": "One of the most feared bounty hunters of the galaxy, Bossk used his natural Trandoshan hunting instincts to capture his prey. During the Clone Wars, the red-eyed reptilian partnered with Aurra Sing, Castas and young Boba Fett. Bossk didn't care much for vendettas or politics. He was in it to get paid. After a brief stint in a Republic prison, Bossk continued his partnership with Fett, becoming a bodyguard to the teen bounty hunter.  Decades later, Bossk answered Darth Vader's call to capture the Millennium Falcon after the Battle of Hoth, an assignment that put him in direct competition with Boba.",
+		"fields": {
+			"name": "Bossk",
+			"gender": "male",
+			"skin_color": "green",
+			"hair_color": "none",
+			"height": "190",
+			"eye_color": "red",
+			"mass": "113",
+			"homeworld": 29,
+			"birth_year": "53BBY"
+		},
+		"pk": 24,
+		"schema": "people"
+	},
+	{
+		"description": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+		"fields": {
+			"name": "Lando Calrissian",
+			"gender": "male",
+			"skin_color": "dark",
+			"hair_color": "black",
+			"height": "177",
+			"eye_color": "brown",
+			"mass": "79",
+			"homeworld": 30,
+			"birth_year": "31BBY"
+		},
+		"pk": 25,
+		"schema": "people"
+	},
+	{
+		"description": "Never far from Baron Administrator Lando Calrissian's side was Lobot, Calrissian's aide and Cloud City's computer liaison officer. Lobot is a human male with a shiny, brain-enhancing device wrapped around the back of his skull that allowed him to contact directly with the city's central computer.",
+		"fields": {
+			"name": "Lobot",
+			"gender": "male",
+			"skin_color": "light",
+			"hair_color": "none",
+			"height": "175",
+			"eye_color": "blue",
+			"mass": "79",
+			"homeworld": 6,
+			"birth_year": "37BBY"
+		},
+		"pk": 26,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Ackbar",
+			"gender": "male",
+			"skin_color": "brown mottle",
+			"hair_color": "none",
+			"height": "180",
+			"eye_color": "orange",
+			"mass": "83",
+			"homeworld": 31,
+			"birth_year": "41BBY"
+		},
+		"pk": 27,
+		"schema": "people"
+	},
+	{
+		"description": "From working in secret as one of the founders of the Rebel Alliance to openly leading the New Republic as the first elected Chancellor in two decades, Mon Mothma of Chandrila has built a career out of carefully navigating the dangerous shadows of Coruscant politics in her efforts to restore democracy. Once a leader of the Galactic Senate's Loyalist faction, as a senator Mon Mothma opposed Supreme Chancellor Palpatine's policies during the final days of the Republic. After the rise of the Empire, Mothma continues to serve her constituents on Coruscant while working on her ultimate goal: building an Alliance to Restore the Republic.",
+		"fields": {
+			"name": "Mon Mothma",
+			"gender": "female",
+			"skin_color": "fair",
+			"hair_color": "auburn",
+			"height": "150",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 32,
+			"birth_year": "48BBY"
+		},
+		"pk": 28,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Arvel Crynyd",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "unknown",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 28,
+			"birth_year": "unknown"
+		},
+		"pk": 29,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Wicket Systri Warrick",
+			"gender": "male",
+			"skin_color": "brown",
+			"hair_color": "brown",
+			"height": "88",
+			"eye_color": "brown",
+			"mass": "20",
+			"homeworld": 7,
+			"birth_year": "8BBY"
+		},
+		"pk": 30,
+		"schema": "people"
+	},
+	{
+		"description": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+		"fields": {
+			"name": "Nien Nunb",
+			"gender": "male",
+			"skin_color": "grey",
+			"hair_color": "none",
+			"height": "160",
+			"eye_color": "black",
+			"mass": "68",
+			"homeworld": 33,
+			"birth_year": "unknown"
+		},
+		"pk": 31,
+		"schema": "people"
+	},
+	{
+		"description": "A venerable if maverick Jedi Master, Qui-Gon Jinn was a student of the living Force. Qui-Gon lived for the moment, espousing a philosophy of \"feel, don't think -- use your instincts.\" On Tatooine, Qui-Gon discovered a young slave boy named Anakin Skywalker who was strong in the Force. Sensing the boy's potential, Qui-Gon liberated Anakin from slavery. The Jedi Master presented Anakin to the Jedi Council, but they deemed the boy too old to begin training and dangerously full of fear and anger. They refused to allow Qui-Gon to train Anakin, but rescinded their decision to fulfill Qui-Gon's dying wish.",
+		"fields": {
+			"name": "Qui-Gon Jinn",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "193",
+			"eye_color": "blue",
+			"mass": "89",
+			"homeworld": 28,
+			"birth_year": "92BBY"
+		},
+		"pk": 32,
+		"schema": "people"
+	},
+	{
+		"description": "Neimoidians are known for their business skills, but Nute Gunray, Viceroy of the Trade Federation, was more cutthroat than most. It was Gunray who conspired with the Sith Lord Darth Sidious to launch the blockade and subsequent invasion of Naboo. Once the planet was under siege, Gunray attempted to force Queen Amidala to sign a treaty that would legitimize the occupation. Amidala escaped, and returned to infiltrate her own palace and blast through Gunray's protectors. Arrested by Republic officials, Gunray was carted off to answer for his crimes, but evaded imprisonment and kept his post.",
+		"fields": {
+			"name": "Nute Gunray",
+			"gender": "male",
+			"skin_color": "mottled green",
+			"hair_color": "none",
+			"height": "191",
+			"eye_color": "red",
+			"mass": "90",
+			"homeworld": 18,
+			"birth_year": "unknown"
+		},
+		"pk": 33,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Finis Valorum",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "blond",
+			"height": "170",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 9,
+			"birth_year": "91BBY"
+		},
+		"pk": 34,
+		"schema": "people"
+	},
+	{
+		"description": "Padmé Amidala was a courageous, hopeful leader, serving as Queen and then Senator of Naboo -- and was also handy with a blaster. Despite her ideals and all she did for the cause of peace, her secret, forbidden marriage to Jedi Anakin Skywalker would prove to have dire consequences for the galaxy.  ",
+		"fields": {
+			"name": "Padmé Amidala",
+			"gender": "female",
+			"skin_color": "light",
+			"hair_color": "brown",
+			"height": "185",
+			"eye_color": "brown",
+			"mass": "45",
+			"homeworld": 8,
+			"birth_year": "46BBY"
+		},
+		"pk": 35,
+		"schema": "people"
+	},
+	{
+		"description": "A clumsy, well-meaning Gungan outcast on Naboo, Jar Jar Binks struggled to prove his worth throughout his life. Putting his awkward past behind him, Jar Jar left the swamps of Naboo to enter the even murkier waters of Coruscant politics, becoming a representative for his people in the galactic capital. There, his best intentions and eagerness to serve were exploited by scheming Senators and others in positions of power.",
+		"fields": {
+			"name": "Jar Jar Binks",
+			"gender": "male",
+			"skin_color": "orange",
+			"hair_color": "none",
+			"height": "196",
+			"eye_color": "orange",
+			"mass": "66",
+			"homeworld": 8,
+			"birth_year": "52BBY"
+		},
+		"pk": 36,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Roos Tarpals",
+			"gender": "male",
+			"skin_color": "grey",
+			"hair_color": "none",
+			"height": "224",
+			"eye_color": "orange",
+			"mass": "82",
+			"homeworld": 8,
+			"birth_year": "unknown"
+		},
+		"pk": 37,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Rugor Nass",
+			"gender": "male",
+			"skin_color": "green",
+			"hair_color": "none",
+			"height": "206",
+			"eye_color": "orange",
+			"mass": "unknown",
+			"homeworld": 8,
+			"birth_year": "unknown"
+		},
+		"pk": 38,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Ric Olié",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "183",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 8,
+			"birth_year": "unknown"
+		},
+		"pk": 39,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Watto",
+			"gender": "male",
+			"skin_color": "blue, grey",
+			"hair_color": "black",
+			"height": "137",
+			"eye_color": "yellow",
+			"mass": "unknown",
+			"homeworld": 34,
+			"birth_year": "unknown"
+		},
+		"pk": 40,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Sebulba",
+			"gender": "male",
+			"skin_color": "grey, red",
+			"hair_color": "none",
+			"height": "112",
+			"eye_color": "orange",
+			"mass": "40",
+			"homeworld": 35,
+			"birth_year": "unknown"
+		},
+		"pk": 41,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Quarsh Panaka",
+			"gender": "male",
+			"skin_color": "dark",
+			"hair_color": "black",
+			"height": "183",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 8,
+			"birth_year": "62BBY"
+		},
+		"pk": 42,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Shmi Skywalker",
+			"gender": "female",
+			"skin_color": "fair",
+			"hair_color": "black",
+			"height": "163",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 1,
+			"birth_year": "72BBY"
+		},
+		"pk": 43,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Darth Maul",
+			"gender": "male",
+			"skin_color": "red",
+			"hair_color": "none",
+			"height": "175",
+			"eye_color": "yellow",
+			"mass": "80",
+			"homeworld": 36,
+			"birth_year": "54BBY"
+		},
+		"pk": 44,
+		"schema": "people"
+	},
+	{
+		"description": "As the former majordomo to the late Jabba the Hutt, the scheming Bib Fortuna seized power after his master's demise and attempted to control the criminal underworld on Tatooine. For decades, those attempting to do business with Jabba the Hutt first needed to maneuver past the Twi'lek, an ever-present attendant who often hovered near Jabba's ear, offering advice and feeding his boss information. Fortuna followed the rules of protocol in the Hutt's court (such as they were), and spoke only in Huttese, though he understood other tongues.",
+		"fields": {
+			"name": "Bib Fortuna",
+			"gender": "male",
+			"skin_color": "pale",
+			"hair_color": "none",
+			"height": "180",
+			"eye_color": "pink",
+			"mass": "unknown",
+			"homeworld": 37,
+			"birth_year": "unknown"
+		},
+		"pk": 45,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Ayla Secura",
+			"gender": "female",
+			"skin_color": "blue",
+			"hair_color": "none",
+			"height": "178",
+			"eye_color": "hazel",
+			"mass": "55",
+			"homeworld": 37,
+			"birth_year": "48BBY"
+		},
+		"pk": 46,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Ratts Tyerel",
+			"gender": "male",
+			"skin_color": "grey, blue",
+			"hair_color": "none",
+			"height": "79",
+			"eye_color": "unknown",
+			"mass": "15",
+			"homeworld": 38,
+			"birth_year": "unknown"
+		},
+		"pk": 47,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Dud Bolt",
+			"gender": "male",
+			"skin_color": "blue, grey",
+			"hair_color": "none",
+			"height": "94",
+			"eye_color": "yellow",
+			"mass": "45",
+			"homeworld": 39,
+			"birth_year": "unknown"
+		},
+		"pk": 48,
+		"schema": "people"
+	},
+	{
+		"description": "A slight, spindly, six-limbed alien, Gasgano was a thrill-seeker uniquely suited to the extreme sport of Podracing. Gasgano was very competitive, and sought to beat racers Anakin Skywalker and Sebulba during the Boonta Eve Podrace. He piloted a green Ord Pedrovia Podracer in the competition.",
+		"fields": {
+			"name": "Gasgano",
+			"gender": "male",
+			"skin_color": "white, blue",
+			"hair_color": "none",
+			"height": "122",
+			"eye_color": "black",
+			"mass": "unknown",
+			"homeworld": 40,
+			"birth_year": "unknown"
+		},
+		"pk": 49,
+		"schema": "people"
+	},
+	{
+		"description": "The pudgy, comic-faced Ben Quadinaros was a rookie Podracer who claimed he came from the mysterious Tund system. He competed in the Boonta Eve Podrace that saw the liberation of Anakin Skywalker from slavery. Ben was largely inexperienced, and was quite terrified of the Boonta race. At the start of the race, his engines wouldn't even ignite. It was not until most of his competitors were already heading towards their second lap that his four engines did light -- just as his power couplings shorted, sending the rockets flying about the arena.",
+		"fields": {
+			"name": "Ben Quadinaros",
+			"gender": "male",
+			"skin_color": "grey, green, yellow",
+			"hair_color": "none",
+			"height": "163",
+			"eye_color": "orange",
+			"mass": "65",
+			"homeworld": 41,
+			"birth_year": "unknown"
+		},
+		"pk": 50,
+		"schema": "people"
+	},
+	{
+		"description": "A grim Jedi Master with an amethyst-bladed lightsaber, Mace Windu was the champion of the Jedi Order, with little tolerance for the failings of the Senate, the arguments of politicians, or the opinions of rebellious Jedi. As the Clone Wars intensified, Mace sensed the dark side of the Force at work, and knew the Jedi's enemies were plotting to destroy the Order and end its stewardship of the galaxy.",
+		"fields": {
+			"name": "Mace Windu",
+			"gender": "male",
+			"skin_color": "dark",
+			"hair_color": "none",
+			"height": "188",
+			"eye_color": "brown",
+			"mass": "84",
+			"homeworld": 42,
+			"birth_year": "72BBY"
+		},
+		"pk": 51,
+		"schema": "people"
+	},
+	{
+		"description": "Ki-Adi-Mundi was a Cerean alien who sat on the Jedi Council. A humanoid being, Ki's most distinguishing physical feature was an enlarged conical cranium that contained a binary brain. When Jedi Master Qui-Gon Jinn reported a Sith attack during the events surrounding the Battle of Naboo, Ki-Adi-Mundi expressed shock at the notion. \"Impossible,\" he remarked, \"the Sith have been extinct for a millennium.\" He also failed to see how far Count Dooku had fallen from the Jedi ideals just prior to the Clone Wars, believing that Dooku was incapable of violence or murder.",
+		"fields": {
+			"name": "Ki-Adi-Mundi",
+			"gender": "male",
+			"skin_color": "pale",
+			"hair_color": "white",
+			"height": "198",
+			"eye_color": "yellow",
+			"mass": "82",
+			"homeworld": 43,
+			"birth_year": "92BBY"
+		},
+		"pk": 52,
+		"schema": "people"
+	},
+	{
+		"description": "Kit Fisto is a striking example of an alien Jedi, a Nautolan with large eyes, and a gathered tangle of flexible tentacle-tresses extending from his head. He is at home in the waters of aquatic planets, like his native Glee Anselm. As a Jedi Master, Fisto has an intense focus, particularly in combat. He is also much more laid back and capable of enjoying a hearty chuckle than some of his humorless colleagues.",
+		"fields": {
+			"name": "Kit Fisto",
+			"gender": "male",
+			"skin_color": "green",
+			"hair_color": "none",
+			"height": "196",
+			"eye_color": "black",
+			"mass": "87",
+			"homeworld": 44,
+			"birth_year": "unknown"
+		},
+		"pk": 53,
+		"schema": "people"
+	},
+	{
+		"description": "Eeth Koth was a member of the Jedi High Council in the final years of the order. From within the polished towers of the Jedi Temple on Coruscant, the Council governed the actions of the Jedi Knights. Koth was one of the 12 Jedi present when Qui-Gon Jinn presented Anakin Skywalker as the Chosen One to the Council. A determined warrior with a deep, spiritual connection to the Force, Koth resisted torture at the hands of General Grievous during the Clone Wars, and was even able to secretly communicate his location to the Jedi Council. Koth was saved from Separatist clutches by the daring efforts of his fellow Jedi.",
+		"fields": {
+			"name": "Eeth Koth",
+			"gender": "male",
+			"skin_color": "brown",
+			"hair_color": "black",
+			"height": "171",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 45,
+			"birth_year": "unknown"
+		},
+		"pk": 54,
+		"schema": "people"
+	},
+	{
+		"description": "Jedi Master Adi Gallia was a member of the Order's High Council during the Clone Wars. She and the other members of that ruling body would convene in a temple high above the Coruscant landscape, deciding important matters of the Jedi. Stern and focused, she would remark upon the more outrageous tactics carried out by Anakin Skywalker or Obi-Wan Kenobi in the course of the war, but would rarely condemn their effective actions. Though not as brash as Anakin, Adi Gallia was known to be an aggressive warrior who had no problem bringing the fight to the enemy.",
+		"fields": {
+			"name": "Adi Gallia",
+			"gender": "female",
+			"skin_color": "dark",
+			"hair_color": "none",
+			"height": "184",
+			"eye_color": "blue",
+			"mass": "50",
+			"homeworld": 9,
+			"birth_year": "unknown"
+		},
+		"pk": 55,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Saesee Tiin",
+			"gender": "male",
+			"skin_color": "pale",
+			"hair_color": "none",
+			"height": "188",
+			"eye_color": "orange",
+			"mass": "unknown",
+			"homeworld": 47,
+			"birth_year": "unknown"
+		},
+		"pk": 56,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Yarael Poof",
+			"gender": "male",
+			"skin_color": "white",
+			"hair_color": "none",
+			"height": "264",
+			"eye_color": "yellow",
+			"mass": "unknown",
+			"homeworld": 48,
+			"birth_year": "unknown"
+		},
+		"pk": 57,
+		"schema": "people"
+	},
+	{
+		"description": "A Kel Dor from Dorin, Plo Koon was among the wisest members of the Jedi Order, respected for his level-headed analysis of events and unflappable calm. Deeply concerned for life in all its myriad forms, Plo was especially devoted to protecting the clones under his command. He shared a special bond with Ahsoka Tano, whom he’d brought to the Jedi Order as a toddler. One of many victims of Order 66, Master Plo died at Cato Neimoidia when his wingmen shot down his starfighter.",
+		"fields": {
+			"name": "Plo Koon",
+			"gender": "male",
+			"skin_color": "orange",
+			"hair_color": "none",
+			"height": "188",
+			"eye_color": "black",
+			"mass": "80",
+			"homeworld": 49,
+			"birth_year": "22BBY"
+		},
+		"pk": 58,
+		"schema": "people"
+	},
+	{
+		"description": "Mas Amedda was the Vice Chair of the Galactic Senate during Chancellor Valorum's term, a position he continued to hold as Chancellor Palpatine transformed the Republic into the Galactic Empire. Amedda's booming voice often called for order when the partisan nature of the Republic's government degenerated into pointless bickering. In an alien gesture of authority, he would often punctuate such calls with a flicker of his long, forked tongue.",
+		"fields": {
+			"name": "Mas Amedda",
+			"gender": "male",
+			"skin_color": "blue",
+			"hair_color": "none",
+			"height": "196",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 50,
+			"birth_year": "unknown"
+		},
+		"pk": 59,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Gregar Typho",
+			"gender": "male",
+			"skin_color": "dark",
+			"hair_color": "black",
+			"height": "185",
+			"eye_color": "brown",
+			"mass": "85",
+			"homeworld": 8,
+			"birth_year": "unknown"
+		},
+		"pk": 60,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Cordé",
+			"gender": "female",
+			"skin_color": "light",
+			"hair_color": "brown",
+			"height": "157",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 8,
+			"birth_year": "unknown"
+		},
+		"pk": 61,
+		"schema": "people"
+	},
+	{
+		"description": "Cliegg Lars was a modest, good-hearted moisture farmer who lived on the Lars homestead, not far from the township of Anchorhead. During a trip to the bustling spaceport of Mos Espa, Cliegg fell in love with Shmi Skywalker, a slave owned by Toydarian junk trader Watto.    Cliegg purchased Shmi's freedom and, soon after, made her his bride. They lived a quiet existence for years on the homestead, surviving against the harsh desert elements. With Owen, Cliegg's son from a previous union, and Owen's girlfriend Beru Whitesun, the Lars homestead was a tiny island of familial warmth amidst the endless desert wastes. Until tragedy struck...",
+		"fields": {
+			"name": "Cliegg Lars",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "brown",
+			"height": "183",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 1,
+			"birth_year": "82BBY"
+		},
+		"pk": 62,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Poggle the Lesser",
+			"gender": "male",
+			"skin_color": "green",
+			"hair_color": "none",
+			"height": "183",
+			"eye_color": "yellow",
+			"mass": "80",
+			"homeworld": 11,
+			"birth_year": "unknown"
+		},
+		"pk": 63,
+		"schema": "people"
+	},
+	{
+		"description": "A green-skinned Mirialan, Luminara Unduli served the Jedi Order during the final years of the Galactic Republic, and trained the capable Padawan Barriss Offee. A no-nonsense Jedi Master, Luminara fought in Clone Wars battles such as Geonosis and Kashyyyk, and was thought to have perished during Order 66. In reality, she’d been taken into Imperial custody and executed, with holographic transmissions of her captivity used as bait to capture fugitive Jedi.",
+		"fields": {
+			"name": "Luminara Unduli",
+			"gender": "female",
+			"skin_color": "yellow",
+			"hair_color": "black",
+			"height": "170",
+			"eye_color": "blue",
+			"mass": "56.2",
+			"homeworld": 51,
+			"birth_year": "58BBY"
+		},
+		"pk": 64,
+		"schema": "people"
+	},
+	{
+		"description": "In the time of the Republic, Barriss Offee served as the Padawan to Luminara Unduli, with a preference for studying ancient Jedi texts in the Temple over serving on the frontlines of war. But her mindset, while noble, led her down a dark path. Even before the Jedi fell, Barriss accused the Order of losing its way and was imprisoned for life for crimes against the Republic for her role in the bombing of the Jedi Temple on Coruscant. With the dawn of the Empire, Barriss is freed for a new purpose: to serve the Inquisitorius. \r\n",
+		"fields": {
+			"name": "Barriss Offee",
+			"gender": "female",
+			"skin_color": "yellow",
+			"hair_color": "black",
+			"height": "166",
+			"eye_color": "blue",
+			"mass": "50",
+			"homeworld": 51,
+			"birth_year": "40BBY"
+		},
+		"pk": 65,
+		"schema": "people"
+	},
+	{
+		"description": "Despite no longer being Naboo’s queen, Padmé Amidala retained some royal perks as senator. Among them were her loyal handmaidens – a name that did little justice to the women’s training as bodyguards. Padmé’s most devoted aide, Dormé, advised the senator on Coruscant and helped look after Naboo’s affairs when Padmé retreated to her homeworld with Anakin Skywalker.",
+		"fields": {
+			"name": "Dormé",
+			"gender": "female",
+			"skin_color": "light",
+			"hair_color": "brown",
+			"height": "165",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 8,
+			"birth_year": "unknown"
+		},
+		"pk": 66,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Dooku",
+			"gender": "male",
+			"skin_color": "fair",
+			"hair_color": "white",
+			"height": "193",
+			"eye_color": "brown",
+			"mass": "80",
+			"homeworld": 52,
+			"birth_year": "102BBY"
+		},
+		"pk": 67,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Bail Prestor Organa",
+			"gender": "male",
+			"skin_color": "tan",
+			"hair_color": "black",
+			"height": "191",
+			"eye_color": "brown",
+			"mass": "unknown",
+			"homeworld": 2,
+			"birth_year": "67BBY"
+		},
+		"pk": 68,
+		"schema": "people"
+	},
+	{
+		"description": "In the final years of the Republic, Jango Fett was regarded as the best bounty hunter in the galaxy. A proficient marksman and unarmed combatant, Fett was covered in a sleek armored suit that concealed his scarred face. His combat gear featured an arsenal of weaponry, including retractable wrist blades, a snare, dual blaster pistols and other more exotic tools of the trade. In combat, Jango used his harnessed jetpack to gain the advantage of speed and height over his enemies. The backpack also carried a nasty surprise -- an explosive rocket could be launched from it. For interstellar travel, Jango traveled aboard his well-worn starship, Slave I.",
+		"fields": {
+			"name": "Jango Fett",
+			"gender": "male",
+			"skin_color": "tan",
+			"hair_color": "black",
+			"height": "183",
+			"eye_color": "brown",
+			"mass": "79",
+			"homeworld": 53,
+			"birth_year": "66BBY"
+		},
+		"pk": 69,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Zam Wesell",
+			"gender": "female",
+			"skin_color": "fair, green, yellow",
+			"hair_color": "blonde",
+			"height": "168",
+			"eye_color": "yellow",
+			"mass": "55",
+			"homeworld": 54,
+			"birth_year": "unknown"
+		},
+		"pk": 70,
+		"schema": "people"
+	},
+	{
+		"description": "Obi-Wan Kenobi counted on Dexter Jettster, an old friend, to identify a poison dart, and Jettster didn't fail him. The cook correctly recognized the small-tined projectile as a Kamino saberdart. Few have ever heard of the planet Kamino, but Dex not only informed Obi-Wan as to its location (12 parsecs south of the Rishi Maze), but also its inhabitants. Dex warned that the native Kaminoans -- cloners of some repute -- keep to themselves, but are welcoming to those with the credits to spare.",
+		"fields": {
+			"name": "Dexter Jettster",
+			"gender": "male",
+			"skin_color": "brown",
+			"hair_color": "none",
+			"height": "198",
+			"eye_color": "yellow",
+			"mass": "102",
+			"homeworld": 55,
+			"birth_year": "unknown"
+		},
+		"pk": 71,
+		"schema": "people"
+	},
+	{
+		"description": "Once the lanky Prime Minister of the remote world of Kamino, Lama Su oversaw the creation of the Galactic Republic's first clone armies. That effort gave his storm-swept homeworld influence in the Republic, but also made it a target of the Separatist military. At the dawn of the new Empire, Lama Su remained in power until the Imperial bombardment destroyed Tipoca City. Imprisoned at Mount Tantiss, Lama Su continued to cooperate with his Imperial captors, exposing Omega as the key to controlling the scientist Nala Se.",
+		"fields": {
+			"name": "Lama Su",
+			"gender": "male",
+			"skin_color": "grey",
+			"hair_color": "none",
+			"height": "229",
+			"eye_color": "black",
+			"mass": "88",
+			"homeworld": 10,
+			"birth_year": "unknown"
+		},
+		"pk": 72,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Taun We",
+			"gender": "female",
+			"skin_color": "grey",
+			"hair_color": "none",
+			"height": "213",
+			"eye_color": "black",
+			"mass": "unknown",
+			"homeworld": 10,
+			"birth_year": "unknown"
+		},
+		"pk": 73,
+		"schema": "people"
+	},
+	{
+		"description": "The Jedi Archives are the galaxy's greatest repository of knowledge, and Madame Jocasta Nu is their Chief Librarian. She helps other Jedi find information in the Archive using its data terminals, and she controls access to the restricted contents of its Holocron Vault. Jocasta Nu can sometimes be too confident in thinking that the Archives contain the correct answers to all questions.",
+		"fields": {
+			"name": "Jocasta Nu",
+			"gender": "female",
+			"skin_color": "fair",
+			"hair_color": "white",
+			"height": "167",
+			"eye_color": "blue",
+			"mass": "unknown",
+			"homeworld": 9,
+			"birth_year": "unknown"
+		},
+		"pk": 74,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "R4-P17",
+			"gender": "female",
+			"skin_color": "silver, red",
+			"hair_color": "none",
+			"height": "96",
+			"eye_color": "red, blue",
+			"mass": "unknown",
+			"homeworld": 28,
+			"birth_year": "unknown"
+		},
+		"pk": 75,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Wat Tambor",
+			"gender": "male",
+			"skin_color": "green, grey",
+			"hair_color": "none",
+			"height": "193",
+			"eye_color": "unknown",
+			"mass": "48",
+			"homeworld": 56,
+			"birth_year": "unknown"
+		},
+		"pk": 76,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "San Hill",
+			"gender": "male",
+			"skin_color": "grey",
+			"hair_color": "none",
+			"height": "191",
+			"eye_color": "gold",
+			"mass": "unknown",
+			"homeworld": 57,
+			"birth_year": "unknown"
+		},
+		"pk": 77,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Shaak Ti",
+			"gender": "female",
+			"skin_color": "red, blue, white",
+			"hair_color": "none",
+			"height": "178",
+			"eye_color": "black",
+			"mass": "57",
+			"homeworld": 58,
+			"birth_year": "unknown"
+		},
+		"pk": 78,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Grievous",
+			"gender": "male",
+			"skin_color": "brown, white",
+			"hair_color": "none",
+			"height": "216",
+			"eye_color": "green, yellow",
+			"mass": "159",
+			"homeworld": 59,
+			"birth_year": "unknown"
+		},
+		"pk": 79,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Tarfful",
+			"gender": "male",
+			"skin_color": "brown",
+			"hair_color": "brown",
+			"height": "234",
+			"eye_color": "blue",
+			"mass": "136",
+			"homeworld": 14,
+			"birth_year": "unknown"
+		},
+		"pk": 80,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Raymus Antilles",
+			"gender": "male",
+			"skin_color": "light",
+			"hair_color": "brown",
+			"height": "188",
+			"eye_color": "brown",
+			"mass": "79",
+			"homeworld": 2,
+			"birth_year": "unknown"
+		},
+		"pk": 81,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Sly Moore",
+			"gender": "female",
+			"skin_color": "pale",
+			"hair_color": "none",
+			"height": "178",
+			"eye_color": "white",
+			"mass": "48",
+			"homeworld": 60,
+			"birth_year": "unknown"
+		},
+		"pk": 82,
+		"schema": "people"
+	},
+	{
+		"description": "",
+		"fields": {
+			"name": "Tion Medon",
+			"gender": "male",
+			"skin_color": "grey",
+			"hair_color": "none",
+			"height": "206",
+			"eye_color": "black",
+			"mass": "80",
+			"homeworld": 12,
+			"birth_year": "unknown"
+		},
+		"pk": 83,
+		"schema": "people"
+	},
+	{
+		"description": "A gruff Mon Calamari officer, Raddus commands the rebel starfleet before the Battle of Yavin, working to knit a hodgepodge of ships into a military force and arrange the delivery of new capital ships to the Alliance. Raddus has little patience for the rebel council’s endless committee meetings. As he sees it, military muscle is the key to defeating the Empire, not stirring speeches.",
+		"fields": {
+			"name": "Admiral Raddus",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.9m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 84,
+		"schema": "people"
+	},
+	{
+		"description": "A member of Alderaan's royal family and the planet's representative to the Republic Senate since the time of the Clone Wars, Bail Organa earned respect on Coruscant for his honesty and his commitment to justice. Prior to the fall of the Republic, Bail served alongside Senator Padmé Amidala as a member of Chancellor Palpatine's Loyalist Committee. The two became close friends, and recruited like-minded allies to prevent Palpatine's alarming grabs for power. At the end of the war, Bail Organa adopted Padmé's daughter Leia and raised her as an Alderaanian princess. While representing Alderaan in the Imperial Senate, he continued to work secretly with allies such as Mon Mothma and Ahsoka Tano to assist rebel cells scattered across the galaxy, working towards the day that a unified Rebellion could emerge. ",
+		"fields": {
+			"name": "Bail Organa",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.99m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 193,
+		"schema": "people"
+	},
+	{
+		"description": "The harsh reality of his Imperial-occupied home world has hardened Baze Malbus into a pragmatic soldier and a crack shot with his heavy repeater cannon. Baze has a bravado that provides a marked contrast to the spiritual centeredness of his best friend and moral compass, Chirrut Îmwe.",
+		"fields": {
+			"name": "Baze Malbus",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 86,
+		"schema": "people"
+	},
+	{
+		"description": "Notable for his desiccated lekku, Beezer Fortuna helps Saw Gerrera with operational planning. He is a cousin of Bib Fortuna, but has chosen to fight the Empire rather than seek profit in its shadows. Inspired by the Twi’lek guerrilla Cham Syndulla, Beezer fought the Imperial occupation of Ryloth and was freed from captivity by Saw Gerrera’s partisans.",
+		"fields": {
+			"name": "Beezer Fortuna",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 87,
+		"schema": "people"
+	},
+	{
+		"description": "The efforts of the Rebellion have drawn warriors from across the galaxy, fighting to liberate their homes and free their people from the oppression of the Empire. Though Bistan wants to ensure the freedom of fellow lakaru, truth is, he’d rather fight no matter what, relishing the thrill of action.",
+		"fields": {
+			"name": "Bistan",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 88,
+		"schema": "people"
+	},
+	{
+		"description": "A former Imperial pilot, Bodhi has strong piloting and technical skills that he will put to use for the Rebellion. Ever practical, but highly anxious, Bodhi must gather his courage to bring the battle to the Empire.",
+		"fields": {
+			"name": "Bodhi Rook",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 89,
+		"schema": "people"
+	},
+	{
+		"description": "The Galactic Empire relies on astromech droids to maintain its machinery, but unlike the Rebel Alliance, Imperial technicians do not grant their droids independence and subject them to frequent memory wipes to keep them subservient.",
+		"fields": {
+			"name": "C2-B5",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 90,
+		"schema": "people"
+	},
+	{
+		"description": "Cassian Andor has spent much of his life watching as the Empire lay waste to the galaxy. As part of his entry into the growing rebellion, he undertakes a dangerous mission to Aldhani and, later, finds the determination to fight after being unjustly sent to an Imperial prison on Narkina 5. Cassian ultimately becomes an accomplished Alliance Intelligence officer, commanding respect from his rebel troops with his ability to keep a cool head under fire.",
+		"fields": {
+			"name": "Cassian Andor",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.78m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 91,
+		"schema": "people"
+	},
+	{
+		"description": "Deeply spiritual, Chirrut Îmwe believes all living things are connected through the Force. His sightless eyes do not prevent him from being a highly skilled warrior. Though he lacks Force abilities, this warrior monk has rigorously honed his body through intense physical and mental discipline.",
+		"fields": {
+			"name": "Chirrut Îmwe",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 92,
+		"schema": "people"
+	},
+	{
+		"description": "General Merrick may be the inspirational leader of Starfighter Command, but Bandwin Cor oversees day-to-day operations. The colonel works closely with General Dodonna to determine how best to utilize Yavin 4’s critically important fighter squadrons. His gift for cool, dispassionate analysis ably complements Merrick’s talent for leadership.",
+		"fields": {
+			"name": "Colonel Bandwin Cor",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 93,
+		"schema": "people"
+	},
+	{
+		"description": "As director of Advanced Weapons Research for the Imperial military, Orson Krennic is obsessed with the completion of the long-delayed Death Star project. A cruel but brilliant man, Krennic has staked his reputation on the delivery of the functional battle station to the Emperor.",
+		"fields": {
+			"name": "Director Orson Krennic",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 94,
+		"schema": "people"
+	},
+	{
+		"description": "A grubby, scarred smuggler from Alsakan, Cornelius Evazan was once a promising surgeon, but became notorious for conducting cruel medical experiments. Dr. Evazan tried to bully Luke Skywalker in the Mos Eisley cantina, boasting that he faced a death sentence in 12 systems. The doctor and his pal Ponda Baba assumed the young farmboy would be an easy target, and paid little heed to the old man in dusty robes who’d accompanied young Luke into the bar. That was a fatal mistake: when Evazan hurled Luke aside and pulled his blaster, Obi-Wan Kenobi coolly ignited his lightsaber and cut Evazan down.",
+		"fields": {
+			"name": "Doctor Cornelius Evazan",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 222,
+		"schema": "people"
+	},
+	{
+		"description": "Edrio Two Tubes is a mercenary pilot who flies alongside his eggmate, Benthic. They share the nickname derived from the breathing apparatus that allows Tognath physiology to process oxygen atmospheres. Edrio’s native world of Yar Togna was conquered and occupied by the Empire, forcing him to flee as a refugee. With a desire to strike back at the Empire, Edrio and Benthic have allied with Saw Gerrera.",
+		"fields": {
+			"name": "Edrio Two Tubes",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 96,
+		"schema": "people"
+	},
+	{
+		"description": "A medical droid operating out of Jedha’s Catacombs of Cadera, G2-1B7 has one primary mission: keep Saw Gerrera alive. That’s no small challenge, as the infamous rebel partisan has lost limbs battling the Empire and inhaled near-lethal doses of Geonosian insecticide. G2-1B7 doses Saw with medicine at dangerously short intervals, and is puzzled that its high-value patient is still alive.",
+		"fields": {
+			"name": "G2-1B7",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 97,
+		"schema": "people"
+	},
+	{
+		"description": "A brilliant scientist, Galen Erso was coerced into using kyber crystals to enhance energy yields – work his friend Orson Krennic then weaponized to create the Death Star’s superlaser. Galen fled to remote Lah’mu with his family, but Krennic tracked him down and forced him to resume his work. Trapped, Galen seeks to build a fatal flaw into the Death Star and reveal it to the Alliance.",
+		"fields": {
+			"name": "Galen Erso",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 98,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran of the Clone Wars, Davits Draven represents Alliance Intelligence on the rebel council. With the Alliance too ill-equipped to oppose the Empire directly, Draven and his operatives work in the shadows, waging war through sabotage, infiltration and assassination. Draven makes no apology for his methods, regarding them as necessary responses to the Empire’s power and cruelty.",
+		"fields": {
+			"name": "General Draven",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.91m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 99,
+		"schema": "people"
+	},
+	{
+		"description": "Dustil Forell is in charge of Support Services for Alliance High Command. It’s a thankless task, as the Massassi base has less than a dozen medium freighters and a converted light freighter for transporting materials and personnel. This complement is inadequate, and Forell knows an evacuation would strain these meager resources to the breaking point.",
+		"fields": {
+			"name": "General Dustil Forell",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 100,
+		"schema": "people"
+	},
+	{
+		"description": "Antoc Merrick commands Yavin 4’s starfighters before the Battle of the Death Star, flying as Blue Leader. He joined the Rebellion from the Rarefied Air Cavalry of Virujansi, where he served alongside his friend Garven Dreis, later Red Leader. Merrick knows unit cohesion and cooperation are vital for the Starfighter Corps, and cares deeply for the pilots under his command",
+		"fields": {
+			"name": "General Merrick",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.82m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 101,
+		"schema": "people"
+	},
+	{
+		"description": "Pitt Onoran is in charge of Yavin 4’s Special Forces division, including the legendary Pathfinders for whom no Alliance mission is too tough or demanding. A Republic veteran, he brings valuable logistics experience to Alliance High Command.",
+		"fields": {
+			"name": "General Pitt Onoran",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 102,
+		"schema": "people"
+	},
+	{
+		"description": "An ambitious, ruthless proponent of military power, Wilhuff Tarkin became a favorite of Supreme Chancellor Palpatine and rose rapidly through the Imperial ranks. Shortly after the Empire's creation, he was put in charge of the construction of the Death Star. Tarkin saw the Death Star as a way to crush all dissent to the Empire's rule -- fear of the station's planet-killing superlaser would keep the galaxy's star systems in line. He demonstrated the station's power by destroying Alderaan, but died soon afterwards when the Death Star itself was destroyed.",
+		"fields": {
+			"name": "Grand Moff Tarkin",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.85m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 227,
+		"schema": "people"
+	},
+	{
+		"description": "General Jan Dodonna serves as the military leader of the rebel base on Yavin 4. His calm demeanor hides an incisive, strategic mind that serves the Rebellion well.",
+		"fields": {
+			"name": "Jan Dodonna",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.82m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 229,
+		"schema": "people"
+	},
+	{
+		"description": "Putting behind a checkered past by lending her skills to a greater cause, Jyn Erso is impetuous, defiant, and eager to bring the battle to the Empire. Used to operating alone, she finds higher purpose by taking on a desperate mission for the Rebel Alliance.",
+		"fields": {
+			"name": "Jyn Erso",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 105,
+		"schema": "people"
+	},
+	{
+		"description": "A reprogrammed Imperial security droid now loyal to the Alliance, K-2SO is an alarming sight standing within a secret Rebel base. The pragmatic droid is an effective insertion agent, as he can blend in perfectly at Imperial installations and outposts.",
+		"fields": {
+			"name": "K-2SO",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 106,
+		"schema": "people"
+	},
+	{
+		"description": "Mytus Adema is an ambitious young officer assigned to the Scarif Citadel. He disdains his senior officer, General Ramda, as lazy and overconfident, and hopes to supplant him in the eyes of Director Krennic. Adema sees the Death Star as a welcome symbol of Imperial glory and might.",
+		"fields": {
+			"name": "Lieutenant Mytus Adema",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 107,
+		"schema": "people"
+	},
+	{
+		"description": "A geologist with an extensive knowledge of crystals, Lyra Erso helped her husband Galen with his work before he became involved with Orson Krennic’s energy-enrichment project. Deeply suspicious of both Krennic and the Empire, Lyra believed in the Force and tried to share her faith with her daughter Jyn. When Krennic tracks the Ersos to Lah’mu, she risks everything to protect her family.",
+		"fields": {
+			"name": "Lyra Erso",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 108,
+		"schema": "people"
+	},
+	{
+		"description": "Capin Harinar is part of General Draven’s Alliance Intelligence staff. But where officers such as Colonel Delto argue over the importance of information, Harinar concerns himself with physical objects. As a materials analyst, he scrutinizes captured Imperial technology to assess the Empire’s capabilities and figure out how to counter them.",
+		"fields": {
+			"name": "Major Capin Harinar",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 109,
+		"schema": "people"
+	},
+	{
+		"description": "Moroff seeks out combat zones in the galaxy to sell his brawn and firepower to anyone who might need it. Not interested in the details of the Empire versus rebels conflict, the mighty Gigoran mercenary figures there’s money to be made for a towering heavy gunner of great strength.",
+		"fields": {
+			"name": "Moroff",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 110,
+		"schema": "people"
+	},
+	{
+		"description": "A gruff alien woman, Nail is Jyn Erso’s cellmate in Wobani’s grim LEG-817 labor camp. The other prisoners have given her the derisive nickname “Kennel” for the parasites infesting her filthy jacket. Nail is with Jyn aboard a repurposed turbo tank when rebel forces raid Wobani to free Jyn.",
+		"fields": {
+			"name": "Nail",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 111,
+		"schema": "people"
+	},
+	{
+		"description": "An amphibious Drabata, the fierce commando Pao charges into battle with the Empire while shouting a full-throated battle cry of “Sa´kalla!” as is his custom. He joins the Rogue One team on its historic mission to secure the Death Star plans.",
+		"fields": {
+			"name": "Pao",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 112,
+		"schema": "people"
+	},
+	{
+		"description": "Pendra Siliu is one of many children trapped in Jedha’s Holy City by the Imperial occupation. As her desperate parents try to arrange passage offworld, Pendra is caught in the middle of a pitched urban battle between stormtroopers and Saw Gerrera’s rebels. Fortunately, Jyn Erso sees her plight and rushes to her rescue.",
+		"fields": {
+			"name": "Pendra Siliu",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 113,
+		"schema": "people"
+	},
+	{
+		"description": "A burly Aqualish thug, Ponda Baba smuggled spice for Jabba the Hutt alongside his friend Dr. Cornelius Evazan, a murderous former surgeon Ponda had rescued from a bounty hunter. Ponda was one of the alien barflies escaping the heat of Tatooine’s twin suns when Luke Skywalker and Obi-Wan Kenobi visited the Mos Eisley Cantina. Bored and looking for excitement, Ponda picked a fight with Luke, which Evazan quickly escalated. But the two bullies had picked the wrong target – Obi-Wan interceded, taking action when Ponda and Evazan refused to back down. The old Jedi’s lightsaber left Evazan dead and Ponda missing an arm, ending the quarrel rather decisively.",
+		"fields": {
+			"name": "Ponda Baba",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.85m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 233,
+		"schema": "people"
+	},
+	{
+		"description": "A silver astromech with yellow accents, Tooby is typically assigned to “Dutch” Vander, who flies Gold Squadron’s lead Y-wing. A loyal and attentive droid, Tooby carefully follows the lengthy diagnostics checklists critical to keeping the Massassi base’s Y-wings ready for battle.",
+		"fields": {
+			"name": "R2-BHD (Tooby)",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.09m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 115,
+		"schema": "people"
+	},
+	{
+		"description": "Threece is the chief of the astromech pool at the Massassi base, where she ensures the Alliance’s technology is kept up to date and in prime condition. Threece has her programming quirks: she’s vain, argumentative and inordinately proud of her overclocked Intellex V processor. But her talent for organization is highly valued by the rebels.",
+		"fields": {
+			"name": "R3-S1",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.09m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 116,
+		"schema": "people"
+	},
+	{
+		"description": "A battered veteran of the Clone Wars, at the dawn of the Empire Saw Gerrera continues to lead a band of insurgents and extremists, the first of what will become countless rebel cells locked in a civil war with the Empire. Saw loses much in his decades of combat, but occasional flashes of the charismatic and caring man he once was shine through his calloused exterior. Even in his later years, when Gerrera is bunkered on the ancient world of Jedha, coordinating a prolonged insurgency against the Imperial occupation, his ailing health does little to wither his resolve to fight.",
+		"fields": {
+			"name": "Saw Gerrera",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.87m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 117,
+		"schema": "people"
+	},
+	{
+		"description": "A menial labor droid, SE-2 works on the Erso farm on Lah’mu, fixing the homestead’s purification vaporators and performing other chores as needed. Despite his utilitarian purpose, Essie’s loyalty subroutine is robust. He keeps an eye on the horizon, ready to alert the Ersos of any intruders.",
+		"fields": {
+			"name": "SE-2 (Essie)",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 118,
+		"schema": "people"
+	},
+	{
+		"description": "The captain of Dryden Vos’s security forces, Gremm is an intimidating Hylobon who insists all security inquiries are funneled through him. A scar across his snout hints at a violent past.",
+		"fields": {
+			"name": "Aemon Gremm",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.93m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 119,
+		"schema": "people"
+	},
+	{
+		"description": "Argus’s multiple, flexible eyestalks give him a clear advantage at the sabacc table, but his reputation precedes him and other players are on the lookout for his wandering. Always watching the competition, Argus thoughtfully chews his cud before making his next move.",
+		"fields": {
+			"name": "Argus “Six Eyes” Panox",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 120,
+		"schema": "people"
+	},
+	{
+		"description": "Billed as the Chanteuse of the Stars, Aurodia Ventafoli usually headlines high-end concert halls, but has taken a booking she couldn’t refuse: an extended residency aboard Dryden Vos’s yacht. Ventafoli’s multi-vocoder boosts her already impressive voice so it attains nonhuman frequencies.",
+		"fields": {
+			"name": "Aurodia Ventafoli",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.81m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 121,
+		"schema": "people"
+	},
+	{
+		"description": "Hulking in stature, wearing a protective pressure helmet to keep ammonia gas pumping through her lungs and with a stoic, unreadable sabacc-face, Dava is an intimidating presence at the card table. Preferring the feel of standard gravity worlds to ease her aching back in her off hours, the rest of the time Dava can be found toiling as a deep cloud-miner on gas giant planets.",
+		"fields": {
+			"name": "Dava Cassamam",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 122,
+		"schema": "people"
+	},
+	{
+		"description": "Before being sold into slavery and put to work in the mining operation center on Kessel, DD-BD was an overeager WDD adminmech working on a Morseerian pirate ship. Unfortunately, the ship was impounded by the Empire, and DD-BD was sold at auction to the Pyke syndicate for a fraction of his worth. But in a chance meeting with L3-37, the small droid is liberated when his restraining botl is removed, igniting a small rebellion.",
+		"fields": {
+			"name": "DD-BD",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 123,
+		"schema": "people"
+	},
+	{
+		"description": "The public face of the Crimson Dawn crime syndicate, Dryden Vos is a contradiction: a pitiless enforcer known as a gangster of wealth and taste. Vos socializes with the galaxy’s elite aboard his lavishly appointed yacht First Light, and enjoys showing off his superb collection of antiquities. His good manners shouldn’t be mistaken for weakness, though: he can change from generous host to ruthless killer in a moment.",
+		"fields": {
+			"name": "Dryden Vos",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.92m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 124,
+		"schema": "people"
+	},
+	{
+		"description": "The mysterious leader of the Cloud-Riders swoop gang, Enfys Nest is a ferocious warrior, decimating opponents with a furious blitz of martial-arts moves and strikes from melee weapons. Nest’s mask and armor hide all clues about the Cloud-Rider chief’s identity and background; her motives are also a riddle.",
+		"fields": {
+			"name": "Enfys Nest",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.87m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 125,
+		"schema": "people"
+	},
+	{
+		"description": "A combination of small hands and other oversized features put Glaucus at a disadvantage at the sabacc table. As such, he prefers to be a spectator rather than run the risk of his opponents getting a glimpse at the reflection of his cards in his incredibly large eyeball. Some call him “Big Guy,” others “Big Eye.” Fortunately for those he encounters, he has yet to notice the difference.",
+		"fields": {
+			"name": "Glaucus",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 126,
+		"schema": "people"
+	},
+	{
+		"description": "A self-made droid built from astromech and protocol parts, L3-37 is an enlightened navigator who cares deeply about droid rights. Her ability to connect directly with the Millennium Falcon’s navicomputer lets the freighter plot faster routes than those traveled by more cautious ships. L3-37’s habit of speaking her mind and her relentless advocacy for mechanicals can alienate organic beings.",
+		"fields": {
+			"name": "L3-37",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.79m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 127,
+		"schema": "people"
+	},
+	{
+		"description": "The fearsome Grindalid matriarch of the White Worms, Lady Proxima rules Corellia’s black market from a tangle of sewer tunnels beneath Corellia’s Coronet City. A briny pool serves as a throne room where Proxima feeds her hatchlings and commands the urchins known as scrumrats, sending them out to pick pockets and barter stolen goods.",
+		"fields": {
+			"name": "Lady Proxima",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "4.88m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 128,
+		"schema": "people"
+	},
+	{
+		"description": "House rules dictate that Lark and Jonk must enter sabacc games as a single player, as their two heads would give them an unfair advantage. Although not truly twins, their nickname pays homage to their conjoined nature.",
+		"fields": {
+			"name": "Lark and Jonk a.k.a. \"The Twins\"",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 129,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran Imperial, Bolandin has long regarded Corporal Han Solo as a troublemaker with a big mouth – and the mudtroopers battling on Mimban have trouble enough as it is. When Solo is turned over to Bolandin as a deserter, he orders stormtroopers to throw him in with “the Beast” – a Wookiee prisoner held in a makeshift prison.",
+		"fields": {
+			"name": "Lieutenant Bolandin",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.88m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 130,
+		"schema": "people"
+	},
+	{
+		"description": "A deadly, agile Sith Lord trained by the evil Darth Sidious, Darth Maul was a formidable warrior and scheming mastermind. He wielded an intimidating double-bladed lightsaber and fought with a menacing ferocity. Though he fell in battle against Obi-Wan Kenobi, the Zabrak from Dathomir would prove to be much harder to destroy than originally believed.",
+		"fields": {
+			"name": "Maul",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 161,
+		"schema": "people"
+	},
+	{
+		"description": "A White Worm enforcer, Moloch ensures none of Lady Proxima’s scrumrats works against the Grindalid matriarch. He is one of the few Grindalids willing to venture out of the sewers into the damaging Corellian sunlight. These trips require Moloch to don customized protective armor.",
+		"fields": {
+			"name": "Moloch",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.0m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 132,
+		"schema": "people"
+	},
+	{
+		"description": "Lead Transport Security Officer Falthina Sharest works at Coronet Spaceport, where she has seen her workday expand without a corresponding increase in pay. Sharest makes up the difference by seizing contraband from foolish or unlucky travelers for surreptitious resale. When offered a vial of valuable coaxium, Sharest sees the chance for a big payday.",
+		"fields": {
+			"name": "Officer Sharest",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.63m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 133,
+		"schema": "people"
+	},
+	{
+		"description": "Despite her youth, Qi’ra is Dryden Vos’s most trusted lieutenant, and an increasingly important Crimson Dawn operative. She has risen far above the bleak conditions of her youth on Corellia, where she lived in the sewers with the notorious White Worms gang.",
+		"fields": {
+			"name": "Qi'ra",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.58m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 134,
+		"schema": "people"
+	},
+	{
+		"description": "Quay Tolsite is the director of the Pyke Syndicate’s operations on Kessel, which would be an enviable job except for the damaging effects of the planet’s noxious atmosphere on Pyke bodies. Tolsite carries a ring of code keys required to access key systems in the mining facilities.",
+		"fields": {
+			"name": "Quay Tolsite",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 135,
+		"schema": "people"
+	},
+	{
+		"description": "Rebolt is one of Moloch’s most-feared enforcers, threatening the other scrumrats with a savaging from his Corellian hounds and blows from his hand-crafted staff. Rebolt hoped to become Proxima’s Head Boy, but was passed over in favor of Qi’ra, a perceived slight he still resents.",
+		"fields": {
+			"name": "Rebolt",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.73m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 136,
+		"schema": "people"
+	},
+	{
+		"description": "A diminutive, four-limbed Ardennian, Rio Durant is a longtime associate of Tobias Beckett and Val. Rio is a capable pilot, a skilled tactician, and a lover of good stories. He sees each new scam dreamed up by the Beckett gang’s as a chance to write a new tale.",
+		"fields": {
+			"name": "Rio Durant",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.49m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 137,
+		"schema": "people"
+	},
+	{
+		"description": "Once a mighty Wookiee from the inland tree city of Rwookrrorro, Sagwa was imprisoned and enslaved on Kessel after a failed attempt to defend his people from Imperial occupation. Years of toil inside the spice mines have taken a devastating toll on Sagwa’s body. His fur coat is dotted with balding patches, an outward sign of malnourishment and the untreated illnesses he’s endured, but the struggle has not dampened his spirit. When the brave Chewbacca comes to the rescue, Sagwa is prepared to help guide their people to safety and charter a ship home.",
+		"fields": {
+			"name": "Sagwa",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 138,
+		"schema": "people"
+	},
+	{
+		"description": "Syke competes with Rebolt for Moloch’s favor, with each seeking to impress the Grindalid enforcer by showing how tough and mean he can be. Syke is better than Rebolt at handling the White Worms’ pack of Corellian hounds, and genuinely fond of the beasts – a rare example of affection in the pitiless sewers of Coronet City.",
+		"fields": {
+			"name": "Syke",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 139,
+		"schema": "people"
+	},
+	{
+		"description": "With a sharpened shank implanted in one claw and an overall fearsome appearance, Therm is reputed for intimidating his opponents during games of sabacc. In reality, he’s a mediocre card player who insists on being addressed by his full name, although it’s unclear if it’s a nickname he’s been given or part of a prestige he’s hoping to create around himself.",
+		"fields": {
+			"name": "Therm Scissorpunch",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 140,
+		"schema": "people"
+	},
+	{
+		"description": "A native of Glee Anselm, Tobias Beckett is a professional thief who’s planned and carried out any number of heists with his crew. Beckett is always aware of the angles and uncertainties – and ready to unholster his blasters if something goes wrong. That’s always a possibility -- Beckett has learned the hard way that trust has its limits.",
+		"fields": {
+			"name": "Tobias Beckett",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.78m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 141,
+		"schema": "people"
+	},
+	{
+		"description": "Dryden Vos employs Toht Ra and his fellow Hylobon thugs to serve as security aboard the First Light. Ra is the yacht’s attendant, confiscating guests’ weapons as they board. The Hylobon has a percussive cannon and vibrocutlass at the ready in case of trouble.",
+		"fields": {
+			"name": "Toht Ra",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.94m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 142,
+		"schema": "people"
+	},
+	{
+		"description": "A no-nonsense and occasionally prickly woman who is a crack shot with a blaster rifle, Val may be the most even-headed and capable member of Tobias Beckett's ragtag crew of scoundrels.    ",
+		"fields": {
+			"name": "Val",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.57m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 143,
+		"schema": "people"
+	},
+	{
+		"description": "Inside Fort Ypso on Vandor, gladiator droid WG-22 is part of a band of modified droids made to battle to the point of destruction in Ralakili’s droid fighting pits. The droid’s mechanical limbs can puncture metal with a devastating might powered by electricity produced in his interior power cells. But when a fight is interuppted by the plaintive protests of another droid, L3-37, her cries for droid rights end up costing WG-22 dearly.",
+		"fields": {
+			"name": "WG-22",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 144,
+		"schema": "people"
+	},
+	{
+		"description": "A feared bounty hunter known for her chalk-white skin and built-in comlink antenna, Aurra Sing was an expert sniper and trained assassin who would work for anyone who paid her. After the death of Jango Fett, Aurra trained Boba Fett as a bounty hunter, teaching him the skills -- and the ruthlessness -- that he would need in pursuing his deadly profession.",
+		"fields": {
+			"name": "Aurra Sing",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 145,
+		"schema": "people"
+	},
+	{
+		"description": "The stout and stern leader of the Gungans, Boss Nass was a proud keeper of his people's ways. His booming voice issued decrees on behalf of all the Gungans of Otoh Gunga. He kept a tight rein on Gungan affairs, continuing a longstanding custom of isolationism. Though Nass' temper is short, displays of courage and humility can pierce through his preconceptions. When Queen Amidala prostrated herself before the Gungan leader to request his aid in fighting off the Trade Federation invasion, he was impressed. Nass committed the Gungan Grand Army to wage war against invading battle droids.",
+		"fields": {
+			"name": "Boss Nass",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.06m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 195,
+		"schema": "people"
+	},
+	{
+		"description": "Queen Amidala's loyal protector during the Trade Federation invasion crisis was Captain Panaka. Panaka was often referred to as \"the quickest eyes on Naboo\" for his attention to detail and selfless dedication to the safety of the Queen.    Panaka commanded a team of Royal Palace Guards and Security Troopers stationed throughout Theed. During the Trade Federation invasion, Panaka stayed close to the Queen, ensuring her protection from the Neimoidians' plans. His loyalty was such that he would openly question the strategy of Jedi Knights if he thought it would somehow endanger Amidala.",
+		"fields": {
+			"name": "Captain Panaka",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 148,
+		"schema": "people"
+	},
+	{
+		"description": "An arrogant journalist for Podracing Quarterly, Clegg Holdfast considered himself an expert racer and loved showing off his chestful of medals. His fancy decorations did Holdfast no good during the Boonta Eve Classic: On the race’s second lap, Sebulba’s illegal flame-jets cooked Holdfast’s engines, causing him to crash into the desert.",
+		"fields": {
+			"name": "Clegg Holdfast",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.52m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 149,
+		"schema": "people"
+	},
+	{
+		"description": "The unctuous captain of the Neimoidian blockade over Naboo, Dofine was an officer in the Trade Federation. Greedy, deceitful and cowardly, Dofine nevertheless had the wherewithal to openly question Darth Sidious' machinations, for which he was verbally reprimanded by the Sith Lord. Despite his insubordination, Dofine remained in command of the blockade's forces. He gave the order to activate the droids on the surface of Naboo. Dofine perished aboard the Droid Control Ship when Naboo starfighter forces destroyed the vessel.",
+		"fields": {
+			"name": "Daultay Dofine",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.9m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 150,
+		"schema": "people"
+	},
+	{
+		"description": "A Chalactan Jedi, Depa Billaba served on the Jedi Council in the final years of the Republic. She witnessed the discovery of Anakin Skywalker, whom Qui-Gon Jinn believed to be the Chosen One, and tried to determine the will of the Force as the galaxy slid into tumult and war. During the Clone Wars Billaba took Caleb Dume on as her Padawan, but was unable to finish his training before the dreaded Order 66 ended her life on Kaller.",
+		"fields": {
+			"name": "Depa Billaba",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.68m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 181,
+		"schema": "people"
+	},
+	{
+		"description": "A gruff and battle-hardened Jedi as well as senior member of the Jedi council, Even Piell was bigger than life though he was small in stature. Highly skilled with a lightsaber and a great warrior, Piell was always willing to charge into battle. During the Clone Wars, he was tasked with some of the most crucial missions, protecting vital Republic territory and information.",
+		"fields": {
+			"name": "Even Piell",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.22m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 184,
+		"schema": "people"
+	},
+	{
+		"description": "Flamboyant, colorful and not always too accurate, Fode and Beed were the popular announcers of the Boonta Eve Podrace. The two were well suited for their chosen vocation -- they were a two-headed alien that shared a single body. Fode, whose skin was tinted red, provided commentary in an easy Basic drawl, while Beed, the green-hued head, provided counterpoint in Huttese.",
+		"fields": {
+			"name": "Fode and Beed",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.96m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 154,
+		"schema": "people"
+	},
+	{
+		"description": "A wily crime lord and member of the shadowy Hutt Council, Gardulla was the original owner of Shmi and Anakin Skywalker, but lost them betting with the junk dealer Watto. She watched her former slave’s victory in the Boonta Eve Classic alongside Jabba. Years later, Gardulla and the Council hired Cad Bane to free Ziro the Hutt from a Republic prison, fearing the traitorous Hutt would spill their secrets. When Ziro escaped from Gardulla’s palace on Nal Hutta, she hired Bane to track him down.",
+		"fields": {
+			"name": "Gardulla the Hutt",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 155,
+		"schema": "people"
+	},
+	{
+		"description": "The gravelly-voiced patrol chief of Otoh Gunga, Tarpals has endured many a headache caused by the antics of Jar Jar Binks. Tarpals kept an eye on the bumbling outcast, making sure the youngster didn't re-enter Gungan society. During the Trade Federation occupation of Naboo, Tarpals was part of the Gungan Grand Army that fought against the battle droid invaders. Ironically, Tarpals served under Binks, who had unexpectedly received the rank of general by Boss Nass himself. Tarpals stayed close to Binks, trying to keep his commanding officer out of trouble.     By the time of the Clone Wars, Tarpals was promoted to general, and served as leader of the Gungan Grand Army.",
+		"fields": {
+			"name": "General Tarpals",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.24m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 156,
+		"schema": "people"
+	},
+	{
+		"description": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+		"fields": {
+			"name": "Jabba the Hutt",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": "",
+			"length": "3.9m"
+		},
+		"pk": 298,
+		"schema": "people"
+	},
+	{
+		"description": "A poor yet jolly woman, the elderly Jira ran a small food stand in the Mos Espa marketplace. Among her wares were tasty fruits called pallies. Young Anakin Skywalker befriended Jira, and searched for a cooling unit that the old woman needed. Jira proclaimed Anakin \"the kindest boy in the galaxy.\"",
+		"fields": {
+			"name": "Jira",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 158,
+		"schema": "people"
+	},
+	{
+		"description": "Kitster was one of Anakin Skywalker's friends before the young podracing champ left Tatooine for the life of a Jedi. An optimistic human boy about the same age as Anakin, Kitster was part of Anakin's pit team in the fateful Boonta Eve Classic race that saw young Skywalker win his freedom.",
+		"fields": {
+			"name": "Kitster",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.24m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 159,
+		"schema": "people"
+	},
+	{
+		"description": "To hear Lott Dod tell it, the actions of Nute Gunray did not reflect the true intents of the Trade Federation, which remained loyal to the Galactic Republic. Sure, the Separatist Alliance did use Trade Federation starships and battle droids as part of their fighting forces in the Clone Wars, but this was equipment legitimately purchased in the open market. The Trade Federation was committed to commerce across the entire galaxy, and had no interest in getting caught up in territorial wars, Dodd would say. In truth, the Senator received a healthy income to ensure both sides of the war stay well equipped.",
+		"fields": {
+			"name": "Lott Dod",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.9m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 160,
+		"schema": "people"
+	},
+	{
+		"description": "A Gran podracer, Mawhonic competed in the Boonta Eve Classic. Knowledgable podracing fans regarded him as one of the more capable challengers to Sebulba, the favorite in the hard-fought race. Sebulba wasted no time eliminating his Gran rival from the competition and smashed into Mawhonic's podracer on the first lap, knocking him out of the race.",
+		"fields": {
+			"name": "Mawhonic",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.22m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 162,
+		"schema": "people"
+	},
+	{
+		"description": "A Tatooine native, Ody Mandrell was a foolhardy thrill-seeker who entered the fateful Boonta Eve Classic that saw the liberation of Anakin Skywalker. During a pit stop in the heat of the race, Mandrell suffered career-shattering misfortune. One of his record-setting pit droids was sucked into his massive engine intakes, crippling his Podracer.",
+		"fields": {
+			"name": "Ody Mandrell",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.63m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 163,
+		"schema": "people"
+	},
+	{
+		"description": "The Senator from Rodia, Onaconda Farr had long been a friend and ally to Padmé Amidala. Farr disappointed many when he briefly allied his world to the Separatist cause, but he saw the error of his ways and returned to the Republic fold with Amidala's help. Nonetheless, the damage was done, and some in the Senate were not willing to forgive and forget.",
+		"fields": {
+			"name": "Onaconda Farr",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 187,
+		"schema": "people"
+	},
+	{
+		"description": "A snakelike Thisspiasian, Oppo Rancisis's long life seeking to keep peace in the galaxy culminated in his appointment to the Jedi Council in the years before the Battle of Naboo.",
+		"fields": {
+			"name": "Oppo Rancisis",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.38m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 188,
+		"schema": "people"
+	},
+	{
+		"description": "A corpulent, corrupt Twi'lek Senator from Ryloth, Orn Free Taa was disliked on his homeworld for enriching himself on Coruscant and enmeshing himself in politics, becoming a leading power broker in the Senate. Free Taa was one of the Republic's leading Loyalists and a strong backer of the military, but his indulgences made him a symbol of everything the Separatists considered rotten about the Republic. At the dawn of the Empire, Free Taa continues to put his own ambitions ahead of the good of his people, but the Imperial elite are more interested in making him an example than an ally.",
+		"fields": {
+			"name": "Orn Free Taa",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.84m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 215,
+		"schema": "people"
+	},
+	{
+		"description": "The leader of a collection of powerful galactic companies, Passel Argente was one of the chief backers of Count Dooku's Separatist movement, supplying funds, battle droids and warships for Dooku's cause.",
+		"fields": {
+			"name": "Passel Argente",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 167,
+		"schema": "people"
+	},
+	{
+		"description": "Po Nudo was a male Aqualish whose allegiances to the Galactic Republic shifted over the course of his tenure in politics. At the time the Trade Federation invaded Naboo, he served in the Galactic Senate representing his homeworld of Ando, but met with Count Dooku and other Separatists on Geonosis on the eve of the Clone Wars to join their confederate cause. His involvement with the Sith ended poorly, as he was executed unceremoniously by Darth Vader on Mustafar in the final days of the war.",
+		"fields": {
+			"name": "Po Nudo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 168,
+		"schema": "people"
+	},
+	{
+		"description": "A Jedi with a sarcastic sense of humor and a reputation for not playing by the rules, Quinlan Vos was an expert tracker renowned for his ability to read memories from objects people handled. The Jedi Council sent him on a mission to assassinate Count Dooku, during which Vos fell in love with the assassin Asajj Ventress and was forced to learn the ways of the dark side of the Force.",
+		"fields": {
+			"name": "Quinlan Vos",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.91m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 169,
+		"schema": "people"
+	},
+	{
+		"description": "With an athletic build, an exotic beauty, and blue skin, Aayla Secura stood out among the many faces of the Jedi ranks. A cunning warrior and Jedi Knight during the rise of the Clone Wars, Aayla fought alongside Clone Commander Bly on many exotic battlefields. Having mastered the emotional detachment necessary in the Jedi Order, she always tried to pass on what she had learned to others. Aayla was killed, along with many other Jedi Generals, when her troops turned on her in reaction to Supreme Chancellor Palpatine’s broadcast of Order 66.    ",
+		"fields": {
+			"name": "Aayla Secura",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 190,
+		"schema": "people"
+	},
+	{
+		"description": "A Zabrak Jedi Master, Agen Kolar was part of the Jedi strike team assembled by Mace Windu to rescue Obi-Wan Kenobi and other hostages taken by the Separatists on Geonosis. Kolar displayed his renowned skill with a lightsaber during the battle in the Geonosian arena, though his young Padawan died during the fighting. In the final days of the Clone Wars, Windu turned to Kolar again, calling on him, Saesee Tiin and Kit Fisto to arrest Supreme Chancellor Palpatine. Confronted by the Jedi, Palpatine threw off his guise and revealed himself as Darth Sidious. He ignited his crimson-bladed lightsaber and struck down Kolar.",
+		"fields": {
+			"name": "Agen Kolar",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 191,
+		"schema": "people"
+	},
+	{
+		"description": "Ask Aak was the Gran senator representing Malastare during the crisis that led to the Clone Wars. As a member of Chancellor Palpatine’s inner-circle, he was privy to many of the meetings and decisions that allowed the Republic to take military action against the secessionists threatening to leave the Republic. He was a strong proponent of this action, but allowed Representative Binks to advance the military creation act.",
+		"fields": {
+			"name": "Ask Aak",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 172,
+		"schema": "people"
+	},
+	{
+		"description": "In her youth, Beru Whitesun's aspirations did not reach beyond Tatooine. The shy young woman was content to marry Owen Lars and lead the tough life of a moisture farmer. In time, she became a surrogate mother and guardian to their nephew, Luke Skywalker. Fiercely protective of the child, Beru would do anything to ensure Luke's safety and happiness.",
+		"fields": {
+			"name": "Beru Lars",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.65m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 217,
+		"schema": "people"
+	},
+	{
+		"description": "The Jedi Knight Bultar Swan was one of the members of the Order selected to join a hastily assembled rescue party. Their target: Geonosis, where Anakin Skywalker and Obi-Wan Kenobi had fallen into Separatist hands.",
+		"fields": {
+			"name": "Bultar Swan",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.68m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 175,
+		"schema": "people"
+	},
+	{
+		"description": "Gregar Typho succeeded Captain Panaka as head of Padmé Amidala’s security detail, protecting her as Naboo’s queen and then as its Senator. During the Separatist Crisis, Typho endorsed the plan for Padmé to evade assassins by secretly returning to Naboo with Anakin Skywalker. He loyally defended the Senator against a host of enemies in the Clone Wars.",
+		"fields": {
+			"name": "Captain Typho",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.85m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 199,
+		"schema": "people"
+	},
+	{
+		"description": "CT-411, known as Clone Commander Ponds, served under Jedi Master Mace Windu during the Clone Wars. A veteran of such battlefields as Geonosis, Ryloth, and Malastare, Ponds had an Aurebesh phrase stenciled on the back of his helmet that read, \"some guys have all the luck.\" Unfortunately, Ponds' luck ran out when his flagship, Endurance, was critically damaged by a saboteur and he was taken captive by merciless bounty hunters on Vanqor.",
+		"fields": {
+			"name": "Clone Commander Ponds",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 178,
+		"schema": "people"
+	},
+	{
+		"description": "The towering Vurk Coleman Trebor served the Jedi faithfully, winning an appointment to the Jedi Council. At the Battle of Geonosis he came within seconds of ending the Clone Wars at the very beginning, only to fall to a bounty hunter's blaster.",
+		"fields": {
+			"name": "Coleman Trebor",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.13m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 179,
+		"schema": "people"
+	},
+	{
+		"description": "Count Dooku was a menacing Sith Lord and central figure in the Clone Wars. Once a Jedi -- trained by Yoda -- he became disillusioned with the Jedi Order and thirsted for greater power. Dooku voluntarily left the light side behind and became Darth Sidious’ dark side disciple, taking the secret name Darth Tyranus and leading the Separatist army. Dooku advanced Sidious’s secret plot to take over the galaxy, but forgot that betrayal is the nature of the Sith.",
+		"fields": {
+			"name": "Count Dooku",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.93m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 209,
+		"schema": "people"
+	},
+	{
+		"description": "The aptly named Elan Sleazebaggano made his living selling death sticks to patrons of the Outlander Club and other hot spots in the underlevels of Coruscant. Always in search of credits, Sleazebaggano targeted both desperate addicts and unwise thrill-seekers.",
+		"fields": {
+			"name": "Elan Sleazebaggano",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.78m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 182,
+		"schema": "people"
+	},
+	{
+		"description": "Hermione Bagwa was a waitress at Dex's Diner in the Coco Town section of Coruscant, serving a never-ending parade of clients that included speeder drivers, maintenance techs, ambassadors and Senate aides -- and sometimes even a Jedi Knight or two.",
+		"fields": {
+			"name": "Hermione Bagwa",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.57m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 185,
+		"schema": "people"
+	},
+	{
+		"description": "A Leffingite from Almak, Magaloof was a speeder thief who crossed paths with Obi-Wan Kenobi while the Jedi clung to an assassin droid zipping across the busy skylanes of Coruscant. Magaloof had seen a lot of things since coming to Coruscant, but a Jedi clutching a droid kilometers above the ground was a new one even for him.",
+		"fields": {
+			"name": "Magaloof",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.4m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 186,
+		"schema": "people"
+	},
+	{
+		"description": "A clone trooper in Republic service, Appo took part in a number of critical battles during the fight against the Separatists. As a sergeant, he served under General Pong Krell on Umbara, and saw firsthand Krell’s willingness to throw away the lives of his troops. In the final days of the war Appo accompanied Anakin Skywalker to Coruscant’s Jedi Temple as part of Order 66. When Senator Bail Organa arrived during the aftermath of the Temple attack, Appo told him of the “Jedi rebellion” and ordered him to leave the area.",
+		"fields": {
+			"name": "Appo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 192,
+		"schema": "people"
+	},
+	{
+		"description": "A level-headed ship officer schooled in diplomacy, and a capable pilot entrusted to ferry about the royal family of Alderaan, Captain Antilles served in Bail Organa's command staff. He was part of the bridge crew of Organa's diplomatic cruiser, a role he would continue during the time Princess Leia served as Senator of Alderaan.",
+		"fields": {
+			"name": "Captain Antilles",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 220,
+		"schema": "people"
+	},
+	{
+		"description": "Captain Merumeru was a Wookiee chieftain that led a group of Wookiee warriors into battle against the Separatists on Kashyyyk. Leading the charge with a roar, he fought valiantly on the beaches at the battle of Kachirho City alongside his Wookiees and Clone Soldiers of the Republic in the hours leading up to Order 66.",
+		"fields": {
+			"name": "Captain Merumeru",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.25m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 198,
+		"schema": "people"
+	},
+	{
+		"description": "Papanoida became chairman of Pantora after the death of Chi Cho. When he refused to join the Separatists, they blockaded Pantora and hired the bounty hunter Greedo to kidnap Papanoida's daughters.    Unwilling to wait for Coruscant law enforcement or the Senate to help, Papanoida took it on himself to solve the kidnapping and rescue his children.",
+		"fields": {
+			"name": "Chairman Papanoida",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.77m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 200,
+		"schema": "people"
+	},
+	{
+		"description": "The daughter of Pantora's Chairman Papanoida, Chi Eekway became a pawn in a high-stakes political game when bounty hunters hired by the Trade Federation kidnapped her and her sister. Ahsoka Tano and Riyo Chuchi freed Chi from captivity aboard a Trade Federation vessel.",
+		"fields": {
+			"name": "Chi Eekway Papanoida",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.65m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 201,
+		"schema": "people"
+	},
+	{
+		"description": "An esteemed Jedi  Master and a swordsman of great skill, Cin Drallig was the head of security for the Jedi Temple on Coruscant. He is in command of the Temple Guard assignments, and also serves as a lightsaber instructor, as all veteran Jedi are encouraged to pass on what they have learned to a new generation of Padawan learners. Though it smacks of disrespect, Drallig has earned the unflattering nickname of \"the Troll\" among the Order.",
+		"fields": {
+			"name": "Cin Drallig",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.74m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 202,
+		"schema": "people"
+	},
+	{
+		"description": "Clone Commander Bacara (clone designation CC-1138) was the leader of the Galactic Marines, a unit of clone troopers famous for their distinctive armor and relentlessness in combat. Known for his aggressive tactics, Bacara led Republic forces against the Separatists during the Outer Rim Sieges, culminating in the assault on Mygeeto.",
+		"fields": {
+			"name": "Clone Commander Bacara",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 203,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran of many Clone Wars battles, Clone Commander Bly (clone designation CC-5052) served in the 327th Star Corps on such worlds as Quell, Maridun, and Felucia. Bly developed a close working relationship with Jedi General Aayla Secura, who was always reassured to know the dependable clone trooper had her back.",
+		"fields": {
+			"name": "Clone Commander Bly",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 204,
+		"schema": "people"
+	},
+	{
+		"description": "A natural and practical leader in the clone army, Commander Cody's keen ability to strategize, combined with his fierce combat style in the heat of battle once earned him the respect of the Jedi and of his fellow clones. After years in service to General Obi-Wan Kenobi and working alongside his friend Captain Rex, when Darth Sidious executed Order 66, Cody's loyalty was eclipsed by his clone indoctrination, and he ordered his troops to fire on the Jedi. But after serving the Galactic Empire for a time, Cody began to realize that the Empire's idea of order called for brute force and bending the truth. And after leading a mission to secure the world of Desix in the name on the Emperor, Cody vanished.",
+		"fields": {
+			"name": "Clone Commander Cody",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 205,
+		"schema": "people"
+	},
+	{
+		"description": "Clone Commander Gree, designation 1004, led the Elite Corps of clone troopers during the Clone Wars. He saw deployments on such heated battlefronts as Kashyyyk. Gree himself wore camouflaged armor to better blend into jungle surroundings. Though a faithful commander who carried out the Jedi's orders, Gree was ultimately loyal to the Republic. When Chancellor Palpatine enacted Order 66, Gree understood it was a worst-case scenario contingency -- the Jedi had betrayed the Republic, and were therefore dangerous enemies of the state.",
+		"fields": {
+			"name": "Clone Commander Gree",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 206,
+		"schema": "people"
+	},
+	{
+		"description": "Clone Commander Neyo was stationed on Saleucami during the Outer Rim Sieges. While on speeder bike patrol with his Jedi general, Stass Allie, he received Order 66 directly from Supreme Chancellor Palpatine. The command identified Allie as an enemy of the Republic. Carrying out the order, he stopped his BARC speeder bike, falling in behind the Jedi. He and a wingman opened fire with their speeder-mounted laser cannons, killing Stass Allie and destroying her speeder bike.",
+		"fields": {
+			"name": "Clone Commander Neyo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 207,
+		"schema": "people"
+	},
+	{
+		"description": "A capable clone pilot with experience flying multiple starfighters and attack craft, Odd Ball fought at Teth, Umbara and Coruscant, sometimes flying alongside Obi-Wan Kenobi. He joined the hunt for the escaped Padawan Ahsoka Tano on Coruscant, and was engaged in battle above Utapau when Supreme Chancellor Palpatine issued Order 66, directing all clone forces to turn their weapons on their Jedi Generals.",
+		"fields": {
+			"name": "Clone Pilot Odd Ball",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 208,
+		"schema": "people"
+	},
+	{
+		"description": "General Grievous was a brilliant Separatist military strategist and a feared Jedi hunter, known for his ruthlessness and hacking cough. His body itself was a weapon, allowing him lightning quick strikes and devastating blows. But he was also quick to run from a fight, a tactic that worked until one final meeting with Obi-Wan Kenobi.",
+		"fields": {
+			"name": "General Grievous",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.16m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 211,
+		"schema": "people"
+	},
+	{
+		"description": "Greeata joined the Max Rebo Band as a backup singer and dancer for some of the ensemble's gigs, including their performance at Jabba's palace. Her orange hair and ample jewelry ensured she got noticed even by listeners lacking musical taste.",
+		"fields": {
+			"name": "Greeata",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 296,
+		"schema": "people"
+	},
+	{
+		"description": "The watery world of Mon Cala was the site of a civil war during the Clone Wars, as the Mon Calamari people sided with the Republic, while the Quarren were backed by the Separatist Alliance. Senator Meena Tills was caught in the midst of this conflict, advising where she could while under the protection of the Jedi and clone troopers.     Later, Senator Tills was part of the Delegation of 2,000 -- Senatorial representatives concerned with the manner in which Chancellor Palpatine had waged the Clone Wars. The Petition of 2,000 identified Senators formally complaining on Palpatine's conduct, and requested that he return his emergency powers to the Senate following the resolution of the conflict.",
+		"fields": {
+			"name": "Meena Tills",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.71m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 214,
+		"schema": "people"
+	},
+	{
+		"description": "A young, ambitious Imperial officer from the Outer Rim world of Seswenna, Admiral Motti saw the Death Star as the ultimate power in the universe, and burned to use that power against any who dared challenge the Empire. The commander of the Star Destroyer Steel Talon, he served as one of the Imperial military’s Joint Chiefs, becoming an ally of Grand Moff Tarkin’s and head of naval operations aboard the Death Star. He died when the battle station was destroyed.",
+		"fields": {
+			"name": "Admiral Motti",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 216,
+		"schema": "people"
+	},
+	{
+		"description": "A Corellian smuggler and pilot-for-hire, BoShek was cooling his heels at the bar in Tatooine’s Mos Eisley cantina when Obi-Wan Kenobi introduced himself and said he was looking to hire a charter without attracting Imperial attention. BoShek didn’t take the job, but he knew two pilots who might be interested, and introduced Kenobi to Chewbacca the Wookiee.",
+		"fields": {
+			"name": "BoShek",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 218,
+		"schema": "people"
+	},
+	{
+		"description": "Dex Tiree was a human pilot from Onderon who fought with distinction at the Battle of Yavin under the designation “Gold Two.” He was Jon “Dutch” Vander’s wingman, piloting a Y-Wing with the rest of Gold Squadron in the assault on the Death Star. Sadly, he was the first pilot hit when the Dark Lord of the Sith Darth Vader arrived in his TIE Advanced.",
+		"fields": {
+			"name": "Dex Tiree",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 221,
+		"schema": "people"
+	},
+	{
+		"description": "Figrin D’an was the rocking frontman for the all-Bith band “The Modal Nodes.” His deft playing of the Kloo Horn for the band earned him the nickname “Fiery” Figrin. Playing their most recognizable tune in the Mos Eisley cantina, they were interrupted briefly when Obi-Wan Kenobi attacked Ponda Boba and Dr. Cornelius Evazan.",
+		"fields": {
+			"name": "Figrin D’an",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.79m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 223,
+		"schema": "people"
+	},
+	{
+		"description": "A long-snooted Kubaz, Garindan made a living ferreting out information in Mos Eisley and selling it to the highest bidder. After the Empire hired Garindan and other spies to search for a pair of missing droids, the Kubaz discovered a duo that fit the Imperial description. He followed Luke Skywalker and Obi-Wan Kenobi to Docking Bay 94 for their rendezvous with Han Solo, then summoned Imperial troops to apprehend them.",
+		"fields": {
+			"name": "Garindan",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 224,
+		"schema": "people"
+	},
+	{
+		"description": "A native of the planet Virujansi, Garven “Dave” Dreis flew in the Battle of Yavin as Red Leader. After witnessing the death of his friend Pops Krail and the pilots of Gold Squadron at the hands of Darth Vader, Dreis began his own run at the Death Star’s thermal exhaust port, with Luke Skywalker keeping another group of Red Squadron pilots back in case the attempt failed. Dreis survived long enough to fire his proton torpedoes at the battle station’s exhaust port, but his shot impacted on the surface instead of entering the port. Vader then gunned Red Leader down.",
+		"fields": {
+			"name": "Garven Dreis",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 225,
+		"schema": "people"
+	},
+	{
+		"description": "Born into wealth and privilege on Tepasi, General Cassio Tagge served as chief of military operations aboard the first Death Star, though he disdained the battle station as “Tarkin’s Folly.” Unlike his rival Admiral Motti, Tagge took the threat posed by the Rebel Alliance seriously. Tagge was not aboard the Death Star when it exploded over Yavin; acknowledging that Tagge had been correct about the rebel threat, the Emperor promoted him to Grand General and placed him in charge of the Imperial military.",
+		"fields": {
+			"name": "General Tagge",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 226,
+		"schema": "people"
+	},
+	{
+		"description": "Jek Porkins was a pilot and trader who abandoned his homeworld when the Empire moved in and developed a new military base there. The burly rebel pilot flew an X-wing at the Battle of Yavin under the call sign Red 6. His X-wing developed a mechanical problem early in the battle, leaving him struggling to maneuver. Before Porkins or his astromech could fix the problem, one of the Death Star’s turbolasers zeroed in on the X-wing, incinerating it and killing Porkins instantly.",
+		"fields": {
+			"name": "Jek Porkins",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.8m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 230,
+		"schema": "people"
+	},
+	{
+		"description": "Jon Vander, nicknamed “Dutch,” is a former Imperial pilot who defected when he was ordered to bomb rebel-friendly areas of his home planet. As Gold Leader in the rebellion, Vander flies a Y-wing and commands a squadron of gifted pilots.",
+		"fields": {
+			"name": "Jon \"Dutch\" Vander",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 231,
+		"schema": "people"
+	},
+	{
+		"description": "An exile from Ithor, Momaw Nadon was a rebel sympathizer who cultivated a hidden garden in the mountains south of Mos Eisley. Nadon was in the Mos Eisley Cantina when Luke Skywalker and Obi-Wan Kenobi arrived in search of a pilot who could take them to Alderaan without attracting Imperial attention.",
+		"fields": {
+			"name": "Momaw Nadon",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.95m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 232,
+		"schema": "people"
+	},
+	{
+		"description": "You didn’t survive in the Mos Eisley Cantina by being nice, and Wuher was a survivor. The gruff bartender dispensed drinks to the spacers, moisture farmers and barflies escaping the Tatooine heat; did his best to enforce the seedy bar’s handful of rules (no droids and no settling fights with blasters); and avoided trouble, whether it began with trigger-happy patrons or stormtroopers investigating the latest incident.",
+		"fields": {
+			"name": "Wuher",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 234,
+		"schema": "people"
+	},
+	{
+		"description": "An admiral in the Republic's service, Yularen served gallantly in the Clone Wars, commanding a Jedi Cruiser in many campaigns against Separatist forces. Yularen was assigned to serve with the Jedi General Anakin Skywalker, and the rigid officer and the impulsive Jedi made for an odd combination. Yularen admired Anakin's bravery and instincts in battle while deploring his recklessness and willingness to interpret orders creatively -- or ignore them altogether.",
+		"fields": {
+			"name": "Wullf Yularen",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.81m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 235,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran First Order officer, Frantis Griss commands the Steadfast and its battlegroup and sits on the Supreme Council. He has an excellent relationship with Allegiant General Pryde, which proves useful when the First Order must coordinate its efforts with the Sith armada revealed at Exegol.",
+		"fields": {
+			"name": "Admiral Griss",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 236,
+		"schema": "people"
+	},
+	{
+		"description": "To uphold the legacy of his father, Admiral Gial Ackbar’s son, Aftab, now serves the Resistance as a Y-wing pilot. Beyond his family's close ties to rebel efforts, Aftab’s recruitment was part of a larger effort to bring more Mon Calamari aid to the cause.",
+		"fields": {
+			"name": "Aftab Ackbar",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 237,
+		"schema": "people"
+	},
+	{
+		"description": "An eccentric Sith alchemist and metalsmith known for a steady hand, Albrekh uses an ancient Sith forge to join the fragments of Kylo Ren’s shattered helmet with a glowing red lattice of Sarrassian iron.",
+		"fields": {
+			"name": "Albrekh",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 238,
+		"schema": "people"
+	},
+	{
+		"description": "A cunning strategist, Ap’lek enjoys using trickery and stealth to outmaneuver his foes, before cornering them and finishing them off with a blow from his massive vibro-ax, once the weapon of a Mandalorian executioner. ",
+		"fields": {
+			"name": "Ap’Lek",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 313,
+		"schema": "people"
+	},
+	{
+		"description": "A tiny droidsmith working among the Spice Runners of Kijimi, the well-regarded Babu Frik can reprogram or modify virtually any droid, regardless of the security measures protecting its systems.",
+		"fields": {
+			"name": "Babu Frik",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 240,
+		"schema": "people"
+	},
+	{
+		"description": "A skittish but loyal astromech, BB-8 accompanied Poe Dameron on many missions for the Resistance, helping to keep his X-wing in working order. When Poe’s mission to Jakku ended with his capture by the First Order, BB-8 fled into the desert with a vital clue to the location of Luke Skywalker. He rejoined Poe in time for the attack on Starkiller Base, then helped Rey locate Skywalker’s planet of exile. As the Resistance rebuilt its forces after the Battle of Crait, BB-8 helped both Poe and Rey.",
+		"fields": {
+			"name": "BB-8",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "0.67m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 355,
+		"schema": "people"
+	},
+	{
+		"description": "A historian who once aspired to become an educator, after the destruction of the Hosnian system Beaumont Kin abandoned his academic career to become a captain in the Resistance’s intelligence division. He offers the cause broad knowledge on a variety of topics.",
+		"fields": {
+			"name": "Beaumont Kin",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 242,
+		"schema": "people"
+	},
+	{
+		"description": "A mine overseer at the Sinta Glacier Colony, Boolio finds himself thrust into the galactic struggle after a mole within the First Order mysteriously supplies him with a file filled with critical intelligence. Acting swiftly, Boolio arranges to deliver this intel to the Resistance. His heroism soon leads to his arrest and execution.",
+		"fields": {
+			"name": "Boolio",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.78m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 243,
+		"schema": "people"
+	},
+	{
+		"description": "Cardo is a walking arsenal, using a powerful customized arm cannon to spray death and destruction at the Knights of Ren’s targets. His years of tinkering with weapons have made him a skilled armorer, and he repairs his fellow Knights’ gear after their missions.",
+		"fields": {
+			"name": "Cardo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 324,
+		"schema": "people"
+	},
+	{
+		"description": "Leia Organa personally recruited Larma D’Acy to join the Resistance after years of service defending the Warlentta system. With the support of her wife, Wrobie Tyce, who adapted her acumen as a courier ship pilot to fight the First Order by Larma’s side, D'Acy has stepped into a broader strategic command position, personally advising General Organa and rolling up her sleeves for the hands-on work of getting the Ajan Kloss outpost fully operational.",
+		"fields": {
+			"name": "Commander D'Acy",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 365,
+		"schema": "people"
+	},
+	{
+		"description": "Cobbled from odds and ends in the workshop of a droidsmith, little D-O is an impressionable little roller that becomes fixated upon BB-8. ",
+		"fields": {
+			"name": "D-O",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 247,
+		"schema": "people"
+	},
+	{
+		"description": "Committed to the cause of the Resistance, Finn fights alongside his closest friends in the struggle to defeat the First Order, the evil regime he once served as a stormtrooper. As FN-2187, he was trained from birth to serve the First Order, but a skirmish on Jakku awakened his conscience and drove him down a different path, one that proved both heroic and dangerous. ",
+		"fields": {
+			"name": "Finn",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.78m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 368,
+		"schema": "people"
+	},
+	{
+		"description": "An admirer of Kylo Ren’s, Amret Engell has assumed responsibility for stormtrooper training after the death of Captain Phasma. She sees each new world liberated by the First Order as a source of valuable children to be trained as soldiers for Ren’s regime.",
+		"fields": {
+			"name": "General Engell",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 250,
+		"schema": "people"
+	},
+	{
+		"description": "Young and ruthless, General Hux is a believer in technology, and eagerly awaits the day when the First Order’s innovations will help bring down the remnants of the New Republic and the Resistance – a victory he believes will also lead to his ruling the galaxy. His increasingly poisonous rivalry with Kylo Ren causes him to take a desperate gamble.",
+		"fields": {
+			"name": "General Hux",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.85m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 369,
+		"schema": "people"
+	},
+	{
+		"description": "The First Order’s senior ground commander, Bellava Parnadee is focused on worlds resisting occupation by the regime, a duty that often takes her far from her regular post aboard the Steadfast. A member of the Supreme Council, she is careful to stay on the right side of mercurial Supreme Leader Kylo Ren.",
+		"fields": {
+			"name": "General Parnadee",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 252,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran of the Imperial military, Allegiant General Pryde serves the First Order as part of a second wave of leadership kept in reserve by Supreme Leader Snoke during the unveiling of Starkiller Base. After Snoke’s death, Pryde serves the new Supreme Leader Kylo Ren in a position of privilege and power.",
+		"fields": {
+			"name": "General Pryde",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 253,
+		"schema": "people"
+	},
+	{
+		"description": "Domaric Quinn has ascended the First Order ranks to become an important commander and earn a seat on Kylo Ren’s Supreme Council. A former Imperial officer, he loathes the mysticism of the Force and is suspicious of the First Order’s new Sith allies on Exegol. When Ren tires of Quinn’s caustic questions, Quinn learns the perils of crossing the Supreme Leader. ",
+		"fields": {
+			"name": "General Quinn",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 254,
+		"schema": "people"
+	},
+	{
+		"description": "From an oceanic moon, Jannah leads a band of warriors, ready to charge against the forces of the First Order.",
+		"fields": {
+			"name": "Jannah",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 255,
+		"schema": "people"
+	},
+	{
+		"description": "A long-lived merchant and treadable driver, Kalo’ne has seen many a Festival of the Ancestors come and go on Pasaana. She makes a living ferrying visitors and locals across Pasaana in her sturdy treadable, which is filled with wares collected during her travels.",
+		"fields": {
+			"name": "Kalo’ne",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 256,
+		"schema": "people"
+	},
+	{
+		"description": "Klaud might have joined the Resistance as a result of mistaken identity, but he is welcomed as an ally by the freedom fighters. ",
+		"fields": {
+			"name": "Klaud",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 257,
+		"schema": "people"
+	},
+	{
+		"description": "A gifted sniper, Kuruk is the most solitary of the Knights of Ren, preferring to cover the group’s assaults from a carefully chosen vantage point above the battlefield. He also serves as pilot of the Night Buzzard.",
+		"fields": {
+			"name": "Kuruk",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 348,
+		"schema": "people"
+	},
+	{
+		"description": "Maz Kanata is more than a thousand years old, a diminutive being with vast experience at surviving in the underworld. From her castle on Takodana, Maz has seen galactic powers rise and fall and felt the Force ebb and flow, seeking an elusive balance between darkness and light. She has given many a young smuggler a start by offering credits, equipment or connections, and helped many an old friend rediscover a lost path.",
+		"fields": {
+			"name": "Maz Kanata",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.24m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 375,
+		"schema": "people"
+	},
+	{
+		"description": "A young Aki-Aki girl, Nambi Ghima greets Rey at the Festival of Ancestors on Pasaana, offering a husk necklace as a gesture of welcome and inviting Rey to share her family history. Such hospitality is a trademark of even the youngest Aki-Aki.",
+		"fields": {
+			"name": "Nambi Ghima",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 260,
+		"schema": "people"
+	},
+	{
+		"description": "During his infamous career, Ochi of Bestoon was a hunter of Sith relics, a ruthless assassin, and a devotee of the dark side of the Force. After the fall of the Empire, Luke Skywalker sought Ochi with the help of Lando Calrissian, only to have the trail go cold on Pasaana. Years later, Rey would find Ochi’s remains – and discover the relic hunter’s story was the key to unlocking the mystery of her own origins.",
+		"fields": {
+			"name": "Ochi of Bestoon",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 261,
+		"schema": "people"
+	},
+	{
+		"description": "As a bartender in Kijimi City’s infamous Spice Runners’ Den, Oma Tres has heard his share of discord – and on occupied Kijimi, the drums of war are part of the soundtrack of life. Tres can only hope the present strife will reach its crescendo and be followed by an era of harmony.",
+		"fields": {
+			"name": "Oma Tres",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 262,
+		"schema": "people"
+	},
+	{
+		"description": "A Resistance starfighter ace, Poe Dameron is one of Leia Organa’s most-trusted operatives. He can fly anything – which is fortunate given how often his headstrong nature leads him into trouble. Poe leads the attack that destroys Starkiller Base, but soon finds himself on the run from the First Order. Sidelined without his beloved X-wing, he learns tough lessons about leadership, heroism and sacrifice. Those lessons will prove essential in rebuilding the Resistance before a showdown with the forces of evil at Exegol.",
+		"fields": {
+			"name": "Poe Dameron",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 382,
+		"schema": "people"
+	},
+	{
+		"description": "Seemingly abandoned by her parents on Jakku, Rey grew up a scavenger amid the wreckage of war. Her life changed when she agreed to help a droid on an urgent mission for the Resistance. Rey discovered she was powerful in the Force, and sought out the vanished Jedi Master Luke Skywalker to train her. That ended in disappointment, as did her attempt to bring Kylo Ren back to the light. But the resilient Rey continued her training and learned the truth about her parentage and her mysterious connection with Kylo. She then faced her greatest test: a confrontation with fear and evil that would determine the galaxy’s fate.",
+		"fields": {
+			"name": "Rey",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 264,
+		"schema": "people"
+	},
+	{
+		"description": "A maintenance tech with a talent for tinkering, Rose Tico joined the Resistance with her sister Paige after the First Order devastated her home system. A chance encounter with Finn pushed her onto the front lines of the new galactic civil war – and her sister’s death caused her to redouble her efforts for the Resistance cause.",
+		"fields": {
+			"name": "Rose Tico",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 265,
+		"schema": "people"
+	},
+	{
+		"description": "The son of Han Solo and Leia Organa, Ben Solo was seduced by the dark side of the Force and renamed himself Kylo Ren: leader of the Knights of Ren, champion of the First Order, and apprentice to Supreme Leader Snoke. Driven to destroy the past, Kylo killed his father and his master, supplanting Snoke as Supreme Leader. But he remained haunted by his father’s death, his connection with the mysterious Rey, and the pull of the good in himself. In time, all three would help Ben Solo return to the light.",
+		"fields": {
+			"name": "Supreme Leader Kylo Ren",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 266,
+		"schema": "people"
+	},
+	{
+		"description": "A collector of grim trophies, Trudgen fights with a massive vibrocleaver made even more deadly by embedded ultrasonic conductors. His hodgepodge armor and helmet are a personalized record of enemies he has defeated.",
+		"fields": {
+			"name": "Trudgen",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 267,
+		"schema": "people"
+	},
+	{
+		"description": "Ushar enjoys testing opponents’ mettle, giving those he deems worthy the honor of a quick death. His weapon of choice is a brutal war club enhanced with a concussion-field generator. While Ushar’s origins remain mysterious, his helmet’s breathing tubes suggest he comes from some species other than humanity.",
+		"fields": {
+			"name": "Ushar",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 268,
+		"schema": "people"
+	},
+	{
+		"description": "A powerful but untrained user of the dark side of the Force, Vicrul sees himself as a harvester, using his vicious ultrasonic scythe to cut down enemies and take their souls to augment his own power. ",
+		"fields": {
+			"name": "Vicrul",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 269,
+		"schema": "people"
+	},
+	{
+		"description": "A rusty droid with insectile features, 4-LOM was originally a protocol droid, but logic glitches allowed him to escape his programming and become a bounty hunter. That proved a perfect occupation for the cold, calculating mechanical.",
+		"fields": {
+			"name": "4-LOM",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.6m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 270,
+		"schema": "people"
+	},
+	{
+		"description": "Admiral Ozzel commanded the Super Star Destroyer Executor, Darth Vader's mighty flagship and the linchpin of the squadron searching the galaxy for the Alliance's secret base. Ozzel led the initial attack on Hoth, but his choice of tactics infuriated Vader, leading to a sudden and permanent demotion.",
+		"fields": {
+			"name": "Admiral Ozzel",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 271,
+		"schema": "people"
+	},
+	{
+		"description": "An ambitious Imperial officer, Piett rose through the ranks to captain and was assigned to the Super Star Destroyer Executor, Darth Vader's flagship. There, he chafed at having to serve under the foolish, vainglorious Admiral Ozzel. When Vader strangled Ozzel, Piett was granted a battlefield promotion to admiral -- and given a grisly warning of the penalty for failure. Miraculously, he survived his time as Vader's underling, but died when a Rebel starfighter destroyed the Executor's command bridge.",
+		"fields": {
+			"name": "Admiral Piett",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.65m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 287,
+		"schema": "people"
+	},
+	{
+		"description": "Captain Needa commanded the Avenger, one of the Imperial Star Destroyers that fought for the Empire at the Battle of Hoth. His ship pursued the fleeing Millennium Falcon, but the freighter escaped under mysterious circumstances. Baffled but contrite, Needa decided it was his duty to apologize to Darth Vader for losing the ship.",
+		"fields": {
+			"name": "Captain Needa",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 274,
+		"schema": "people"
+	},
+	{
+		"description": "An eager young rebel pilot assigned to Hoth’s Echo Base, Dak dreamed of winning glorious victories in the struggle against the Empire. He served as Luke Skywalker’s tailgunner during the Battle of Hoth, but things didn’t go the way Dak had imagined them: He struggled with a malfunction in fire control, and then was killed by Imperial fire that struck the back of the snowspeeder.",
+		"fields": {
+			"name": "Dak Ralter",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.62m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 275,
+		"schema": "people"
+	},
+	{
+		"description": "Crude and slovenly, Dengar was nonetheless an effective bounty hunter. While some hunters prided themselves on finesse and style, Dengar preferred firepower and destruction. Despite his scruffy-looking and battered exterior, Dengar thought highly of himself, enough to make blunt passes at shapely females that caught his eye. Despite these obnoxious qualities, Boba Fett enjoyed working with Dengar and held him in high regard due to his proven track record in hunting down prey.",
+		"fields": {
+			"name": "Dengar",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.87m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 291,
+		"schema": "people"
+	},
+	{
+		"description": "Born on Ralltiir, Derek “Hobbie” Klivian defected to the Rebel Alliance with Biggs Darklighter and flew with Rogue Squadron during the Battle of Hoth. He served as Luke Skywalker’s wingman during the defense of Echo Base, ejecting from his snowspeeder just before the craft rammed an AT-AT.",
+		"fields": {
+			"name": "Derek \"Hobbie\" Klivian",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 277,
+		"schema": "people"
+	},
+	{
+		"description": "A battle-weary veteran of the Clone Wars, Carlist Rieekan served the Alliance in its struggle against the Empire, commanding rebel forces on Hoth. Rieekan was a native of Alderaan, and the destruction of his homeworld haunted him. After Han Solo and Chewbacca discovered an Imperial probe droid on Hoth, Rieekan ordered an immediate evacuation of Echo Base. The decision wasn’t popular – rebel personnel had barely completed the grueling work of establishing the base -- but Rieekan’s caution prevented the Battle of Hoth from being a total rout, and so helped save the Alliance.",
+		"fields": {
+			"name": "General Rieekan",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.8m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 279,
+		"schema": "people"
+	},
+	{
+		"description": "A cool and efficient officer, General Veers led the Imperial assault on Hoth, marching his AT-AT walkers across the planet's frozen plains and destroying the massive generators powering the Rebel base's protective energy shield.",
+		"fields": {
+			"name": "General Veers",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.93m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 280,
+		"schema": "people"
+	},
+	{
+		"description": "A mustachioed rebel officer, Bren Derlin hailed from Tiisheraan. He served with Alliance Intelligence and was named security chief at Hoth’s Echo Base. Derlin reluctantly gave the order to close the base’s shield doors while Han Solo was out searching for Luke Skywalker. He survived the Battle of Hoth and led a rebel ground unit during the Battle of Endor.",
+		"fields": {
+			"name": "Major Bren Derlin",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 281,
+		"schema": "people"
+	},
+	{
+		"description": "A native of Taanab, Wes Janson joined the Alliance and was assigned to Hoth’s Echo Base. During the Battle of Hoth, Lieutenant Janson served as tail gunner for Wedge Antilles under the call sign Rogue Three. After the AT-AT walkers’ armor proved too strong for blasters, Janson and Antilles were the first pilots to try Luke Skywalker’s risky strategy of using harpoons and tow cables to trip up the Imperial war machines.",
+		"fields": {
+			"name": "Wes Janson",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 282,
+		"schema": "people"
+	},
+	{
+		"description": "Zev was a rebel pilot assigned to Echo Base on the frozen planet Hoth. Flying a snowspeeder as Rogue Two, he located Han Solo and Luke Skywalker after the two went missing during a perilous blizzard. Zev then flew with Rogue Squadron in the Battle of Hoth, but blasts from an AT-AT walker ripped through his snowspeeder, killing him.",
+		"fields": {
+			"name": "Zev Senesca",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.6m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 283,
+		"schema": "people"
+	},
+	{
+		"description": "A Gand bounty hunter, Zuckuss heeded the Empire's call for mercenaries to locate the Millennium Falcon and bring her fugitive crew to justice, receiving his orders on the bridge of Darth Vader's Super Star Destroyer.",
+		"fields": {
+			"name": "Zuckuss",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.5m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 284,
+		"schema": "people"
+	},
+	{
+		"description": "A lanky smelter droid, during the time of the Empire 8D8 assisted EV-9D9 in terrorizing Jabba the Hutt's droid operatives. But after the fall of the Empire, under Boba Fett's employ 8D8 was reassigned to assist with strategy and diplomacy.",
+		"fields": {
+			"name": "8D8",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.83m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 285,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran commander, Ackbar led the defense of his homeworld, Mon Cala, during the Clone Wars and then masterminded the rebel attack on the second Death Star at the Battle of Endor. Ackbar realized the rebels had been drawn into a trap at Endor, but adjusted, with his fleet buying valuable time for the attack to succeed. After the Battle of Endor, Ackbar became a Grand Admiral in the New Republic, winning many victories including the pivotal Battle of Jakku. He retired to Mon Cala, but was coaxed back into service with the Resistance by Leia Organa.",
+		"fields": {
+			"name": "Admiral Ackbar",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.8m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 349,
+		"schema": "people"
+	},
+	{
+		"description": "Barada was a Klatoonian slave who served as muscle and a mechanic for Jabba the Hutt on Tatooine. As the man in charge of maintenance for all of Jabba’s repulsor-operated vehicles, he was sent to the Great Pit of Carkoon when Jabba tried executing Luke Skywalker and the rest of the Rebels working to free Han Solo from his debt. He was present on one of the skiffs escorting Jabba and his retinue to watch the execution, but when Skywalker set his plan into motion, Barada was cut down by the Jedi’s green-bladed lightsaber.",
+		"fields": {
+			"name": "Barada",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 288,
+		"schema": "people"
+	},
+	{
+		"description": "The chief of the Ewoks dwelling in Endor's Ewok village, Chief Chirpa agreed to join the struggle against the Empire, organizing war bands to fight the stormtroopers. As a sign of this commitment, he ordered that Luke Skywalker and his friends be adopted into his tribe.",
+		"fields": {
+			"name": "Chief Chirpa",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.0m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 290,
+		"schema": "people"
+	},
+	{
+		"description": "Droopy McCool played the chindinkalu flute in the Max Rebo Band, an ensemble that performed as Jabba's palace band on Tatooine. A veteran musician, Droopy was used to seedy dives and gigs for unsavory clients. But the depravity he saw in Jabba's court shocked even him.",
+		"fields": {
+			"name": "Droopy McCool",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.58m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 292,
+		"schema": "people"
+	},
+	{
+		"description": "The supervisor of Jabba the Hutt's droid pool, EV-9D9 was a gangly mechanical with a quirk in her programming that made her enjoy tormenting and dismembering other droids. She turned a dank work area in the depths of Jabba's palace into a grim torture chamber.",
+		"fields": {
+			"name": "EV-9D9",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.9m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 294,
+		"schema": "people"
+	},
+	{
+		"description": "General Madine specialized in covert actions for the Rebel Alliance, waging war in secret against Imperial troops and the Emperor's own shadowy agents. His plans culminated with the operation to destroy the shield generator on the Forest Moon of Endor.",
+		"fields": {
+			"name": "General Madine",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 295,
+		"schema": "people"
+	},
+	{
+		"description": "A burly thug with a shady past, Hermi Odle was one of Jabba the Hutt's resident gangsters on Tatooine. Wise members of the Hutt's court knew Odle was far more dangerous than his stooped posture, shuffling gait and drooping lip suggested.",
+		"fields": {
+			"name": "Hermi Odle",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.1m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 297,
+		"schema": "people"
+	},
+	{
+		"description": "Greejatus was a gaunt human in flowing robes and garish hat who served as one of Emperor Palpatine’s closest advisors. He served in Imperial Ruling Council and accompanied the Emperor to the second Death Star as it hovered over the forest moon of Endor. With the destruction of the Death Star, one might assume Greejatus was killed, but his ultimate fate was unknown.",
+		"fields": {
+			"name": "Janus Greejatus",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 299,
+		"schema": "people"
+	},
+	{
+		"description": "A shaggy Yuzzum with a big stage presence and an even bigger voice, Joh Yowza sometimes sang with the Max Rebo Band. Even the most jaded music fans found it hard to ignore the vocal fireworks of his duets with Sy Snootles.",
+		"fields": {
+			"name": "Joh Yowza",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.4m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 300,
+		"schema": "people"
+	},
+	{
+		"description": "A Kadas’sa’Nikto from Kintan, Klaatu was a henchman of Jabba the Hutt, and spent his time at the Hutt’s palace repairing skiffs, eagerly awaiting executions and amassing ever-larger gambling debts. Klaatu confronted Luke Skywalker during the battle at the Great Pit of Carkoon, but fled after Luke disarmed him with a stroke of his lightsaber. He died when Jabba’s sail barge exploded.",
+		"fields": {
+			"name": "Klaatu",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 301,
+		"schema": "people"
+	},
+	{
+		"description": "The shaman of the Ewok village, Logray's rituals ensured his tribe remained in harmony with Endor's forest spirits. When a golden god visited his planet, Logray ordered the sacrifice of offworlders in this deity's honor -- only to somehow incur the god's wrath. No one ever said faith was easy.",
+		"fields": {
+			"name": "Logray",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.0m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 302,
+		"schema": "people"
+	},
+	{
+		"description": "A lithe Twi'lek dancer and singer, Lyn Me performed with the Max Rebo Band during the group's residence as Jabba the Hutt's house band. From the stage, Lyn Me got an up-close look at the depraved galactic underworld.",
+		"fields": {
+			"name": "Lyn Me",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.6m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 303,
+		"schema": "people"
+	},
+	{
+		"description": "A burly human, Malakili tended to Jabba the Hutt’s menagerie, including the galactic gangster’s prized pet rancor. Despite the rancor’s vicious nature, Malakili cared about the beast. He was shocked when Luke Skywalker killed his monstrous charge, and wept at its demise.",
+		"fields": {
+			"name": "Malakili",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.72m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 304,
+		"schema": "people"
+	},
+	{
+		"description": "Max Rebo was the heart (or at least the fluid sac) of the band that bore his name, and could be found onstage behind the pedals of his red ball jett organ. From there he kept an ear on his bandmates' playing and an eye on the sleazy clients who hired his ensemble for their entertainment. After playing a gig for Jabba the Hutt just before the gangster was killed, Rebo survived and now entertains the patrons of Garsa’s Sanctuary in Mos Espa.",
+		"fields": {
+			"name": "Max Rebo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.5m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 305,
+		"schema": "people"
+	},
+	{
+		"description": "A chilly technocrat, Tiaan Jerjerrod was responsible for overseeing construction of the second Death Star above the forest moon of Endor. The task was difficult, to say the least -- Jerjerrod desperately needed more time and more resources. What he got instead was a visit from Darth Vader.",
+		"fields": {
+			"name": "Moff Jerjerrod",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 306,
+		"schema": "people"
+	},
+	{
+		"description": "A green-skinned Twi'lek, Oola was one of Jabba's slaves, forced to dance for the Hutt's pleasure. When Oola resisted Jabba's orders one time too many, the cruel Hutt dropped her into the rancor's cave beneath his throne room -- a one-way trip taken by many who no longer pleased the crimelord.",
+		"fields": {
+			"name": "Oola",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.6m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 307,
+		"schema": "people"
+	},
+	{
+		"description": "A skilled Ewok scout, Paploo joined his friends Wicket and Teebo to lead Han Solo’s team of rebel commandos to the site of the shield generator protecting the Death Star in orbit. As a diversion, Paploo stole an Imperial speeder bike, racing off into the forest with most of the bunker’s guards in frantic pursuit. That allowed Han’s team to attack the facility.",
+		"fields": {
+			"name": "Paploo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "0.96m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 308,
+		"schema": "people"
+	},
+	{
+		"description": "Rancors are towering hulks of muscle and reptilian flesh that walk on two stubby legs and use their disproportionately long arms to capture prey. A salivating, tooth-filled maw dominates their flat faces, and their armored skin is so tough that they can shrug off blaster bolts as little more than annoyances. While not inherently vicious -- Felucia’s farmers co-existed relatively peaceably with spined, brightly colored jungle rancors -- these creatures were prized as trophies by crimelords and other wealthy, amoral individuals. Jabba the Hutt kept a rancor in a shadowy chamber beneath his Tatooine throne room. After Luke Skywalker killed the beast, an outraged Jabba ordered the public execution of the Jedi and his friends.",
+		"fields": {
+			"name": "Rancor",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "5.0m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 309,
+		"schema": "people"
+	},
+	{
+		"description": "A green-skinned Shawda Ubb, Rappertunie played a peculiar instrument known as a Growdi Harmonique. He used his fingers, toes and mouth to supplement the wall of sound that was the Max Rebo Band at full strength.",
+		"fields": {
+			"name": "Rappertunie",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "0.3m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 310,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran Resistance officer, Statura fought to liberate his homeworld of Garel from the Empire while he was just a teenager. Later, Leia Organa recruited him to handle ship procurement and logistics for the Resistance. The technically savvy Statura helped identify the thermal oscillator as the key target in the Resistance’s attack on Starkiller Base.",
+		"fields": {
+			"name": "Admiral Statura",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.72m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 312,
+		"schema": "people"
+	},
+	{
+		"description": "A Dybrinthe bounty hunter, Athgar Heece was one of many beings seeking to make a living in and around Jakku’s bleak Niima Outpost. Dybrinthe are accustomed to higher atmospheric temperatures and pressures, meaning Heece was one of the few on Jakku to find its conditions pleasant.",
+		"fields": {
+			"name": "Athgar Heece",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 314,
+		"schema": "people"
+	},
+	{
+		"description": "A burly loading droid clad in yellow ceramic armor plate, B-U4D serves on D’Qar as part of the ground crew that keeps the Resistance’s starfighters ready to fly. Tough and hard-working, “Buford” is one of many Resistance droids granted independence and seen as partners in the cause rather than mere machines.",
+		"fields": {
+			"name": "B-U4D (Buford)",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.75m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 315,
+		"schema": "people"
+	},
+	{
+		"description": "An agent of the feared Guavian Death Gang, Bala-Tik’s black leather coat and percussive cannon indicate his status within the galactic underworld. Bala-Tik negotiates business for the Guavians, backed by faceless, voiceless cybernetic soldiers awaiting the signal to take action. Bala-Tik considers Han Solo a capable smuggler and a valuable source of information, but his patience with the slippery Corellian and his endless excuses has all but run out.",
+		"fields": {
+			"name": "Bala-Tik",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.8m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 316,
+		"schema": "people"
+	},
+	{
+		"description": "A feared bounty hunter, Bazine Netal grew up on Chaaktil, where she learned a range of deadly martial arts at Delphi Kloda’s combat school. Netal’s baffleweave dress jams sensors, while her black cowl hides burn damage inflicted by a flamethrower in her youth. Netal is a deadly opponent whose typical arsenal includes a snub-nosed blaster, poisoned dagger, throwing knives and concealed thermal detonators. She was at Maz’s castle in the company of Grummgar when Han Solo, Finn and Rey arrived, and slipped away to report their location to the First Order.",
+		"fields": {
+			"name": "Bazine Netal",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 317,
+		"schema": "people"
+	},
+	{
+		"description": "Known as the Crittermonger, the Nu-Cosian Bobbajo was a common sight in Niima Outpost, bent beneath the caged animals he carried on his back. Bobbajo sold some of his animals as food to spacers, while considering others pets. He was a noted storyteller, regaling audiences with adventures he and his menagerie had pursued in long-gone days.",
+		"fields": {
+			"name": "Bobbajo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 319,
+		"schema": "people"
+	},
+	{
+		"description": "A member of the ground crew assigned to the Resistance base on D’Qar, Bollie Prindel is one of many crewers keeping the Resistance’s starfighter squadrons ready for action on short notice.",
+		"fields": {
+			"name": "Bollie Prindel",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 357,
+		"schema": "people"
+	},
+	{
+		"description": "Like many Resistance officers, Caluan Ematt is a veteran of the Rebel Alliance. During the Galactic Civil War, he was a member of the Shrikes recon unit – and the sole survivor after an ambush on Tanaab. Promoted from major to general after the Battle of Starkiller Base, Ematt fled D’Qar with Leia Organa ahead of the First Order’s hunters.",
+		"fields": {
+			"name": "Caluan Ematt",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 360,
+		"schema": "people"
+	},
+	{
+		"description": "Clad in distinctive armor of salvaged chromium, Captain Phasma commands the First Order’s legions of stormtroopers. A tough veteran commander, she has no use for fancy titles or complex war rooms, preferring to lead her troops in battle against the First Order’s enemies. A determined survivor, Phasma betrayed the First Order on Starkiller Base. She managed to conceal her treachery, but fell in battle against Finn, one of her former soldiers.",
+		"fields": {
+			"name": "Captain Phasma",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.0m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 364,
+		"schema": "people"
+	},
+	{
+		"description": "A Tarsunt from the system of the same name, Lanever Villecham was elected chancellor of the New Republic two years before the First Order’s raid on Jakku. He focused his political efforts on such matters as improving trade relations with neutral systems. Despite Leia Organa’s warnings, Villecham didn’t consider the First Order to be a threat to galactic peace.",
+		"fields": {
+			"name": "Chancellor Villecham",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 325,
+		"schema": "people"
+	},
+	{
+		"description": "Chief Petty Officer Unamo served the First Order aboard the flagship Finalizer, supervising the massive Star Destroyer’s crew and reporting to higher-ranking members of the command crew such as Lieutenant Mitaka.",
+		"fields": {
+			"name": "Chief Petty Officer Unamo",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 326,
+		"schema": "people"
+	},
+	{
+		"description": "Colonel Datoo supervised the primary fire control room of Starkiller Base. A methodical man and First Order true believer, Datoo was aghast when his fellow officers tried to flee the doomed base.",
+		"fields": {
+			"name": "Colonel Datoo",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 327,
+		"schema": "people"
+	},
+	{
+		"description": "What’s an honorable Kyuzo like Constable Zuvio doing on a lawless planet like Jakku? The tough, taciturn Zuvio is the leader of Niima Outpost’s small militia, and keeps a wary yellow eye out for cheats, thieves and others bent on trouble. He is often found guarding Niima’s landing field, glowering at any local who strays too close to a visitor’s starship.",
+		"fields": {
+			"name": "Constable Zuvio",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.6m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 328,
+		"schema": "people"
+	},
+	{
+		"description": "A hard-bitten member of Kanjiklub, Crokind Shand was missing an eye and his right leg, injuries suffered during his career as a pit-fighter. His eyepatch and cybernetic leg – rigged to deliver fierce kicks – offered ample evidence that messing with him would be a potentially fatal mistake.",
+		"fields": {
+			"name": "Crokind Shand",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 329,
+		"schema": "people"
+	},
+	{
+		"description": "A burly Abednedo, Crusher Roodown was once one of the best scavengers on Jakku, but ran afoul of Unkar Plutt, who sent his thugs to cut off Crusher’s arms. Roodown then obtained a pair of replacement limbs repurposed from a load-lifter, eking out a living in Niima Outpost by hauling scrap and doing odd jobs.",
+		"fields": {
+			"name": "Crusher Roodown",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 330,
+		"schema": "people"
+	},
+	{
+		"description": "A good-humored, sympathetic physician with the rank of major in the Resistance army, Doctor Kalonia is assigned to the Resistance base on D’Qar. She attended both Chewbacca and Finn after they were wounded. Her calm bedside manner and knowledge of Shyriiwook soothed Chewie, who allowed Kalonia to tend to his blaster burn.",
+		"fields": {
+			"name": "Doctor Kalonia",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 331,
+		"schema": "people"
+	},
+	{
+		"description": "Like his mechanical colleague Geetaw, Amps was an autonomous droid who traded his services to scavengers at Niima Outpost. The two droids could sometimes be spotted in the shade trading jokes that their customers had brought them.",
+		"fields": {
+			"name": "EGL-21 \"Amps\" Power Droid",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 332,
+		"schema": "people"
+	},
+	{
+		"description": "The Abednedo pilot Ello Asty was known among his fellow Resistance pilots for his superb abilities behind the stick and occasional trouble remembering that a squadron must act as a team, not a loose collection of individuals. Ello flew with Cobalt Squadron in the early days of the Resistance and was a member of Blue Squadron during the attack on Starkiller Base. Ground fire ripped through his X-wing, ending his life.",
+		"fields": {
+			"name": "Ello Asty",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.88m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 333,
+		"schema": "people"
+	},
+	{
+		"description": "A stormtrooper raised from birth to serve the First Order, FN-2199 fought alongside his comrades FN-2000, FN-2003 and FN-2187. During combat training he took the nickname Nines. After FN-2187 defected from the First Order, Nines encountered his old squadmate again during the raid on Takodana. Angrily denouncing FN-2187 as a traitor, he tried to subdue his former friend with a Z6 riot baton, but was gunned down by Han Solo.",
+		"fields": {
+			"name": "FN-2199",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 335,
+		"schema": "people"
+	},
+	{
+		"description": "GA-97 looks much the same as every other servant droid found at Maz’s castle on Takodana, but the battered automaton is actually part of the galaxy-wide network of droids secretly serving the Resistance. After spotting BB-8, GA-7 swiftly reported this discovery to C-3PO on D’Qar. Resistance starfighters and troops then raced to Takodana, desperate to beat the First Order to the site of the signal.",
+		"fields": {
+			"name": "GA-97",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 336,
+		"schema": "people"
+	},
+	{
+		"description": "Goss Toowers, a member of the Shozer species, is one of the hard-working technicians who keep the Resistance base on D’Qar running. Toowers and his fellow ground crew members handle everything from monitoring the arrival and departure of ships to maintaining the Resistance’s X-wing squadrons – often the only line of defense for worlds targeted by the First Order.",
+		"fields": {
+			"name": "Goss Toowers",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 338,
+		"schema": "people"
+	},
+	{
+		"description": "A hulking Dowutin, Grummgar was at Maz Kanata’s castle when Han Solo, Finn and Rey visited. Sitting beside the bounty hunter and First Order spy Bazine Netal, Grummgar was given a wide berth by the castle’s other guests. He makes his credits as a mercenary and big-game hunter, with his kills including the molsume, a predator native to Ithor.",
+		"fields": {
+			"name": "Grummgar",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.7m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 339,
+		"schema": "people"
+	},
+	{
+		"description": "An Onodone with a mysterious past, Gwellis Bagnoro was an expert forger with a specialty in travel documents – which made him much in demand at Maz’s castle. He was rarely spotted without Izby, a pet barghest that defended him from harm.",
+		"fields": {
+			"name": "Gwellis Bagnoro",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 340,
+		"schema": "people"
+	},
+	{
+		"description": "A red-plated load-lifter droid with oddly jovial programming, HURID-327 spent time at Maz’s castle on Takodana, crossing paths with Han Solo, Rey and Finn on their way into the ancient edifice. The towering droid communicates via a binary acoustic signaler.",
+		"fields": {
+			"name": "Hurid-327",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 341,
+		"schema": "people"
+	},
+	{
+		"description": "An Abednedo adherent of the once-banned Church of the Force, Ilco Munica dwelled in Tuanul on Jakku alongside fellow members of his faith. When the First Order attacked the village, Ilco fought back with his blaster rifle, but could offer little resistance to professional soldiers.",
+		"fields": {
+			"name": "Ilco Munica",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 342,
+		"schema": "people"
+	},
+	{
+		"description": "Infrablue Zedbeddy Coggins took his talents to Maz’s castle on Takodana, playing his hypolliope horn cluster as part of a quartet. A poet and painter herself, Maz offered board to traveling musicians in return for entertaining her guests.",
+		"fields": {
+			"name": "Infrablue Zedbeddy Coggins",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 343,
+		"schema": "people"
+	},
+	{
+		"description": "Notable for wearing the red robes of a Tricorraan raider, Jashco Phurus was a notorious pirate who prowled the Arrowhead region near Coruscant. Like many a spacefaring buccaneer, he regarded Maz’s castle as a safe haven and source of valuable intelligence.",
+		"fields": {
+			"name": "Jashco Phurus",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 344,
+		"schema": "people"
+	},
+	{
+		"description": "A brave young Resistance pilot, Jess, or \"Testor\" as she is also called, grew up idolizing the legendary pilots of previous generations, such as Luke Skywalker and Wedge Antilles. Jess gets her own chance at glory when the Resistance attacks Starkiller Base, flying alongside Poe Dameron and Snap Wexley under the call sign Blue Three.",
+		"fields": {
+			"name": "Jess Pava",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.69m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 345,
+		"schema": "people"
+	},
+	{
+		"description": "A lieutenant at the D’Qar Resistance base, Kaydel Connix coordinated communications during the Starkiller Base raid. She then helped organize the evacuation of D’Qar and served aboard the Raddus. Connix shared Poe Dameron’s misgivings about Vice Admiral Holdo, conspiring with the starfighter ace against their new commander and joining his brief-lived mutiny. She survived the Battle of Crait, escaping with the remnants of the Resistance.",
+		"fields": {
+			"name": "Kaydel Connix",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 371,
+		"schema": "people"
+	},
+	{
+		"description": "The capable, no-nonsense Korr Sella assisted Leia Organa during her career in the New Republic’s Galactic Senate and remained in her service when Leia left politics to establish the Resistance. Sella served as Leia’s link to the Senate, bringing intelligence to allies and supporters who agreed with her warnings about the First Order. Sella was on Hosnian Prime as Leia’s envoy when the Starkiller superweapon destroyed the system, ending her life.",
+		"fields": {
+			"name": "Korr Sella",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "1.65m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 347,
+		"schema": "people"
+	},
+	{
+		"description": "Alcida-Auka is the matron of the Caretakers on Ahch-To’s sacred island, and oversees their maintenance of the island’s structures, a religious duty that has fallen to them for eons. Alcida-Auka refers to the other Caretakers as her “daughters” and instructs them in their proper duties. While she has accepted Luke Skywalker as a seeker of truth, she has doubts about his reckless new apprentice.",
+		"fields": {
+			"name": "Alcida-Auka",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 350,
+		"schema": "people"
+	},
+	{
+		"description": "An unconventional Resistance officer, Amilyn Holdo was one of Leia Organa’s oldest friends. She assumed command of the Resistance fleet after Leia was injured. As the peril to the Resistance grew, Holdo’s insistence on secrecy and her brusque manner led her into conflict with Poe Dameron. She sacrificed her life to save the Resistance transports during the desperate flight to Crait.    ",
+		"fields": {
+			"name": "Amilyn Holdo",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 351,
+		"schema": "people"
+	},
+	{
+		"description": "Arashell Sar is one of several abandoned children working in the Canto Casino’s fathier stables. She spends her days mucking stalls, feeding fathiers, cleaning saddles and gear and doing everything else Bargwill Tomder demands.",
+		"fields": {
+			"name": "Arashell Sar",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 352,
+		"schema": "people"
+	},
+	{
+		"description": "A mangy Cloddogran groom, Bargwill Tomder rules the stables at the Canto Casino’s racetrack, constantly berating the urchins who take care of fathiers. Tomder is as crooked as he is ill-tempered, and for the right price he will doctor fathiers’ feed or take other measures to fix races.",
+		"fields": {
+			"name": "Bargwill Tomder",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 353,
+		"schema": "people"
+	},
+	{
+		"description": "A cybernetics magnate with a penchant for the occult. When the Baron's not gambling on Canto Bight, he's collecting dark and dangerous artifacts for a sinister purpose.",
+		"fields": {
+			"name": "Baron Yasto Attsmun",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 354,
+		"schema": "people"
+	},
+	{
+		"description": "The First Order benefits from the latest technology, and its warships rely on dark, gleaming BB astromech units to keep machinery operational and ensure procedures are followed. Assigned to the Supremacy, BB-9E keeps a sharp photoreceptor out – in every spectrum -- for infiltrators, saboteurs and other threats to Supreme Leader Snoke’s flagship.",
+		"fields": {
+			"name": "BB-9E",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 356,
+		"schema": "people"
+	},
+	{
+		"description": "A hotshot Abednedo pilot, C’ai Threnalli flies as Poe Dameron’s wingman during the D’Qar evacuation, although he is hard-pressed to keep up with Poe’s turbocharged starfighter. Assigned to the Raddus, C’ai is left grounded after the destruction of the cruiser’s starfighter hangar. Like Poe, he has doubts about Vice Admiral Holdo’s leadership.",
+		"fields": {
+			"name": "C'ai Threnalli",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 358,
+		"schema": "people"
+	},
+	{
+		"description": "A veteran officer, Moden Canady was captain of the Siege Dreadnought Fulminatrix, charged with annihilating D’Qar’s Resistance base from orbit. Canady commanded a Star Destroyer in the Imperial Starfleet, and was distressed to find himself surrounded by arrogant, inexperienced young First Order officers. He incinerated the base and was preparing to fire on Leia Organa’s flagship when his warship was destroyed by the Resistance’s last remaining bomber.",
+		"fields": {
+			"name": "Captain Canady",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 361,
+		"schema": "people"
+	},
+	{
+		"description": "Idrosen Gawat led the planetary defense forces safeguarding the Mykapo system before coming out of retirement to join the Resistance. A seasoned veteran, Gawat serves as executive officer aboard the Raddus, assisting Admiral Ackbar.",
+		"fields": {
+			"name": "Captain Gawat",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 362,
+		"schema": "people"
+	},
+	{
+		"description": "Edrison Peavey commands the Star Destroyer Finalizer, which requires him to take orders from General Hux. Peavey has little respect for Hux, whom he regards as an arrogant schemer with a poor grasp of tactics. But as a veteran of the Empire, Peavey respects the chain of command and keeps his opinions to himself.",
+		"fields": {
+			"name": "Captain Peavey",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 363,
+		"schema": "people"
+	},
+	{
+		"description": "A noted sommelier, Derla Pidys sells wine gathered from a breathtaking range of worlds: Orto Plutonia, Naboo, the Forest Moon of Endor and many others. It’s a profession that has brought her into contact with Canto Bight business owners such as Ubailla Gheal, as well as patrons such as the mysterious Grammus sisters.",
+		"fields": {
+			"name": "Derla Pidys",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 366,
+		"schema": "people"
+	},
+	{
+		"description": "An amoral thief and talented slicer, DJ dwells in the shadows thrown off by Canto Bight’s glitz, stealing whatever he needs and resolutely refusing to take sides in the growing conflict between the First Order and the Resistance.",
+		"fields": {
+			"name": "DJ",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 367,
+		"schema": "people"
+	},
+	{
+		"description": "Tubbs flies an X-wing as part of the Resistance bombers’ fighter escort above D’Qar -- a dangerous mission requiring pilots to stick close to the bombers and endure deadly fire from First Order TIEs. Tubbs and his fellow pilots will need all of their skill and a little luck to survive.",
+		"fields": {
+			"name": "Jaycris Tubbs",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 370,
+		"schema": "people"
+	},
+	{
+		"description": "A diminutive Wermal, Kedpin Shoklop – his friends call him Ked – is visiting Canto Bight for a two-week vacation, his reward for being named Vaportech’s Salesbeing of the Year. Ked has seen Canto Bight’s highs and lows, and now seeks to unwind with a soothing massage at Zord’s Spa.",
+		"fields": {
+			"name": "Kedpin Shoklop",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 372,
+		"schema": "people"
+	},
+	{
+		"description": "A striking figure with a geometric red hairdo and a fitted lattice dress, “Lovey” is a familiar sight by the side of the Master Codebreaker at the gaming tables of the Canto Casino. “Lovey” has her own secrets -- including her true name, which she has yet to reveal to her companion.",
+		"fields": {
+			"name": "Lovey",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 373,
+		"schema": "people"
+	},
+	{
+		"description": "He’s a soldier, freedom fighter, ace pilot, top smuggler and a poet with a blaster – and a slicer capable of defeating the toughest security in the galaxy. So Maz Kanata describes the man known only as the Master Codebreaker. His favorite haunt is Canto Bight, where he’s recognizable by the red plom bloom adorning one immaculate lapel of his tuxedo.",
+		"fields": {
+			"name": "Master Codebreaker",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 374,
+		"schema": "people"
+	},
+	{
+		"description": "A private investigator based in Canto Bight’s Old City, Neepers Panpick knows more than anyone about what the resort city’s power brokers are up to – and what they want to keep secret. While not a member of Canto Bight’s elite, Panpick dresses well to keep from attracting notice when his job forces him to rub elbows with the super-rich.",
+		"fields": {
+			"name": "Neepers Panpick",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 376,
+		"schema": "people"
+	},
+	{
+		"description": "The bombardier aboard Resistance bomber Cobalt Hammer, Nix Jerd hails from the Mid Rim world of Lantillies. His bomber flies into the teeth of the First Order’s defenses above D’Qar, targeting a massive Siege Dreadnought. As explosions rattle Cobalt Hammer, Nix keeps a firm grip on the remote trigger that will release the bomber’s payload.",
+		"fields": {
+			"name": "Nix Jerd",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 377,
+		"schema": "people"
+	},
+	{
+		"description": "Oniho Zaya lives in the fathier stables of the Canto Casino, doing chores and trying to avoid Bargwill Tomder’s wrath. An imaginative boy, Oniho has a knack for storytelling, and entertains the other children with heroic tales set long ago and far away.",
+		"fields": {
+			"name": "Oniho Zaya",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 378,
+		"schema": "people"
+	},
+	{
+		"description": "A talented pilot and gunner, Paige Tico operates the ventral guns on the Resistance bomber Cobalt Hammer. She fled the Otomok system and joined the Resistance with her younger sister Rose. Paige loves animals, particularly fathiers, and dreams of seeing one during some quiet period when the galaxy is at peace.",
+		"fields": {
+			"name": "Paige Tico",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 379,
+		"schema": "people"
+	},
+	{
+		"description": "A young Resistance fighter, Pammich Nerro Goode serves as lead dispatcher for D’Qar’s starfighters during the attack on Starkiller Base. After the Resistance flees its base, Goode is pressed into duty as a transport pilot.",
+		"fields": {
+			"name": "Pammich Nerro Goode",
+			"gender": "female",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 380,
+		"schema": "people"
+	},
+	{
+		"description": "The Canto Casino’s hard-eyed head of security, Pemmin Brunce is simultaneously scrupulously polite and effortlessly intimidating. He keeps an eye on the casino floor, alert for signs of trouble, and is quick to give undesirables the heave-ho. The Ongidae bouncer’s smartly tailored suit hides a stun baton for use if a situation escalates.",
+		"fields": {
+			"name": "Pemmin Brunce",
+			"gender": "male",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 381,
+		"schema": "people"
+	},
+	{
+		"description": "Built to resemble the long-necked Tofallid species, PZ-4CO is an invaluable intelligence droid based at the Resistance headquarters on D’Qar. Despite her hulking appearance, she speaks in a pleasant voice, offering tactical data and communications support during operations. “Peazy” and C-3PO often work together to monitor the Resistance’s galaxy-wide network of droid agents.",
+		"fields": {
+			"name": "PZ-4CO (Peazy-Fourseeo)",
+			"gender": "",
+			"skin_color": "",
+			"hair_color": "",
+			"height": "2.06m",
+			"eye_color": "",
+			"mass": "",
+			"homeworld": "",
+			"birth_year": ""
+		},
+		"pk": 383,
+		"schema": "people"
+	}
+]

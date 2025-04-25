@@ -1,0 +1,2659 @@
+{
+  "rating": null,
+  "images": {
+    "assets": {
+      "catalog_poster_image": {
+        "base_url": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+        "base_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+        "api_params": {
+          "region": "0,0,1394,2160"
+        },
+        "cdn_url": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg?region=0%2C0%2C1394%2C2160",
+        "cdn_url_https": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg?region=0%2C0%2C1394%2C2160",
+        "alt_text": "Star Wars: Return of the Jedi poster"
+      }
+    }
+  },
+  "year": 1983,
+  "translations": {},
+  "desc": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+  "digital_released_on": null,
+  "streaming_released_on": null,
+  "physical_released_on": null,
+  "phase": null,
+  "release": "May 1, 1983",
+  "crew": [],
+  "meta": true,
+  "genres": null,
+  "catalog_poster": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg"
+  },
+  "display_genres": null,
+  "display_ratings": null,
+  "display_runtime": null,
+  "logo_full_size": null,
+  "secondary_title": null,
+  "raw_dates": {
+    "release": "1983-05-01",
+    "digital_released_on": null,
+    "streaming_released_on": null,
+    "physical_released_on": null
+  },
+  "rich_text": null,
+  "id": "4e5096c5d194f0c06d086770",
+  "slug": "films/star-wars-episode-vi-return-of-the-jedi",
+  "entity_type": "movie",
+  "entity_config": {
+    "rounded_corners": "default",
+    "thumb_outline": true,
+    "aspect_ratio": "poster",
+    "button_cta": "more_info",
+    "text_alignment": "left",
+    "details_visibility": "default"
+  },
+  "title": "Star Wars: Return of the Jedi (Episode VI)",
+  "aria_label": "Star Wars: Return of the Jedi poster",
+  "deep_link_ref": "#star-wars-episode-vi-return-of-the-jedi",
+  "thumb": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+  "catalogImage": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg?region=0%2C0%2C1394%2C2160",
+  "featured_entity_translation": "Featured Content",
+  "description": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+  "short_desc": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+  "dynamic_desc": "After a quick trip back to Tatooine, Luke Skywalker, Leia Organa, and Han Solo are reunited and join up with the amassing rebel fleet to take down the evil Empire once and for all. But the Empire is plotting too. Emperor Palpatine commands his troops aboard his newly constructed Death Star stationed above the forest moon of Endor, where the rebels - and some unlikely furry friends - make their stand against the Empire. While Luke Skywalker confronts Darth Vader on the Death Star once more, Han leads a team to take out a shield protecting the battle station so that the rebel fleet can destroy it once more and finally put an end to the war...",
+  "cta_button_title": "See More",
+  "thumb_data": {
+    "src": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg",
+    "base_src": "https://lumiere-a.akamaihd.net/v1/images/EP6_POS_21_R-RESIZED_2873dc04.jpeg"
+  },
+  "alt_text": "Star Wars: Return of the Jedi poster",
+  "base_images": {
+    "desktop": {
+      "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=12%2C123%2C624%2C349",
+      "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=6%2C83%2C620%2C618",
+      "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C210%2C624%2C312",
+      "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C235%2C627%2C469"
+    },
+    "mobile": {
+      "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=12%2C123%2C624%2C349",
+      "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=6%2C83%2C620%2C618",
+      "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C210%2C624%2C312",
+      "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg?region=9%2C235%2C627%2C469"
+    }
+  },
+  "section_label": "films",
+  "section_class": "films",
+  "type": "Movie",
+  "href": "https://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi",
+  "characters": {
+    "count": 49,
+    "title": "Characters",
+    "data": [
+      {
+        "id": "616b2941d64fd492a01ad05b",
+        "slug": "8d8",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "8D8",
+        "featured_entity_translation": "Featured Content",
+        "description": "A lanky smelter droid, during the time of the Empire 8D8 assisted EV-9D9 in terrorizing Jabba the Hutt's droid operatives. But after the fall of the Empire, under Boba Fett's employ 8D8 was reassigned to assist with strategy and diplomacy.",
+        "short_desc": "A lanky smelter droid, during the time of the Empire 8D8 assisted EV-9D9 in terrorizing Jabba the Hutt's droid operatives. But after the fall of the Empire, under Boba Fett's employ 8D8 was reassigned to assist with strategy and diplomacy.",
+        "dynamic_desc": "A lanky smelter droid, during the time of the Empire 8D8 assisted EV-9D9 in terrorizing Jabba the Hutt's droid operatives. But after the fall of the Empire, under Boba Fett's employ 8D8 was reassigned to assist with strategy and diplomacy.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=198%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=284%2C0%2C952%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=382%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=460%2C0%2C538%2C536"
+          },
+          "alt_text": "8D8"
+        },
+        "alt_text": "8D8",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=284%2C0%2C952%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=460%2C0%2C538%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=198%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg?region=382%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.83m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/8d8"
+      },
+      {
+        "id": "616b22cce243c492a01ad05b",
+        "slug": "admiral-ackbar",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Admiral Ackbar",
+        "featured_entity_translation": "Featured Content",
+        "description": "A veteran commander, Ackbar led the defense of his homeworld, Mon Cala, during the Clone Wars and then masterminded the rebel attack on the second Death Star at the Battle of Endor. Ackbar realized the rebels had been drawn into a trap at Endor, but adjusted, with his fleet buying valuable time for the attack to succeed. After the Battle of Endor, Ackbar became a Grand Admiral in the New Republic, winning many victories including the pivotal Battle of Jakku. He retired to Mon Cala, but was coaxed back into service with the Resistance by Leia Organa.",
+        "short_desc": "A veteran commander, Ackbar led the defense of his homeworld, Mon Cala, during the Clone Wars and then masterminded the rebel attack on the second Death Star at the Battle of Endor. Ackbar realized the rebels had been drawn into a trap at Endor, but adjusted, with his fleet buying valuable time for the attack to succeed. After the Battle of Endor, Ackbar became a Grand Admiral in the New Republic, winning many victories including the pivotal Battle of Jakku. He retired to Mon Cala, but was coaxed back into service with the Resistance by Leia Organa.",
+        "dynamic_desc": "A veteran commander, Ackbar led the defense of his homeworld, Mon Cala, during the Clone Wars and then masterminded the rebel attack on the second Death Star at the Battle of Endor. Ackbar realized the rebels had been drawn into a trap at Endor, but adjusted, with his fleet buying valuable time for the attack to succeed. After the Battle of Endor, Ackbar became a Grand Admiral in the New Republic, winning many victories including the pivotal Battle of Jakku. He retired to Mon Cala, but was coaxed back into service with the Resistance by Leia Organa.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=0%2C49%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=68%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=209%2C0%2C877%2C878"
+          },
+          "alt_text": "Admiral Ackbar"
+        },
+        "alt_text": "Admiral Ackbar",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=209%2C0%2C877%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=0%2C49%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg?region=68%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.8m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/admiral-ackbar"
+      },
+      {
+        "id": "616b22f42e9cb492a01ad05b",
+        "slug": "admiral-piett",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Admiral Piett",
+        "featured_entity_translation": "Featured Content",
+        "description": "An ambitious Imperial officer, Piett rose through the ranks to captain and was assigned to the Super Star Destroyer Executor, Darth Vader's flagship. There, he chafed at having to serve under the foolish, vainglorious Admiral Ozzel. When Vader strangled Ozzel, Piett was granted a battlefield promotion to admiral -- and given a grisly warning of the penalty for failure. Miraculously, he survived his time as Vader's underling, but died when a Rebel starfighter destroyed the Executor's command bridge.",
+        "short_desc": "An ambitious Imperial officer, Piett rose through the ranks to captain and was assigned to the Super Star Destroyer Executor, Darth Vader's flagship. There, he chafed at having to serve under the foolish, vainglorious Admiral Ozzel. When Vader strangled Ozzel, Piett was granted a battlefield promotion to admiral -- and given a grisly warning of the penalty for failure. Miraculously, he survived his time as Vader's underling, but died when a Rebel starfighter destroyed the Executor's command bridge.",
+        "dynamic_desc": "An ambitious Imperial officer, Piett rose through the ranks to captain and was assigned to the Super Star Destroyer Executor, Darth Vader's flagship. There, he chafed at having to serve under the foolish, vainglorious Admiral Ozzel. When Vader strangled Ozzel, Piett was granted a battlefield promotion to admiral -- and given a grisly warning of the penalty for failure. Miraculously, he survived his time as Vader's underling, but died when a Rebel starfighter destroyed the Executor's command bridge.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=0%2C38%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=271%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=423%2C0%2C877%2C878"
+          },
+          "alt_text": "Admiral Piett"
+        },
+        "alt_text": "Admiral Piett",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=423%2C0%2C877%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=0%2C38%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_admiralpiett_01_169_18014135.jpeg?region=271%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.65m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/admiral-piett"
+      },
+      {
+        "id": "616b22adf8ab1492a01ad05b",
+        "slug": "anakin-skywalker",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Anakin Skywalker",
+        "featured_entity_translation": "Featured Content",
+        "description": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall. ",
+        "short_desc": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall. ",
+        "dynamic_desc": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=257%2C1%2C1606%2C803",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=387%2C27%2C1350%2C760",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=503%2C1%2C1074%2C803",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=637%2C1%2C806%2C803"
+          },
+          "alt_text": "Anakin Skywalker"
+        },
+        "alt_text": "Anakin Skywalker",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=387%2C27%2C1350%2C760",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=637%2C1%2C806%2C803",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=257%2C1%2C1606%2C803",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_23e5105b.jpeg?region=503%2C1%2C1074%2C803"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.88m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/anakin-skywalker"
+      },
+      {
+        "id": "616b2b9edd707492a01ad05b",
+        "slug": "barada",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Barada",
+        "featured_entity_translation": "Featured Content",
+        "description": "Barada was a Klatoonian slave who served as muscle and a mechanic for Jabba the Hutt on Tatooine. As the man in charge of maintenance for all of Jabba’s repulsor-operated vehicles, he was sent to the Great Pit of Carkoon when Jabba tried executing Luke Skywalker and the rest of the Rebels working to free Han Solo from his debt. He was present on one of the skiffs escorting Jabba and his retinue to watch the execution, but when Skywalker set his plan into motion, Barada was cut down by the Jedi’s green-bladed lightsaber.",
+        "short_desc": "Barada was a Klatoonian slave who served as muscle and a mechanic for Jabba the Hutt on Tatooine. As the man in charge of maintenance for all of Jabba’s repulsor-operated vehicles, he was sent to the Great Pit of Carkoon when Jabba tried executing Luke Skywalker and the rest of the Rebels working to free Han Solo from his debt. He was present on one of the skiffs escorting Jabba and his retinue to watch the execution, but when Skywalker set his plan into motion, Barada was cut down by the Jedi’s green-bladed lightsaber.",
+        "dynamic_desc": "Barada was a Klatoonian slave who served as muscle and a mechanic for Jabba the Hutt on Tatooine. As the man in charge of maintenance for all of Jabba’s repulsor-operated vehicles, he was sent to the Great Pit of Carkoon when Jabba tried executing Luke Skywalker and the rest of the Rebels working to free Han Solo from his debt. He was present on one of the skiffs escorting Jabba and his retinue to watch the execution, but when Skywalker set his plan into motion, Barada was cut down by the Jedi’s green-bladed lightsaber.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=116%2C0%2C1328%2C664",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=190%2C0%2C1180%2C664",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=337%2C0%2C885%2C664",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=398%2C0%2C666%2C664"
+          },
+          "alt_text": "Barada"
+        },
+        "alt_text": "Barada",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=190%2C0%2C1180%2C664",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=398%2C0%2C666%2C664",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=116%2C0%2C1328%2C664",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/barada_cd0c628e.jpeg?region=337%2C0%2C885%2C664"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/barada"
+      },
+      {
+        "id": "616b2372b8e6a492a01ad05b",
+        "slug": "bib-fortuna",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Bib Fortuna",
+        "featured_entity_translation": "Featured Content",
+        "description": "As the former majordomo to the late Jabba the Hutt, the scheming Bib Fortuna seized power after his master's demise and attempted to control the criminal underworld on Tatooine. For decades, those attempting to do business with Jabba the Hutt first needed to maneuver past the Twi'lek, an ever-present attendant who often hovered near Jabba's ear, offering advice and feeding his boss information. Fortuna followed the rules of protocol in the Hutt's court (such as they were), and spoke only in Huttese, though he understood other tongues.",
+        "short_desc": "As the former majordomo to the late Jabba the Hutt, the scheming Bib Fortuna seized power after his master's demise and attempted to control the criminal underworld on Tatooine. For decades, those attempting to do business with Jabba the Hutt first needed to maneuver past the Twi'lek, an ever-present attendant who often hovered near Jabba's ear, offering advice and feeding his boss information. Fortuna followed the rules of protocol in the Hutt's court (such as they were), and spoke only in Huttese, though he understood other tongues.",
+        "dynamic_desc": "As the former majordomo to the late Jabba the Hutt, the scheming Bib Fortuna seized power after his master's demise and attempted to control the criminal underworld on Tatooine. For decades, those attempting to do business with Jabba the Hutt first needed to maneuver past the Twi'lek, an ever-present attendant who often hovered near Jabba's ear, offering advice and feeding his boss information. Fortuna followed the rules of protocol in the Hutt's court (such as they were), and spoke only in Huttese, though he understood other tongues.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=193%2C0%2C2000%2C1000",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=304%2C0%2C1778%2C1000",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=418%2C0%2C1333%2C1002",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=547%2C2%2C997%2C998"
+          },
+          "alt_text": "Bib Fortuna"
+        },
+        "alt_text": "Bib Fortuna",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=304%2C0%2C1778%2C1000",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=547%2C2%2C997%2C998",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=193%2C0%2C2000%2C1000",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg?region=418%2C0%2C1333%2C1002"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.8m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/bib-fortuna"
+      },
+      {
+        "id": "616b235274eee492a01ad05b",
+        "slug": "boba-fett",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Boba Fett",
+        "featured_entity_translation": "Featured Content",
+        "description": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+        "short_desc": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+        "dynamic_desc": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=174%2C45%2C1106%2C553",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=143%2C0%2C1137%2C853",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=311%2C0%2C853%2C853"
+          },
+          "alt_text": "Boba Fett"
+        },
+        "alt_text": "Boba Fett",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=311%2C0%2C853%2C853",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=174%2C45%2C1106%2C553",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=143%2C0%2C1137%2C853"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.83m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/boba-fett"
+      },
+      {
+        "id": "616b26fec502b492a01ad05b",
+        "slug": "bossk",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Bossk",
+        "featured_entity_translation": "Featured Content",
+        "description": "One of the most feared bounty hunters of the galaxy, Bossk used his natural Trandoshan hunting instincts to capture his prey. During the Clone Wars, the red-eyed reptilian partnered with Aurra Sing, Castas and young Boba Fett. Bossk didn't care much for vendettas or politics. He was in it to get paid. After a brief stint in a Republic prison, Bossk continued his partnership with Fett, becoming a bodyguard to the teen bounty hunter.  Decades later, Bossk answered Darth Vader's call to capture the Millennium Falcon after the Battle of Hoth, an assignment that put him in direct competition with Boba.",
+        "short_desc": "One of the most feared bounty hunters of the galaxy, Bossk used his natural Trandoshan hunting instincts to capture his prey. During the Clone Wars, the red-eyed reptilian partnered with Aurra Sing, Castas and young Boba Fett. Bossk didn't care much for vendettas or politics. He was in it to get paid. After a brief stint in a Republic prison, Bossk continued his partnership with Fett, becoming a bodyguard to the teen bounty hunter.  Decades later, Bossk answered Darth Vader's call to capture the Millennium Falcon after the Battle of Hoth, an assignment that put him in direct competition with Boba.",
+        "dynamic_desc": "One of the most feared bounty hunters of the galaxy, Bossk used his natural Trandoshan hunting instincts to capture his prey. During the Clone Wars, the red-eyed reptilian partnered with Aurra Sing, Castas and young Boba Fett. Bossk didn't care much for vendettas or politics. He was in it to get paid. After a brief stint in a Republic prison, Bossk continued his partnership with Fett, becoming a bodyguard to the teen bounty hunter.  Decades later, Bossk answered Darth Vader's call to capture the Millennium Falcon after the Battle of Hoth, an assignment that put him in direct competition with Boba.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=0%2C49%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=390%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=683%2C0%2C877%2C878"
+          },
+          "alt_text": "Bossk"
+        },
+        "alt_text": "Bossk",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=683%2C0%2C877%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=0%2C49%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg?region=390%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.06m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/bossk"
+      },
+      {
+        "id": "616b2378b6e91492a01ad05b",
+        "slug": "c-3po-see-threepio",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "C-3PO (See-Threepio)",
+        "featured_entity_translation": "Featured Content",
+        "description": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "short_desc": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "dynamic_desc": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=129%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=233%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=336%2C0%2C537%2C536"
+          },
+          "alt_text": "C-3PO (See-Threepio)"
+        },
+        "alt_text": "C-3PO (See-Threepio)",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=336%2C0%2C537%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=129%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=233%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.77m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/c-3po"
+      },
+      {
+        "id": "616b2362d2b85492a01ad05b",
+        "slug": "chewbacca",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Chewbacca",
+        "featured_entity_translation": "Featured Content",
+        "description": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "short_desc": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "dynamic_desc": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends. ",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=16%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=0%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536"
+          },
+          "alt_text": "Chewbacca"
+        },
+        "alt_text": "Chewbacca",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=16%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=0%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.28m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/chewbacca"
+      },
+      {
+        "id": "616b2acab7404492a01ad05b",
+        "slug": "chief-chirpa",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Chief Chirpa",
+        "featured_entity_translation": "Featured Content",
+        "description": "The chief of the Ewoks dwelling in Endor's Ewok village, Chief Chirpa agreed to join the struggle against the Empire, organizing war bands to fight the stormtroopers. As a sign of this commitment, he ordered that Luke Skywalker and his friends be adopted into his tribe.",
+        "short_desc": "The chief of the Ewoks dwelling in Endor's Ewok village, Chief Chirpa agreed to join the struggle against the Empire, organizing war bands to fight the stormtroopers. As a sign of this commitment, he ordered that Luke Skywalker and his friends be adopted into his tribe.",
+        "dynamic_desc": "The chief of the Ewoks dwelling in Endor's Ewok village, Chief Chirpa agreed to join the struggle against the Empire, organizing war bands to fight the stormtroopers. As a sign of this commitment, he ordered that Luke Skywalker and his friends be adopted into his tribe.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=0%2C67%2C800%2C400",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=0%2C65%2C800%2C450",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=0%2C80%2C800%2C601",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=60%2C0%2C681%2C681"
+          },
+          "alt_text": "Chief Chirpa"
+        },
+        "alt_text": "Chief Chirpa",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=0%2C65%2C800%2C450",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=60%2C0%2C681%2C681",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=0%2C67%2C800%2C400",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/chief-chirpa_1176b0ea.jpeg?region=0%2C80%2C800%2C601"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.0m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/chief-chirpa"
+      },
+      {
+        "id": "616b23a6b453e492a01ad05b",
+        "slug": "darth-vader",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Darth Vader",
+        "featured_entity_translation": "Featured Content",
+        "description": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+        "short_desc": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+        "dynamic_desc": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=74%2C37%2C1144%2C572",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=71%2C0%2C1139%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=213%2C0%2C854%2C854"
+          },
+          "alt_text": "Darth Vader"
+        },
+        "alt_text": "Darth Vader",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=213%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=74%2C37%2C1144%2C572",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=71%2C0%2C1139%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.03m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/darth-vader"
+      },
+      {
+        "id": "616b275e87fa0492a01ad05b",
+        "slug": "dengar",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Dengar",
+        "featured_entity_translation": "Featured Content",
+        "description": "Crude and slovenly, Dengar was nonetheless an effective bounty hunter. While some hunters prided themselves on finesse and style, Dengar preferred firepower and destruction. Despite his scruffy-looking and battered exterior, Dengar thought highly of himself, enough to make blunt passes at shapely females that caught his eye. Despite these obnoxious qualities, Boba Fett enjoyed working with Dengar and held him in high regard due to his proven track record in hunting down prey.",
+        "short_desc": "Crude and slovenly, Dengar was nonetheless an effective bounty hunter. While some hunters prided themselves on finesse and style, Dengar preferred firepower and destruction. Despite his scruffy-looking and battered exterior, Dengar thought highly of himself, enough to make blunt passes at shapely females that caught his eye. Despite these obnoxious qualities, Boba Fett enjoyed working with Dengar and held him in high regard due to his proven track record in hunting down prey.",
+        "dynamic_desc": "Crude and slovenly, Dengar was nonetheless an effective bounty hunter. While some hunters prided themselves on finesse and style, Dengar preferred firepower and destruction. Despite his scruffy-looking and battered exterior, Dengar thought highly of himself, enough to make blunt passes at shapely females that caught his eye. Despite these obnoxious qualities, Boba Fett enjoyed working with Dengar and held him in high regard due to his proven track record in hunting down prey.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=195%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=330%2C0%2C878%2C878"
+          },
+          "alt_text": "Dengar"
+        },
+        "alt_text": "Dengar",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=330%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_dengar_01_169_18886b62.jpeg?region=195%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.87m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/dengar"
+      },
+      {
+        "id": "616b2a3de44c3492a01ad05b",
+        "slug": "droopy-mccool",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Droopy McCool",
+        "featured_entity_translation": "Featured Content",
+        "description": "Droopy McCool played the chindinkalu flute in the Max Rebo Band, an ensemble that performed as Jabba's palace band on Tatooine. A veteran musician, Droopy was used to seedy dives and gigs for unsavory clients. But the depravity he saw in Jabba's court shocked even him.",
+        "short_desc": "Droopy McCool played the chindinkalu flute in the Max Rebo Band, an ensemble that performed as Jabba's palace band on Tatooine. A veteran musician, Droopy was used to seedy dives and gigs for unsavory clients. But the depravity he saw in Jabba's court shocked even him.",
+        "dynamic_desc": "Droopy McCool played the chindinkalu flute in the Max Rebo Band, an ensemble that performed as Jabba's palace band on Tatooine. A veteran musician, Droopy was used to seedy dives and gigs for unsavory clients. But the depravity he saw in Jabba's court shocked even him.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=0%2C0%2C2956%2C1477",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=1%2C0%2C2955%2C1662",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=364%2C0%2C2217%2C1662",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=647%2C0%2C1662%2C1662"
+          },
+          "alt_text": "Droopy McCool"
+        },
+        "alt_text": "Droopy McCool",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=1%2C0%2C2955%2C1662",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=647%2C0%2C1662%2C1662",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=0%2C0%2C2956%2C1477",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_3bfc14aa.jpeg?region=364%2C0%2C2217%2C1662"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.58m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/droopy-mccool"
+      },
+      {
+        "id": "616b247e5b642492a01ad05b",
+        "slug": "emperor-palpatine-darth-sidious",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Emperor Palpatine (Darth Sidious)",
+        "featured_entity_translation": "Featured Content",
+        "description": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+        "short_desc": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+        "dynamic_desc": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C107%2C1280%2C640",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C25%2C1280%2C718",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=23%2C0%2C1136%2C854",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=154%2C0%2C854%2C854"
+          },
+          "alt_text": "Emperor Palpatine"
+        },
+        "alt_text": "Emperor Palpatine (Darth Sidious)",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C25%2C1280%2C718",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=154%2C0%2C854%2C854",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C107%2C1280%2C640",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=23%2C0%2C1136%2C854"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.73m "
+              },
+              {
+                "name": "Height: 1.78m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious"
+      },
+      {
+        "id": "616b2b14c5b34492a01ad05b",
+        "slug": "ev-9d9",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "EV-9D9",
+        "featured_entity_translation": "Featured Content",
+        "description": "The supervisor of Jabba the Hutt's droid pool, EV-9D9 was a gangly mechanical with a quirk in her programming that made her enjoy tormenting and dismembering other droids. She turned a dank work area in the depths of Jabba's palace into a grim torture chamber.",
+        "short_desc": "The supervisor of Jabba the Hutt's droid pool, EV-9D9 was a gangly mechanical with a quirk in her programming that made her enjoy tormenting and dismembering other droids. She turned a dank work area in the depths of Jabba's palace into a grim torture chamber.",
+        "dynamic_desc": "The supervisor of Jabba the Hutt's droid pool, EV-9D9 was a gangly mechanical with a quirk in her programming that made her enjoy tormenting and dismembering other droids. She turned a dank work area in the depths of Jabba's palace into a grim torture chamber.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1560%2C877",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1560%2C1170",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1316%2C1316"
+          },
+          "alt_text": "EV-9D9"
+        },
+        "alt_text": "EV-9D9",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1560%2C877",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1316%2C1316",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/ev-9d9-2_28db778f.jpeg?region=0%2C0%2C1560%2C1170"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.9m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/ev-9d9"
+      },
+      {
+        "id": "616b279208709492a01ad05b",
+        "slug": "general-madine",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "General Madine",
+        "featured_entity_translation": "Featured Content",
+        "description": "General Madine specialized in covert actions for the Rebel Alliance, waging war in secret against Imperial troops and the Emperor's own shadowy agents. His plans culminated with the operation to destroy the shield generator on the Forest Moon of Endor.",
+        "short_desc": "General Madine specialized in covert actions for the Rebel Alliance, waging war in secret against Imperial troops and the Emperor's own shadowy agents. His plans culminated with the operation to destroy the shield generator on the Forest Moon of Endor.",
+        "dynamic_desc": "General Madine specialized in covert actions for the Rebel Alliance, waging war in secret against Imperial troops and the Emperor's own shadowy agents. His plans culminated with the operation to destroy the shield generator on the Forest Moon of Endor.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=0%2C49%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=390%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=477%2C0%2C877%2C878"
+          },
+          "alt_text": "General Madine"
+        },
+        "alt_text": "General Madine",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=477%2C0%2C877%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=0%2C49%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_generalmadine_01_169_81edb078.jpeg?region=390%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/general-madine"
+      },
+      {
+        "id": "616b2a445a3bf492a01ad05b",
+        "slug": "greeata",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Greeata",
+        "featured_entity_translation": "Featured Content",
+        "description": "Greeata joined the Max Rebo Band as a backup singer and dancer for some of the ensemble's gigs, including their performance at Jabba's palace. Her orange hair and ample jewelry ensured she got noticed even by listeners lacking musical taste.",
+        "short_desc": "Greeata joined the Max Rebo Band as a backup singer and dancer for some of the ensemble's gigs, including their performance at Jabba's palace. Her orange hair and ample jewelry ensured she got noticed even by listeners lacking musical taste.",
+        "dynamic_desc": "Greeata joined the Max Rebo Band as a backup singer and dancer for some of the ensemble's gigs, including their performance at Jabba's palace. Her orange hair and ample jewelry ensured she got noticed even by listeners lacking musical taste.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=0%2C8%2C1560%2C781",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=195%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=341%2C0%2C878%2C878"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Greeata",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=341%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=0%2C8%2C1560%2C781",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/greeata_813f2567.jpeg?region=195%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/greeata"
+      },
+      {
+        "id": "616b23c1b9a0a492a01ad05b",
+        "slug": "han-solo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Han Solo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "short_desc": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "dynamic_desc": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=240%2C0%2C1440%2C1080",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=420%2C0%2C1080%2C1080"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Han Solo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=420%2C0%2C1080%2C1080",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C960",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=240%2C0%2C1440%2C1080"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.8m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/han-solo"
+      },
+      {
+        "id": "616b2ae3d7749492a01ad05b",
+        "slug": "hermi-odle",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Hermi Odle",
+        "featured_entity_translation": "Featured Content",
+        "description": "A burly thug with a shady past, Hermi Odle was one of Jabba the Hutt's resident gangsters on Tatooine. Wise members of the Hutt's court knew Odle was far more dangerous than his stooped posture, shuffling gait and drooping lip suggested.",
+        "short_desc": "A burly thug with a shady past, Hermi Odle was one of Jabba the Hutt's resident gangsters on Tatooine. Wise members of the Hutt's court knew Odle was far more dangerous than his stooped posture, shuffling gait and drooping lip suggested.",
+        "dynamic_desc": "A burly thug with a shady past, Hermi Odle was one of Jabba the Hutt's resident gangsters on Tatooine. Wise members of the Hutt's court knew Odle was far more dangerous than his stooped posture, shuffling gait and drooping lip suggested.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=146%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=341%2C0%2C878%2C878"
+          },
+          "alt_text": "Hermi Odle"
+        },
+        "alt_text": "Hermi Odle",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=341%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/hermie-odle-16-9_5bb4fd3a.jpeg?region=146%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 2.1m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/hermi-odle"
+      },
+      {
+        "id": "616b23d1f515a492a01ad05b",
+        "slug": "jabba-the-hutt",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Jabba the Hutt",
+        "featured_entity_translation": "Featured Content",
+        "description": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+        "short_desc": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+        "dynamic_desc": "Jabba the Hutt was one of the galaxy’s most powerful gangsters, with far-reaching influence in both politics and the criminal underworld. There were no second chances with Jabba, something Han Solo would find out -- though the slug-like alien would ultimately fall victim to his own hubris and vengeful ways.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C2%2C1200%2C600",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C0%2C1200%2C675",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=150%2C0%2C900%2C675",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=263%2C0%2C675%2C675"
+          },
+          "alt_text": "Jabba the Hutt"
+        },
+        "alt_text": "Jabba the Hutt",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C0%2C1200%2C675",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=263%2C0%2C675%2C675",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=0%2C2%2C1200%2C600",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg?region=150%2C0%2C900%2C675"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Length: 3.9m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/jabba-the-hutt"
+      },
+      {
+        "id": "616b2bd33e25a492a01ad05b",
+        "slug": "janus-greejatus",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Janus Greejatus",
+        "featured_entity_translation": "Featured Content",
+        "description": "Greejatus was a gaunt human in flowing robes and garish hat who served as one of Emperor Palpatine’s closest advisors. He served in Imperial Ruling Council and accompanied the Emperor to the second Death Star as it hovered over the forest moon of Endor. With the destruction of the Death Star, one might assume Greejatus was killed, but his ultimate fate was unknown.",
+        "short_desc": "Greejatus was a gaunt human in flowing robes and garish hat who served as one of Emperor Palpatine’s closest advisors. He served in Imperial Ruling Council and accompanied the Emperor to the second Death Star as it hovered over the forest moon of Endor. With the destruction of the Death Star, one might assume Greejatus was killed, but his ultimate fate was unknown.",
+        "dynamic_desc": "Greejatus was a gaunt human in flowing robes and garish hat who served as one of Emperor Palpatine’s closest advisors. He served in Imperial Ruling Council and accompanied the Emperor to the second Death Star as it hovered over the forest moon of Endor. With the destruction of the Death Star, one might assume Greejatus was killed, but his ultimate fate was unknown.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=454%2C300%2C651%2C326",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=482%2C318%2C616%2C346",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=502%2C305%2C586%2C440",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=555%2C313%2C502%2C502"
+          },
+          "alt_text": "Janus Greejatus"
+        },
+        "alt_text": "Janus Greejatus",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=482%2C318%2C616%2C346",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=555%2C313%2C502%2C502",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=454%2C300%2C651%2C326",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2804_b69b3a63.jpeg?region=502%2C305%2C586%2C440"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/janus-greejatus"
+      },
+      {
+        "id": "616b2a3f8373a492a01ad05b",
+        "slug": "joh-yowza",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Joh Yowza",
+        "featured_entity_translation": "Featured Content",
+        "description": "A shaggy Yuzzum with a big stage presence and an even bigger voice, Joh Yowza sometimes sang with the Max Rebo Band. Even the most jaded music fans found it hard to ignore the vocal fireworks of his duets with Sy Snootles.",
+        "short_desc": "A shaggy Yuzzum with a big stage presence and an even bigger voice, Joh Yowza sometimes sang with the Max Rebo Band. Even the most jaded music fans found it hard to ignore the vocal fireworks of his duets with Sy Snootles.",
+        "dynamic_desc": "A shaggy Yuzzum with a big stage presence and an even bigger voice, Joh Yowza sometimes sang with the Max Rebo Band. Even the most jaded music fans found it hard to ignore the vocal fireworks of his duets with Sy Snootles.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=0%2C92%2C2956%2C1478",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=1%2C0%2C2955%2C1662",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=210%2C0%2C2217%2C1662",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=616%2C0%2C1663%2C1662"
+          },
+          "alt_text": "Joh Yowza"
+        },
+        "alt_text": "Joh Yowza",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=1%2C0%2C2955%2C1662",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=616%2C0%2C1663%2C1662",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=0%2C92%2C2956%2C1478",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_1cbf7376.jpeg?region=210%2C0%2C2217%2C1662"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.4m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/joh-yowza"
+      },
+      {
+        "id": "616b2b3118e72492a01ad05b",
+        "slug": "klaatu",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Klaatu",
+        "featured_entity_translation": "Featured Content",
+        "description": "A Kadas’sa’Nikto from Kintan, Klaatu was a henchman of Jabba the Hutt, and spent his time at the Hutt’s palace repairing skiffs, eagerly awaiting executions and amassing ever-larger gambling debts. Klaatu confronted Luke Skywalker during the battle at the Great Pit of Carkoon, but fled after Luke disarmed him with a stroke of his lightsaber. He died when Jabba’s sail barge exploded.",
+        "short_desc": "A Kadas’sa’Nikto from Kintan, Klaatu was a henchman of Jabba the Hutt, and spent his time at the Hutt’s palace repairing skiffs, eagerly awaiting executions and amassing ever-larger gambling debts. Klaatu confronted Luke Skywalker during the battle at the Great Pit of Carkoon, but fled after Luke disarmed him with a stroke of his lightsaber. He died when Jabba’s sail barge exploded.",
+        "dynamic_desc": "A Kadas’sa’Nikto from Kintan, Klaatu was a henchman of Jabba the Hutt, and spent his time at the Hutt’s palace repairing skiffs, eagerly awaiting executions and amassing ever-larger gambling debts. Klaatu confronted Luke Skywalker during the battle at the Great Pit of Carkoon, but fled after Luke disarmed him with a stroke of his lightsaber. He died when Jabba’s sail barge exploded.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=0%2C145%2C1560%2C778",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=0%2C138%2C1560%2C875",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=0%2C0%2C1386%2C1042",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=129%2C0%2C1039%2C1042"
+          },
+          "alt_text": "Klaatu"
+        },
+        "alt_text": "Klaatu",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=0%2C138%2C1560%2C875",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=129%2C0%2C1039%2C1042",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=0%2C145%2C1560%2C778",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/klaatu-main-image_8074b83b.jpeg?region=0%2C0%2C1386%2C1042"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/klaatu"
+      },
+      {
+        "id": "616b23df6aa78492a01ad05b",
+        "slug": "lando-calrissian",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Lando Calrissian",
+        "featured_entity_translation": "Featured Content",
+        "description": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+        "short_desc": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+        "dynamic_desc": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=104%2C0%2C1072%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=147%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=249%2C0%2C715%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=340%2C0%2C538%2C536"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Lando Calrissian",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=147%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=340%2C0%2C538%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=104%2C0%2C1072%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg?region=249%2C0%2C715%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.78m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/lando-calrissian"
+      },
+      {
+        "id": "616b23f0e818f492a01ad05b",
+        "slug": "leia-organa",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Leia Organa",
+        "featured_entity_translation": "Featured Content",
+        "description": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+        "short_desc": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+        "dynamic_desc": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=133%2C157%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=367%2C153%2C1043%2C784",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=493%2C153%2C787%2C787"
+          },
+          "alt_text": "Leia Organa"
+        },
+        "alt_text": "Leia Organa",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=493%2C153%2C787%2C787",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=133%2C157%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=367%2C153%2C1043%2C784"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.5m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/leia-organa"
+      },
+      {
+        "id": "616b2af12e5e5492a01ad05b",
+        "slug": "logray",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Logray",
+        "featured_entity_translation": "Featured Content",
+        "description": "The shaman of the Ewok village, Logray's rituals ensured his tribe remained in harmony with Endor's forest spirits. When a golden god visited his planet, Logray ordered the sacrifice of offworlders in this deity's honor -- only to somehow incur the god's wrath. No one ever said faith was easy.",
+        "short_desc": "The shaman of the Ewok village, Logray's rituals ensured his tribe remained in harmony with Endor's forest spirits. When a golden god visited his planet, Logray ordered the sacrifice of offworlders in this deity's honor -- only to somehow incur the god's wrath. No one ever said faith was easy.",
+        "dynamic_desc": "The shaman of the Ewok village, Logray's rituals ensured his tribe remained in harmony with Endor's forest spirits. When a golden god visited his planet, Logray ordered the sacrifice of offworlders in this deity's honor -- only to somehow incur the god's wrath. No one ever said faith was easy.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=0%2C143%2C1560%2C777",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=0%2C143%2C1560%2C875",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=0%2C63%2C1560%2C1170",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=57%2C0%2C1447%2C1447"
+          },
+          "alt_text": "Logray"
+        },
+        "alt_text": "Logray",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=0%2C143%2C1560%2C875",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=57%2C0%2C1447%2C1447",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=0%2C143%2C1560%2C777",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/logray-main-image_05b9e023.jpeg?region=0%2C63%2C1560%2C1170"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.0m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/logray"
+      },
+      {
+        "id": "616b23e6f5453492a01ad05b",
+        "slug": "luke-skywalker",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Luke Skywalker",
+        "featured_entity_translation": "Featured Content",
+        "description": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "short_desc": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "dynamic_desc": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=60%2C150%2C1580%2C790",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=270%2C143%2C1070%2C804",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=407%2C143%2C813%2C814"
+          },
+          "alt_text": "Luke Skywalker"
+        },
+        "alt_text": "Luke Skywalker",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=407%2C143%2C813%2C814",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=60%2C150%2C1580%2C790",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=270%2C143%2C1070%2C804"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.72m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/luke-skywalker"
+      },
+      {
+        "id": "616b2b0507722492a01ad05b",
+        "slug": "lyn-me",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Lyn Me",
+        "featured_entity_translation": "Featured Content",
+        "description": "A lithe Twi'lek dancer and singer, Lyn Me performed with the Max Rebo Band during the group's residence as Jabba the Hutt's house band. From the stage, Lyn Me got an up-close look at the depraved galactic underworld.",
+        "short_desc": "A lithe Twi'lek dancer and singer, Lyn Me performed with the Max Rebo Band during the group's residence as Jabba the Hutt's house band. From the stage, Lyn Me got an up-close look at the depraved galactic underworld.",
+        "dynamic_desc": "A lithe Twi'lek dancer and singer, Lyn Me performed with the Max Rebo Band during the group's residence as Jabba the Hutt's house band. From the stage, Lyn Me got an up-close look at the depraved galactic underworld.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C131%2C1560%2C785",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C124%2C1560%2C872",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C116%2C1560%2C1164",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C109%2C1560%2C1556"
+          },
+          "alt_text": "Lyn Me"
+        },
+        "alt_text": "Lyn Me",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C124%2C1560%2C872",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C109%2C1560%2C1556",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C131%2C1560%2C785",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/lyn-me-main-image_9c02fdc3.jpeg?region=0%2C116%2C1560%2C1164"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.6m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/lyn-me"
+      },
+      {
+        "id": "616b2c1b3c5ed492a01ad05b",
+        "slug": "malakili",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Malakili",
+        "featured_entity_translation": "Featured Content",
+        "description": "A burly human, Malakili tended to Jabba the Hutt’s menagerie, including the galactic gangster’s prized pet rancor. Despite the rancor’s vicious nature, Malakili cared about the beast. He was shocked when Luke Skywalker killed his monstrous charge, and wept at its demise.",
+        "short_desc": "A burly human, Malakili tended to Jabba the Hutt’s menagerie, including the galactic gangster’s prized pet rancor. Despite the rancor’s vicious nature, Malakili cared about the beast. He was shocked when Luke Skywalker killed his monstrous charge, and wept at its demise.",
+        "dynamic_desc": "A burly human, Malakili tended to Jabba the Hutt’s menagerie, including the galactic gangster’s prized pet rancor. Despite the rancor’s vicious nature, Malakili cared about the beast. He was shocked when Luke Skywalker killed his monstrous charge, and wept at its demise.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=179%2C0%2C1381%2C690",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=336%2C0%2C1224%2C690",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=544%2C0%2C921%2C690",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=704%2C0%2C688%2C690"
+          },
+          "alt_text": "Malakili"
+        },
+        "alt_text": "Malakili",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=336%2C0%2C1224%2C690",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=704%2C0%2C688%2C690",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=179%2C0%2C1381%2C690",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/malakili_9da71dc4.jpeg?region=544%2C0%2C921%2C690"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.72m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/malakili"
+      },
+      {
+        "id": "616b2a410ea54492a01ad05b",
+        "slug": "max-rebo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Max Rebo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Max Rebo was the heart (or at least the fluid sac) of the band that bore his name, and could be found onstage behind the pedals of his red ball jett organ. From there he kept an ear on his bandmates' playing and an eye on the sleazy clients who hired his ensemble for their entertainment. After playing a gig for Jabba the Hutt just before the gangster was killed, Rebo survived and now entertains the patrons of Garsa’s Sanctuary in Mos Espa.",
+        "short_desc": "Max Rebo was the heart (or at least the fluid sac) of the band that bore his name, and could be found onstage behind the pedals of his red ball jett organ. From there he kept an ear on his bandmates' playing and an eye on the sleazy clients who hired his ensemble for their entertainment. After playing a gig for Jabba the Hutt just before the gangster was killed, Rebo survived and now entertains the patrons of Garsa’s Sanctuary in Mos Espa.",
+        "dynamic_desc": "Max Rebo was the heart (or at least the fluid sac) of the band that bore his name, and could be found onstage behind the pedals of his red ball jett organ. From there he kept an ear on his bandmates' playing and an eye on the sleazy clients who hired his ensemble for their entertainment. After playing a gig for Jabba the Hutt just before the gangster was killed, Rebo survived and now entertains the patrons of Garsa’s Sanctuary in Mos Espa.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=0%2C0%2C1280%2C642",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=0%2C0%2C1280%2C721",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=0%2C0%2C1137%2C853",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=147%2C0%2C853%2C853"
+          },
+          "alt_text": "Max Rebo"
+        },
+        "alt_text": "Max Rebo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=0%2C0%2C1280%2C721",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=147%2C0%2C853%2C853",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=0%2C0%2C1280%2C642",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/max-rebo-main_df002ffc.jpeg?region=0%2C0%2C1137%2C853"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.5m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/max-rebo"
+      },
+      {
+        "id": "616b275604725492a01ad05b",
+        "slug": "moff-jerjerrod",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Moff Jerjerrod",
+        "featured_entity_translation": "Featured Content",
+        "description": "A chilly technocrat, Tiaan Jerjerrod was responsible for overseeing construction of the second Death Star above the forest moon of Endor. The task was difficult, to say the least -- Jerjerrod desperately needed more time and more resources. What he got instead was a visit from Darth Vader.",
+        "short_desc": "A chilly technocrat, Tiaan Jerjerrod was responsible for overseeing construction of the second Death Star above the forest moon of Endor. The task was difficult, to say the least -- Jerjerrod desperately needed more time and more resources. What he got instead was a visit from Darth Vader.",
+        "dynamic_desc": "A chilly technocrat, Tiaan Jerjerrod was responsible for overseeing construction of the second Death Star above the forest moon of Endor. The task was difficult, to say the least -- Jerjerrod desperately needed more time and more resources. What he got instead was a visit from Darth Vader.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=0%2C149%2C1295%2C648",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=35%2C146%2C1203%2C678",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=154%2C122%2C962%2C721",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=284%2C138%2C705%2C705"
+          },
+          "alt_text": "Moff Jerjerrod"
+        },
+        "alt_text": "Moff Jerjerrod",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=35%2C146%2C1203%2C678",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=284%2C138%2C705%2C705",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=0%2C149%2C1295%2C648",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_commanderjerjerrod_01_169_3e457b94.jpeg?region=154%2C122%2C962%2C721"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/moff-jerjerrod"
+      },
+      {
+        "id": "616b282cf997b492a01ad05b",
+        "slug": "mon-mothma",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Mon Mothma",
+        "featured_entity_translation": "Featured Content",
+        "description": "From working in secret as one of the founders of the Rebel Alliance to openly leading the New Republic as the first elected Chancellor in two decades, Mon Mothma of Chandrila has built a career out of carefully navigating the dangerous shadows of Coruscant politics in her efforts to restore democracy. Once a leader of the Galactic Senate's Loyalist faction, as a senator Mon Mothma opposed Supreme Chancellor Palpatine's policies during the final days of the Republic. After the rise of the Empire, Mothma continues to serve her constituents on Coruscant while working on her ultimate goal: building an Alliance to Restore the Republic.",
+        "short_desc": "From working in secret as one of the founders of the Rebel Alliance to openly leading the New Republic as the first elected Chancellor in two decades, Mon Mothma of Chandrila has built a career out of carefully navigating the dangerous shadows of Coruscant politics in her efforts to restore democracy. Once a leader of the Galactic Senate's Loyalist faction, as a senator Mon Mothma opposed Supreme Chancellor Palpatine's policies during the final days of the Republic. After the rise of the Empire, Mothma continued to serve her constituents on Coruscant while working on her ultimate goal: the Alliance to Restore the Republic.",
+        "dynamic_desc": "From working in secret as one of the founders of the Rebel Alliance to openly leading the New Republic as the first elected Chancellor in two decades, Mon Mothma of Chandrila has built a career out of carefully navigating the dangerous shadows of Coruscant politics in her efforts to restore democracy. Once a leader of the Galactic Senate's Loyalist faction, as a senator Mon Mothma opposed Supreme Chancellor Palpatine's policies during the final days of the Republic. After the rise of the Empire, Mothma continues to serve her constituents on Coruscant while working on her ultimate goal: building an Alliance to Restore the Republic.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=157%2C0%2C1603%2C803",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=243%2C0%2C1427%2C803",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=440%2C0%2C1070%2C803",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=563%2C0%2C804%2C803"
+          },
+          "alt_text": "Mon Mothma"
+        },
+        "alt_text": "Mon Mothma",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=243%2C0%2C1427%2C803",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=563%2C0%2C804%2C803",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=157%2C0%2C1603%2C803",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg?region=440%2C0%2C1070%2C803"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.5m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/mon-mothma"
+      },
+      {
+        "id": "616b283d10435492a01ad05b",
+        "slug": "nien-nunb",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Nien Nunb",
+        "featured_entity_translation": "Featured Content",
+        "description": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+        "short_desc": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+        "dynamic_desc": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C55%2C1281%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C58%2C1281%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=134%2C53%2C1071%2C801",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=253%2C55%2C799%2C799"
+          },
+          "alt_text": ""
+        },
+        "alt_text": "Nien Nunb",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C58%2C1281%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=253%2C55%2C799%2C799",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=0%2C55%2C1281%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg?region=134%2C53%2C1071%2C801"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.6m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/nien-nunb"
+      },
+      {
+        "id": "616b2425483bc492a01ad05b",
+        "slug": "obi-wan-kenobi",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Obi-Wan Kenobi",
+        "featured_entity_translation": "Featured Content",
+        "description": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+        "short_desc": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+        "dynamic_desc": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C642",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C721",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1137%2C853",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C853%2C853"
+          },
+          "alt_text": "Obi-Wan Kenobi"
+        },
+        "alt_text": "Obi-Wan Kenobi",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C721",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C853%2C853",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C642",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1137%2C853"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.82m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/obi-wan-kenobi"
+      },
+      {
+        "id": "616b2b035c22a492a01ad05b",
+        "slug": "oola",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Oola",
+        "featured_entity_translation": "Featured Content",
+        "description": "A green-skinned Twi'lek, Oola was one of Jabba's slaves, forced to dance for the Hutt's pleasure. When Oola resisted Jabba's orders one time too many, the cruel Hutt dropped her into the rancor's cave beneath his throne room -- a one-way trip taken by many who no longer pleased the crimelord.",
+        "short_desc": "A green-skinned Twi'lek, Oola was one of Jabba's slaves, forced to dance for the Hutt's pleasure. When Oola resisted Jabba's orders one time too many, the cruel Hutt dropped her into the rancor's cave beneath his throne room -- a one-way trip taken by many who no longer pleased the crimelord.",
+        "dynamic_desc": "A green-skinned Twi'lek, Oola was one of Jabba's slaves, forced to dance for the Hutt's pleasure. When Oola resisted Jabba's orders one time too many, the cruel Hutt dropped her into the rancor's cave beneath his throne room -- a one-way trip taken by many who no longer pleased the crimelord.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=0%2C0%2C1316%2C658",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=57%2C0%2C1170%2C658",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=184%2C0%2C878%2C658",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=284%2C0%2C656%2C658"
+          },
+          "alt_text": "Oola"
+        },
+        "alt_text": "Oola",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=57%2C0%2C1170%2C658",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=284%2C0%2C656%2C658",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=0%2C0%2C1316%2C658",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/oola-main-image_5c15a693.jpeg?region=184%2C0%2C878%2C658"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.6m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/oola"
+      },
+      {
+        "id": "616b2d660126b492a01ad05b",
+        "slug": "paploo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Paploo",
+        "featured_entity_translation": "Featured Content",
+        "description": "A skilled Ewok scout, Paploo joined his friends Wicket and Teebo to lead Han Solo’s team of rebel commandos to the site of the shield generator protecting the Death Star in orbit. As a diversion, Paploo stole an Imperial speeder bike, racing off into the forest with most of the bunker’s guards in frantic pursuit. That allowed Han’s team to attack the facility.",
+        "short_desc": "A skilled Ewok scout, Paploo joined his friends Wicket and Teebo to lead Han Solo’s team of rebel commandos to the site of the shield generator protecting the Death Star in orbit. As a diversion, Paploo stole an Imperial speeder bike, racing off into the forest with most of the bunker’s guards in frantic pursuit. That allowed Han’s team to attack the facility.",
+        "dynamic_desc": "A skilled Ewok scout, Paploo joined his friends Wicket and Teebo to lead Han Solo’s team of rebel commandos to the site of the shield generator protecting the Death Star in orbit. As a diversion, Paploo stole an Imperial speeder bike, racing off into the forest with most of the bunker’s guards in frantic pursuit. That allowed Han’s team to attack the facility.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=0%2C124%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=0%2C75%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=95%2C0%2C1371%2C1028",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=266%2C0%2C1028%2C1028"
+          },
+          "alt_text": "Paploo in Star Wars: Return of the Jedi (Episode VI)"
+        },
+        "alt_text": "Paploo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=0%2C75%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=266%2C0%2C1028%2C1028",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=0%2C124%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/paploo_f063504f.jpeg?region=95%2C0%2C1371%2C1028"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.96m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/paploo"
+      },
+      {
+        "id": "616b243d6c5f6492a01ad05b",
+        "slug": "r2-d2",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "R2-D2",
+        "featured_entity_translation": "Featured Content",
+        "description": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "short_desc": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "dynamic_desc": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=167%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=353%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=431%2C0%2C536%2C536"
+          },
+          "alt_text": "R2-D2"
+        },
+        "alt_text": "R2-D2",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=431%2C0%2C536%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=167%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=353%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.09m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/r2-d2"
+      },
+      {
+        "id": "616b248b1dc43492a01ad05b",
+        "slug": "rancor",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Rancor",
+        "featured_entity_translation": "Featured Content",
+        "description": "Rancors are towering hulks of muscle and reptilian flesh that walk on two stubby legs and use their disproportionately long arms to capture prey. A salivating, tooth-filled maw dominates their flat faces, and their armored skin is so tough that they can shrug off blaster bolts as little more than annoyances. While not inherently vicious -- Felucia’s farmers co-existed relatively peaceably with spined, brightly colored jungle rancors -- these creatures were prized as trophies by crimelords and other wealthy, amoral individuals. Jabba the Hutt kept a rancor in a shadowy chamber beneath his Tatooine throne room. After Luke Skywalker killed the beast, an outraged Jabba ordered the public execution of the Jedi and his friends.",
+        "short_desc": "Rancors are towering hulks of muscle and reptilian flesh that walk on two stubby legs and use their disproportionately long arms to capture prey. A salivating, tooth-filled maw dominates their flat faces, and their armored skin is so tough that they can shrug off blaster bolts as little more than annoyances. While not inherently vicious -- Felucia’s farmers co-existed relatively peaceably with spined, brightly colored jungle rancors -- these creatures were prized as trophies by crimelords and other wealthy, amoral individuals. Jabba the Hutt kept a rancor in a shadowy chamber beneath his Tatooine throne room. After Luke Skywalker killed the beast, an outraged Jabba ordered the public execution of the Jedi and his friends.",
+        "dynamic_desc": "Rancors are towering hulks of muscle and reptilian flesh that walk on two stubby legs and use their disproportionately long arms to capture prey. A salivating, tooth-filled maw dominates their flat faces, and their armored skin is so tough that they can shrug off blaster bolts as little more than annoyances. While not inherently vicious -- Felucia’s farmers co-existed relatively peaceably with spined, brightly colored jungle rancors -- these creatures were prized as trophies by crimelords and other wealthy, amoral individuals. Jabba the Hutt kept a rancor in a shadowy chamber beneath his Tatooine throne room. After Luke Skywalker killed the beast, an outraged Jabba ordered the public execution of the Jedi and his friends.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=140%2C0%2C1071%2C536",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=204%2C0%2C952%2C536",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=342%2C0%2C716%2C536",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=404%2C0%2C538%2C536"
+          },
+          "alt_text": "Rancor"
+        },
+        "alt_text": "Rancor",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=204%2C0%2C952%2C536",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=404%2C0%2C538%2C536",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=140%2C0%2C1071%2C536",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=342%2C0%2C716%2C536"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 5.0m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/rancor"
+      },
+      {
+        "id": "616b2aea16a9b492a01ad05b",
+        "slug": "rappertunie",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Rappertunie",
+        "featured_entity_translation": "Featured Content",
+        "description": "A green-skinned Shawda Ubb, Rappertunie played a peculiar instrument known as a Growdi Harmonique. He used his fingers, toes and mouth to supplement the wall of sound that was the Max Rebo Band at full strength.",
+        "short_desc": "A green-skinned Shawda Ubb, Rappertunie played a peculiar instrument known as a Growdi Harmonique. He used his fingers, toes and mouth to supplement the wall of sound that was the Max Rebo Band at full strength.",
+        "dynamic_desc": "A green-skinned Shawda Ubb, Rappertunie played a peculiar instrument known as a Growdi Harmonique. He used his fingers, toes and mouth to supplement the wall of sound that was the Max Rebo Band at full strength.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=0%2C122%2C1560%2C779",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=0%2C22%2C1560%2C879",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=92%2C0%2C1204%2C901",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=245%2C0%2C903%2C901"
+          },
+          "alt_text": "Rappertunie"
+        },
+        "alt_text": "Rappertunie",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=0%2C22%2C1560%2C879",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=245%2C0%2C903%2C901",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=0%2C122%2C1560%2C779",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rappertunie-main-image_63c323f9.jpeg?region=92%2C0%2C1204%2C901"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.3m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/rappertunie"
+      },
+      {
+        "id": "616b2af2c6469492a01ad05b",
+        "slug": "rystall-sant",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Rystáll Sant",
+        "featured_entity_translation": "Featured Content",
+        "description": "Half-human, half-Theelin, the crimson-haired Rystáll Sant performed with the Max Rebo Band in the group's more elaborate gigs. A veteran singer and dancer, Rystáll's hooves had twirled across many a stage during her galaxy-spanning career.",
+        "short_desc": "Half-human, half-Theelin, the crimson-haired Rystáll Sant performed with the Max Rebo Band in the group's more elaborate gigs. A veteran singer and dancer, Rystáll's hooves had twirled across many a stage during her galaxy-spanning career.",
+        "dynamic_desc": "Half-human, half-Theelin, the crimson-haired Rystáll Sant performed with the Max Rebo Band in the group's more elaborate gigs. A veteran singer and dancer, Rystáll's hooves had twirled across many a stage during her galaxy-spanning career.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=0%2C27%2C1560%2C781",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=0%2C38%2C1419%2C799",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=0%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=62%2C0%2C878%2C878"
+          },
+          "alt_text": "Rystáll Sant"
+        },
+        "alt_text": "Rystáll Sant",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=0%2C38%2C1419%2C799",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=62%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=0%2C27%2C1560%2C781",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/rystall-sant-16-9_a7bfab45.jpeg?region=0%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/rystall-sant"
+      },
+      {
+        "id": "616b2a1bc3644492a01ad05b",
+        "slug": "salacious-b-crumb",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Salacious B. Crumb",
+        "featured_entity_translation": "Featured Content",
+        "description": "A Kowakian monkey-lizard with a shrill cackle, Salacious Crumb sat on Jabba's dais, stealing bits of food and mimicking the Hutt, his courtiers, and visitors. The Hutt's noxious pet was the palace's unofficial court jester, tolerated because his antics amused Jabba, and because of his unwavering support for his master.",
+        "short_desc": "A Kowakian monkey-lizard with a shrill cackle, Salacious Crumb sat on Jabba's dais, stealing bits of food and mimicking the Hutt, his courtiers, and visitors. The Hutt's noxious pet was the palace's unofficial court jester, tolerated because his antics amused Jabba, and because of his unwavering support for his master.",
+        "dynamic_desc": "A Kowakian monkey-lizard with a shrill cackle, Salacious Crumb sat on Jabba's dais, stealing bits of food and mimicking the Hutt, his courtiers, and visitors. The Hutt's noxious pet was the palace's unofficial court jester, tolerated because his antics amused Jabba, and because of his unwavering support for his master.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=0%2C48%2C1280%2C641",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=0%2C45%2C1280%2C720",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=56%2C0%2C1142%2C858",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=175%2C0%2C856%2C858"
+          },
+          "alt_text": "Salacious B. Crumb"
+        },
+        "alt_text": "Salacious B. Crumb",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=0%2C45%2C1280%2C720",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=175%2C0%2C856%2C858",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=0%2C48%2C1280%2C641",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/image_da9047cc.jpeg?region=56%2C0%2C1142%2C858"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.7m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/salacious-crumb"
+      },
+      {
+        "id": "616b2bec4e049492a01ad05b",
+        "slug": "sim-aloo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Sim Aloo",
+        "featured_entity_translation": "Featured Content",
+        "description": "Sim Aloo was a skeletal looking human clad in flowing purple robes and wore an impressive hat. He served as one of Emperor Palpatine’s closest advisors during the time of the Galactic Empire. He traveled with the Emperor to the second Death Star to oversee the final stages of its construction over Endor. Presumably, he was still aboard when the Death Star was destroyed by the Rebellion.",
+        "short_desc": "Sim Aloo was a skeletal looking human clad in flowing purple robes and wore an impressive hat. He served as one of Emperor Palpatine’s closest advisors during the time of the Galactic Empire. He traveled with the Emperor to the second Death Star to oversee the final stages of its construction over Endor. Presumably, he was still aboard when the Death Star was destroyed by the Rebellion.",
+        "dynamic_desc": "Sim Aloo was a skeletal looking human clad in flowing purple robes and wore an impressive hat. He served as one of Emperor Palpatine’s closest advisors during the time of the Galactic Empire. He traveled with the Emperor to the second Death Star to oversee the final stages of its construction over Endor. Presumably, he was still aboard when the Death Star was destroyed by the Rebellion.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=0%2C226%2C1017%2C510",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=0%2C216%2C1037%2C583",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=0%2C221%2C799%2C598",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=91%2C213%2C609%2C609"
+          },
+          "alt_text": "Sim Aloo"
+        },
+        "alt_text": "Sim Aloo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=0%2C216%2C1037%2C583",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=91%2C213%2C609%2C609",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=0%2C226%2C1017%2C510",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/sim-aloo_3f41aa36.jpeg?region=0%2C221%2C799%2C598"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/sim-aloo"
+      },
+      {
+        "id": "616b28e745a40492a01ad05b",
+        "slug": "sy-snootles",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Sy Snootles",
+        "featured_entity_translation": "Featured Content",
+        "description": "Sy Snootles, a long-limbed Pa'lowick, was a popular singer and dancer whose patrons included Jabba the Hutt. Very few realized that she also worked as a spy for the Hutt criminal cartels, and that she betrayed her love, Ziro the Hutt, in exchange for a big payday.",
+        "short_desc": "Sy Snootles, a long-limbed Pa'lowick, was a popular singer and dancer whose patrons included Jabba the Hutt. Very few realized that she also worked as a spy for the Hutt criminal cartels, and that she betrayed her love, Ziro the Hutt, in exchange for a big payday.",
+        "dynamic_desc": "Sy Snootles, a long-limbed Pa'lowick, was a popular singer and dancer whose patrons included Jabba the Hutt. Very few realized that she also worked as a spy for the Hutt criminal cartels, and that she betrayed her love, Ziro the Hutt, in exchange for a big payday.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=0%2C0%2C1600%2C800",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=442%2C147%2C1158%2C653",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=592%2C122%2C905%2C678",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=758%2C92%2C706%2C705"
+          },
+          "alt_text": "Sy Snootles"
+        },
+        "alt_text": "Sy Snootles",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=442%2C147%2C1158%2C653",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=758%2C92%2C706%2C705",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=0%2C0%2C1600%2C800",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Sy-Snootles_c524452d.jpeg?region=592%2C122%2C905%2C678"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.65m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/sy-snootles"
+      },
+      {
+        "id": "616b2b1c3f139492a01ad05b",
+        "slug": "teebo",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Teebo",
+        "featured_entity_translation": "Featured Content",
+        "description": "An Ewok scout, Teebo led the hunting party that captured Han Solo, Chewbacca, Luke Skywalker, C-3PO and R2-D2 in a net. Disliking the look of Solo, Teebo gave him several pokes with a spear. He then brought his captives back to Bright Tree Village to be cooked for a banquet in C-3PO’s honor. R2-D2, objecting to this treatment, shocked Teebo repeatedly once freed. Teebo sounded the horn summoning the Ewoks to fight the stormtroopers, and made amends with Artoo after the rebel victory.",
+        "short_desc": "An Ewok scout, Teebo led the hunting party that captured Han Solo, Chewbacca, Luke Skywalker, C-3PO and R2-D2 in a net. Disliking the look of Solo, Teebo gave him several pokes with a spear. He then brought his captives back to Bright Tree Village to be cooked for a banquet in C-3PO’s honor. R2-D2, objecting to this treatment, shocked Teebo repeatedly once freed. Teebo sounded the horn summoning the Ewoks to fight the stormtroopers, and made amends with Artoo after the rebel victory.",
+        "dynamic_desc": "An Ewok scout, Teebo led the hunting party that captured Han Solo, Chewbacca, Luke Skywalker, C-3PO and R2-D2 in a net. Disliking the look of Solo, Teebo gave him several pokes with a spear. He then brought his captives back to Bright Tree Village to be cooked for a banquet in C-3PO’s honor. R2-D2, objecting to this treatment, shocked Teebo repeatedly once freed. Teebo sounded the horn summoning the Ewoks to fight the stormtroopers, and made amends with Artoo after the rebel victory.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C494%2C1560%2C782",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C480%2C1560%2C879",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C268%2C1560%2C1166",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C268%2C1560%2C1564"
+          },
+          "alt_text": "Teebo"
+        },
+        "alt_text": "Teebo",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C480%2C1560%2C879",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C268%2C1560%2C1564",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C494%2C1560%2C782",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/teebo_48370833.jpeg?region=0%2C268%2C1560%2C1166"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.3m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/teebo"
+      },
+      {
+        "id": "616b2917af26c492a01ad05b",
+        "slug": "wedge-antilles",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Wedge Antilles",
+        "featured_entity_translation": "Featured Content",
+        "description": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "short_desc": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "dynamic_desc": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=241%2C0%2C1170%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=436%2C0%2C878%2C878"
+          },
+          "alt_text": "Wedge Antilles"
+        },
+        "alt_text": "Wedge Antilles",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=436%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=0%2C0%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg?region=241%2C0%2C1170%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.7m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/wedge-antilles"
+      },
+      {
+        "id": "616b291edbee3492a01ad05b",
+        "slug": "wicket-w-warrick",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Wicket W. Warrick",
+        "featured_entity_translation": "Featured Content",
+        "description": "Wicket W. Warrick was the brave young Ewok who willingly joined the Rebellion and aided in the battle against the Empire on the forest moon of Endor. Even before he encountered the Rebels, Wicket had devised methods for defeating the Imperial machines, plans which were implemented after the Ewok befriended Princess Leia and recruited his tribe to the Alliance's cause. During the Battle of Endor, Wicket fought valiantly alongside his new allies.",
+        "short_desc": "Wicket W. Warrick was the brave young Ewok who willingly joined the Rebellion and aided in the battle against the Empire on the forest moon of Endor. Even before he encountered the Rebels, Wicket had devised methods for defeating the Imperial machines, plans which were implemented after the Ewok befriended Princess Leia and recruited his tribe to the Alliance's cause. During the Battle of Endor, Wicket fought valiantly alongside his new allies.",
+        "dynamic_desc": "Wicket W. Warrick was the brave young Ewok who willingly joined the Rebellion and aided in the battle against the Empire on the forest moon of Endor. Even before he encountered the Rebels, Wicket had devised methods for defeating the Imperial machines, plans which were implemented after the Ewok befriended Princess Leia and recruited his tribe to the Alliance's cause. During the Battle of Endor, Wicket fought valiantly alongside his new allies.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=0%2C3%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=0%2C0%2C1560%2C878",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=195%2C0%2C1171%2C878",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=406%2C0%2C878%2C878"
+          },
+          "alt_text": "Wicket W. Warrick"
+        },
+        "alt_text": "Wicket W. Warrick",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=0%2C0%2C1560%2C878",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=406%2C0%2C878%2C878",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=0%2C3%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg?region=195%2C0%2C1171%2C878"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.8m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/wicket-w-warrick"
+      },
+      {
+        "id": "616b2af64b8d2492a01ad05b",
+        "slug": "yarna-d-al-gargan",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Yarna d'al' Gargan",
+        "featured_entity_translation": "Featured Content",
+        "description": "One of Jabba's many possessions, the ample Yarna d'al' Gargan served the Hutt as a dancing girl. Yarna's slower, more deliberate moves across the throne room floor formed a contrast to those of the slimmer, younger Oola.",
+        "short_desc": "One of Jabba's many possessions, the ample Yarna d'al' Gargan served the Hutt as a dancing girl. Yarna's slower, more deliberate moves across the throne room floor formed a contrast to those of the slimmer, younger Oola.",
+        "dynamic_desc": "One of Jabba's many possessions, the ample Yarna d'al' Gargan served the Hutt as a dancing girl. Yarna's slower, more deliberate moves across the throne room floor formed a contrast to those of the slimmer, younger Oola.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=0%2C143%2C1560%2C780",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=0%2C138%2C1560%2C875",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=0%2C0%2C1422%2C1066",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=178%2C0%2C1066%2C1066"
+          },
+          "alt_text": "Yarna d'al' Gargan"
+        },
+        "alt_text": "Yarna d'al' Gargan",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=0%2C138%2C1560%2C875",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=178%2C0%2C1066%2C1066",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=0%2C143%2C1560%2C780",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/yarna-main-image_d95b36c6.jpeg?region=0%2C0%2C1422%2C1066"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Female"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 1.5m"
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/yarna-d-al-gargan"
+      },
+      {
+        "id": "616b2396cfb28492a01ad05b",
+        "slug": "yoda",
+        "entity_type": "default",
+        "entity_config": {},
+        "title": "Yoda",
+        "featured_entity_translation": "Featured Content",
+        "description": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality.",
+        "short_desc": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality.",
+        "dynamic_desc": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality.",
+        "cta_button_title": "See More",
+        "images": {
+          "desktop": {
+            "desktop_2x1": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C768",
+            "desktop_16x9": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864",
+            "desktop_4x3": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=333%2C0%2C1152%2C864",
+            "desktop_1x1": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=461%2C0%2C864%2C864"
+          },
+          "alt_text": "Yoda"
+        },
+        "alt_text": "Yoda",
+        "base_images": {
+          "desktop": {
+            "ratio_16x9": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864",
+            "ratio_1x1": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=461%2C0%2C864%2C864",
+            "ratio_2x1": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C768",
+            "ratio_4x3": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=333%2C0%2C1152%2C864"
+          }
+        },
+        "section_label": "default",
+        "section_class": "default",
+        "categories": [
+          {
+            "name": "gender",
+            "properties": [
+              {
+                "name": "Male"
+              }
+            ]
+          },
+          {
+            "name": "dimensions",
+            "properties": [
+              {
+                "name": "Height: 0.66m "
+              }
+            ],
+            "linebreaks": true
+          }
+        ],
+        "is_encyclopedia_entry": true,
+        "type": "encyclopedia_entries",
+        "href": "https://www.starwars.com/databank/yoda"
+      }
+    ]
+  }
+}

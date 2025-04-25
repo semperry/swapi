@@ -5,6 +5,9 @@ const checkKey = require("../middleware/checkKey");
 
 const adRouter = express.Router();
 
+// Get Ads.txt
+adRouter.get("/ads.txt", adClickController.getAdsTxt);
+
 // Create Click
 adRouter.get("/saber-masters/:originType", adClickController.addClick);
 

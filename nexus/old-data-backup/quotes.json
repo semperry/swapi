@@ -1,0 +1,1168 @@
+[
+	{
+		"fields": {
+			"quote": "\"Rebellions are built on hope.\"",
+			"people": [91],
+			"films": [10],
+			"character_name": "Cassian Andor",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 106,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I'm beginning to think the Force and I have different priorities.\"",
+			"people": [91],
+			"films": [10],
+			"character_name": "Cassian Andor",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 107,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"...Everything I did, I did for the Rebellion.\"",
+			"people": [91],
+			"films": [10],
+			"character_name": "Cassian Andor",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 108,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You're a part of the Rebel Alliance and a traitor. Take her away!\"",
+			"people": [4],
+			"films": [1],
+			"character_name": "Darth Vader",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 109,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I am your father.\"",
+			"people": [4],
+			"films": [2],
+			"character_name": "Darth Vader",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 110,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"The Emperor will show you the true nature of the Force.\"",
+			"people": [4],
+			"films": [3],
+			"character_name": "Darth Vader",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 111,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“I grow tired of asking this, so it will be the last time: Where is the rebel base?”",
+			"people": [227],
+			"films": [1],
+			"character_name": "Grand Moff Tarkin",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 112,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“I reserve my trust for those who take action, General Skywalker.”",
+			"people": [227],
+			"films": [],
+			"character_name": "Grand Moff Tarkin",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 113,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Fear will keep the local systems in line. Fear of this battle station.”",
+			"people": [227],
+			"films": [1],
+			"character_name": "Grand Moff Tarkin",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 114,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Trust goes both ways.\"",
+			"people": [105],
+			"films": [10],
+			"character_name": "Jyn Erso",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 115,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Orders? When you know they're wrong? You might as well be a stormtrooper.\"",
+			"people": [105],
+			"films": [10],
+			"character_name": "Jyn Erso",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 116,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I'm not used to people sticking around when things go bad.\"",
+			"people": [105],
+			"films": [10],
+			"character_name": "Jyn Erso",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 117,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I find that answer vague and unconvincing.\"",
+			"people": [106],
+			"films": [10],
+			"character_name": "K-2SO",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 118,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Well Done. You're a Rebel now.\"",
+			"people": [106],
+			"films": [10],
+			"character_name": "K-2SO",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 119,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I've got a bad feeling about --\"",
+			"people": [106],
+			"films": [10],
+			"character_name": "K-2SO",
+			"film_title": "Rogue One: A Star Wars Story"
+		},
+		"pk": 120,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I recognized your foul stench when I was brought on board.\"",
+			"people": [5],
+			"films": [1],
+			"character_name": "Leia Organa",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 121,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Why, you stuck-up...half-witted...scruffy-looking...nerf-herder!\"",
+			"people": [5],
+			"films": [2],
+			"character_name": "Leia Organa",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 122,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Someone who loves you.\"",
+			"people": [5],
+			"films": [3],
+			"character_name": "Leia Organa",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 123,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I'm gonna be a pilot.\"",
+			"people": [14],
+			"films": [8],
+			"character_name": "Han Solo",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 124,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Sorry about the mess.\" ",
+			"people": [14],
+			"films": [1],
+			"character_name": "Han Solo",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 125,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Never tell me the odds!\"",
+			"people": [14],
+			"films": [2],
+			"character_name": "Han Solo",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 126,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Hey...it's me.\"",
+			"people": [14],
+			"films": [3],
+			"character_name": "Han Solo",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 127,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You couldn't get from here to Black Spire without me, now you're gonna make the Kessel Run?\"",
+			"people": [127],
+			"films": [8],
+			"character_name": "L3-37",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 128,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You done flirting? I'm still ready.\"",
+			"people": [127],
+			"films": [8],
+			"character_name": "L3-37",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 129,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Follow me, compatriots!\"",
+			"people": [127],
+			"films": [8],
+			"character_name": "L3-37",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 130,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Why you slimy, double-crossing, no-good swindler!”",
+			"people": [25],
+			"films": [2],
+			"character_name": "Lando Calrissian",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 131,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“This deal is getting worse all the time.”",
+			"people": [25],
+			"films": [2],
+			"character_name": "Lando Calrissian",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 132,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Come on, Han old buddy, don’t let me down!”",
+			"people": [25],
+			"films": [3],
+			"character_name": "Lando Calrissian",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 133,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Everything you've heard about me is true.\"",
+			"people": [25],
+			"films": [8],
+			"character_name": "Lando Calrissian",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 134,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"What, are we going somewhere?\"",
+			"people": [134],
+			"films": [8],
+			"character_name": "Qi'ra",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 135,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"For luck?\"",
+			"people": [134],
+			"films": [8],
+			"character_name": "Qi'ra",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 136,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"It's not that kinda game, Han. The object isn't to win, it's just to stay in it as long as you can.\"",
+			"people": [134],
+			"films": [8],
+			"character_name": "Qi'ra",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 137,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"What's a fancy fly boy doin' down in the mud?\"",
+			"people": [137],
+			"films": [8],
+			"character_name": "Rio Durant",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 138,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Personally, I refuse to be tied down by anyone. Though many have tried.\"",
+			"people": [137],
+			"films": [8],
+			"character_name": "Rio Durant",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 139,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I don't know, you've never been to a mynock roast on Ardennia. It's nuts!\"",
+			"people": [137],
+			"films": [8],
+			"character_name": "Rio Durant",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 140,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"It's a great day. Best day of your life my grabby friend.\"",
+			"people": [141],
+			"films": [8],
+			"character_name": "Tobias Beckett",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 141,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You gotta anticipate your opponent. There's a lesson to be learned here.\"",
+			"people": [141],
+			"films": [8],
+			"character_name": "Tobias Beckett",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 142,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Thinking, and I prefer to be the only one holding a blaster while I'm doin' it.\"",
+			"people": [141],
+			"films": [8],
+			"character_name": "Tobias Beckett",
+			"film_title": "SOLO: A STAR WARS STORY"
+		},
+		"pk": 143,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I have waited a long time for this moment, my little green friend.\"",
+			"people": [21],
+			"films": [6],
+			"character_name": "Palpatine",
+			"film_title": "REVENGE OF THE SITH"
+		},
+		"pk": 144,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I'm looking forward to completing your training. In time, you will call me Master.\"",
+			"people": [21],
+			"films": [3],
+			"character_name": "Palpatine",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 145,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Now, young Skywalker...you will die.\"",
+			"people": [21],
+			"films": [3],
+			"character_name": "Palpatine",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 146,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"How wude!\"",
+			"people": [36],
+			"films": [4],
+			"character_name": "Jar Jar Binks",
+			"film_title": "THE PHANTOM MENACE"
+		},
+		"pk": 147,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Desa rescuin' is hard jobbin'!\"",
+			"people": [36],
+			"films": [],
+			"character_name": "Jar Jar Binks",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 148,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Dellow felegates!\"",
+			"people": [36],
+			"films": [5],
+			"character_name": "Jar Jar Binks",
+			"film_title": "ATTACK OF THE CLONES"
+		},
+		"pk": 149,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"He is a political idealist, not a murderer.\" ",
+			"people": [52],
+			"films": [5],
+			"character_name": "Ki-Adi-Mundi",
+			"film_title": "ATTACK OF THE CLONES"
+		},
+		"pk": 150,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Impossible. The Sith have been extinct for a millennium.”",
+			"people": [52],
+			"films": [4],
+			"character_name": "Ki-Adi-Mundi",
+			"film_title": "THE PHANTOM MENACE"
+		},
+		"pk": 151,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“There is no such thing as luck.”",
+			"people": [52],
+			"films": [],
+			"character_name": "Ki-Adi-Mundi",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 152,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Use the Force, Luke.\"",
+			"people": [10],
+			"films": [1],
+			"character_name": "Obi-Wan Kenobi",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 153,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"The Force is what gives a Jedi his power. It's an energy field created by all living things. It surrounds us and penetrates us. It binds the galaxy together.\"",
+			"people": [10],
+			"films": [1],
+			"character_name": "Obi-Wan Kenobi",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 154,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"That's no moon. It's a space station.\"",
+			"people": [10],
+			"films": [1],
+			"character_name": "Obi-Wan Kenobi",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 155,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"There's always a bigger fish.\"",
+			"people": [32],
+			"films": [4],
+			"character_name": "Qui-Gon Jinn",
+			"film_title": "THE PHANTOM MENACE"
+		},
+		"pk": 156,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Greed can be a powerful ally.\"",
+			"people": [32],
+			"films": [4],
+			"character_name": "Qui-Gon Jinn",
+			"film_title": "THE PHANTOM MENACE"
+		},
+		"pk": 157,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"He is the Chosen One. You must see it.\"",
+			"people": [32],
+			"films": [4],
+			"character_name": "Qui-Gon Jinn",
+			"film_title": "THE PHANTOM MENACE"
+		},
+		"pk": 158,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Our only intention is to end it and restore peace to our galaxy.\"",
+			"people": [190],
+			"films": [6],
+			"character_name": "Aayla Secura",
+			"film_title": "REVENGE OF THE SITH"
+		},
+		"pk": 159,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Sometimes it takes courage to stick to one's beliefs, young Padawan.\" ",
+			"people": [190],
+			"films": [],
+			"character_name": "Aayla Secura",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 160,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"A strong belief can be more powerful than any army.\"",
+			"people": [190],
+			"films": [],
+			"character_name": "Aayla Secura",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 161,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"We must stop them before they're ready. \"",
+			"people": [69],
+			"films": [5],
+			"character_name": "Jango Fett",
+			"film_title": "ATTACK OF THE CLONES"
+		},
+		"pk": 162,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Always a pleasure to meet a Jedi.”",
+			"people": [69],
+			"films": [5],
+			"character_name": "Jango Fett",
+			"film_title": "ATTACK OF THE CLONES"
+		},
+		"pk": 163,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“I’m just a simple man trying to make my way in the universe.”",
+			"people": [69],
+			"films": [5],
+			"character_name": "Jango Fett",
+			"film_title": "ATTACK OF THE CLONES"
+		},
+		"pk": 164,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"His heart was in the right place, but he tried to answer Grievouses power with his own. \"",
+			"people": [53],
+			"films": [],
+			"character_name": "Kit Fisto",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 165,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Those who have power should restrain themselves from using it.”",
+			"people": [53],
+			"films": [],
+			"character_name": "Kit Fisto",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 166,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Welcome home, General – I’m afraid I must request your surrender.”",
+			"people": [53],
+			"films": [],
+			"character_name": "Kit Fisto",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 167,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"There is always a way, Wooley.\"",
+			"people": [205],
+			"films": [],
+			"character_name": "Clone Commander Cody",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 168,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Come on boss, when have I ever let you down?”",
+			"people": [205],
+			"films": [],
+			"character_name": "Clone Commander Cody",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 169,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“This is personal for us clones.”",
+			"people": [205],
+			"films": [],
+			"character_name": "Clone Commander Cody",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 170,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I'm Luke Skywalker. I'm here to rescue you.\"",
+			"people": [1],
+			"films": [1],
+			"character_name": "Luke Skywalker",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 171,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You'll find I'm full of surprises.\"",
+			"people": [1],
+			"films": [2],
+			"character_name": "Luke Skywalker",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 172,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I am a Jedi, like my father before me.\"",
+			"people": [1],
+			"films": [3],
+			"character_name": "Luke Skywalker",
+			"film_title": "RETURN OF THE JEDI"
+		},
+		"pk": 173,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"The Rebellion is reborn today, the war is just beginning, and I will not be the last Jedi.\"",
+			"people": [1],
+			"films": [9],
+			"character_name": "Luke Skywalker",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 174,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Look at the size of that thing!”",
+			"people": [18],
+			"films": [1],
+			"character_name": "Wedge Antilles",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 175,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“That’s impossible – even for a computer!”",
+			"people": [18],
+			"films": [1],
+			"character_name": "Wedge Antilles",
+			"film_title": "A NEW HOPE"
+		},
+		"pk": 176,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Good shot, Janson!”",
+			"people": [18],
+			"films": [2],
+			"character_name": "Wedge Antilles",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 177,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“FN-2187. That’s the only name they ever gave me.”",
+			"people": [368],
+			"films": [11],
+			"character_name": "Finn",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 178,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“You don’t know a thing about me – where I’m from, what I’ve seen.”",
+			"people": [368],
+			"films": [11],
+			"character_name": "Finn",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 179,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Where's Rey?\"",
+			"people": [368],
+			"films": [9],
+			"character_name": "Finn",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 180,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I like that Wookiee\"",
+			"people": [375],
+			"films": [11],
+			"character_name": "Maz Kanata",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 181,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"The belonging you seek is not behind you... it is ahead.\"",
+			"people": [375],
+			"films": [11],
+			"character_name": "Maz Kanata",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 182,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Could I do it? Of course I could do it. But I can't do it, I'm a little tied down right now.\"",
+			"people": [375],
+			"films": [9],
+			"character_name": "Maz Kanata",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 183,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Go straight ahead and don't let these thugs scare you!\"",
+			"people": [382],
+			"films": [11],
+			"character_name": "Poe Dameron",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 184,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Happy beeps here, buddy, c'mon. We've pulled crazier stunts than this.\"",
+			"people": [382],
+			"films": [9],
+			"character_name": "Poe Dameron",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 185,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"We are the spark that'll light the fire that'll burn down the First Order.\"",
+			"people": [382],
+			"films": [9],
+			"character_name": "Poe Dameron",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 186,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I didn't know there was this much green in the whole galaxy.\"",
+			"people": [264],
+			"films": [11],
+			"character_name": "Rey",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 187,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Something inside me has always been there, but now it's awake and I'm afraid.\"",
+			"people": [264],
+			"films": [9],
+			"character_name": "Rey",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 188,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You underestimate Skywalker, and Ben Solo. And me. It will be your downfall.\"",
+			"people": [264],
+			"films": [9],
+			"character_name": "Rey",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 189,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I'm sorry, I work behind pipes all day. Doing talking with Resistance heroes is not my forte.\"",
+			"people": [265],
+			"films": [9],
+			"character_name": "Rose Tico",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 190,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I wish I could put my fist through this whole lousy beautiful town.\"",
+			"people": [265],
+			"films": [9],
+			"character_name": "Rose Tico",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 191,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"That's how we're gonna win. Not fighting what we hate. Saving what we love.\"",
+			"people": [265],
+			"films": [9],
+			"character_name": "Rose Tico",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 192,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Show me again, the power of the darkness, and I will let nothing stand in our way.\"",
+			"people": [266],
+			"films": [11],
+			"character_name": "Supreme Leader Kylo Ren",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 193,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I know what I have to do, but I don't know if I have the strength to do it.\"",
+			"people": [266],
+			"films": [11],
+			"character_name": "Supreme Leader Kylo Ren",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 194,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Let the past die. Kill it if you have to. That's the only way to become what you were meant to be.\"",
+			"people": [266],
+			"films": [9],
+			"character_name": "Supreme Leader Kylo Ren",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 195,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“You got a problem with Boba, you got a problem with me.”",
+			"people": [24],
+			"films": [],
+			"character_name": "Bossk",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 196,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“You’re either in the know or you ain’t.”",
+			"people": [24],
+			"films": [],
+			"character_name": "Bossk",
+			"film_title": "THE CLONE WARS"
+		},
+		"pk": 197,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Res luk ra’auf.”\r\n",
+			"people": [24],
+			"films": [2],
+			"character_name": "Bossk",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 198,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Fear is the path to the dark side...fear leads to anger...anger leads to hate...hate leads to suffering.\"",
+			"people": [20],
+			"films": [4],
+			"character_name": "Yoda",
+			"film_title": "THE PHANTOM MENACE"
+		},
+		"pk": 199,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Luminous beings are we...not this crude matter.\"",
+			"people": [20],
+			"films": [2],
+			"character_name": "Yoda",
+			"film_title": "THE EMPIRE STRIKES BACK"
+		},
+		"pk": 200,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "“Do. Or do not. There is no try.”",
+			"people": [20],
+			"films": [2],
+			"character_name": "Yoda",
+			"film_title": "The Empire Strikes Back"
+		},
+		"pk": 201,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"On my command.\"",
+			"people": [364],
+			"films": [11],
+			"character_name": "Captain Phasma",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 202,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"You're making a big mistake.\"",
+			"people": [364],
+			"films": [11],
+			"character_name": "Captain Phasma",
+			"film_title": "The Force Awakens"
+		},
+		"pk": 203,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"FN-2187. So good to have you back.\"",
+			"people": [364],
+			"films": [9],
+			"character_name": "Captain Phasma",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 204,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"We are the spark that will light the fire that will restore the Republic.\"",
+			"people": [351],
+			"films": [9],
+			"character_name": "Amilyn Holdo",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 205,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I've dealt with plenty of trigger happy flyboys like you.\"",
+			"people": [351],
+			"films": [9],
+			"character_name": "Amilyn Holdo",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 206,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"May the Force be with you. Always.\"",
+			"people": [351],
+			"films": [9],
+			"character_name": "Amilyn Holdo",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 207,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Codebreaker? Thief? I can do it.\"",
+			"people": [367],
+			"films": [9],
+			"character_name": "DJ",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 208,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"Live free. Don't join.\"",
+			"people": [367],
+			"films": [9],
+			"character_name": "DJ",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 209,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"They blow you up today, you blow them up tomorrow. It's just business.\"",
+			"people": [367],
+			"films": [9],
+			"character_name": "DJ",
+			"film_title": "The Last Jedi"
+		},
+		"pk": 210,
+		"schema": "quotes"
+	},
+	{
+		"fields": {
+			"quote": "\"I have a bad feeling about this.\"",
+			"people": [1, 2, 5, 10, 11, 14, 25, 382],
+			"films": [1, 2, 3, 4, 5, 6, 7, 9, 11],
+			"character_name": "",
+			"film_title": ""
+		},
+		"pk": 211,
+		"schema": "quotes"
+	}
+]
