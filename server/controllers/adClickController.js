@@ -1,8 +1,8 @@
 const adClickService = require("../services/adClickService");
 
-const getAdsTxt = async (req, res) => {
+const getAdsTxt = (req, res) => {
 	try {
-		const adTxtFile = await adClickService.getAdsTxt();
+		const adTxtFile = adClickService.getAdsTxt();
 		console.log(adTxtFile);
 
 		res.setHeader("Content-Type", "text/plain");
