@@ -69,9 +69,10 @@ People who help answer questions, support users, or spread the word about swapi.
 
 A huge thank you to those who have financially supported Swapi! Your contributions help keep the project running and improve its development.
 
-- **[Andrew Wold](https://github.com/Andrewf9001)** – Supported Swapi financially
-- **[Tom Power](https://github.com/TPower2112)** – Supported Swapi financially
+- **[Sean Doyle](https://github.com/HumberSean)** - Supported Swapi financially
 - **[Norman MacPherson](https://github.com/leemacpherson)** – Supported Swapi financially
+- **[Tom Power](https://github.com/TPower2112)** – Supported Swapi financially
+- **[Andrew Wold](https://github.com/Andrewf9001)** – Supported Swapi financially
 - _(Donated? Add yourself here!)_
 
 Thank you all so much!!!
