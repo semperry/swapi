@@ -47,6 +47,7 @@ Contributors who improved the API docs, examples, and guides.
 
 Users who reported bugs or helped with testing.
 
+- **[Abhay Lokesh](https://github.com/abhay-lokesh)** – Identified a discrepency between documenation and data being returned by the people api
 - **[Rodrigo Deodoro](https://github.com/roddds)** – Reported search api break after a library update
 
 ---
