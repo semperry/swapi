@@ -27,7 +27,7 @@ const modelsToSeed = selectedModels.length
 				return "transports";
 			}
 
-			return models[model];
+			return model;
 	  })
 	: Object.keys(models);
 

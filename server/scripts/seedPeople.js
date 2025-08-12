@@ -98,7 +98,12 @@ const seedPeople = async () => {
 					url: `${API_BASE_URL}/people/${uid}`,
 				},
 			},
-			{ homeworld: "planets", vehicles, starships, films }
+			{
+				homeworld: "planets",
+				vehicles: "vehicles",
+				starships: "starships",
+				films: "films",
+			}
 		);
 
 		const existingEntry = await PeopleModel.findOne({ uid: preparedData.uid });
